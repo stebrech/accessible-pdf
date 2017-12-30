@@ -4,7 +4,7 @@ post_title: Glossar
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
-permalink: https://accessible-pdf.info/glossar/
+permalink: http://accessible-pdf.info/glossar/
 published: true
 post_date: 2017-12-30 19:48:13
 tags: [ ]
