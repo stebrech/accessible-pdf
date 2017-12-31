@@ -10,14 +10,16 @@ permalink: >
   https://accessible-pdf.info/en/pdf-ua-troubleshooting-to-create-accessible-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
-tags: [ ]
-categories: [ ]
 ---
 Meaning and purpose of this website is a reference guide to solve PDF/UA issues. The tutorials shall help everyone who is interested in creating accessible PDF.
 
 ## Supported Software
 
-Currently the following software will be treated: - Adobe Acrobat - Adobe InDesign - Microsoft Word
+Currently the following software will be treated:
+
+*   Adobe Acrobat
+*   Adobe InDesign
+*   Microsoft Word
 
 It is possible the list is going to extend. However, the most famous and popular software have priority.
 
