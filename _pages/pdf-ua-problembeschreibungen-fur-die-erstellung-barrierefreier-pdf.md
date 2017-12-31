@@ -42,7 +42,7 @@ Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftw
 
 ## Mehrsprachigkeit
 
-Diese Website wird in Deutsch (Schweiz ohne ß :-) und Englisch geführt. Es ist nicht ausgeschlossen, dass in Zukunft auch noch weitere Übersetzungen folgen.
+Diese Website wird in Deutsch (Schweiz ohne ß :-)) und Englisch geführt. Es ist nicht ausgeschlossen, dass in Zukunft auch noch weitere Übersetzungen folgen.
 
 ## Kontakt
 
