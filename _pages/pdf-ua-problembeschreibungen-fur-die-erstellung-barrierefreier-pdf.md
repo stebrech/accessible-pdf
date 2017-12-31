@@ -7,7 +7,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
 permalink: >
-  http://accessible-pdf.info/de/pdf-ua-problembeschreibungen-fur-die-erstellung-barrierefreier-pdf/
+  https://accessible-pdf.info/de/pdf-ua-problembeschreibungen-fur-die-erstellung-barrierefreier-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
 ---
@@ -15,7 +15,11 @@ Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben z
 
 ## Unterstützte Software
 
-Momentan werden folgende Software-Produkte behandelt: - Adobe Acrobat - Adobe InDesign - Microsoft Word
+Momentan werden folgende Software-Produkte behandelt:
+
+*   Adobe Acrobat
+*   Adobe InDesign 
+*   Microsoft Word
 
 Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität haben aber klar die bekanntesten und beliebtesten Programme.
 
