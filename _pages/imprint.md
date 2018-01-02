@@ -4,7 +4,7 @@ post_title: Imprint
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
-permalink: https://accessible-pdf.info/en/imprint/
+permalink: http://accessible-pdf.info/en/imprint/
 published: true
 post_date: 2018-01-02 13:00:28
 ---
