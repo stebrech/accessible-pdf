@@ -4,8 +4,7 @@ post_title: Impressum
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
-permalink: >
-  https://accessible-pdf.info/en/impressum/
+permalink: http://accessible-pdf.info/de/impressum/
 published: true
 post_date: 2018-01-02 13:00:28
 ---
