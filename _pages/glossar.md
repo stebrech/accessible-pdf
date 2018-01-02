@@ -4,11 +4,9 @@ post_title: Glossar
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
-permalink: http://accessible-pdf.info/glossar/
+permalink: http://accessible-pdf.info/de/glossar/
 published: true
 post_date: 2017-12-30 19:48:13
-tags: [ ]
-categories: [ ]
 ---
 Im Glossar werden Begriffe erklärt, die für die Arbeit mit barrierefreien PDFs benötigt werden.
 
@@ -20,7 +18,14 @@ siehe [assistive Technolgie][1]
 
 Assistive Technologie (Abk. AT) ist der eingedeutschte Begriff von *Assistive Technology*. AT steht für mögliche Hilfsmittel, die benötigt werden um Informationen trotz Einschränkungen lesen und verarbeiten zu können.
 
-Unter AT fallen folgende Software und Hardware: - Screenreader (Bildschirmlese-Software) - Braille-Zeile - Bildschirmvergrösserung - Sprachsteuerung - Spezialmäuse und -tastaturen - Augen-, Mund-, Sprachsteuerung
+Unter AT fallen folgende Software und Hardware:
+
+*   Screenreader (Bildschirmlese-Software)
+*   Braille-Zeile
+*   Bildschirmvergrösserung
+*   Sprachsteuerung
+*   Spezialmäuse und -tastaturen
+*   Augen-, Mund-, Sprachsteuerung
 
 ## AT
 
