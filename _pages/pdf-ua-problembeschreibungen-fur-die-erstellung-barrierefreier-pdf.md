@@ -31,7 +31,7 @@ Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität hab
 
 Die Inhalte sind in Markdown geschrieben, [extern in Github verwaltet][2] und mit dieser Website synchronisiert.
 
-Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basiert und mit einfachen Zeichen ergänzt wird um das Dokument zu strukturieren. Diese Auszeichnungen ermöglichen es Inhalte einfach in HTML zu konvertieren. Hier ein paar Beiträge zum Thema, falls du noch mehr dazu erfahren möchtest:
+Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basiert und mit Sonderzeichen ergänzt wird um das Dokument zu strukturieren. Diese Auszeichnungen ermöglichen es Inhalte einfach in HTML zu konvertieren. Hier ein paar Beiträge zum Thema, falls du noch mehr dazu erfahren möchtest:
 
 *   [Markdown (Wikipedia)][3]
 *   [markdown.de][4]
