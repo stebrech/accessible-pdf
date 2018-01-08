@@ -2,7 +2,7 @@
 ID: 176
 post_title: '<em>Document</em> ist nicht Tag auf oberster Ebene'
 author: Stefan Brechbühl
-post_excerpt: 'Ein aus Word konvertiertes PDF enthält als oberster Container das `<Part>` Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere <code><Document></code> Tag verwendet werden.'
+post_excerpt: 'Ein aus Word konvertiertes PDF enthält als oberster Container das &lt;Part&gt; Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere &lt;Document&gt; Tag verwendet werden.'
 layout: tutorials
 permalink: >
   http://accessible-pdf.test/de/tutorial/document-ist-nicht-tag-auf-oberster-ebene/
