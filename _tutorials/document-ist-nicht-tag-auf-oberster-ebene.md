@@ -42,5 +42,5 @@ Problem wurde festgestellt bei der PDF-Konvertierung aus:
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
 
  [1]: https://accessible-pdf.info/de/glossar/#automatische-pruefung
- [2]: https://github.com/pixelstrolch/accessible-pdf/blob/master/assets/xx_acrobat_rename_tag.gif
- [3]: https://github.com/pixelstrolch/accessible-pdf/blob/master/assets/de_acrobat_rename_tag2.gif
+ [2]: https://accessible-pdf.info/content/uploads/2018/01/acrobat_rename_tag.gif
+ [3]: https://accessible-pdf.info/content/uploads/2018/01/acrobat_rename_tag2_de.gif
