@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/ubersicht-der-pdf-tags-2/
+  http://accessible-pdf.info/de/tutorials/uebersicht-der-pdf-tags/
 published: true
 post_date: 2018-01-11 16:39:50
 tags: [ ]
