@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/pdf-tags-in-acrobat-andern/
+  http://accessible-pdf.info/de/tutorials/pdf-tags-in-acrobat-aendern/
 published: true
 post_date: 2018-01-11 16:39:50
 tags: [ ]
