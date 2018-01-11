@@ -2,18 +2,17 @@
 ID: 211
 post_title: '<em>UA-Identifier</em> fehlt'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Damit ein PDF-Dokument als technisch
+  barrierefrei gilt, muss die
+  Metainformation vorhanden sein, welche
+  das Dokument als PDF/UA kompatibel
+  kennzeichnet.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/ua-identifier-fehlt/
+  http://accessible-pdf.info/de/tutorials/ua-identifier-fehlt/
 published: true
 post_date: 2018-01-11 17:29:45
-tags:
-  - Adobe InDesign
-  - automatische Prüfung
-  - Microsoft Word
-categories:
-  - 06. Metadaten
 ---
 ## Problembeschreibung
 
