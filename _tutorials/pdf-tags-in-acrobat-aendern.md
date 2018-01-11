@@ -2,17 +2,18 @@
 ID: 206
 post_title: PDF-Tags in Acrobat ändern
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Autorensoftware können beim PDF-Export
+  nur eingeschränkt die semantisch
+  korrekten Tags zuweisen. Daher müssen
+  Tags auch manuell geändert werden.
 layout: tutorials
 permalink: >
   http://accessible-pdf.info/de/tutorials/pdf-tags-in-acrobat-aendern/
 published: true
 post_date: 2018-01-11 16:39:50
-tags: [ ]
-categories:
-  - Grundlagen
 ---
-Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrekten Tags zuweisen. Daher müssen Tags manuell geändert werden.
+Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrekten Tags zuweisen. Daher müssen Tags auch manuell geändert werden.
 
 Welche PDF-Tags es gibt und für was sie benötigt werden, kannst du in „[Übersicht der PDF-Tags][1]“ nachlesen.
 
