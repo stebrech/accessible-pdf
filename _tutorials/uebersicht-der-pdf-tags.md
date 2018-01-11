@@ -2,15 +2,16 @@
 ID: 207
 post_title: Übersicht der PDF-Tags
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Diese Zusammenstellung zeigt alle
+  verfügbaren Tags nach dem Standard PDF
+  1.7. Sie hilft als Nachschlagewerk um
+  semantisch korrekte Tags zu vergeben.
 layout: tutorials
 permalink: >
   http://accessible-pdf.info/de/tutorials/uebersicht-der-pdf-tags/
 published: true
 post_date: 2018-01-11 16:39:50
-tags: [ ]
-categories:
-  - Grundlagen
 ---
 Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
 
