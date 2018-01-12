@@ -2,21 +2,16 @@
 ID: 217
 post_title: 'Bild fehlt <em>Bounding Box</em>'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'In PDFs, welche aus Word exportiert werden, fehlen bei allen vorhandenen Bildern die <em>Bounding Box</em> Attribute, egal mit welcher Layoutoption sie platziert wurden.'
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/bild-fehlt-bounding-box/
+  http://accessible-pdf.info/de/tutorials/bild-fehlt-bounding-box/
 published: true
 post_date: 2018-01-12 16:21:50
-tags:
-  - automatische Prüfung
-  - Microsoft Word
-categories:
-  - 13. Grafiken
 ---
 ## Problembeschreibung
 
-In PDFs, welche aus Word exportiert werden, fehlen bei allen vorhandenen Bildern die Bounding Box Attribute, egal mit welcher Layoutoption sie platziert wurden.
+In PDFs, welche aus Word exportiert werden, fehlen bei allen vorhandenen Bildern die *Bounding Box* Attribute, egal mit welcher Layoutoption sie platziert wurden.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
