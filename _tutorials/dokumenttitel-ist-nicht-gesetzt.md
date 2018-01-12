@@ -2,18 +2,23 @@
 ID: 216
 post_title: Dokumenttitel ist nicht gesetzt
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In den PDF-Dokumenteigenschaften kann
+  definiert werden ob das Dokument mit dem
+  Dateinamen oder dem Dokumenttitel
+  angezeigt wird. Dieser erscheint im
+  PDF-Viewer als Name des Dokumentfensters
+  und stehen auch AT zur Verfügung. PDFs,
+  welche aus Microsoft Word und Adobe
+  InDesign hergestellt werden, zeigen den
+  Dateinamen. Nach PDF/UA ist jedoch der
+  Dokumenttitel einzustellen da dieser
+  aussagekräftiger ist.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/dokumenttitel-ist-nicht-gesetzt/
+  http://accessible-pdf.info/de/tutorials/dokumenttitel-ist-nicht-gesetzt/
 published: true
 post_date: 2018-01-12 16:19:18
-tags:
-  - Adobe InDesign
-  - automatische Prüfung
-  - Microsoft Word
-categories:
-  - 07. Dictionary
 ---
 ## Problembeschreibung
 
