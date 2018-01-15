@@ -1,6 +1,6 @@
 ---
 ID: 221
-post_title: 'Kein <em>Figure Tag</em> im Kompatibilitätsmodus'
+post_title: Kein Figure Tag im Kompatibilitätsmodus
 author: Stefan Brechbühl
 post_excerpt: 'Ein Bild wird in Word <em>im Kompatibilitätsmodus</em> (.doc) eingefügt und mit der Layoutoption <em>„Mit Text in Zeile“</em> platziert. Nach dem PDF-Export ist das Bild nicht wie erwartet innerhalb eines &lt;Figure&gt; Tags, sondern innerhalb eines &lt;InlineShape&gt;, welchem die Rolle &lt;Sect&gt; zugeordnet ist.'
 layout: tutorials
