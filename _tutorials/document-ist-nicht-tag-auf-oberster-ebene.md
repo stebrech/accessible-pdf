@@ -7,7 +7,7 @@ author: Stefan Brechbühl
 post_excerpt: 'Ein aus Word konvertiertes PDF enthält als oberster Container das &lt;Part&gt; Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere &lt;Document&gt; Tag verwendet werden.'
 layout: tutorials
 permalink: >
-  http://accessible-pdf.test/de/tutorials/document-ist-nicht-tag-auf-oberster-ebene/
+  http://accessible-pdf.info/de/tutorials/document-ist-nicht-tag-auf-oberster-ebene/
 published: true
 post_date: 2018-01-05 16:24:27
 ---
@@ -43,6 +43,6 @@ Problem wurde festgestellt bei der PDF-Konvertierung aus:
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
 
- [1]: https://accessible-pdf.test/de/glossar/#automatische-pruefung
- [2]: https://accessible-pdf.test/content/uploads/2018/01/acrobat_rename_tag.gif
- [3]: https://accessible-pdf.test/content/uploads/2018/01/acrobat_rename_tag2_de.gif
+ [1]: https://accessible-pdf.info/de/glossar/#automatische-pruefung
+ [2]: https://accessible-pdf.info/content/uploads/2018/01/acrobat_rename_tag.gif
+ [3]: https://accessible-pdf.info/content/uploads/2018/01/acrobat_rename_tag2_de.gif
