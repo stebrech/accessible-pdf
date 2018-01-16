@@ -10,6 +10,8 @@ permalink: >
   https://accessible-pdf.info/de/pdf-ua-problembeschreibungen-fur-die-erstellung-barrierefreier-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
+tags: [ ]
+categories: [ ]
 ---
 Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
 
@@ -54,4 +56,4 @@ Auf Twitter unter dem Benutzernamen [@pdfa11y][7] werden Neuigkeiten zu dieser S
  [4]: http://markdown.de/
  [5]: https://guides.github.com/features/mastering-markdown/
  [6]: https://daringfireball.net/projects/markdown/syntax
- [7]: 7
+ [7]: https://twitter.com/pdfa11y
