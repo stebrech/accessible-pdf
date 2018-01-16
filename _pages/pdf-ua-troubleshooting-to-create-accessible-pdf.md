@@ -43,12 +43,13 @@ Github is platform which combines collaboration and the version control software
 
 This website is written in German and English. It is not impossible more languages will follow in the future.
 
-## Contact
+## Updates
 
-If you have any questions or comments, don't hesitate to [contact me][1].
+You'll get news about this website if you follow [@pdfa11y][7] on twitter.
 
  [1]: https://accessible-pdf.info/en/imprint
  [2]: https://github.com/pixelstrolch/accessible-pdf
  [3]: https://en.wikipedia.org/wiki/Markdown
  [4]: https://guides.github.com/features/mastering-markdown/
  [5]: https://daringfireball.net/projects/markdown/syntax
+ [7]: https://twitter.com/pdfa11y
