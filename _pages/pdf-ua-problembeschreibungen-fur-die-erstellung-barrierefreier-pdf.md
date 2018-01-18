@@ -1,8 +1,7 @@
 ---
 ID: 144
 post_title: >
-  PDF/UA Problembeschreibungen für die
-  Erstellung barrierefreier PDF
+  Grundlagen und Problemlösungen für die Herstellung barrierefreier PDFs
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page

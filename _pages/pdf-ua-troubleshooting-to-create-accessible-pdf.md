@@ -1,8 +1,7 @@
 ---
 ID: 142
 post_title: >
-  PDF/UA troubleshooting to create
-  accessible PDF
+    Tutorials for creating accessible PDF
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
