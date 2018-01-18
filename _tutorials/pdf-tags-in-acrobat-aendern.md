@@ -7,7 +7,7 @@ post_excerpt: >
   nur eingeschränkt die semantisch
   korrekten Tags zuweisen. Daher müssen
   Tags auch manuell geändert werden.
-layout: tutorials
+layout: basics
 permalink: >
   http://accessible-pdf.info/de/tutorials/pdf-tags-in-acrobat-aendern/
 published: true

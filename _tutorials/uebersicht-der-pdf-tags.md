@@ -7,7 +7,7 @@ post_excerpt: >
   verfügbaren Tags nach dem Standard PDF
   1.7. Sie hilft als Nachschlagewerk um
   semantisch korrekte Tags zu vergeben.
-layout: tutorials
+layout: basics
 permalink: >
   http://accessible-pdf.info/de/tutorials/uebersicht-der-pdf-tags/
 published: true
