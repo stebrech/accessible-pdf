@@ -38,10 +38,6 @@ Markdown is a an easy markup language which is based on plain text. Additional c
 
 Github is platform which combines collaboration and the version control software *git*. It is one of the most popular websites to share open source software, so that everyone can contribute to it. Like our example proves, it can be used for non-software projects as well.
 
-## Multilingual
-
-This website is written in German and English. It is not impossible more languages will follow in the future.
-
 ## Updates
 
 You'll get news about this website if you follow [@pdfa11y][7] on twitter.
