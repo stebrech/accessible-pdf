@@ -1,30 +1,8 @@
 # Accessible PDF
 Dieses *Repository* enthält die Inhalte von [accessible-pdf.info](accessible-pdf.info). Die Inhalte sind in Markdown geschrieben, extern in Github verwaltet und mit der WordPress Website synchronisiert.
 
-## Inhaltsverzeichnis
-| Nr.     | Titel auf Englisch | Titel auf Deutsch |
-| :---    | :---               | :--- |
-| `00-00` | Glossary           | Glossar |
-| `00-01` |                    | Logische Dokumentenstruktur mit InDesign herstellen |
-| `00-02` |                    | Logische Dokumentenstruktur mit Word herstellen |
-| `01-01` |                    | *Document* ist nicht Tag auf oberster Ebene |
-| `01-02` |                    | Falsche Inhaltsverzeichnis-Struktur |
-| `01-03` |                    | Getaggte Tabellenlinien |
-| `06-01` |                    | *UA-Identifier* fehlt |
-| `07-01` |                    | Dokumenttitel ist nicht gesetzt |
-| `13-01` |                    | Kein *Figure Tag* im Kompatibilitätsmodus |
-| `13-02` |                    | Getaggte Bilder in Kopf- und Fusszeile |
-| `13-03` |                    | Abbildung fehlt *Bounding Box* |
-| `13-04` |                    | Abbildung als Block-Element |
-| `14-01` |                    | Übersprungene Überschriftenebenen |
-| `16-01` |                    | Liste ist nicht als Liste getaggt |
-
-## Die Markdown Syntax
-> Markdown is a lightweight markup language with plain text formatting syntax.
->
-> <cite>— Wikipedia</cite>
-
-Markdown wurde von John Gruber entwickelt und soll auf einfache Weise gewöhnlichen Text in semantisches HTML umwandeln. Es könnte sein, dass die Markdown Syntax beim ersten Mal etwas kompliziert aussieht. Um mehr darüber zu erfahren, empfehle ich die englische Seite [Markdown Basics](https://daringfireball.net/projects/markdown/basics) zu lesen. Ich verspreche es dauert nicht lange bis du die Markdown Syntax verstehst.
+* [Eine Übersicht der veröffentlichten Inhalte](table-of-contents.md)
+* [Was ist Markdown? (Wikipedia-Artikel)](https://de.wikipedia.org/wiki/Markdown)
 
 ## Metadaten im Kopfbereich
 Jede Markdowndatei benötigt zu Beginn ein paar Metadaten. Diese sind nötig um die Inhalte in die Datenbank der Website zu kopieren. Direkt nach dem Import in die Datenbank wird das [Plugin WPGHS](https://github.com/mAAdhaTTah/wordpress-github-sync) einen neuen Commit erstellen, welchen noch zusätzliche und fehlende Metadaten ergänzt.
@@ -52,7 +30,11 @@ Der Titel beschreibt das Problem / die Anleitung so kurz und verständlich wie m
 Der Name des Autors des Beitrags. Wenn jemand anders eine Änderung vorschlägt, bleibt der Autor bestehen.
 
 ### layout
-Weil alle Inhalte denselben Post Type benutzen, ist `layout` immer `page`.
+Das Layout oder besser der Inhaltstyp kann sein:
+
+* `basics` (Grundlagen)
+* `tutorials` (Problemlösungen)
+* `pages` (andere Seiten wie der Glossar)
 
 ### published
 `published` bestimmt ob der Beitrag direkt veröffentlicht wird.
@@ -105,8 +87,6 @@ Der Hauptzweck dieser Website ist die Lösung von PDF/UA Fehlern und Problemen. 
 29. Aktionen
 30. XObjects
 31. Schriften
-
-Für allgemeine Anleitungen wird die Kategorie *Allgemeine Anleitung* und für alle anderen Seiten die Kategorie *Allgemeines* verwendet.
 
 ### Weitere Metadaten
 Die Metadaten *ID*, *Permalink* und *Veröffentlichungsdatum* werden automatisch hinzugefügt.
