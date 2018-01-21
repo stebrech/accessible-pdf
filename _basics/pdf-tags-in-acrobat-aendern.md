@@ -1,6 +1,6 @@
 ---
 ID: 206
-post_title: 'PDF-<em>Tags</em> in Acrobat ändern'
+post_title: '<em>PDF-Tags</em> in Acrobat ändern'
 author: Stefan Brechbühl
 post_excerpt: >
   Autorensoftware können beim PDF-Export
