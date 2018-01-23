@@ -1,16 +1,15 @@
 ---
 ID: 144
 post_title: >
-  Grundlagen und Problemlösungen für die Herstellung barrierefreier PDFs
+  PDF/UA Problembeschreibungen für die
+  Erstellung barrierefreier PDF
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
 permalink: >
-  https://accessible-pdf.info/de/pdf-ua-problembeschreibungen-fur-die-erstellung-barrierefreier-pdf/
+  http://accessible-pdf.test/de/pdf-ua-problembeschreibungen-fur-die-erstellung-barrierefreier-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
-tags: [ ]
-categories: [ ]
 ---
 Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
 
@@ -41,14 +40,17 @@ Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basi
 
 Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftware *Git* vereint. Es ist eine der beliebtesten Websites um freie Software zur Verfügung zu stellen, so dass alle sich daran beteiligen können. Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
 
-## Neuigkeiten
+## Mehrsprachigkeit
 
-Auf Twitter unter dem Benutzernamen [@pdfa11y][7] werden Neuigkeiten zu dieser Seite geschrieben.
+Diese Website wird in Deutsch (Schweiz ohne ß :-)) und Englisch geführt. Es ist nicht ausgeschlossen, dass in Zukunft auch noch weitere Übersetzungen folgen.
 
- [1]: https://accessible-pdf.info/de/impressum
+## Kontakt
+
+Falls Du noch Fragen oder Anregungen hast, zögere nicht [mich zu kontaktieren][1].
+
+ [1]: https://accessible-pdf.test/de/impressum
  [2]: https://github.com/pixelstrolch/accessible-pdf
  [3]: https://de.wikipedia.org/wiki/Markdown
  [4]: http://markdown.de/
  [5]: https://guides.github.com/features/mastering-markdown/
  [6]: https://daringfireball.net/projects/markdown/syntax
- [7]: https://twitter.com/pdfa11y
