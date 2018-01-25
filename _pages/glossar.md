@@ -2,7 +2,7 @@
 ID: 134
 post_title: Glossar
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: "Im Glossar werden Begriffe erklärt, die für die Arbeit mit barrierefreien PDFs benötigt werden."
 layout: page
 permalink: http://accessible-pdf.info/de/glossar/
 published: true
@@ -10,7 +10,7 @@ post_date: 2017-12-30 19:48:13
 ---
 Im Glossar werden Begriffe erklärt, die für die Arbeit mit barrierefreien PDFs benötigt werden.
 
-## assistierende Technologie
+<h2 id="assistierende-technologie">assistierende Technologie</h2>
 
 Assistierende Technologie ist eine weitere Übersetzung des englischen Begriffs *assistive technology*. Siehe dazu [assistive Technologie][1].
 
@@ -28,7 +28,7 @@ Unter AT fallen folgende Software und Hardware:
 *   Augen- und Mundsteuerung
 *   …
 
-## AT
+<h2 id="at">AT</h2>
 
 Abkürzung für [assistive Technologie][1]
 
@@ -36,7 +36,7 @@ Abkürzung für [assistive Technologie][1]
 
 Gemäss [Matterhorn Protokoll][7] können 87 Prüfpunkte durch eine Software geprüft werden. Mithilfe einer Prüfung mit [PAC 2][8] werden solche Fehler erkannt.
 
-## barrierearm
+<h2 id="barrierearm">barrierearm</h2>
 
 Der Begriff „barrierearm“ wird teilweise für eine beschränkt, erreichte Barrierefreiheit verwendet. Siehe dazu [barrierefreies PDF][2]
 
@@ -70,7 +70,7 @@ Das [Matterhorn Protokoll][4] ist ein Dokument der [PDF Association][5], welches
 
 PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen muss nicht zwingend die ISO-Dokumentation erworben werden. Das [Matterhorn Protokoll][7] enthält die benötigten Prüfpunkte und ist kostenlos.
 
-## Zugänglichkeit
+<h2 id="zugaenglichkeit">Zugänglichkeit</h2>
 
 Ist eine weitere Übersetzung von des englischen Begriffs Accessibility. Siehe dazu [barrierefreies PDF][2]
 
