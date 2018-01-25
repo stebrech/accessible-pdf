@@ -7,7 +7,7 @@ post_excerpt: >
   important if you work with accessible
   PDF.
 layout: page
-permalink: http://accessible-pdf.info/de/glossary/
+permalink: http://accessible-pdf.info/en/glossary/
 published: true
 post_date: 2018-01-25 16:33:11
 tags: [ ]
