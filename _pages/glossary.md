@@ -19,7 +19,7 @@ The glossary explains terms, which are important if you work with accessible PDF
 
 Through accessibility no people with disabilities are going to be excluded. This means that electronic documents need to meet technical conditions so that everyone can use them independently.
 
-A PDF is accessible if it's compatible with the [PDF/UA][1] standard and follows the WCAG guidelines.
+A PDF is accessible if it's compatible with the [PDF/UA][1] standard and follows the [WCAG](https://www.w3.org/WAI/intro/wcag) guidelines.
 
 The most important basics are achieved if
 
@@ -43,7 +43,7 @@ There are the following software and hardware for example:
 *   Eye tracking, mouth stick
 *   …
 
-## AT
+## AT {#at}
 
 see [assistive Technology][4]
 
