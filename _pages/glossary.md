@@ -2,9 +2,12 @@
 ID: 262
 post_title: Glossary
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  The glossary explains terms, which are
+  important if you work with accessible
+  PDF.
 layout: page
-permalink: https://accessible-pdf.info/de/glossary/
+permalink: http://accessible-pdf.info/de/glossary/
 published: true
 post_date: 2018-01-25 16:33:11
 tags: [ ]
