@@ -40,13 +40,9 @@ Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basi
 
 Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftware *Git* vereint. Es ist eine der beliebtesten Websites um freie Software zur Verfügung zu stellen, so dass alle sich daran beteiligen können. Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
 
-## Mehrsprachigkeit
+## Neuigkeiten
 
-Diese Website wird in Deutsch (Schweiz ohne ß :-)) und Englisch geführt. Es ist nicht ausgeschlossen, dass in Zukunft auch noch weitere Übersetzungen folgen.
-
-## Kontakt
-
-Falls Du noch Fragen oder Anregungen hast, zögere nicht [mich zu kontaktieren][1].
+Auf Twitter unter dem Benutzernamen [@PDFa11y][7] werden Neuigkeiten zu dieser Seite geschrieben.
 
  [1]: https://accessible-pdf.test/de/impressum
  [2]: https://github.com/pixelstrolch/accessible-pdf
@@ -54,3 +50,4 @@ Falls Du noch Fragen oder Anregungen hast, zögere nicht [mich zu kontaktieren][
  [4]: http://markdown.de/
  [5]: https://guides.github.com/features/mastering-markdown/
  [6]: https://daringfireball.net/projects/markdown/syntax
+ [7]: https://twitter.com/PDFa11y
