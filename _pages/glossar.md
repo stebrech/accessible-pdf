@@ -32,6 +32,10 @@ Unter AT fallen folgende Software und Hardware:
 
 Abkürzung für [assistive Technologie][1]
 
+<h2 id="automatische-pruefung">automatische Prüfung</h2>
+
+Gemäss [Matterhorn Protokoll][7] können 87 Prüfpunkte durch eine Software geprüft werden. Mithilfe einer Prüfung mit [PAC 2][8] werden solche Fehler erkannt.
+
 ## barrierearm
 
 Der Begriff „barrierearm“ wird teilweise für eine beschränkt, erreichte Barrierefreiheit verwendet. Siehe dazu [barrierefreies PDF][2]
@@ -50,6 +54,10 @@ Die wichtigsten Grundlagen sind erreicht, wenn
 *   Alternativtexte verwendet werden um Nicht-Text-Elemente (Bilder und Grafiken) zu beschreiben;
 *   keine schwachen oder ungeeignete Farbkontraste verwendet werden.
 
+<h2 id="manuelle-pruefung">manuelle Prüfung</h2>
+
+Gemäss [Matterhorn Protokoll][7] sind 47 Prüfpunkte durch einen Menschen zu prüfen. Diese können nicht durch eine Software, wie zum Beispiel [PAC 2][8], geprüft werden. Es kann höchstens eine Warnung ausgegeben werden.
+
 <h2 id="matterhorn-protokoll">Matterhorn Protokoll</h2>
 
 Das [Matterhorn Protokoll][4] ist ein Dokument der [PDF Association][5], welches Softwareentwicklern und Prüfpersonen von Dokumenten hilft, ein PDF nach PDF/UA zu erstellen. Es beschreibt 136 Fehlerbedingungen, welche in 31 Prüfpunkte aufgeteilt sind. Von den 136 Fehlerbedingungen können 87 durch eine Software geprüft werden. 47 Fehlerbedingungen müssen manuell durch einen Menschen geprüft werden. 2 Fehlerbedingungen können in keiner dieser Kategorien zugeordnet werden. Das Matterhorn Protokoll wurde ins Deutsche übersetzt.
@@ -61,14 +69,6 @@ Das [Matterhorn Protokoll][4] ist ein Dokument der [PDF Association][5], welches
 <h2 id="pdf-ua">PDF/UA</h2>
 
 PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen muss nicht zwingend die ISO-Dokumentation erworben werden. Das [Matterhorn Protokoll][7] enthält die benötigten Prüfpunkte und ist kostenlos.
-
-<h2 id="manuelle-pruefung">manuelle Prüfung</h2>
-
-Gemäss [Matterhorn Protokoll][7] sind 47 Prüfpunkte durch einen Menschen zu prüfen. Diese können nicht durch eine Software, wie zum Beispiel [PAC 2][8], geprüft werden. Es kann höchstens eine Warnung ausgegeben werden.
-
-<h2 id="automatische-pruefung">automatische Prüfung</h2>
-
-Gemäss [Matterhorn Protokoll][7] können 87 Prüfpunkte durch eine Software geprüft werden. Mithilfe einer Prüfung mit [PAC 2][8] werden solche Fehler erkannt.
 
 ## Zugänglichkeit
 
