@@ -52,7 +52,7 @@ Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftw
 
 Auf Twitter unter dem Benutzernamen [@PDFa11y][7] werden Neuigkeiten zu dieser Seite geschrieben.
 
- [1]: https://accessible-pdf.test/de/impressum
+ [1]: https://accessible-pdf.info/de/impressum
  [2]: https://github.com/pixelstrolch/accessible-pdf
  [3]: https://de.wikipedia.org/wiki/Markdown
  [4]: http://markdown.de/
