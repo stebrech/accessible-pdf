@@ -45,7 +45,7 @@ There are the following software and hardware for example:
 
 ## AT {#at}
 
-see [assistive Technology][4]
+AT is the abbreviation of [assistive Technology][4]
 
 ## automatic testing {#automatic-testing}
 
