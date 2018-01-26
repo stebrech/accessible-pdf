@@ -1,14 +1,19 @@
 ---
 ID: 142
-post_title: >
-    Tutorials for creating accessible PDF
+post_title: Tutorials for creating accessible PDF
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Meaning and purpose of this website is a
+  reference guide to solve PDF/UA issues.
+  The tutorials shall help everyone who is
+  interested in creating accessible PDF.
 layout: page
 permalink: >
   https://accessible-pdf.info/en/pdf-ua-troubleshooting-to-create-accessible-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
+tags: [ ]
+categories: [ ]
 ---
 Meaning and purpose of this website is a reference guide to solve PDF/UA issues. The tutorials shall help everyone who is interested in creating accessible PDF.
 
@@ -40,11 +45,11 @@ Github is platform which combines collaboration and the version control software
 
 ## Updates
 
-You'll get news about this website if you follow [@PDFa11y][7] on twitter.
+You'll get news about this website if you follow [@PDFa11y][6] on twitter.
 
  [1]: https://accessible-pdf.info/en/imprint
  [2]: https://github.com/pixelstrolch/accessible-pdf
  [3]: https://en.wikipedia.org/wiki/Markdown
  [4]: https://guides.github.com/features/mastering-markdown/
  [5]: https://daringfireball.net/projects/markdown/syntax
- [7]: https://twitter.com/PDFa11y
+ [6]: https://twitter.com/PDFa11y
