@@ -25,10 +25,10 @@ Behälterelemente bilden die höchste Ebene von Elementen und erlauben die hiera
 | Tag | Übersetzung | Beschreibung |
 |:--- |:--- |:--- |
 | `<Document>` | Dokument | Stammelement des Tag-Baums eines Dokuments |
-| `<Part>`     | Teil                      | grobe Einteilung eines Dokuments; kann kleinere Inhaltseinheiten wie Kapitel- oder Abschnittselemente enthalten                 |
-| `<Div>`      | Kapitel (engl. division)  | generisches Element auf Blockebene oder eine Gruppe solcher Elemente                                                            |
-| `<Art>`      | Artikel                   | inhaltlich in sich abgeschlossener Textkörper                                                                                   |
-| `<Sect>`     | Abschnitt (engl. section) | allgemeines Behälterelement, vergleichbar mit „Division“ (DIV Class=“Sect”) in HTML; in der Regel ein Teil- oder Artikelelement |
+| `<Part>` | Teil | grobe Einteilung eines Dokuments; kann kleinere Inhaltseinheiten wie Kapitel- oder Abschnittselemente enthalten |
+| `<Div>` | Kapitel (engl. division)  | generisches Element auf Blockebene oder eine Gruppe solcher Elemente |
+| `<Art>` | Artikel | inhaltlich in sich abgeschlossener Textkörper |
+| `<Sect>` | Abschnitt (engl. section) | allgemeines Behälterelement; in der Regel ein Teil- oder Artikelelement |
 
 ## Überschriften und Absätze
 
@@ -36,7 +36,7 @@ Behälterelemente bilden die höchste Ebene von Elementen und erlauben die hiera
 |:--- |:--- |:--- |
 | `<P>` | Absatz (engl. Paragraph) | Gewöhnlicher Absatz |
 | `<H1>` bis `<H6>` | Überschriften (engl. Heading) | Überschriften mit Hierarchiestufe 1 bis 6. |
-| `<H>` | Überschrift | Überschrift muss einer übergeordneten Einteilung untergeordnet sein. *Da es mithilfe der hierarchischen Überschriften-Formatvorlagen in der Regel einfacher ist eine Dokumentstruktur aufzubauen, empfehle ich diesen Tag nicht zu verwenden.* |
+| `<H>` | Überschrift | Überschrift muss einer übergeordneten Einteilung untergeordnet sein. <br>*Da es mit den `<H1>` bis `<H6>` Tags in aller Regel einfacher ist eine Struktur aufzubauen, empfehle ich diesen Tag nicht zu verwenden.* |
 
 ## Beschriftungs- und Listenelemente
 
