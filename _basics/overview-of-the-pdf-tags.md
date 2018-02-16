@@ -2,10 +2,14 @@
 ID: 301
 post_title: Overview of the PDF tags
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  This overview shows the most important
+  tags from the PDF 1.7 standard. The
+  reference helps you to choose the
+  correct and semantic tags.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/overview-of-the-pdf-tags/
+  http://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
 published: true
 post_date: 2018-02-16 16:23:12
 tags: [ ]
@@ -29,11 +33,7 @@ Container elements are the highest level of element and provide hierarchical gro
 
 ## Heading and paragraph elements
 
-| Tag                          | Beschreibung                                                                                                                                                                                              |
-|:---------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<P>`                  | Generic paragraph                                                                                                                                                                                         |
-| `<H1>` to `<H6>` | Headings from level 1 to 6                                                                                                                                                                                |
-| `<H>`                  | Heading as the first child of any higher-level division.   
+| Tag | Beschreibung | |:---------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | `<P>` | Generic paragraph | | `<H1>` to `<H6>` | Headings from level 1 to 6 | | `<H>` | Heading as the first child of any higher-level division.  
 *It's usually easier to structure the document with the help of the `<H1>` to `<H6>` tags. I don't recommend to use `<H>`.* |
 
 ## Label and list elements
