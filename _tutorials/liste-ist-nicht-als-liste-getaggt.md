@@ -18,9 +18,9 @@ post_date: 2018-01-12 16:35:46
 ---
 ## Problembeschreibung
 
-Wenn undefinierte oder nummerierte Listen verwendet werden, sollen diese auch als Liste getaggt werden. Die Listen-Tags werden beim Export aus Microsoft Word oder Adobe InDesign automatisch vergeben, sofern die Listen korrekt erstellt wurden.
+Wenn undefinierte oder nummerierte Listen verwendet werden, sollen diese auch als Liste *getaggt* werden. Die Listen-*Tags* werden beim Export aus Microsoft Word oder Adobe InDesign automatisch vergeben, sofern die Listen korrekt erstellt wurden.
 
-Für eingeschränkte Menschen sind korrekt getaggte Listen wertvoll und verbessern die Navigationsmöglichkeiten.
+Für Menschen, die auf [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie) angewiesen sind, helfen korrekt *getaggte* Listen dem Verständnis und verbessern die Navigationsmöglichkeiten.
 
 ### PAC 2 Fehlermeldung
 
@@ -38,7 +38,7 @@ Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
 ![Listen-Schaltflächen in Microsoft Word][2]
 
-Um eine einheitliche Formatierung zu gewährleisten, wird das Anlegen einer Listenformatvorlage empfohlen.
+Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer Listenformatvorlage empfohlen.
 
 ## Manueller Lösungsweg in InDesign
 
@@ -46,11 +46,13 @@ Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
 ![Listen-Schaltflächen in Adobe InDesign][3]
 
-Um eine einheitliche Formatierung zu gewährleisten, wird die Verwendung einer separaten Absatzformatvorlage empfohlen.
+Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer separaten Absatzformatvorlage empfohlen.
 
 ## Manueller Lösungsweg in Acrobat
 
-Das manuelle Nachtaggen von Listen ist zeitaufwändig. Es wird empfohlen eine der oben stehenden Lösungswege vorzuziehen. Die benötigten Tags sind `<L>`, `<LI>`, `<Lbl>` und `<LBody>`.
+Das manuelle *Nachtaggen* von Listen ist sehr zeitaufwändig und fehleranfällig. Es wird empfohlen eine der oben stehenden Lösungswege vorzuziehen. 
+
+Die benötigten *Tags* sind `<L>`, `<LI>`, `<Lbl>` und `<LBody>`. Die einzelnen *Tags* werden in [„Übersicht der *PDF-Tags*“](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) beschrieben.
 
  [1]: https://accessible-pdf.info/de/glossar/#manuelle-pruefung
  [2]: https://accessible-pdf.info/content/uploads/word_list_icons.png
