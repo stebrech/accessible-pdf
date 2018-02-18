@@ -2,7 +2,14 @@
 ID: 309
 post_title: List is not tagged as list
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  If an undefined or ordered list is used
+  it needs to be tagged as list as well.
+  The list tags will be automatically
+  generated while exporting as PDF.
+  However, you have to use the correct
+  list tools in Microsoft Word or Adobe
+  InDesign.
 layout: tutorials
 permalink: >
   http://accessible-pdf.info/en/tutorials/list-is-not-tagged-as-list/
