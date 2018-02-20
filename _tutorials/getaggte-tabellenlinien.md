@@ -1,6 +1,6 @@
 ---
 ID: 178
-post_title: Getaggte Tabellenlinien
+post_title: <em>Getaggte</em> Tabellenlinien
 author: Stefan Brechbühl
 post_excerpt: 'Wird eine Tabelle aus Word 2013 exportiert, werden die Linien einer Tabelle innerhalb von &lt;Span&gt; Tags gesetzt. Ein &lt;Span&gt; Tag darf aber nicht innerhalb eines &lt;TR&gt; (Tabellenzeile) auf gleicher Ebene wie die &lt;TD&gt; Tags (Tabellenzelle) liegen. Zudem müssen Tabellenlinien als Artefakt ausgezeichnet sein und dürfen nicht getaggt werden.'
 layout: tutorials
@@ -8,6 +8,12 @@ permalink: >
   http://accessible-pdf.info/de/tutorials/getaggte-tabellenlinien/
 published: true
 post_date: 2018-01-05 16:24:27
+tags:
+  - automatische Prüfung
+  - manuelle Prüfung
+  - Microsoft Word
+categories:
+  - 01. Getaggter realer Inhalt
 ---
 ## Problembeschreibung
 
