@@ -15,6 +15,12 @@ permalink: >
   http://accessible-pdf.info/de/tutorials/liste-ist-nicht-als-liste-getaggt/
 published: true
 post_date: 2018-01-12 16:35:46
+tags:
+  - Adobe InDesign
+  - manuelle Prüfung
+  - Microsoft Word
+categories:
+  - 16. Listen
 ---
 ## Problembeschreibung
 
