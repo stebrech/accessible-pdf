@@ -5,7 +5,7 @@
 | :--- | :--- |
 | | PDF-Tags in Acrobat ändern |
 | | Tags in InDesign festlegen |
-| | Übersicht der PDF-Tags |
+| Overview of the PDF tags | Übersicht der PDF-Tags |
 
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
@@ -20,7 +20,7 @@
 | 13 | | Bild fehlt *Bounding Box* |
 | 13 | | Bild als Block-Element |
 | 14 | | Übersprungene Überschriftenebenen |
-| 16 | | Liste ist nicht als Liste getaggt |
+| 16 | List is not tagged as list | Liste ist nicht als Liste getaggt |
 
 ## Other pages
 
