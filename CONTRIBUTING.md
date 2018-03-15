@@ -36,11 +36,9 @@ Every post needs proper metadata at the beginning of the file. You'll find more 
 
 <h4 id="en-pull-request-first-time">How to submit a pull request the first time? (The “Github web interface” way)</h4>
 
-Hint 1: Contribution is only possible with a [Github account](https://github.com/join).
+Hint: Contribution is only possible with a [Github account](https://github.com/join).
 
-Hint 2: The following animations show another repository. To show how it works, I had to use a repo I do not own.
-
-1. **Fork** this repository (`pixelstrolch/accessible-pdf`). This means you copy the project to your own account. [See annex 1](#annex1)
+1. **Fork** this repository ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). This means you copy the project to your own account. [See annex 1](#annex1)
 2. Create a **new branch** from the `master` branch. This step keeps the `master` branch clean and makes it easier to keep your repository up to date. [See annex 2](#annex2)
 3. Check the branch your in and open the file you want to change. Click on the *edit* icon. Make the changes you wish and save – or in Git language – **commit** your changes. [See annex 3](#annex3)
 4. Create a **pull request** by clicking on the provided tab and the green button *New pull request*. Now you define which repos and branches should be compared with each other. The only thing you probably need to do, is to choose the branch you created in step 2. Great, hit *Create pull request* and you successfully made your change request. [See annex 4](#annex4)
@@ -96,11 +94,9 @@ Bevor ein *Issue* geschrieben oder ein *Pull Request* eingereicht wird, prüfe b
 
 Jeder Beitrag benötigt passende Metadaten am Anfang der Datei. Du findest mehr Informationen in der [README.md](README.md) Datei.
 
-<h4 id="de-pull-request-first-time">Wie kann ein *Pull Request* das erste Mal eingereicht werden? (Weg über die Github Website)</h4>
+<h4 id="de-pull-request-first-time">Wie kann ein <em>Pull Request</em> das erste Mal eingereicht werden? (Weg über die Github Website)</h4>
 
-Hinweis 1: Die Mithilfe ist nur mit einem [Github Konto](https://github.com/join) möglich.
-
-Hinweis 2: Die folgenden Animationen zeigen ein anderes *Repository*. Um zu zeigen wie es funktioniert, musste ich ein anderes verwenden, welches ich nicht besitze.
+Hinweis: Die Mithilfe ist nur mit einem [Github Konto](https://github.com/join) möglich.
 
 1. ***Fork*** dieses *Repository* ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). Das bedeutet, dass du eine Kopie des Projekts für dein Konto anlegst. [(Siehe Annex 1)](#annex1) 
 2. Erstelle einen **neuen *Branch*** vom `master` *Branch* aus. Dieser Schritt hält den `master` *Branch* sauber und macht es einfacher dein *Repository* zu aktualisieren. [(Siehe Annex 2)](#annex2)
