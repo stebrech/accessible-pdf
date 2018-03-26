@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
 permalink: >
-  https://accessible-pdf.info/de/barrierefreies-pdf/
+  http://accessible-pdf.info/de/barrierefreies-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
