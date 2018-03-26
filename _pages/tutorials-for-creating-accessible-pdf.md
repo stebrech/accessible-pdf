@@ -2,10 +2,14 @@
 ID: 332
 post_title: Tutorials for creating accessible PDF
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Meaning and purpose of this website is a
+  reference guide to solve PDF/UA issues.
+  The tutorials shall help everyone who is
+  interested in creating accessible PDF.
 layout: page
 permalink: >
-  https://accessible-pdf.info/de/tutorials-for-creating-accessible-pdf/
+  http://accessible-pdf.info/en/tutorials-for-creating-accessible-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
