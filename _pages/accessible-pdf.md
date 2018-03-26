@@ -8,7 +8,8 @@ post_excerpt: >
   The tutorials shall help everyone who is
   interested in creating accessible PDF.
 layout: page
-permalink: https://accessible-pdf.info/en/
+permalink: >
+  http://accessible-pdf.info/en/accessible-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
@@ -32,16 +33,16 @@ The goal of this site is to become the biggest knowledge base about accessible P
 
 ### How can you help?
 
-All comments and suggestions for changes are highly appreciated. If a change request has to be rejected, a reason will be given. 
+All comments and suggestions for changes are highly appreciated. If a change request has to be rejected, a reason will be given.
 
 There are several ways to support this project.
 
-* Add missing translations or correct incorrect translations
-* Add and correct posts
-	* Correct or complement the issue description of a troubleshooting post
-	* Amend the version info (Which versions are affected by the problem described?)
-	* Add or correct an approach of a problem
-* Make a new post (Basics, Troubleshooting)
+*   Add missing translations or correct incorrect translations
+*   Add and correct posts 
+    *   Correct or complement the issue description of a troubleshooting post
+    *   Amend the version info (Which versions are affected by the problem described?)
+    *   Add or correct an approach of a problem
+*   Make a new post (Basics, Troubleshooting)
 
 ### Markdown and Github
 
@@ -53,18 +54,19 @@ Markdown is an easy markup language which is based on plain text. Additional cha
 *   [Mastering Markdown (Github)][3]
 *   [Markdown Syntax von John Gruber][4]
 
-Github is platform which combines collaboration and the version control software `git`. It is one of the most popular websites to share open source software, so that everyone can contribute to it. 
+Github is platform which combines collaboration and the version control software `git`. It is one of the most popular websites to share open source software, so that everyone can contribute to it.
 
 Like our example proves, it can be used for non-software projects as well.
 
-**To submit changes, you need a free Github account. For more informations, see [Contributors Guide](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
+**To submit changes, you need a free Github account. For more informations, see [Contributors Guide][5].**
 
 ## Updates
 
-You'll get news about this website if you follow [@PDFa11y][5] on twitter.
+You'll get news about this website if you follow [@PDFa11y][6] on twitter.
 
  [1]: https://github.com/pixelstrolch/accessible-pdf
  [2]: https://en.wikipedia.org/wiki/Markdown
  [3]: https://guides.github.com/features/mastering-markdown/
  [4]: https://daringfireball.net/projects/markdown/syntax
- [5]: https://twitter.com/PDFa11y
+ [5]: https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md
+ [6]: https://twitter.com/PDFa11y
