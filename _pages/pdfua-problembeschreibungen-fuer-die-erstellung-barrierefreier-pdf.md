@@ -1,13 +1,16 @@
 ---
 ID: 331
-post_title: >
-  PDF/UA Problembeschreibungen für die
-  Erstellung barrierefreier PDF
+post_title: Barrierefreies PDF
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Sinn und Zweck dieser Website ist ein
+  Nachschlagewerk um PDF/UA-Fehler beheben
+  zu können. Die Anleitungen sollen allen
+  Interessierten eine Hilfestellung sein
+  um barrierefreie PDFs erstellen zu
+  können.
 layout: page
-permalink: >
-  https://accessible-pdf.info/de/pdfua-problembeschreibungen-fuer-die-erstellung-barrierefreier-pdf/
+permalink: https://accessible-pdf.info/de/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
