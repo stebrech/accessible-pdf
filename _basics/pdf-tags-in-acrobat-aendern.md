@@ -13,28 +13,27 @@ permalink: >
 published: true
 post_date: 2018-01-11 16:39:50
 tags: [ ]
-categories:
-  - Grundlagen
+categories: [ ]
 ---
-Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrekten Tags zuweisen. Daher müssen Tags auch manuell geändert werden.
+Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrekten Tags zuweisen. Daher müssen *Tags* auch manuell geändert werden.
 
-Welche PDF-Tags es gibt und für was sie benötigt werden, kannst du in „[Übersicht der PDF-Tags][1]“ nachlesen.
+Welche *PDF-Tags* es gibt und für was sie benötigt werden, kannst du in „[Übersicht der *PDF-Tags*][1]“ nachlesen.
 
-Für die folgenden Schritte wird Adobe Acrobat benötigt. Mit der kostenlosen Version Adobe Acrobat Reader geht das nicht.
+Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) geht das nicht.
 
 ## Variante 1
 
-1.  Das Navigationsfenster Tags muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter *„Anzeige“* → *„Ein-/Ausblenden“* → *„Navigationsfenster“* eingeblendet werden.
-2.  Das betroffene Tag im Tagbaum einmal anklicken um es auszuwählen.
-3.  Mit der Maus erneut auf das ausgewählte Tag klicken um es händisch umzubenennen. Achtung das Tag muss korrekt geschrieben sein, siehe „[Übersicht der PDF-Tags][1]“
+1.  Das Navigationsfenster *Tags* muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+2.  Das betroffene *Tag* im *Tagbaum* einmal anklicken um es auszuwählen.
+3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][1]“
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat][2]
 
 ## Variante 2
 
-1.  Das Navigationsfenster Tags muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter *„Anzeige“* → *„Ein-/Ausblenden“* → *„Navigationsfenster“* eingeblendet werden.
-2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü *„Eigenschaften“* auswählen.
-3.  Im Register *„Tag“* und Dropdown-Feld *„Typ“* kann das gewünschte Tag ausgewählt werden. Achtung: Die Tags sind hier ins Deutsche übersetzt.
+1.  Das Navigationsfenster Tags muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü „Eigenschaften“ auswählen.
+3.  Im Register *„Tag“* und Dropdown-Feld „Typ“ kann das gewünschte Tag ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
 
