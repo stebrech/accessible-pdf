@@ -2,13 +2,7 @@
 ID: 251
 post_title: '<em>Tags</em> in InDesign festlegen'
 author: Stefan Brechbühl
-post_excerpt: >
-  In InDesign kann die Überschriftsebene
-  1–6 innerhalb der
-  Absatzformateinstellungen definiert
-  werden. Unter „Tagsexport“ wird
-  einem Absatzformat ein PDF-Tag
-  zugewiesen.
+post_excerpt: In InDesign können die Überschriften-Tags innerhalb der Absatzformateinstellungen definiert werden. Unter „Tagsexport“ wird einem Absatzformat ein PDF-Tag zugewiesen. 
 layout: basics
 permalink: >
   http://accessible-pdf.info/de/basics/tags-in-indesign-festlegen/
@@ -18,9 +12,11 @@ tags:
   - Adobe InDesign
 categories: [ ]
 ---
-In InDesign kann die Überschriftsebene 1–6 innerhalb der Absatzformateinstellungen definiert werden. Unter *„Tagsexport“* wird einem Absatzformat ein PDF-*Tag* zugewiesen.
+In InDesign können die Überschriften-*Tags* innerhalb der Absatzformateinstellungen definiert werden. Unter *„Tagsexport“* wird einem Absatzformat ein PDF-*Tag* zugewiesen.
 
 ![PDF-Tag für Absatzformat in InDesign definieren. Gif-Animation.][1]
+
+Zudem gibt es auch die Möglichkeit ein bestimmtes Absatzformat als Artefakt zu behandeln. Mehr über Artefakte erfährst du in [„Unwichtige und dekorative Inhalte als Artefakt“](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/).
 
 ## Alle *Tags* auf einmal festlegen
 
