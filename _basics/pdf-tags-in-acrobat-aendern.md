@@ -38,5 +38,5 @@ Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
 
  [1]: https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/
- [2]: https://accessible-pdf.info/content/uploads/acrobat_rename_tag.gif
- [3]: https://accessible-pdf.info/content/uploads/acrobat_rename_tag2.gif
+ [2]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
+ [3]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2.gif
