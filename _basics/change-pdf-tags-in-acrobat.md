@@ -2,10 +2,14 @@
 ID: 347
 post_title: Change PDF tags in Acrobat
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Authoring software is only partly able
+  to assign the semantically correct tags
+  to an exported PDF. Therefore, tags
+  needs to be changed manually as well.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/change-pdf-tags-in-acrobat/
+  https://accessible-pdf.info/en/basics/change-pdf-tags-in-acrobat/
 published: true
 post_date: 2018-04-03 19:12:45
 tags: [ ]
