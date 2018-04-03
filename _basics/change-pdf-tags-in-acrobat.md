@@ -40,5 +40,5 @@ You can find out which PDF tags are available and what they are required for in 
  [1]: https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
  [2]: https://acrobat.adobe.com/uk/en/acrobat.html
  [3]: https://get.adobe.com/uk/reader/
- [4]: https://accessible-pdf.info/content/uploads/acrobat_rename_tag.gif
- [5]: https://accessible-pdf.info/content/uploads/acrobat_rename_tag2_en.gif
+ [4]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
+ [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2_en.gif
