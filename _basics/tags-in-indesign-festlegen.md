@@ -44,8 +44,8 @@ Was ist denn nun passiert? InDesign hat beim Export die korrekten Tags per Rolle
 
 ![Wo sind die Optionen im Tags-Panel. Animiertes Gif.][5]
 
- [1]: https://accessible-pdf.info/content/uploads/indesign_tagsexport.gif
- [2]: https://accessible-pdf.info/content/uploads/indesign_absatzformate_flyout.png
- [3]: https://accessible-pdf.info/content/uploads/indesign_pdf_export_druck.jpg
- [4]: https://accessible-pdf.info/content/uploads/indesign_pdf_export_interaktiv.jpg
- [5]: https://accessible-pdf.info/content/uploads/acrobat_rollenzuordnung.gif
+ [1]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_tagsexport.gif
+ [2]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_absatzformate_flyout.png
+ [3]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_druck.jpg
+ [4]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.jpg
+ [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rollenzuordnung.gif
