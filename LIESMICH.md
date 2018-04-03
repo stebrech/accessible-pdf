@@ -1,8 +1,10 @@
 # Accessible PDF
+
 Dieses *Repository* enthält die Inhalte von [accessible-pdf.info](accessible-pdf.info). Die Inhalte sind in Markdown geschrieben, extern in Github verwaltet und mit der WordPress Website synchronisiert.
 
 * [Eine Übersicht der veröffentlichten Inhalte](table-of-contents.md)
-* [Was ist Markdown? (Wikipedia-Artikel)](https://de.wikipedia.org/wiki/Markdown)
+* [Auf accessible-pdf.info erfährst du wie du mithelfen kannst](https://accessible-pdf.info/de/)
+* [Regeln für die Mithilfe](CONTRIBUTING.md#de)
 
 ## Metadaten im Kopfbereich
 Jede Markdowndatei benötigt zu Beginn ein paar Metadaten. Diese sind nötig um die Inhalte in die Datenbank der Website zu kopieren. Direkt nach dem Import in die Datenbank wird das [Plugin WPGHS](https://github.com/mAAdhaTTah/wordpress-github-sync) einen neuen Commit erstellen, welchen noch zusätzliche und fehlende Metadaten ergänzt.
@@ -27,7 +29,7 @@ categories:
 Der Titel beschreibt das Problem / die Anleitung so kurz und verständlich wie möglich.
 
 ### author
-Der Name des Autors des Beitrags. Wenn jemand anders eine Änderung vorschlägt, bleibt der Autor bestehen.
+Dies ist der Name des ersten Autors des Beitrags. Wenn jemand anders eine Änderung vorschlägt, muss der Autor bestehen bleiben. Namen von neuen Helferinnen und Helfer werden von Hand hinzugefügt.
 
 ### layout
 Das Layout oder besser der Inhaltstyp kann sein:
@@ -92,7 +94,12 @@ Der Hauptzweck dieser Website ist die Lösung von PDF/UA Fehlern und Problemen. 
 Die Metadaten *ID*, *Permalink* und *Veröffentlichungsdatum* werden automatisch hinzugefügt.
 
 ## Mithilfe
-Diese Website ist als Community-Projekt gedacht. Ich wünsche mir Helferinen und Helfer aus der ganzen Welt, welche mich dabei unterstützen ein nützliches Nachschlagewerk für barrierefreie PDFs zu bauen und zu pflegen. Zusätzliche Infos folgen.
+Diese Website ist als Community-Projekt gedacht. Ich wünsche mir Helferinnen und Helfer aus der ganzen Welt, welche mich dabei unterstützen ein nützliches Nachschlagewerk für barrierefreie PDFs zu bauen und zu pflegen. 
+
+In [CONTRIBUTING.md](CONTRIBUTING.md#de) erfährst du was es bei der Mithilfe zu beachten gibt.
 
 ## Lizenz
-Diese Websiteinhalte sind lizensiert unter der [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+Diese Website-Inhalte sind lizensiert unter der [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 
