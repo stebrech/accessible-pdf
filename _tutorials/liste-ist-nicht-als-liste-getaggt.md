@@ -61,5 +61,5 @@ Das manuelle *Nachtaggen* von Listen ist sehr zeitaufwändig und fehleranfällig
 Die benötigten *Tags* sind `<L>`, `<LI>`, `<Lbl>` und `<LBody>`. Die einzelnen *Tags* werden in [„Übersicht der *PDF-Tags*“](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) beschrieben.
 
  [1]: https://accessible-pdf.info/de/glossar/#manuelle-pruefung
- [2]: https://accessible-pdf.info/content/uploads/word_list_icons.png
- [3]: https://accessible-pdf.info/content/uploads/indesign_list_icons.png
+ [2]: https://accessible-pdf.info/wp/wp-content/uploads/word_list_icons.png
+ [3]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_list_icons.png
