@@ -4,7 +4,8 @@ post_title: Impressum
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
-permalink: http://accessible-pdf.info/de/impressum/
+permalink: >
+  https://accessible-pdf.info/de/impressum/
 published: true
 post_date: 2018-01-02 13:00:28
 ---
@@ -19,8 +20,7 @@ Die Inhalte können von verschiedenen Personen erstellt worden sein und stehen u
 
 ## Kontakt
 
-Twitter: [@PDFa11y][2]  
-email [at] pixelstrol [Punkt] ch
+E-Mail: <mail@accessible-pdf.info> Twitter: [@PDFa11y][2]
 
  [1]: https://creativecommons.org/licenses/by/4.0/deed.de
  [2]: https://twitter.com/PDFa11y
