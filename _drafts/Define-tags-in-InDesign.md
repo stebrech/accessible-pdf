@@ -1,7 +1,10 @@
 ---
+ID: 362
 post_title: Define tags in InDesign
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=362'
 published: false
 tags:
   - Adobe InDesign
