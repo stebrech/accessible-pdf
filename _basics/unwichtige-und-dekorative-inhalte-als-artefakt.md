@@ -1,5 +1,5 @@
 ---
-ID: 338
+ID: 369
 post_title: >
   Unwichtige und dekorative Inhalte als
   Artefakt
@@ -7,7 +7,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: basics
 permalink: >
-  https://accessible-pdf.info/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
+  https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
 published: true
 post_date: 2018-03-28 14:53:24
 tags:
