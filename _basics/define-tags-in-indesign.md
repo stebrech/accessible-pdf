@@ -10,7 +10,7 @@ post_excerpt: >
   proper PDF tag.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/define-tags-in-indesign/
+  https://accessible-pdf.info/de/basics/define-tags-in-indesign/
 published: true
 post_date: 2018-04-06 19:53:24
 tags:
