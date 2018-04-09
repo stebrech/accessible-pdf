@@ -12,7 +12,7 @@ tags:
   - Adobe InDesign
 categories: [ ]
 ---
-In InDesign können die Überschriften-*Tags* innerhalb der Absatzformateinstellungen definiert werden. Unter *„Tagsexport“* wird einem Absatzformat ein PDF-*Tag* zugewiesen.
+In InDesign können die Überschriften-*Tags* innerhalb der Absatzformateinstellungen definiert werden. Unter „Tagsexport“ wird einem Absatzformat ein PDF-*Tag* zugewiesen.
 
 ![PDF-Tag für Absatzformat in InDesign definieren. Gif-Animation.][1]
 
@@ -20,7 +20,7 @@ Zudem gibt es auch die Möglichkeit ein bestimmtes Absatzformat als Artefakt zu 
 
 ## Alle *Tags* auf einmal festlegen
 
-Im Flyout-Menü des Panels *„Absatzformate“* befindet sich der Befehl *„Alle Exporttags bearbeiten“*.
+Im Flyout-Menü des Panels „Absatzformate“ befindet sich der Befehl „Alle Exporttags bearbeiten“.
 
 ![Wo befindet sich das Flyout-Menü der Absatzformate? Screenshot.][2]
 
@@ -38,11 +38,11 @@ sowie auch für Adobe PDF (Interaktiv).
 
 ## Rollenzuordnung der *Tags*
 
-Auch wenn nach all den oben beschriebenen Schritten vorgegangen wurde, findet man im Tagbaum in Acrobat nicht die gewählten Überschriften-*Tags*. Die Inhalte sind zwar in Tags unterteilt, diese tragen aber den Namen des Absatzformates.
+Auch wenn nach all den oben beschriebenen Schritten vorgegangen wurde, findet man im Navigationsfenster „Tags“ in Acrobat nicht die gewählten Überschriften-*Tags*. Die Inhalte sind zwar in Tags unterteilt, diese tragen aber den Namen des Absatzformates von InDesign.
 
-Was ist denn nun passiert? InDesign hat beim Export die korrekten Tags per Rollenzuordnung zugewiesen. Geöffnet wird die Rollenzuordnung in den Optionen des *Tag-Pannels*.
+Was ist denn nun passiert? InDesign hat beim Export die korrekten Tags per Rollenzuordnung zugewiesen. Geöffnet wird die Rollenzuordnung in den Optionen des Navigationsfensters „Tags“.
 
-![Wo sind die Optionen im Tags-Panel. Animiertes Gif.][5]
+![Wo befinden sich die Optionen des Navigationsfensters „Tags“? Animiertes Gif.][5]
 
  [1]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_tagsexport.gif
  [2]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_absatzformate_flyout.png
