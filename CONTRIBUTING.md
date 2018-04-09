@@ -119,16 +119,16 @@ Wie der `master` *Branch* aktualisiert wird [(siehe Annex 5)](#annex5):
 7. Dein `master` ist nun auf dem aktuellen Stand und du kannst mit Schritt 2 in „[Wie kann ein *Pull Request* das erste Mal eingereicht werden?](#de-pull-request-first-time)“ fortfahren.
 
 <strong id="annex1">Annex 1: Github fork</strong>
-![Animation how to fork a Github repository.](gh_assets/github/github_fork.gif)
+![Animation how to fork a Github repository.](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)
 
 <strong id="annex2">Annex 2: Github branch</strong>
-![Animation how to create a new branch on Github.](gh_assets/github/github_branch.gif)
+![Animation how to create a new branch on Github.](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)
 
 <strong id="annex3">Annex 3: Github commit</strong>
-![Animation how to commit changes on Github.](gh_assets/github/github_commit.gif)
+![Animation how to commit changes on Github.](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)
 
 <strong id="annex4">Annex 4: Github pull request</strong>
-![Animation how to submit a Pull Request on Github.](gh_assets/github/github_pullRequest.gif)
+![Animation how to submit a Pull Request on Github.](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)
 
 <strong id="annex5">Annex 5: Github update `master`</strong>
-![Animation how to update your master branch on Github.](gh_assets/github/github_pullRequest_updateMaster.gif)
+![Animation how to update your master branch on Github.](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif)
