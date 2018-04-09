@@ -2,7 +2,13 @@
 ID: 368
 post_title: '<em>Tags</em> in InDesign festlegen'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In InDesign können die
+  Überschriften-Tags innerhalb der
+  Absatzformateinstellungen definiert
+  werden. Unter „Tagsexport“ wird
+  einem Absatzformat ein PDF-Tag
+  zugewiesen.
 layout: basics
 permalink: >
   https://accessible-pdf.info/de/basics/tags-in-indesign-festlegen/
