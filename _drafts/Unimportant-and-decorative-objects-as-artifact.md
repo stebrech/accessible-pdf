@@ -1,7 +1,12 @@
 ---
-post_title: Unimportant and decorative objects as artifact
+ID: 381
+post_title: >
+  Unimportant and decorative objects as
+  artifact
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/de/?post_type=basics&p=381'
 published: false
 tags:
   - Adobe InDesign
@@ -12,17 +17,17 @@ Users who need to use [AT][1] are not only dependent on semantically correct tag
 
 Unimportant objects are informations that are useful for the printed, but not so much for the digital output. For example, this could be:
 
-* page numbering
-* repeating information in headers and footers
+*   page numbering
+*   repeating information in headers and footers
 
 Further unimportant and decorative objects are:
 
-* background images
-* other decorative images which doesn’t add information to the content
-* various kinds of strokes 
-    * for decoration
-    * for separating columns 
-    * table lines 
+*   background images
+*   other decorative images which doesn’t add information to the content
+*   various kinds of strokes 
+    *   for decoration
+    *   for separating columns 
+    *   table lines 
 
 ## Artifacts in Microsoft Word
 
@@ -50,10 +55,10 @@ Artifacts can be defined with the navigation pane “Tags” as well as the “R
 
 ### Navigation pane “Tags”
 
-1. Look for the tag with decorative content init. The quickest way is to select the content with the selection tool and click on “Find Tag from Selection” in the options of the navigation pane “Tags”.
-2. Right click on the content (with the little box icon) and choose “Change Tag to Artifact…”.
-3. The opening dialog allows you to specify the type of artifact.
-4. If this artifact was the only element within the tag, the empty tag should be deleted.
+1.  Look for the tag with decorative content init. The quickest way is to select the content with the selection tool and click on “Find Tag from Selection” in the options of the navigation pane “Tags”.
+2.  Right click on the content (with the little box icon) and choose “Change Tag to Artifact…”.
+3.  The opening dialog allows you to specify the type of artifact.
+4.  If this artifact was the only element within the tag, the empty tag should be deleted.
 
 ![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.][4]
 
@@ -61,10 +66,10 @@ Artifacts can be defined with the navigation pane “Tags” as well as the “R
 
 With the “Reading Order” tool it’s done faster. In return, you aren’t able to work very precisely and not see exactly what’s happening and where.
 
-1. Select the “Reading Order” tool. If yet you do not have it in your “Quick Tools”, you will find it inside the "Accessibility" tools.
-2. Your mouse changes and a window opens.
-3. Select the area you want to mark as an artifact. To do this, click in the upper left corner or keep the mouse clicked and drag and select the content.
-4. Now click on the button “Background/Artifact” in the window, which opened before.
+1.  Select the “Reading Order” tool. If yet you do not have it in your “Quick Tools”, you will find it inside the "Accessibility" tools.
+2.  Your mouse changes and a window opens.
+3.  Select the area you want to mark as an artifact. To do this, click in the upper left corner or keep the mouse clicked and drag and select the content.
+4.  Now click on the button “Background/Artifact” in the window, which opened before.
 
 ![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.][5]
 
