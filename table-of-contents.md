@@ -4,9 +4,9 @@
 | Title in English | Title in German |
 | :--- | :--- |
 | Change PDF tags in Acrobat | PDF-Tags in Acrobat ändern |
-| | Tags in InDesign festlegen |
+| Define tags in InDesign | Tags in InDesign festlegen |
 | Overview of the PDF tags | Übersicht der PDF-Tags |
-| | Unwichtige und dekorative Inhalte als Artefakt |
+| Unimportant and decorative objects as artifact | Unwichtige und dekorative Inhalte als Artefakt |
 
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
