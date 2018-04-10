@@ -13,9 +13,9 @@ tags:
   - Microsoft Word
 categories: [ ]
 ---
-Users who need to use [AT][1] are not only dependent on semantically correct tags. It is also important to exclude decorative and irrelevant objects from the output. You can achieve this by marking such elements as artifacts.
+Users who need to use [AT][1] are not only dependent on semantically correct tags. It’s also important to exclude decorative and irrelevant objects from the output. You can achieve this by marking such elements as artifacts.
 
-Unimportant objects are informations that are useful for the printed, but not so much for the digital output. For example, this could be:
+Unimportant objects are informations that are useful for the printed, but not so much for the digital output. This could be:
 
 *   page numbering
 *   repeating information in headers and footers
@@ -24,14 +24,14 @@ Further unimportant and decorative objects are:
 
 *   background images
 *   other decorative images which doesn’t add information to the content
-*   various kinds of strokes 
+*   various kinds of strokes
     *   for decoration
     *   for separating columns 
     *   table lines 
 
 ## Artifacts in Microsoft Word
 
-With Word core features it is not possible yet to define content which is going to be an artifact in PDF. The plugin [axesPDF for Word][2] does fill this gap.
+With Word core features isn’t possible yet to define content which is going to be an artifact in PDF. The plugin [axesPDF for Word][2] does fill this gap.
 
 However, content in the header or footer area is automatically marked as an artifact.
 
