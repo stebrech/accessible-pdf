@@ -62,14 +62,14 @@ Wer das InDesign Plugin MadeToTag besitzt, braucht den oberen Schritt nicht zu t
 
 Artefakte können entweder im *Tagbaum* oder mit dem Leserichtung-Werkzeug definiert werden. Welche Elemente als Artefakte markiert wurden, kann im Navigationsfenster „Inhalt“ geprüft werden.
 
-### *Tagbaum* (Navigationsfenster *Tags*)
+### Navigationsfenster *Tags*
 
-1.  Suche dir den dekorativen Inhalt innerhalb der Tags. Am schnellsten bist du wenn du den Inhalt mit dem Auswahlwerkzeug auswählst und in den Optionen des Navigationsfensters *Tags* auf *„Tag in Auswahl suchen“* klickst.
-2.  Mache einen Rechtsklick auf den Inhalt und wähle *„Tag in aussertextliches Element ändern“*.
+1.  Suche dir den dekorativen Inhalt innerhalb der Tags. Am schnellsten bist du wenn du den Inhalt mit dem Auswahlwerkzeug auswählst und in den Optionen des Navigationsfensters *Tags* auf „*Tag* in Auswahl suchen“ klickst.
+2.  Mache einen Rechtsklick auf den Inhalt (mit dem kleinen Kistensymbol) und wähle „*Tag* in aussertextliches Element ändern“.
 3.  Der öffnende Dialog erlaubt dir noch die Art des Artefakts zu bestimmen.
 4.  Falls dieses Artefakt alleine innerhalb eines *Tags* platziert war, sollte das leere Tag noch gelöscht werden.
 
-![][4]
+![Wie wird ein Artefakt mithilfe des Navigationsfensters *Tags* angelegt? Gif-Animation.][4]
 
 ### Leserichtung-Werkzeug
 
@@ -80,7 +80,7 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 3.  Wähle den Bereich aus, den du als Artefakt kennzeichnen möchtest. Dazu kannst in die linke obere Ecke klicken oder die Maus geklickt halten und ein Auswahlfeld aufziehen.
 4.  Klicke nun im Fenster auf den Knopf „Hintergrund/Artefakt“.
 
-![][5]
+![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.][5]
 
  [1]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [2]: https://www.axes4.com/axespdf-for-word-ueberblick.html
