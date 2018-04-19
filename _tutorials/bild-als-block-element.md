@@ -44,9 +44,11 @@ Zu beachten gilt, dass die Lesereihenfolge (Reihenfolge der Tags) danach immer n
 
 ## Manueller Lösungsweg 2 in Acrobat
 
-1.  In den Eigenschaften des `<Figure>` Tags auf *„Attributobjekte bearbeiten…“* klicken
-2.  Auf das Pluszeichen links von *„Attributobjekte“* klicken
-3.  Die nächst untere Ebene *(Attributobjekt 1)* markieren und den Button *„Neues Element“* klicken
+Füge das „Placement“ Attribut dem `<Figure>` *Tag* hinzu um es in ein Block-Element umzuwandeln.
+
+1.  In den Eigenschaften des `<Figure>` Tags auf „Attributobjekte bearbeiten…“ klicken
+2.  Auf das Pluszeichen links von „Attributobjekte“ klicken
+3.  Die nächst untere Ebene „Attributobjekt 1“ markieren und den Button „Neues Element“ klicken
 4.  Das Dialogfeld wie folgt ausfüllen: 
     *   Schlüssel: Placement
     *   Wert: Block
