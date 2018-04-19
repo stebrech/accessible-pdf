@@ -2,15 +2,17 @@
 ID: 384
 post_title: Image as block element
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'Images in Word are always be at block level in exported PDFs. The `<Figure>` tag does not have any additional attributes that identify it as a block element.'
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=384'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/image-as-block-element/
+published: true
+post_date: 2018-04-19 15:36:04
 tags:
-  - automatische Prüfung
+  - automatic testing
   - Microsoft Word
 categories:
-  - 13. Grafiken
+  - 13. Graphics
 ---
 ## Issue
 
