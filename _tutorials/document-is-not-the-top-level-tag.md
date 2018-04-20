@@ -1,6 +1,6 @@
 ---
 ID: 390
-post_title: Document isn’t the top-level tag
+post_title: '<code>Document</code> isn’t the top-level tag'
 author: Stefan Brechbühl
 post_excerpt: 'A PDF converted from Word contains the &lt;Part&gt; element as its top container. However, the semantically more suitable &lt;Document&gt; tag should be used as root element.'
 layout: tutorials
