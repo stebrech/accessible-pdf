@@ -11,7 +11,7 @@
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
 | :--- | :--- | :--- |
-| 01 | | *Document* ist nicht Tag auf oberster Ebene |
+| 01 | Document isn’t the top-level tag | *Document* ist nicht Tag auf oberster Ebene |
 | 01 | | Falsche Inhaltsverzeichnis-Struktur |
 | 01 | | *Getaggte* Tabellenlinien |
 | 06 | | *UA-Identifier* fehlt |
@@ -19,7 +19,7 @@
 | 13 | | Kein *Figure Tag* im Kompatibilitätsmodus |
 | 13 | | *Getaggte* Bilder in Kopf- und Fusszeile |
 | 13 | | Bild fehlt *Bounding Box* |
-| 13 | | Bild als Block-Element |
+| 13 | Image as block element | Bild als Block-Element |
 | 14 | | Übersprungene Überschriftenebenen |
 | 16 | List is not tagged as list | Liste ist nicht als Liste getaggt |
 
