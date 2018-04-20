@@ -2,10 +2,12 @@
 ID: 390
 post_title: Document isn’t the top-level tag
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'A PDF converted from Word contains the &lt;Part&gt; element as its top container. However, the semantically more suitable &lt;Document&gt; tag should be used as root element.'
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=390'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/document-is-not-the-top-level-tag/
+published: true
+post_date: 2018-04-20 04:57:44
 tags:
   - manual testing
   - Microsoft Word
