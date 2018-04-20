@@ -1,7 +1,10 @@
 ---
+ID: 390
 post_title: Document isn’t the top-level tag
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=390'
 published: false
 tags:
   - manual testing
@@ -15,7 +18,7 @@ A PDF converted from Word contains the `<Part>` element as its top container. Ho
 
 Issue detected in exported PDFs from:
 
-* Microsoft Word 2013 for Windows
+*   Microsoft Word 2013 for Windows
 
 ### PAC 2 warning
 
