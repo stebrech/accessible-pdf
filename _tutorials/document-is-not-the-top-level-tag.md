@@ -28,11 +28,11 @@ Issue detected in exported PDFs from:
 
 ### Failure Conditions of the Matterhorn Protocol
 
-> **01-006** The structure type and attributes of a structure element are not semantically appropriate for the structure element. All of the existing structure types must be taken into account. (→ [automatic testing][1])
+> **01-006** The structure type and attributes of a structure element are not semantically appropriate for the structure element. All of the existing structure types must be taken into account. (→ [manual testing][1])
 
 ## Manually approach in Acrobat
 
 The topmost `<Part>` tag must be changed into the `<Document>` tag, see [“Change PDF tags in Acrobat”][2].
 
- [1]: https://accessible-pdf.info/en/glossary/#automatic-testing
+ [1]: https://accessible-pdf.info/en/glossary/#manual-testing
  [2]: https://accessible-pdf.info/en/basics/change-pdf-tags-in-acrobat/
