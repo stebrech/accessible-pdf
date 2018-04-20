@@ -28,11 +28,11 @@ Problem wurde festgestellt bei der PDF-Konvertierung aus:
 
 ### Prüfpunkt/e Matterhorn Protokoll
 
-> **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [automatische Prüfung][1])
+> **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung][1])
 
 ## Manueller Lösungsweg in Acrobat
 
 Der oberste `<Part>` *Tag* muss in den `<Document>` *Tag* geändert werden, siehe dazu [„PDF-Tags in Acrobat ändern“][2].
 
- [1]: https://accessible-pdf.info/de/glossar/#automatische-pruefung
+ [1]: https://accessible-pdf.info/de/glossar/#manuelle-pruefung
  [2]: https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/
