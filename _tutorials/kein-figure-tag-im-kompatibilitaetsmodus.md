@@ -1,6 +1,6 @@
 ---
 ID: 370
-post_title: 'Kein <em>Figure Tag</em> im Kompatibilitätsmodus'
+post_title: 'Kein <code>Figure</code>&#8211;<em>Tag</em> im Kompatibilitätsmodus'
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: tutorials
