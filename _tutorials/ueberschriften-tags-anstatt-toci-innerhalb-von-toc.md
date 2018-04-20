@@ -2,10 +2,10 @@
 ID: 397
 post_title: 'Überschriften-<em>Tags</em> anstatt <code>TOCI</code> innerhalb von <code>TOC</code>'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'Ein Inhaltsverzeichnis wird mit den Tags &lt;TOC&gt;und &lt;TOCI&gt; erstellt. &lt;TOC&gt; ist dabei der Container und &lt;TOCI&gt; wird für die einzelnen Einträge verwendet. Bei diesem Fehlerszenario werden im PDF einzelne Einträge innerhalb Überschriften-Tags, z.B. &lt;H1&gt;, anstatt &lt;TOCI&gt; strukturiert.'
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/tutorials/ueberschriften-tags-anstatt-toci-innerhalb-von-toc/
+  https://accessible-pdf.info/de/tutorials/ueberschriften-tags-anstatt-toci-innerhalb-von-toc/
 published: true
 post_date: 2018-01-05 16:24:27
 tags:
