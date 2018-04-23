@@ -12,8 +12,8 @@
 | Category | Title in English | Title in German |
 | :--- | :--- | :--- |
 | 01 | Document isn’t the top-level tag | *Document* ist nicht Tag auf oberster Ebene |
-| 01 | | Falsche Inhaltsverzeichnis-Struktur |
-| 01 | | *Getaggte* Tabellenlinien |
+| 01 | Heading tags instead of TOCI within TOC | Überschriften-Tags anstatt TOCI innerhalb von TOC |
+| 01 | Tagged table lines | *Getaggte* Tabellenlinien |
 | 06 | | *UA-Identifier* fehlt |
 | 07 | | Dokumenttitel ist nicht gesetzt |
 | 13 | | Kein *Figure Tag* im Kompatibilitätsmodus |
