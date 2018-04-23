@@ -2,10 +2,12 @@
 ID: 399
 post_title: 'Heading tags instead of <code>TOCI</code> within <code>TOC</code>'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'A table of contents is created with the tags &lt;TOC&gt; and &lt;TOCI&gt;. &lt;TOC&gt; is the container and &lt;TOCI&gt; is used for each entry. In this error scenario, all or some of the &lt;TOC&gt; entries are tagged with a headline tag, e.g. &lt;H1&gt;, instead of &lt;TOCI&gt;.'
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=399'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/heading-tags-instead-of-toci-within-toc/
+published: true
+post_date: 2018-04-23 05:06:03
 tags:
   - manual testing
   - Microsoft Word
