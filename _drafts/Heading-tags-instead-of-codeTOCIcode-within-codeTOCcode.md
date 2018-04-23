@@ -1,7 +1,10 @@
 ---
-post_title: Heading tags instead of <code>TOCI</code> within <code>TOC</code>
+ID: 399
+post_title: 'Heading tags instead of <code>TOCI</code> within <code>TOC</code>'
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=399'
 published: false
 tags:
   - manual testing
@@ -11,11 +14,11 @@ categories:
 ---
 ## Issue
 
-A table of contents is created with the tags `<TOC>` and `<TOCI>`. `<TOC>` is the container and `<TOCI>` is used for each entry. In this error scenario, all or some of the `<TOC>`  entries are tagged with a headline tag, e.g. `<H1>`, instead of `<TOCI>`.
+A table of contents is created with the tags `<TOC>` and `<TOCI>`. `<TOC>` is the container and `<TOCI>` is used for each entry. In this error scenario, all or some of the `<TOC>` entries are tagged with a headline tag, e.g. `<H1>`, instead of `<TOCI>`.
 
 Issue detected in exported PDFs from:
 
-* Microsoft Word 2013 for Windows
+*   Microsoft Word 2013 for Windows
 
 ### PAC 2 error message
 
@@ -29,9 +32,9 @@ There is no warning or error for this issue.
 
 For the directory entries Word uses the paragraph styles
 
-* TOC 1
-* TOC 2
-* …
+*   TOC 1
+*   TOC 2
+*   …
 
 Within the paragraph settings of each paragraph style you can define the outline level. If the styles above have not “Body Text” defined for the outline level, the heading tags are going to be applied. So, you need to change them to the “Body Text” option.
 
