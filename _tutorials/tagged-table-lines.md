@@ -2,10 +2,12 @@
 ID: 401
 post_title: Tagged table lines
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'When exporting a table from Word 2013, the lines of a table are set within &lt;Span&gt; tags. &lt;Span&gt; tags are not allowed inside a &lt;TR&gt; (table row) on the same level as the &lt;TD&gt; tags (table cell). In addition, table lines must be marked as artifacts and must not be tagged.'
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=401'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/tagged-table-lines/
+published: true
+post_date: 2018-04-23 15:25:28
 tags:
   - automatic testing
   - manual testing
