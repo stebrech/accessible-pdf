@@ -1,7 +1,10 @@
 ---
+ID: 401
 post_title: Tagged table lines
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=401'
 published: false
 tags:
   - automatic testing
@@ -30,11 +33,11 @@ Issue detected in exported PDFs from:
 
 ## Manually approach in Acrobat
 
-1. The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
-2. Delete the empty `<Span>` tag afterwards.
+1.  The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
+2.  Delete the empty `<Span>` tag afterwards.
 
-See also [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/).
+See also [“Unimportant and decorative objects as artifact”][3].
 
  [1]: https://accessible-pdf.info/en/glossary/#manual-testing
  [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
- 
+ [3]: https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
