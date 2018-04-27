@@ -56,6 +56,6 @@ This fix is also part of the preflight profile “Fix problems in PDF tagging st
 
 Using the MadeToTag plugin, the PDF/UA identifier is automatically appended.
 
- [1]: https://accessible-pdf.info/en/glossary/#pdf-ua
+ [1]: https://accessible-pdf.info/en/glossary/#pdfua
  [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
  [3]: https://taggedpdf.com/xmp/pdfUA-ID.xmp
