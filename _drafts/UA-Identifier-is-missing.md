@@ -1,7 +1,10 @@
 ---
+ID: 403
 post_title: UA-Identifier is missing
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=403'
 published: false
 tags:
   - Adobe InDesign
@@ -29,18 +32,18 @@ Issue detected in exported PDFs from:
 
 ## Manual approach in Acrobat
 
-1. Download the [pdfUA-ID.xmp file][3]
-2. Open the document in Acrobat
-3. Display the Document Properties (“File” → “Properties”)
-4. Switch to the “Description” tab and click the button “Additional metadata”
-5. Switch to the “Advanced” tab and click the button “Append”
-6. Select the “pdfUA-ID.xmp” you previously downloaded and click “Open”
+1.  Download the [pdfUA-ID.xmp file][3]
+2.  Open the document in Acrobat
+3.  Display the Document Properties (“File” → “Properties”)
+4.  Switch to the “Description” tab and click the button “Additional metadata”
+5.  Switch to the “Advanced” tab and click the button “Append”
+6.  Select the “pdfUA-ID.xmp” you previously downloaded and click “Open”
 
 ## Automatic approach in Acrobat DC
 
-1. Open the “Print production” tools and click on “Preflight”
-2. In the preflight window, change to the “Single Fixups” (click on the small button with the wrench icon)
-3. Select the mixup “Set PDF/UA-1 entry” and click on the button “Fix”
+1.  Open the “Print production” tools and click on “Preflight”
+2.  In the preflight window, change to the “Single Fixups” (click on the small button with the wrench icon)
+3.  Select the mixup “Set PDF/UA-1 entry” and click on the button “Fix”
 
 This fix is also part of the preflight profile “Fix problems in PDF tagging structure”.
 
@@ -51,4 +54,3 @@ Using the MadeToTag plugin, the PDF/UA identifier is automatically appended.
  [1]: https://accessible-pdf.info/en/glossary/#pdf-ua
  [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
  [3]: https://taggedpdf.com/xmp/pdfUA-ID.xmp
- 
