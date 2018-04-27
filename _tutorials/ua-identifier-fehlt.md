@@ -41,18 +41,18 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 1.  Die Datei [pdfUA-ID.xmp herunterladen][3]
 2.  Das betroffene Dokument in Acrobat öffnen
-3.  Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
-4.  In das Register *„Beschreibung“* wechseln und den Button *„Zusätzliche Metadaten“* klicken
-5.  In das Register *„Erweitert“* wechseln und den Button *„Anhängen“* klicken
-6.  Die vorgängig heruntergeladene Datei *„pdfUA-ID.xmp“* auswählen und „Öffnen“ klicken
+3.  Die Dokumenteigenschaften anzeigen („Datei“ → „Eigenschaften“)
+4.  In das Register „Beschreibung“ wechseln und den Button „Zusätzliche Metadaten“ klicken
+5.  In das Register „Erweitert“ wechseln und den Button „Anhängen“ klicken
+6.  Die vorgängig heruntergeladene Datei „pdfUA-ID.xmp“ auswählen und „Öffnen“ klicken
 
 ## Automatischer Lösungsweg in Acrobat DC
 
-1.  Das Werkzeug-Register *„Druckproduktion“* öffnen und auf *„Preflight“* klicken
+1.  Das Werkzeug-Register „Druckproduktion“ öffnen und auf „Preflight“ klicken
 2.  Im Preflight-Fenster die Preflight Korrekturen anzeigen (auf den kleinen Button mit dem Schraubenschlüssel Symbol klicken)
-3.  Die Korrektur *„PDF/UA-1-Eintrag setzen“* auswählen und auf den Button *„Korrigieren“* klicken
+3.  Die Korrektur „PDF/UA-1-Eintrag setzen“ auswählen und auf den Button „Korrigieren“ klicken
 
-Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils *„Strukturprobleme getaggter PDF-Dokumente beheben“*.
+Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils „Strukturprobleme getaggter PDF-Dokumente beheben“.
 
 ## Automatischer Lösungsweg in InDesign (MadeToTag)
 
