@@ -2,10 +2,15 @@
 ID: 403
 post_title: UA-Identifier is missing
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In order for a PDF document to be
+  technically accessible, the PDF/UA
+  identifier (metadata) must be set.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=403'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/ua-identifier-is-missing/
+published: true
+post_date: 2018-04-27 16:19:40
 tags:
   - Adobe InDesign
   - automatic testing
