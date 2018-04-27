@@ -30,7 +30,7 @@ There is no warning or error for this issue.
 
 > **01-006** The structure type and attributes of a structure element are not semantically appropriate for the structure element. All of the existing structure types must be taken into account. (→ [manual testing][1])
 
-## Manually approach in Word
+## Manual approach in Word
 
 For the directory entries Word uses the paragraph styles
 

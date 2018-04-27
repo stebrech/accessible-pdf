@@ -31,7 +31,7 @@ Issue detected in exported PDFs from:
 
 Not part of the Matterhorn protocol.
 
-## 1st manually approach in Acrobat
+## 1st manual approach in Acrobat
 
 The fastest and easiest way is to change the `<Figure>` tag to an inline element.
 
@@ -42,7 +42,7 @@ To do so,
 
 Please check if the reading order (order of the tags) is still correct afterwards.
 
-## 2nd manually approach in Acrobat
+## 2nd manual approach in Acrobat
 
 Add the “Placement” attribute to the `<Figure>` tag and force it to be a block element.
 

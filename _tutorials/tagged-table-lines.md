@@ -33,7 +33,7 @@ Issue detected in exported PDFs from:
 > 
 > **09-004** A table-related structure element is used in a way that does not conform to the syntax defined in ISO 32000-1, Table 337. (→ [automatic testing][2])
 
-## Manually approach in Acrobat
+## Manual approach in Acrobat
 
 1.  The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
 2.  Delete the empty `<Span>` tag afterwards.

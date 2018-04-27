@@ -38,7 +38,7 @@ There is no warning or error for this issue.
 > 
 > **16-003** Content is a list but is not tagged as a list. (→ [manual testing][2])
 
-## Manually approach in Word
+## Manual approach in Word
 
 The concerning text can be reformatted with the available list function.
 
@@ -46,7 +46,7 @@ The concerning text can be reformatted with the available list function.
 
 For consistent formatting it's recommended to create or use an existing list style.
 
-## Manually approach in InDesign
+## Manual approach in InDesign
 
 The concerning text can be reformatted with the available list function.
 
@@ -54,7 +54,7 @@ The concerning text can be reformatted with the available list function.
 
 For consistent formatting it's recommended to create or use an existing list style.
 
-## Manually approach in Acrobat
+## Manual approach in Acrobat
 
 Manual tagging of lists are very time consuming and error-prone. It's recommended to use one of the solutions mentioned above.
 
