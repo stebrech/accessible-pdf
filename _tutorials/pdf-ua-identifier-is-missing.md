@@ -1,6 +1,6 @@
 ---
 ID: 403
-post_title: UA-Identifier is missing
+post_title: PDF/UA identifier is missing
 author: Stefan Brechbühl
 post_excerpt: >
   In order for a PDF document to be
@@ -8,7 +8,7 @@ post_excerpt: >
   identifier (metadata) must be set.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/en/tutorials/ua-identifier-is-missing/
+  https://accessible-pdf.info/en/tutorials/pdf-ua-identifier-is-missing/
 published: true
 post_date: 2018-04-27 16:19:40
 tags:
