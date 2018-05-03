@@ -2,10 +2,19 @@
 ID: 409
 post_title: Document title isn’t set
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In the document properties of the PDF
+  you can define whether the document is
+  displayed with the file name or the
+  document title. This appears in the
+  window title bar of Acrobat (Reader) as
+  well as AT uses this kind of
+  information.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=409'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/document-title-isnt-set/
+published: true
+post_date: 2018-05-03 05:40:11
 tags:
   - Adobe InDesign
   - automatic testing
