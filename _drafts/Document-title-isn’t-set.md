@@ -1,7 +1,10 @@
 ---
+ID: 409
 post_title: Document title isn’t set
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=409'
 published: false
 tags:
   - Adobe InDesign
@@ -33,15 +36,15 @@ Issue detected in exported PDFs from:
 
 ## Manual approach in Acrobat
 
-1. Open the document in Acrobat
-2. Open the document properties (“File” → “Properties”)
-3. Switch to the tab “Initial view” and change the value for “Show” to “Document title”
+1.  Open the document in Acrobat
+2.  Open the document properties (“File” → “Properties”)
+3.  Switch to the tab “Initial view” and change the value for “Show” to “Document title”
 
 ## Automatic approach in Acrobat DC
 
-1. Open the “Print production” tools and click on “Preflight”
-2. Select single fixups within the preflight window (click on the small button with the wrench icon)
-3. Select the Fixup “Show document title in document window” and click on the button “Fix”
+1.  Open the “Print production” tools and click on “Preflight”
+2.  Select single fixups within the preflight window (click on the small button with the wrench icon)
+3.  Select the Fixup “Show document title in document window” and click on the button “Fix”
 
 This fix is also part of the preflight profile “Fix problems in PDF tagging structure”.
 
