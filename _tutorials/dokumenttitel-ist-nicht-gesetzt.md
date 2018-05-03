@@ -28,9 +28,9 @@ categories:
 ---
 ## Problembeschreibung
 
-In den PDF-Dokumenteigenschaften kann definiert werden ob das Dokument mit dem Dateinamen oder dem Dokumenttitel angezeigt wird. Dieser erscheint im PDF-Viewer als Name des Dokumentfensters und stehen auch [AT][1] zur Verfügung.
+In den PDF-Dokumenteigenschaften kann definiert werden ob das Dokument mit dem Dateinamen oder dem Dokumenttitel angezeigt wird. Dieser Name erscheint dann in der Titelleiste von Acrobat (Reader). [AT][1] nutzt somit ebenfalls den Dokumenttitel.
 
-PDFs, welche aus Microsoft Word und Adobe InDesign hergestellt werden, zeigen den Dateinamen. Nach [PDF/UA][2] ist jedoch der Dokumenttitel einzustellen da dieser aussagekräftiger ist.
+PDFs, welche aus Microsoft Word und Adobe InDesign hergestellt werden, zeigen den Dateinamen. [PDF/UA][2] gibt jedoch vor, dass der Dokumenttitel einzustellen ist. Wenn ein Dokumenttitel gesetzt und angezeigt wird, ist dies in der Regel viel aussagekräftiger als ein Dateiname.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
@@ -51,19 +51,19 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 1.  Das betroffene Dokument in Acrobat öffnen
 2.  Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
-3.  In das Register *„Ansicht beim Öffnen“* wechseln und unter *„Einblenden“* den Wert auf *„Dokumenttitel“* wechseln
+3.  In das Register „Ansicht beim Öffnen“ wechseln und unter „Einblenden“ den Wert auf „Dokumenttitel“ wechseln
 
 ## Automatischer Lösungsweg in Acrobat DC
 
-1.  Das Werkzeug-Register *„Druckproduktion“* öffnen und auf *„Preflight“* klicken
+1.  Das Werkzeug-Register „Druckproduktion“ öffnen und auf „Preflight“ klicken
 2.  Im Preflight-Fenster die Preflight Korrekturen anzeigen (auf den kleinen Button mit dem Schraubenschlüssel Symbol klicken)
-3.  Die Korrektur *„Dokumenttitel in Dokumentfenster anzeigen“* auswählen und auf den Button *„Korrigieren“* klicken
+3.  Die Korrektur „Dokumenttitel in Dokumentfenster anzeigen“ auswählen und auf den Button „Korrigieren“ klicken
 
-Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils *„Strukturprobleme getaggter PDF-Dokumente beheben“*.
+Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils „Strukturprobleme getaggter PDF-Dokumente beheben“.
 
 ## Automatischer Lösungsweg in InDesign (ab CC 2015)
 
-Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Bereich mit dem Namen *„Barrierefreiheitsoptionen“* im Register *„Erweitert“* angezeigt. Darin kann der anzuzeigende Namen in *Dokumenttitel* geändert werden.
+Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Bereich mit dem Namen „Barrierefreiheitsoptionen“ im Register „Erweitert“ angezeigt. Darin kann der anzuzeigende Namen in „Dokumenttitel“ geändert werden.
 
 ## Automatischer Lösungsweg in InDesign (MadeToTag)
 
