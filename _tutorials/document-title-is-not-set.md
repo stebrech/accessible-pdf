@@ -28,7 +28,7 @@ In the document properties of the PDF you can define whether the document is dis
 
 PDF created from Microsoft Word and Adobe InDesign show the file name by default. However, [PDF/UA][2] says the document title must be set. If the document title has been set it’s usually much more meaningful than the file name.
 
-Issue detected in exported PDFs from:
+Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 *   Adobe InDesign until CC 2015 (since version CC 2015 there is an option in the export window available)
