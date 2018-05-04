@@ -18,7 +18,7 @@ categories:
 
 A PDF converted from Word contains the `<Part>` element as its top container. However, the semantically more suitable `<Document>` tag should be used as root element.
 
-Issue detected in exported PDFs from:
+Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 
