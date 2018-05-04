@@ -22,7 +22,7 @@ categories:
 
 In order for a PDF document to be technically accessible, the [PDF/UA][1] identifier (metadata) must be set.
 
-Issue detected in exported PDFs from:
+Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 *   Adobe InDesign all versions
@@ -31,7 +31,7 @@ Issue detected in exported PDFs from:
 
 > PDF/UA identifier missing
 
-### Failure Conditions of the Matterhorn Protocol
+### Failure Condition of the Matterhorn Protocol
 
 > **06-002** The metadata stream in the Catalog dictionary does not include the PDF/UA identifier. (→ [automatic testing][2])
 
