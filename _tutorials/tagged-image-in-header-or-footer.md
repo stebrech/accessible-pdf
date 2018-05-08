@@ -2,15 +2,27 @@
 ID: 416
 post_title: Tagged image in header or footer
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Everything you put into the header or
+  footer of a Word document, is going to
+  be an Artifact and not tagged.
+  Therefore, images with content value
+  mustn’t be placed in it. Images within
+  the header or footer of a .docx (Word
+  2013 document without compatibility
+  mode) are incorrectly tagged if they are
+  used with the “Behind Text” layout
+  option.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=416'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/tagged-image-in-header-or-footer/
+published: true
+post_date: 2018-05-08 16:11:13
 tags:
   - manual testing
   - Microsoft Word
 categories:
-  - 13. Graphics
+  - 01. Real content tagged
 ---
 ## Issue
 
