@@ -22,11 +22,11 @@ Problem wurde festgestellt bei der PDF-Konvertierung aus:
 
 *   Microsoft Word 2013 für Windows
 
-### PAC 2 Warnung
+### PAC 3 Warnung
 
-> Part structure element used as root element
+> Strukturelement „Part“ als Basiselement verwendet
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 > **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung][1])
 

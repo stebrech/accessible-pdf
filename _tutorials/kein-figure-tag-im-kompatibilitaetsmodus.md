@@ -22,11 +22,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 *   Microsoft Word 2013 für Windows (im Kompatibilitätsmodus)
 
-### PAC 2 Warnung
+### PAC 3 Warnung
 
-> Possibly inappropriate use of a Sect structure element
+> Mögliche unangebrachte Verwendung des Strukturelements „Sect“
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 > **13-001** Grafikobjekte, bei denen es sich weder um Textobjekte noch um Artefakte handelt, sind nicht als Figure getaggt. (→ [manuelle Prüfung][1])
 

@@ -12,7 +12,7 @@ post_excerpt: >
   InDesign.
 layout: tutorials
 permalink: >
-  http://accessible-pdf.info/en/tutorials/list-is-not-tagged-as-list/
+  https://accessible-pdf.info/en/tutorials/list-is-not-tagged-as-list/
 published: true
 post_date: 2018-02-18 20:43:59
 tags:
@@ -28,7 +28,7 @@ If an undefined or ordered list is used it needs to be tagged as list as well. T
 
 Proper tagged lists are important for people who need to use [AT][1]. It helps them to understand and navigate lists much better.
 
-### PAC 2 errors
+### PAC 3 warning/error
 
 There is no warning or error for this issue.
 

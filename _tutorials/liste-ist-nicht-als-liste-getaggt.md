@@ -28,11 +28,11 @@ Wenn undefinierte oder nummerierte Listen verwendet werden, sollen diese auch al
 
 Für Menschen, die auf [AT][1] angewiesen sind, helfen korrekt *getaggte* Listen dem Verständnis und verbessern die Navigationsmöglichkeiten.
 
-### PAC 2 Fehlermeldung
+### PAC 3 Warnung/Fehler
 
 Keine Warnung oder Fehlermeldung zu diesem Problem!
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkte des Matterhorn Protokolls
 
 > **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung][2])
 > 

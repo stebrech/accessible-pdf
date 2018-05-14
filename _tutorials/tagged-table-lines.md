@@ -23,9 +23,9 @@ Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 
-### PAC 2 error message
+### PAC 3 error message
 
-> Invalid use of a Span structure element
+> Invalid use of a “Span” structure element
 
 ### Failure Conditions of the Matterhorn Protocol
 

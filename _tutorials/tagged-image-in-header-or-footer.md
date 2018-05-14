@@ -34,7 +34,7 @@ Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 
-### PAC 2 error
+### PAC 3 warning/error
 
 There is no warning or error for this issue.
 

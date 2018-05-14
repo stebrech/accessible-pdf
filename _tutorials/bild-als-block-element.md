@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: 'Bilder in Word-Dokumenten werden beim PDF-Export immer auf Block-Ebene ausgegeben. Dem &lt;Figure&gt; Tag werden keine zusätzliche Attribute mitgegeben, welche es als Block-Element kennzeichnen.'
 layout: tutorials
 permalink: >
-  http://accessible-pdf.info/de/tutorials/bild-als-block-element/
+  https://accessible-pdf.info/de/tutorials/bild-als-block-element/
 published: true
 post_date: 2018-01-12 16:19:17
 tags:
@@ -23,11 +23,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 *   Microsoft Word 2013 für Windows
 *   Microsoft Word für Mac (mind. bis Version 15.33)
 
-### PAC 2 Warnung
+### PAC 3 Warnung
 
-> Possibly inappropriate use of a Figure structure element
+> Mögliche unangebrachte Verwendung des Strukturelements „Figure“
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 Ist nicht Bestandteil des Matterhorn Protokolls.
 

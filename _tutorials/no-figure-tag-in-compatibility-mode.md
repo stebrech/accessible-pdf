@@ -22,11 +22,11 @@ Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows (in Compatibility Mode)
 
-### PAC 2 warning
+### PAC 3 warning
 
-> Possibly inappropriate use of a Sect structure element
+> Possibly inappropriate use of a “Sect” structure element
 
-### Failure Conditions of the Matterhorn Protocol
+### Failure Condition of the Matterhorn Protocol
 
 > **13-001** Graphics objects other than text objects and artifacts are not tagged with a Figure tag. (→ [manual testing][1])
 

@@ -22,11 +22,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 *   Microsoft Word 2013 für Windows
 
-### PAC 2 Fehlermeldung
+### PAC 3 Warnung/Fehler
 
 Keine Warnung oder Fehlermeldung zu diesem Problem!
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 > **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung][1])
 

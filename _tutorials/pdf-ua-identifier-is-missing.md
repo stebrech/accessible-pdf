@@ -27,7 +27,7 @@ Issue detected in PDF made from:
 *   Microsoft Word 2013 for Windows
 *   Adobe InDesign all versions
 
-### PAC 2 error message
+### PAC 3 error message
 
 > PDF/UA identifier missing
 

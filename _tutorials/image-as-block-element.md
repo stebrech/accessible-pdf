@@ -23,11 +23,11 @@ Issue detected in PDF made from:
 *   Microsoft Word 2013 for Windows
 *   Microsoft Word for Mac (at least up to version 15.33)
 
-### PAC 2 warning
+### PAC 3 warning
 
-> Possibly inappropriate use of a Figure structure element
+> Possibly inappropriate use of a “Figure” structure element
 
-### Failure Conditions of the Matterhorn Protocol
+### Failure Condition of the Matterhorn Protocol
 
 Not part of the Matterhorn protocol.
 

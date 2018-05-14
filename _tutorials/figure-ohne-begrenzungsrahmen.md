@@ -27,7 +27,7 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 > "Figure"-Strukturelement ohne Begrenzungsrahmen
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 Ist nicht Bestandteil des Matterhorn Protokolls.
 

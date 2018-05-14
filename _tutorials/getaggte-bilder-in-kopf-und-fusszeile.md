@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: 'Sämtliche Inhalte in Kopf- und Fusszeile eines Word-Dokuments werden als Artefakt behandelt und nicht getaggt. Bilder mit inhaltlichen Wert dürfen daher nicht darin platziert werden.'
 layout: tutorials
 permalink: >
-  http://accessible-pdf.info/de/tutorials/getaggte-bilder-in-kopf-und-fusszeile/
+  https://accessible-pdf.info/de/tutorials/getaggte-bilder-in-kopf-und-fusszeile/
 published: true
 post_date: 2018-01-12 16:21:50
 tags:
@@ -24,11 +24,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 *   Microsoft Word 2013 für Windows
 
-### PAC 2 Fehlermeldung
+### PAC 3 Warnung/Fehler
 
 Keine Warnung oder Fehlermeldung zu diesem Problem!
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 > **01-001** Artefakte sind als realer Inhalt getaggt. (→ [manuelle Prüfung][1])
 

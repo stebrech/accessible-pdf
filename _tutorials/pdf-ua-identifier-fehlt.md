@@ -29,11 +29,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 *   Microsoft Word 2013 für Windows
 *   Adobe InDesign alle Versionen
 
-### PAC 2 Fehlermeldung
+### PAC 3 Fehlermeldung
 
-> PDF/UA identifier missing
+> Keine PDF/UA-Kennzeichnung
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkt des Matterhorn Protokolls
 
 > **06-002** Der Metadata-Datenstrom im Catalog-Dictionary enthält keine PDF/UA-Kennzeichnung. (→ [automatische Prüfung][2])
 

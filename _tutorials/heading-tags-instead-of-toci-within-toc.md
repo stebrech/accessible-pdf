@@ -22,11 +22,11 @@ Issue detected in PDF made from:
 
 *   Microsoft Word 2013 for Windows
 
-### PAC 2 error message
+### PAC 3 warning/error
 
 There is no warning or error for this issue.
 
-### Failure Conditions of the Matterhorn Protocol
+### Failure Condition of the Matterhorn Protocol
 
 > **01-006** The structure type and attributes of a structure element are not semantically appropriate for the structure element. All of the existing structure types must be taken into account. (→ [manual testing][1])
 

@@ -33,9 +33,9 @@ Issue detected in PDF made from:
 *   Microsoft Word 2013 for Windows
 *   Adobe InDesign until CC 2015 (since version CC 2015 there is an option in the export window available)
 
-### PAC 2 error message
+### PAC 3 error message
 
-> DisplayDocTitle key is not set to true
+> “DisplayDocTitle” entry is not set
 
 ### Failure Conditions of the Matterhorn Protocol
 

@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: 'Wird eine Tabelle aus Word 2013 exportiert, werden die Linien einer Tabelle innerhalb von &lt;Span&gt; Tags gesetzt. Ein &lt;Span&gt; Tag darf aber nicht innerhalb eines &lt;TR&gt; (Tabellenzeile) auf gleicher Ebene wie die &lt;TD&gt; Tags (Tabellenzelle) liegen. Zudem müssen Tabellenlinien als Artefakt ausgezeichnet sein und dürfen nicht getaggt werden.'
 layout: tutorials
 permalink: >
-  http://accessible-pdf.info/de/tutorials/getaggte-tabellenlinien/
+  https://accessible-pdf.info/de/tutorials/getaggte-tabellenlinien/
 published: true
 post_date: 2018-01-05 16:24:27
 tags:
@@ -23,11 +23,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 *   Microsoft Word 2013 für Windows
 
-### PAC 2 Fehlermeldung
+### PAC 3 Fehlermeldung
 
-> Invalid use of a Span structure element
+> Falsche Verwendung eines „Span“-Strukturelements
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkte des Matterhorn Protokolls
 
 > **01-001** Artefakte sind als realer Inhalt getaggt. (→ [manuelle Prüfung][1])
 > 

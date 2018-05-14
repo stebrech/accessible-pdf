@@ -16,7 +16,7 @@ post_excerpt: >
   aussagekräftiger ist.
 layout: tutorials
 permalink: >
-  http://accessible-pdf.info/de/tutorials/dokumenttitel-ist-nicht-gesetzt/
+  https://accessible-pdf.info/de/tutorials/dokumenttitel-ist-nicht-gesetzt/
 published: true
 post_date: 2018-01-12 16:19:18
 tags:
@@ -37,11 +37,11 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 *   Microsoft Word 2013 für Windows
 *   Adobe InDesign bis CC 2015 (ab Version CC 2015 steht eine Option im Exportfenster zur Verfügung)
 
-### PAC 2 Fehlermeldung
+### PAC 3 Fehlermeldung
 
-> DisplayDocTitle key is not set to true
+> „DisplayDocTitle“-Eintrag ist nicht gesetzt
 
-### Prüfpunkt/e Matterhorn Protokoll
+### Prüfpunkte des Matterhorn Protokolls
 
 > **07-001** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält keinen Schlüssel DisplayDocTitle. (→ [automatische Prüfung][3])
 > 
