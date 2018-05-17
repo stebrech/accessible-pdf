@@ -33,7 +33,7 @@ Ist nicht Bestandteil des Matterhorn Protokolls.
 
 ## Manueller Lösungsweg in Acrobat
 
-1.  Alternativtext des betroffenen Bildes kopieren (Tag-Baum → Rechtsklick auf betroffenes `<Figure>` → Eigenschaften → Tag)
+1.  Alternativtext des betroffenen Bildes kopieren (Navigationsfenster „Tags“ → Rechtsklick auf `<Figure>` → Eigenschaften → Tag)
 2.  `<Figure>` Tag löschen
 3.  `<Figure>` Tag mit dem „Leserichtung“ Werkzeug neu anlegen
-4.  Alternativtext in neuem `<Figure>` einfügen (Tag-Baum → Rechtsklick auf betroffenes `<Figure>` → Eigenschaften → Tag)
+4.  Alternativtext in neuem `<Figure>` einfügen (Navigationsfenster „Tags“ → Rechtsklick auf betroffenes `<Figure>` → Eigenschaften → Tag)
