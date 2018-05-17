@@ -23,17 +23,17 @@ Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de
 
 ## Variante 1
 
-1.  Das Navigationsfenster *Tags* muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
-2.  Das betroffene *Tag* im *Tagbaum* einmal anklicken um es auszuwählen.
-3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][1]“
+1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+2.  Das betroffene *Tag* im Navigationsfenster „Tags“ einmal anklicken um es auszuwählen.
+3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][1]“
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat][2]
 
 ## Variante 2
 
-1.  Das Navigationsfenster Tags muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
 2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü „Eigenschaften“ auswählen.
-3.  Im Register *„Tag“* und Dropdown-Feld „Typ“ kann das gewünschte Tag ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
+3.  Im Register „Tag“ und Dropdown-Feld „Typ“ kann das gewünschte *Tag* ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
 
