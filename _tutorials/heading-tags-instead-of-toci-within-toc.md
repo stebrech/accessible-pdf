@@ -18,7 +18,7 @@ categories:
 
 A table of contents is created with the tags `<TOC>` and `<TOCI>`. `<TOC>` is the container and `<TOCI>` is used for each entry. In this error scenario, all or some of the `<TOC>` entries are tagged with a headline tag, e.g. `<H1>`, instead of `<TOCI>`.
 
-Issue detected in PDF made from:
+Issue detected in PDFs made from:
 
 *   Microsoft Word 2013 for Windows
 

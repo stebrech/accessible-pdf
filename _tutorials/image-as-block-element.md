@@ -18,7 +18,7 @@ categories:
 
 Images in Word are always be at block level in exported PDFs. The `<Figure>` tag does not have any additional attributes that identify it as a block element.
 
-Issue detected in PDF made from:
+Issue detected in PDFs made from:
 
 *   Microsoft Word 2013 for Windows
 *   Microsoft Word for Mac (at least up to version 15.33)

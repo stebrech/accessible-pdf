@@ -30,7 +30,7 @@ Everything you put into the header or footer of a Word document, is going to be 
 
 Images within the header or footer of a `.docx` (Word 2013 document without compatibility mode) are incorrectly tagged if they are used with the “Behind Text” layout option.
 
-Issue detected in PDF made from:
+Issue detected in PDFs made from:
 
 *   Microsoft Word 2013 for Windows
 

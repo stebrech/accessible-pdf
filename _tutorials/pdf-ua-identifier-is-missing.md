@@ -22,7 +22,7 @@ categories:
 
 In order for a PDF document to be technically accessible, the [PDF/UA][1] identifier (metadata) must be set.
 
-Issue detected in PDF made from:
+Issue detected in PDFs made from:
 
 *   Microsoft Word 2013 for Windows
 *   Adobe InDesign all versions
