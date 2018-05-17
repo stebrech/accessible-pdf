@@ -2,10 +2,16 @@
 ID: 421
 post_title: '<code>Figure</code> without Bounding Box'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In PDFs exported from Word, the Bounding
+  Box attributes of all existing images
+  are missing, regardless of the layout
+  option they were placed with.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=421'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/figure-without-bounding-box/
+published: true
+post_date: 2018-05-17 05:33:07
 tags:
   - automatic testing
   - Microsoft Word
