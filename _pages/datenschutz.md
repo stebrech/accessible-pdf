@@ -33,7 +33,7 @@ Als Statistiktool wird das WordPress Plugin [Statify][3] verwendet. Das datensch
 
 ## Server Log
 
-Der Hostingprovider cyon (Basel, Schweiz) von accessible-pdf.info erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die dein Browser automatisch an uns übermittelt.
+Der Hostingprovider dieser Website ist [cyon](https://www.cyon.ch/) (Basel, Schweiz) erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die dein Browser automatisch übermittelt.
 
 Dies sind:
 
