@@ -2,9 +2,13 @@
 ID: 424
 post_title: Datenschutz
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Der Betreiber und Verantwortlicher von
+  accessible-pdf.info ist Stefan
+  Brechbühl.
 layout: page
-permalink: https://accessible-pdf.info/datenschutz/
+permalink: >
+  https://accessible-pdf.info/de/datenschutz/
 published: true
 post_date: 2018-05-18 18:56:16
 tags: [ ]
