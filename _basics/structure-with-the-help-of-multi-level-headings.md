@@ -20,11 +20,13 @@ tags:
   - Microsoft Word
 categories: [ ]
 ---
-One of the main tools for structuring documents is the use of headings. On a visual level, headlines are usually marked with larger font sizes or bolder font styles.
+One of the main tools for structuring documents is the use of headings. On a visual level, headlines are usually marked with a larger font size or a bolder font style.
 
 For [Accessibility][1] the headings are additionally marked with `<H1>`, `<H2>`, `<H3>`, `<H4>`, `<H5>` or `<H6>` *Tags* in the PDF format. The numbers in those heading tags reflect a hierarchy from the highest level `<H1>` to the lowest level `<H6>`. This hierarchy allows content parts to be nested and assigned to each other.
 
-These PDF tags give the headings a semantic value. Thus, [AT][2] automatically recognises which heading / heading level it is. In addition, users get another possibility to navigate through a document. 67.5% of [screenreader][3] users have stated, according to a [WebAIM survey][4], that headings are their most important tool for finding content.
+The assignment of these tags gives the header texts a semantic meaning on a technical level. Thus, [AT][2] automatically recognises which heading / heading level it is. 
+
+In addition, users get another possibility to navigate through a document. 67.5% of [screenreader][3] users have stated, according to a [WebAIM survey][4], that headings are their most important tool for finding content.
 
 The heading tags can already be assigned using the authoring software. See also:
 
