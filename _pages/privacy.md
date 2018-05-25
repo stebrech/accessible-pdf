@@ -2,10 +2,16 @@
 ID: 480
 post_title: Privacy
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  The operator and responsible person of
+  accessible-pdf.info is Stefan
+  Brechbühl. The operator of this website
+  reduces the collection of personal data
+  of visitors to an absolute minimum.
 layout: page
-permalink: https://accessible-pdf.info/?page_id=480
-published: false
+permalink: https://accessible-pdf.info/en/privacy/
+published: true
+post_date: 2018-05-25 16:21:42
 tags: [ ]
 categories: [ ]
 ---
