@@ -2,7 +2,7 @@
 ID: 2758
 post_title: '<em>Tags</em> in Word festlegen'
 author: Stefan Brechbühl
-post_excerpt: 'Um die *PDF-Tags* bereits in Word festlegen zu können, müssen Absatzformatvorlagen konsequent eingesetzt werden. Der einfachste Weg ist die bereits existierenden Standardformatvorlagen *Überschrift 1*, *Überschrift 2*, etc. zu verwenden und sie je nach Bedürfnisse anzupassen.'
+post_excerpt: 'Um die <em>PDF-Tags</em> bereits in Word festlegen zu können, müssen Absatzformatvorlagen konsequent eingesetzt werden. Der einfachste Weg ist die bereits existierenden Standardformatvorlagen „Überschrift 1“, „Überschrift 2“, etc. zu verwenden und sie je nach Bedürfnisse anzupassen.'
 layout: basics
 permalink: >
   https://accessible-pdf.info/de/basics/tags-in-word-festlegen/
@@ -14,7 +14,7 @@ categories: [ ]
 ---
 Ein Dokument wird mithilfe von Überschriften mit unterschiedlicher Hierarchiestufe gegliedert, siehe dazu [„Strukturieren mithilfe von hierarchischen Überschriften“][1].
 
-Um die *PDF-Tags* bereits in Word festlegen zu können, müssen Absatzformatvorlagen konsequent eingesetzt werden. Der einfachste Weg ist die bereits existierenden Standardformatvorlagen *Überschrift 1*, *Überschrift 2*, etc. zu verwenden und sie je nach Bedürfnisse anzupassen.
+Um die *PDF-Tags* bereits in Word festlegen zu können, müssen Absatzformatvorlagen konsequent eingesetzt werden. Der einfachste Weg ist die bereits existierenden Standardformatvorlagen „Überschrift 1“, „Überschrift 2“, etc. zu verwenden und sie je nach Bedürfnisse anzupassen.
 
 Wer eigene oder zusätzliche Formatvorlagen benötigt, muss dafür sorgen, dass innerhalb der Absatzeinstellungen die korrekte Gliederungsebene eingestellt ist. Diese steuert nämlich die Hierarchiestufe und generiert den vorgesehenen Überschriften-*Tag*.
 
