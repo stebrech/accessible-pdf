@@ -2,17 +2,25 @@
 ID: 3048
 post_title: Define tags in Word
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In order to be able to define PDF tags
+  in Word, paragraph styles must be used
+  consistently. The easiest way is to use
+  the existing standard styles “Heading
+  1”, “Heading 2”, etc. and adapt
+  them to your needs.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=3048'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/define-tags-in-word/
+published: true
+post_date: 2018-06-21 16:32:30
 tags:
   - Microsoft Word
 categories: [ ]
 ---
 A document is structured using headings with different hierarchy levels, see [“Structure with the help of multi-level headings”][1].
 
-In order to be able to define *PDF tags* in Word, paragraph styles must be used consistently. The easiest way is to use the existing standard styles “Heading 1”, “Heading 2”, etc. and adapt them to your needs.
+In order to be able to define PDF tags in Word, paragraph styles must be used consistently. The easiest way is to use the existing standard styles “Heading 1”, “Heading 2”, etc. and adapt them to your needs.
 
 If you need your own or additional styles, you must ensure that the correct outline level is set within the paragraph settings. This controls the hierarchy level and generates the appropriate heading tag.
 
