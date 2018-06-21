@@ -56,7 +56,7 @@ Texte, welche auf der Musterseite positioniert sind, werden automatisch als Arte
 
 Dekorative Objekte können mit „Objekt“ → „Objektexportoptionen“ als Artefakt gekennzeichnet werden. Wechsle dazu im Fenster auf den Tab „PDF mit *Tags*“ und wähle „*Tag* anwenden: Aussertextliches Element“.
 
-Wer das InDesign Plugin MadeToTag besitzt, braucht den oberen Schritt nicht zu tun. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
+Wer das InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) besitzt, braucht den oberen Schritt nicht zu tun. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
 
 ## Artefakte in Acrobat festlegen
 

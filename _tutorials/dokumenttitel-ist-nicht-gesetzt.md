@@ -67,7 +67,7 @@ Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Berei
 
 ## Automatischer Lösungsweg in InDesign (MadeToTag)
 
-Mit der Verwendung des Plugins MadeToTag wird der Dokumenttitel automatisch definiert.
+Mit der Verwendung des Plugins [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) wird der Dokumenttitel automatisch definiert.
 
  [1]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [2]: https://accessible-pdf.info/de/glossar/#pdf-ua

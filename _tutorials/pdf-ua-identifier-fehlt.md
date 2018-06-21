@@ -56,7 +56,7 @@ Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils „Strukturprobl
 
 ## Automatischer Lösungsweg in InDesign (MadeToTag)
 
-Mit der Verwendung des Plugins MadeToTag wird die Metadaten-Information automatisch angehängt.
+Mit der Verwendung des Plugins [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) wird die Metadaten-Information automatisch angehängt.
 
  [1]: https://accessible-pdf.info/de/glossar/#pdf-ua
  [2]: https://accessible-pdf.info/de/glossar/#automatische-pruefung

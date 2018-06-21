@@ -55,7 +55,7 @@ Text placed on the master page will automatically be marked as artifact.
 
 Decorative objects can be marked as artifact within “Object” → “Object export options”. Switch to the tab “Tagged PDF” and select “Artefact” for “Apply Tag”.
 
-If you are using the plugin MadeToTag, you don't need to do the step above. All objects outside an article are automatically handled as artifacts.
+If you are using the plugin [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag), you don't need to do the step above. All objects outside an article are automatically handled as artifacts.
 
 ## Artifacts in Adobe Acrobat
 
