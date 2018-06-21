@@ -9,7 +9,7 @@ post_excerpt: >
   Tags auch manuell geändert werden.
 layout: basics
 permalink: >
-  http://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/
+  https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/
 published: true
 post_date: 2018-01-11 16:39:50
 tags: [ ]
@@ -19,7 +19,7 @@ Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrek
 
 Welche *PDF-Tags* es gibt und für was sie benötigt werden, kannst du in „[Übersicht der *PDF-Tags*][1]“ nachlesen.
 
-Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) geht das nicht.
+Für die folgenden Schritte wird [Adobe Acrobat][2] benötigt. Mit dem kostenlosen [Adobe Acrobat Reader][3] geht das nicht.
 
 ## Variante 1
 
@@ -27,7 +27,7 @@ Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de
 2.  Das betroffene *Tag* im Navigationsfenster „Tags“ einmal anklicken um es auszuwählen.
 3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][1]“
 
-![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat][2]
+![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat][4]
 
 ## Variante 2
 
@@ -35,8 +35,10 @@ Für die folgenden Schritte wird [Adobe Acrobat](https://acrobat.adobe.com/ch/de
 2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü „Eigenschaften“ auswählen.
 3.  Im Register „Tag“ und Dropdown-Feld „Typ“ kann das gewünschte *Tag* ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
 
-![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][3]
+![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat][5]
 
  [1]: https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/
- [2]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
- [3]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2.gif
+ [2]: https://acrobat.adobe.com/ch/de/acrobat.html
+ [3]: https://get.adobe.com/de/reader/
+ [4]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
+ [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2.gif
