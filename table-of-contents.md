@@ -8,6 +8,7 @@
 | [Unimportant and decorative objects as artifact](_basics/unimportant-and-decorative-objects-as-artifact.md) | [Unwichtige und dekorative Inhalte als Artefakt](_basics/unwichtige-und-dekorative-inhalte-als-artefakt.md) |
 | [Structure with the help of multi-level headings](_basics/structure-with-the-help-of-multi-level-headings.md) | [Strukturieren mithilfe von hierarchischen Überschriften](_basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften.md) |
 | [Define tags in InDesign](_basics/define-tags-in-indesign.md) | [Tags in InDesign festlegen](_basics/tags-in-indesign-festlegen.md) |
+| [Define tags in Word](_basics/define-tags-in-word.md) | [Tags in Word festlegen](_basics/tags-in-word-festlegen.md) |
 
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
