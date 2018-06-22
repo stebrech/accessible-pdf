@@ -23,7 +23,7 @@ Damit die Struktur mittels Überschriften stets nachvollzogen werden kann, dürf
 
 ### PAC 3 Fehlermeldung
 
-> Numbered heading skips one ore more heading levels
+> Überschrift überspringt eine oder mehrere Ebenen
 
 ### Prüfpunkt des Matterhorn Protokolls
 
