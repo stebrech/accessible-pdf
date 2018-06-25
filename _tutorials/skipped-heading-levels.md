@@ -2,10 +2,10 @@
 ID: 3687
 post_title: Skipped heading levels
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'To ensure that the structure made with headings can always be understood, the heading levels mustn’t be skipped. This means <H1> mustn’t be followed directly by <H3>. However, after a <H3> another <H1> can follow, because a new chapter begins for example.'
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/tutorials/skipped-heading-levels/
+  https://accessible-pdf.info/en/tutorials/skipped-heading-levels/
 published: true
 post_date: 2018-06-25 15:25:12
 tags:
