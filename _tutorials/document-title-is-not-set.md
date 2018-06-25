@@ -63,8 +63,9 @@ Since Adobe InDesign CC 2015, there is a new section called “Accessibility Opt
 
 ## Automatic approach in InDesign (with MadeToTag)
 
-Using the [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag) plugin, the document title is defined automatically.
+Using the [MadeToTag][4] plugin, the document title is defined automatically.
 
  [1]: https://accessible-pdf.info/en/glossary/#assistive-technology
  [2]: https://accessible-pdf.info/en/glossary/#pdfua
  [3]: https://accessible-pdf.info/en/glossary/#automatic-testing
+ [4]: https://www.axaio.com/doku.php/en:products:madetotag
