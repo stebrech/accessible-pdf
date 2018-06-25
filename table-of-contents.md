@@ -22,7 +22,7 @@
 | 13 | [Tagged image in header or footer](_tutorials/tagged-image-in-header-or-footer.md) | [*Getaggte* Bilder in Kopf- und Fusszeile](_tutorials/getaggte-bilder-in-kopf-und-fusszeile.md) |
 | 13 | [`Figure` without Bounding Box](_tutorials/figure-without-bounding-box.md) | [`Figure` ohne Begrenzungsrahmen](_tutorials/figure-ohne-begrenzungsrahmen.md) |
 | 13 | [Image as block element](_tutorials/image-as-block-element.md) | [Bild als Block-Element](_tutorials/bild-als-block-element.md) |
-| 14 | | Übersprungene Überschriftenebenen |
+| 14 | [Skipped heading levels](tutorials/skipped-heading-levels/) | [Übersprungene Überschriftenebenen](tutorials/uebersprungene-ueberschriftsebenen/) |
 | 16 | [List is not tagged as list](_tutorials/list-is-not-tagged-as-list.md) | [Liste ist nicht als Liste *getaggt*](_tutorials/liste-ist-nicht-als-liste-getaggt.md) |
 
 ## Other pages
