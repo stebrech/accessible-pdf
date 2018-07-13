@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: 'Bilder in Word-Dokumenten werden beim PDF-Export immer auf Block-Ebene ausgegeben. Dem &lt;Figure&gt; Tag werden keine zusätzliche Attribute mitgegeben, welche es als Block-Element kennzeichnen.'
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/bild-als-block-element/
+  http://accessible-pdf.test/de/tutorials/bild-als-block-element/
 published: true
 post_date: 2018-01-12 16:19:17
 tags:
