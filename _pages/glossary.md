@@ -29,7 +29,7 @@ The most important basics are achieved if
 *   alternative texts are used to describe non text elements (images and graphics);
 *   no low or bad color contrasts are used.
 
-## alt text
+## alt text {#alt-text]
 
 An alt text (short for alternative text) describes a non-text element, like an image / a graphic. The invisible text can be read and displayed by software, especially [AT](#assistive-technology).
 
@@ -38,6 +38,10 @@ The alt text should be as short and concise as possible and describe what is vis
 Nicht jedes Bild und jede Grafik benötigt einen Alt-Text. Eine wertvolle Entscheidungshilfe bietet WAI (Web Accessibility Initiative) mit „[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)“ und den [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/) (nur in Englisch). Der wesentliche Unterschied von HTML und PDF ist die Handhabung von dekorativen Bildern (z.B. Hintergrundbilder, Linien und weiteren dekorativen Formen). Diese werden in PDF als Artefakt gekennzeichnet, siehe auch „[Unwichtige und dekorative Inhalte als Artefakt](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/)“. Nebst dem die dekorativen Bilder keinen Alt-Text benötigen, sollen die funktionalen Bilder die Funktion / das Ziel erklären und nicht dessen Bildinhalt. Hierzu zählen insbesondere verlinkte Bilder.
 
 Not every picture/graphic needs an alt text. WAI (Web Accessibility Initiative) offers a valuable decision support with “[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)” and the [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/). The main difference between HTML and PDF is the handling of decorative images (e.g. background images, lines and other decorative shapes). In PDF those are marked as artifacts, see also “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”. While decorative images do not need any alt text, functional images should explain the function / the goal and not its image content. This includes linked images in particular.
+
+## alternative text {#alternative-text}
+
+see [alt text](#alt-text)
 
 ## assistive technology {#assistive-technology}
 
