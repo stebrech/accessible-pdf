@@ -35,13 +35,11 @@ An alt text (short for alternative text) describes a non-text element, like an i
 
 The alt text should be as short and concise as possible and describe what is visible on the picture. It should not contain any additional information that would not be visually recognised, e.g. the name of the photographer or names of visible persons and things that would not be clearly recognised by the context. This is the big difference to a visible caption / a picture description, which can transmit additional information.
 
-Nicht jedes Bild und jede Grafik benötigt einen Alt-Text. Eine wertvolle Entscheidungshilfe bietet WAI (Web Accessibility Initiative) mit „[An alt Decision Tree][4]“ und den [Web Accessibility Tutorials][5] (nur in Englisch). Der wesentliche Unterschied von HTML und PDF ist die Handhabung von dekorativen Bildern (z.B. Hintergrundbilder, Linien und weiteren dekorativen Formen). Diese werden in PDF als Artefakt gekennzeichnet, siehe auch „[Unwichtige und dekorative Inhalte als Artefakt][6]“. Nebst dem die dekorativen Bilder keinen Alt-Text benötigen, sollen die funktionalen Bilder die Funktion / das Ziel erklären und nicht dessen Bildinhalt. Hierzu zählen insbesondere verlinkte Bilder.
-
-Not every picture/graphic needs an alt text. WAI (Web Accessibility Initiative) offers a valuable decision support with “[An alt Decision Tree][4]” and the [Web Accessibility Tutorials][5]. The main difference between HTML and PDF is the handling of decorative images (e.g. background images, lines and other decorative shapes). In PDF those are marked as artifacts, see also “[Unimportant and decorative objects as artifact][7]”. While decorative images do not need any alt text, functional images should explain the function / the goal and not its image content. This includes linked images in particular.
+Not every picture/graphic needs an alt text. WAI (Web Accessibility Initiative) offers a valuable decision support with “[An alt Decision Tree][4]” and the [Web Accessibility Tutorials][5]. The main difference between HTML and PDF is the handling of decorative images (e.g. background images, lines and other decorative shapes). In PDF those are marked as artifacts, see also “[Unimportant and decorative objects as artifact][6]”. While decorative images do not need any alt text, functional images should explain the function / the goal and not its image content. This includes linked images in particular.
 
 ## alternative text {#alternative-text}
 
-see [alt text][8]
+see [alt text][7]
 
 ## assistive technology {#assistive-technology}
 
@@ -49,8 +47,8 @@ AT (abbr. for assistive technology) is the main term for tools people with disab
 
 There are the following software and hardware for example:
 
-*   [Screen reader][9]
-*   [Refreshable braille display][10]
+*   [Screen reader][8]
+*   [Refreshable braille display][9]
 *   Screen magnifier
 *   Voice recognition
 *   Special keyboards and mice
@@ -63,37 +61,36 @@ AT is the abbreviation of [assistive Technology][3]
 
 ## automatic testing {#automatic-testing}
 
-As the [Matterhorn Protocol][11] says there are 87 failure conditions which can be checked through software. [PAC][12] for instance can find such kind of errors.
+As the [Matterhorn Protocol][10] says there are 87 failure conditions which can be checked through software. [PAC][11] for instance can find such kind of errors.
 
 ## manual testing {#manual-testing}
 
-As the [Matterhorn Protocol][11] says there are 47 failure conditions which need human inspection. Software like [PAC][12] can warn for possible semantic issues at most.
+As the [Matterhorn Protocol][10] says there are 47 failure conditions which need human inspection. Software like [PAC][11] can warn for possible semantic issues at most.
 
 ## Matterhorn Protocol {#matterhorn}
 
-The [Matterhorn Protocol][13] is a document by the [PDF Association][14] and helps software developers and testers to check a PDF for PDF/UA compatibility. It describes 136 failure conditions. 87 of them can be tested by software. 47 of them have to be checked manually by a human. 2 failure conditions cannot be categorized.
+The [Matterhorn Protocol][12] is a document by the [PDF Association][13] and helps software developers and testers to check a PDF for PDF/UA compatibility. It describes 136 failure conditions. 87 of them can be tested by software. 47 of them have to be checked manually by a human. 2 failure conditions cannot be categorized.
 
 ## PAC {#pac}
 
-[PAC][15] is one of the most comprehensive and free of charge testing tools. It checks PDF documents for its compatibility with the PDF/UA standard. PAC evaluates the failure conditions which can be tested by software. It includes a screenreader preview tool to check the failure conditions which need to be tested manually. The Swiss organization [“Access for all”][16] distributes PAC. The software is only available for Windows.
+[PAC][14] is one of the most comprehensive and free of charge testing tools. It checks PDF documents for its compatibility with the PDF/UA standard. PAC evaluates the failure conditions which can be tested by software. It includes a screenreader preview tool to check the failure conditions which need to be tested manually. The Swiss organization [“Access for all”][15] distributes PAC. The software is only available for Windows.
 
 ## PDF/UA {#pdfua}
 
-PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. If you want to check your document if your document is compatible with PDF/UA you don't have to buy the ISO standard. The [Matterhorn Protocol][11] contains the failure conditions and is available for free.
+PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. If you want to check your document if your document is compatible with PDF/UA you don't have to buy the ISO standard. The [Matterhorn Protocol][10] contains the failure conditions and is available for free.
 
  [1]: #pdfua
  [2]: https://www.w3.org/WAI/intro/wcag
  [3]: #assistive-technology
  [4]: https://www.w3.org/WAI/tutorials/images/decision-tree/
  [5]: https://www.w3.org/WAI/tutorials/images/
- [6]: https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
- [7]: https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
- [8]: #alt-text
- [9]: https://en.wikipedia.org/wiki/Screen_reader
- [10]: https://en.wikipedia.org/wiki/Refreshable_braille_display
- [11]: #matterhorn
- [12]: #pac
- [13]: https://www.pdfa.org/publication/the-matterhorn-protocol-1-02/
- [14]: https://www.pdfa.org/
- [15]: http://access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html
- [16]: http://access-for-all.ch/en/
+ [6]: https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
+ [7]: #alt-text
+ [8]: https://en.wikipedia.org/wiki/Screen_reader
+ [9]: https://en.wikipedia.org/wiki/Refreshable_braille_display
+ [10]: #matterhorn
+ [11]: #pac
+ [12]: https://www.pdfa.org/publication/the-matterhorn-protocol-1-02/
+ [13]: https://www.pdfa.org/
+ [14]: http://access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html
+ [15]: http://access-for-all.ch/en/
