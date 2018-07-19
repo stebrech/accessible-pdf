@@ -79,6 +79,18 @@ The [Matterhorn Protocol][12] is a document by the [PDF Association][13] and hel
 
 PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. If you want to check your document if your document is compatible with PDF/UA you don't have to buy the ISO standard. The [Matterhorn Protocol][10] contains the failure conditions and is available for free.
 
+## Tagged PDF {tagged-pdf}
+
+see [tags](#tags)
+
+## tags {#tags}
+
+If your PDF contains tags – also called Tagged PDF – one big and important step of machine readability and thus accessibility has been done. However, the mere existence is not enough. The PDF tags must also reflect the semantics of the document. This means, for example, that a heading is not only visually recognisable as such by a larger font, but also by machine, by a heading tag.
+
+[PDF/UA](#pdf-ua) specifies that all elements of a document must either be tagged or marked as artifacts. You can find more about artifacts in “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”.
+
+The possible PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)”. Some of the available PDF tags are very similar to the HTML tags.
+
  [1]: #pdfua
  [2]: https://www.w3.org/WAI/intro/wcag
  [3]: #assistive-technology

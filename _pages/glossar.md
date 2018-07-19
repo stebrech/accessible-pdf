@@ -87,6 +87,18 @@ Das [Matterhorn Protokoll][10] ist ein Dokument der [PDF Association][11], welch
 
 PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen muss nicht zwingend die ISO-Dokumentation erworben werden. Das [Matterhorn Protokoll][4] enthält die benötigten Prüfpunkte und ist kostenlos.
 
+## *Tagged PDF* {#tagged-pdf}
+
+siehe [*Tags*](#tags)
+
+## *Tags* {#tags}
+
+Wird ein *Tagged PDF* hergestellt, also ein PDF das *Tags* enthält, legt man den Grundstein der Maschinenlesbarkeit und somit der Barrierefreiheit. Das alleinige Vorhandensein reicht jedoch nicht. Die *PDF-Tags* müssen auch die Semantik des Dokuments wiedergeben. Damit ist gemeint, dass beispielsweise eine Überschrift nicht nur visuell, anhand einer grösseren Schrift, sondern auch maschinell, anhand eines Überschriften-*Tags*, als solche erkennbar ist.
+
+[PDF/UA](#pdf-ua) gibt vor, dass sämtliche Elemente eines Dokuments entweder *getaggt* oder als Artefakt markiert werden müssen. Mehr zu Artefakten findest du in „[Unwichtige und dekorative Inhalte als Artefakt](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/)“. 
+
+Die möglichen *PDF-Tags* (nach dem PDF 1.7 Standard) findest du in der „[Übersicht der *PDF-Tags*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)“. Die verfügbaren *PDF-Tags* sind den HTML-Tags teilweise sehr ähnlich.
+
 ## Zugänglichkeit {#zugaenglichkeit}
 
 Ist eine weitere Übersetzung von des englischen Begriffs Accessibility. Siehe dazu [barrierefreies PDF][6]
