@@ -85,7 +85,9 @@ Das [Matterhorn Protokoll][10] ist ein Dokument der [PDF Association][11], welch
 
 ## PDF/UA {#pdf-ua}
 
-PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen muss nicht zwingend die ISO-Dokumentation erworben werden. Das [Matterhorn Protokoll][4] enthält die benötigten Prüfpunkte und ist kostenlos.
+PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen, muss nicht die ISO-Dokumentation erworben werden. Mithilfe des kostenlosen [Matterhorn Protokolls][4] lässt sich ein Dokument auf dessen PDF/UA-Kompatibilität prüfen.
+
+PDF/UA baut auf die [WCAG](#wcag) auf, widerspricht diesen Richtlinien nicht, behandelt aber nicht alle Regelungen der WCAG.
 
 ## *Tagged PDF* {#tagged-pdf}
 
@@ -98,6 +100,16 @@ Wird ein *Tagged PDF* hergestellt, also ein PDF das *Tags* enthält, legt man de
 [PDF/UA](#pdf-ua) gibt vor, dass sämtliche Elemente eines Dokuments entweder *getaggt* oder als Artefakt markiert werden müssen. Mehr zu Artefakten findest du in „[Unwichtige und dekorative Inhalte als Artefakt](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/)“. 
 
 Die möglichen *PDF-Tags* (nach dem PDF 1.7 Standard) findest du in der „[Übersicht der *PDF-Tags*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)“. Die verfügbaren *PDF-Tags* sind den HTML-Tags teilweise sehr ähnlich.
+
+## WCAG {#wcag}
+
+Die [WCAG](https://www.w3.org/TR/WCAG21/), kurz für Web Content Accessibility Guidelines, sind die Empfehlungen/Richtlinien der Gruppe [WAI](https://www.w3.org/WAI/) (kurz für Web Accessibility Initiative), welche wiederum Bestandteil des [W3C](https://www.w3.org/) (kurz für World Wide Web Consortium) ist. Diese Richtlinien wurden in verschiedene Sprachen übersetzt, unter anderem [ins Deutsche](https://www.w3.org/Translations/WCAG20-de/).
+
+Die WCAG kann man als wichtigstes, allgemeines Regelwerk betrachten wenn es um die digitale und barrierefreie Kommunikation geht. PDF wird auch als mögliche Technologie der Webinhalte angesehen, weshalb die WCAG auch für PDF gilt. 
+
+Für die technische Umsetzung von barrierefreien PDFs werden jedoch nicht die WCAG, sondern der [PDF/UA](#pdf-ua) Standard benötigt.
+
+In vielen nationalen und internationalen Gesetzen zur digitalen Barrierefreiheit wird auf die WCAG verwiesen.
 
 ## Zugänglichkeit {#zugaenglichkeit}
 

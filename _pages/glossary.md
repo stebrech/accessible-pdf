@@ -77,7 +77,9 @@ The [Matterhorn Protocol][12] is a document by the [PDF Association][13] and hel
 
 ## PDF/UA {#pdfua}
 
-PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. If you want to check your document if your document is compatible with PDF/UA you don't have to buy the ISO standard. The [Matterhorn Protocol][10] contains the failure conditions and is available for free.
+PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. To check a document for PDF/UA, you do not need to purchase the ISO documentation. Using the free [Matterhorn Protocol][10], a document can be checked for PDF/UA compatibility.
+
+PDF/UA is based on the [WCAG](#wcag), does not contradict those guidelines, but does not cover all regulations of the WCAG.
 
 ## Tagged PDF {tagged-pdf}
 
@@ -90,6 +92,16 @@ If your PDF contains tags – also called Tagged PDF – one big and important s
 [PDF/UA](#pdf-ua) specifies that all elements of a document must either be tagged or marked as artifacts. You can find more about artifacts in “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”.
 
 The possible PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)”. Some of the available PDF tags are very similar to the HTML tags.
+
+## WCAG {#wcag}
+
+The [WCAG](https://www.w3.org/TR/WCAG21/), short for Web Content Accessibility Guidelines, are the recommendations/guidelines of the group [WAI](https://www.w3.org/WAI/) (short for Web Accessibility Initiative), which in turn is part of the [W3C](https://www.w3.org/) (short for World Wide Web Consortium). These guidelines have been translated into several languages, including [German](https://www.w3.org/Translations/WCAG20-de/).
+
+WCAG can be considered the most important, general set of rules when it comes to digital and accessible communication. PDF is also considered a possible technology of web content, which is why WCAG also applies to PDF.
+
+For the technical implementation of accessible PDFs, however, the [PDF/UA](#pdf-ua) standard is required, not the WCAG.
+
+WCAG is referred to in many national and international laws on digital accessibility.
 
  [1]: #pdfua
  [2]: https://www.w3.org/WAI/intro/wcag
