@@ -81,17 +81,17 @@ PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal acces
 
 PDF/UA is based on the [WCAG](#wcag), does not contradict those guidelines, but does not cover all regulations of the WCAG.
 
-## Tagged PDF {tagged-pdf}
+## Tagged PDF {#tagged-pdf}
 
-see [tags](#tags)
+see [tags][16]
 
 ## tags {#tags}
 
 If your PDF contains tags – also called Tagged PDF – one big and important step of machine readability and thus accessibility has been done. However, the mere existence is not enough. The PDF tags must also reflect the semantics of the document. This means, for example, that a heading is not only visually recognisable as such by a larger font, but also by machine, by a heading tag.
 
-[PDF/UA](#pdf-ua) specifies that all elements of a document must either be tagged or marked as artifacts. You can find more about artifacts in “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”.
+[PDF/UA][17] specifies that all elements of a document must either be tagged or marked as artifacts. You can find more about artifacts in “[Unimportant and decorative objects as artifact][6]”.
 
-The possible PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)”. Some of the available PDF tags are very similar to the HTML tags.
+The possible PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags][18]”. Some of the available PDF tags are very similar to the HTML tags.
 
 ## WCAG {#wcag}
 
@@ -118,3 +118,6 @@ WCAG is referred to in many national and international laws on digital accessibi
  [13]: https://www.pdfa.org/
  [14]: http://access-for-all.ch/en/pdf-lab/pdf-accessibility-checker-pac.html
  [15]: http://access-for-all.ch/en/
+ [16]: #tags
+ [17]: #pdf-ua
+ [18]: https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/
