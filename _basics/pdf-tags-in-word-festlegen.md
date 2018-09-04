@@ -1,11 +1,11 @@
 ---
 ID: 2758
-post_title: '<em>Tags</em> in Word festlegen'
+post_title: '<em>PDF-Tags</em> in Word festlegen'
 author: Stefan Brechbühl
 post_excerpt: 'Um die <em>PDF-Tags</em> bereits in Word festlegen zu können, müssen Absatzformatvorlagen konsequent eingesetzt werden. Der einfachste Weg ist die bereits existierenden Standardformatvorlagen „Überschrift 1“, „Überschrift 2“, etc. zu verwenden und sie je nach Bedürfnisse anzupassen.'
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/tags-in-word-festlegen/
+  https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
 published: true
 post_date: 2018-06-19 17:24:08
 tags:
