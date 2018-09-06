@@ -84,6 +84,6 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 
  [1]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [2]: https://www.axes4.com/axespdf-for-word-ueberblick.html
- [3]: https://accessible-pdf.info/de/basics/tags-in-indesign-festlegen/
+ [3]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
  [4]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact.gif
  [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact2.gif

@@ -9,7 +9,7 @@ post_excerpt: >
   interested in creating accessible PDF.
 layout: page
 permalink: >
-  http://accessible-pdf.info/en/accessible-pdf/
+  https://accessible-pdf.info/en/accessible-pdf/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]

@@ -9,7 +9,7 @@ post_excerpt: >
   correct and semantic tags.
 layout: basics
 permalink: >
-  http://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
+  https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
 published: true
 post_date: 2018-02-16 16:23:12
 tags: [ ]

@@ -36,4 +36,4 @@ Die Zuordnung der Überschriften-*Tags* kann bereits mithilfe der Autorensoftwar
  [1]: https://accessible-pdf.info/de/glossar/#zugaenglichkeit
  [2]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [3]: https://webaim.org/projects/screenreadersurvey7/#finding
- [4]: https://accessible-pdf.info/de/basics/tags-in-indesign-festlegen/
+ [4]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/

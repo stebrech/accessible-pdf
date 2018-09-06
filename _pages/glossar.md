@@ -7,7 +7,7 @@ post_excerpt: >
   für die Arbeit mit barrierefreien PDFs
   benötigt werden.
 layout: page
-permalink: http://accessible-pdf.info/de/glossar/
+permalink: https://accessible-pdf.info/de/glossar/
 published: true
 post_date: 2017-12-30 19:48:13
 tags: [ ]

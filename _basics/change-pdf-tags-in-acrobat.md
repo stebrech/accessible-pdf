@@ -9,7 +9,7 @@ post_excerpt: >
   needs to be changed manually as well.
 layout: basics
 permalink: >
-  http://accessible-pdf.test/en/basics/change-pdf-tags-in-acrobat/
+  https://accessible-pdf.info/en/basics/change-pdf-tags-in-acrobat/
 published: true
 post_date: 2018-04-03 19:12:45
 tags: [ ]
@@ -37,8 +37,8 @@ You can find out which PDF tags are available and what they are required for in 
 
 ![Animation shows the three steps of variation 2.][5]
 
- [1]: http://accessible-pdf.test/en/basics/overview-of-the-pdf-tags/
+ [1]: https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
  [2]: https://acrobat.adobe.com/uk/en/acrobat.html
  [3]: https://get.adobe.com/uk/reader/
- [4]: http://accessible-pdf.test/wp/wp-content/uploads/acrobat_rename_tag.gif
- [5]: http://accessible-pdf.test/wp/wp-content/uploads/acrobat_rename_tag2_en.gif
+ [4]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
+ [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2_en.gif
