@@ -19,7 +19,7 @@ Autorensoftware können beim PDF-Export nur eingeschränkt die semantisch korrek
 
 Welche *PDF-Tags* es gibt und für was sie benötigt werden, kannst du in „[Übersicht der *PDF-Tags*][1]“ nachlesen.
 
-Für die folgenden Schritte wird [Adobe Acrobat][2] benötigt. Mit dem kostenlosen [Adobe Acrobat Reader][3] geht das nicht.
+Hinweis: Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können keine Anpassungen der *Tagstruktur* vorgenommen werden. Dafür wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt.
 
 ## Variante 1
 
