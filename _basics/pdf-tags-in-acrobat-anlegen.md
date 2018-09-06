@@ -2,10 +2,17 @@
 ID: 21166
 post_title: '<em>PDF-Tags</em> in Acrobat anlegen'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Das vollständige Taggen eines PDFs in
+  Acrobat ist nur empfohlen wenn die
+  Autorensoftware keinen PDF-Export mit
+  Tags (Tagged PDF) erlaubt oder das
+  Quelldokument nicht vorhanden ist.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=21166'
-published: false
+permalink: >
+  https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-anlegen/
+published: true
+post_date: 2018-09-06 20:16:51
 tags: [ ]
 categories: [ ]
 ---
@@ -14,7 +21,7 @@ Das vollständige *Taggen* eines PDFs in Acrobat ist nur empfohlen wenn die Auto
 *   [*PDF-Tags* in Word festlegen][1]
 *   [*PDF-Tags* in InDesign festlegen][2]
 
-Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen. In folgenden Anleitungen siehst du wie:
+Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen. In dieser und den folgenden Anleitungen siehst du wie das geht:
 
 *   [*PDF-Tags* in Acrobat ändern][3]
 *   [Unwichtige und dekorative Inhalte als Artefakt][4]
