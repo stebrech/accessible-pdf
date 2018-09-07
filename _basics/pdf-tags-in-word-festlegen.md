@@ -2,10 +2,15 @@
 ID: 21940
 post_title: '<em>PDF-Tags</em> in Word festlegen'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Ein Dokument wird mithilfe von
+  Überschriften mit unterschiedlicher
+  Hierarchiestufe gegliedert, siehe dazu
+  „Strukturieren mithilfe von
+  hierarchischen Überschriften“.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/basics/pdf-tags-in-word-festlegen/
+  https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
 published: true
 post_date: 2018-06-19 17:24:08
 tags:
