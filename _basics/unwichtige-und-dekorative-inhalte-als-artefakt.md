@@ -4,10 +4,17 @@ post_title: >
   Unwichtige und dekorative Inhalte als
   Artefakt
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  BenutzerInnen von AT sind nicht nur auf
+  semantisch korrekte Tags angewiesen. Es
+  ist auch wichtig dekorative, nicht
+  relevante Objekte von der Ausgabe
+  auszuschliessen. Dies wird erreicht
+  indem solche unwichtige Elemente als
+  Artefakt gekennzeichnet werden.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
+  https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
 published: true
 post_date: 2018-03-28 14:53:24
 tags:
