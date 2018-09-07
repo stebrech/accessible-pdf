@@ -11,7 +11,7 @@ post_excerpt: >
   them to your needs.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/define-tags-in-word/
+  https://accessible-pdf.info/de/basics/define-tags-in-word/
 published: true
 post_date: 2018-06-21 16:32:30
 tags:
