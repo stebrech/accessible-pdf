@@ -4,10 +4,16 @@ post_title: >
   Strukturieren mithilfe von
   hierarchischen Überschriften
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Eines der Hauptwerkzeuge um Dokumente zu
+  strukturieren, ist die Verwendung von
+  Überschriften. Auf visueller Ebene
+  werden Überschriften meist mit
+  grösserer Schriftgrösse oder fetterem
+  Schriftschnitt kenntlich gemacht.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/
+  https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/
 published: true
 post_date: 2018-05-25 05:47:40
 tags:
