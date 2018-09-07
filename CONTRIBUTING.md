@@ -120,12 +120,22 @@ Wie der `master` *Branch* aktualisiert wird [(siehe Annex 5)](#annex5):
 
 ***
 
-<strong id="annex1">Annex 1: [Github fork (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)</strong>
+<h2 id="annex1">Annex 1:</h2> 
 
-<strong id="annex2">Annex 2: [Github branch (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)</strong>
+![Github fork (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)
 
-<strong id="annex3">Annex 3: [Github commit (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)</strong>
+<h2 id="annex2">Annex 2</h2>
 
-<strong id="annex4">Annex 4: [Github pull request (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)</strong>
+![Github branch (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)
 
-<strong id="annex5">Annex 5: [Github update `master` (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif)</strong>
+<h2 id="annex3">Annex 3</h2>
+
+![Github commit (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)
+
+<h2 id="annex4">Annex 4</h2>
+
+![Github pull request (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)
+
+<h2 id="annex5">Annex 5</h2>
+
+![Github update `master` (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif)
