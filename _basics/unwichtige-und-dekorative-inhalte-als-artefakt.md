@@ -1,20 +1,13 @@
 ---
-ID: 369
+ID: 21942
 post_title: >
   Unwichtige und dekorative Inhalte als
   Artefakt
 author: Stefan Brechbühl
-post_excerpt: >
-  BenutzerInnen von AT sind nicht nur auf
-  semantisch korrekte Tags angewiesen. Es
-  ist auch wichtig dekorative, nicht
-  relevante Objekte von der Ausgabe
-  auszuschliessen. Dies wird erreicht
-  indem solche unwichtige Elemente als
-  Artefakt gekennzeichnet werden.
+post_excerpt: ""
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
+  https://accessible-pdf.info/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
 published: true
 post_date: 2018-03-28 14:53:24
 tags:
@@ -56,7 +49,7 @@ Texte, welche auf der Musterseite positioniert sind, werden automatisch als Arte
 
 Dekorative Objekte können mit „Objekt“ → „Objektexportoptionen“ als Artefakt gekennzeichnet werden. Wechsle dazu im Fenster auf den Tab „PDF mit *Tags*“ und wähle „*Tag* anwenden: Aussertextliches Element“.
 
-Wer das InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) besitzt, braucht den oberen Schritt nicht zu tun. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
+Wer das InDesign Plugin [MadeToTag][4] besitzt, braucht den oberen Schritt nicht zu tun. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
 
 ## Artefakte in Acrobat festlegen
 
@@ -69,7 +62,7 @@ Artefakte können entweder im *Tagbaum* oder mit dem Leserichtung-Werkzeug defin
 3.  Der öffnende Dialog erlaubt dir noch die Art des Artefakts zu bestimmen.
 4.  Falls dieses Artefakt alleine innerhalb eines *Tags* platziert war, sollte das leere Tag noch gelöscht werden.
 
-![Wie wird ein Artefakt mithilfe des Navigationsfensters *Tags* angelegt? Gif-Animation.][4]
+![Wie wird ein Artefakt mithilfe des Navigationsfensters *Tags* angelegt? Gif-Animation.][5]
 
 ### Leserichtung-Werkzeug
 
@@ -80,10 +73,11 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 3.  Wähle den Bereich aus, den du als Artefakt kennzeichnen möchtest. Dazu kannst in die linke obere Ecke klicken oder die Maus geklickt halten und ein Auswahlfeld aufziehen.
 4.  Klicke nun im Fenster auf den Knopf „Hintergrund/Artefakt“.
 
-![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.][5]
+![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.][6]
 
  [1]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [2]: https://www.axes4.com/axespdf-for-word-ueberblick.html
  [3]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
- [4]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact.gif
- [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact2.gif
+ [4]: https://www.axaio.com/doku.php/de:products:madetotag
+ [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact.gif
+ [6]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact2.gif
