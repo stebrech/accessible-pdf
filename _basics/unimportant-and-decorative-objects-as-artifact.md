@@ -13,7 +13,7 @@ post_excerpt: >
   marking such elements as artifacts.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/unimportant-and-decorative-objects-as-artifact/
+  https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
 published: true
 post_date: 2018-04-10 16:22:53
 tags:
