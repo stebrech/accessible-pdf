@@ -12,7 +12,7 @@ post_excerpt: >
   font styles.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/de/basics/structure-with-the-help-of-multi-level-headings/
+  https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/
 published: true
 post_date: 2018-05-25 14:28:41
 tags:
