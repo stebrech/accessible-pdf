@@ -1,6 +1,6 @@
 ---
 ID: 21938
-post_title: '<em>PDF-Tags</em> in Acrobat anlegen'
+post_title: '<em>PDF-Tags</em> in Acrobat erstellen und ändern'
 author: Stefan Brechbühl
 post_excerpt: >
   Das vollständige Taggen eines PDFs in
@@ -23,14 +23,11 @@ Das vollständige *Taggen* eines PDFs in Acrobat ist nur empfohlen wenn die Auto
 *   [*PDF-Tags* in Word festlegen][1]
 *   [*PDF-Tags* in InDesign festlegen][2]
 
-Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen. In dieser und den folgenden Anleitungen siehst du wie das geht:
-
-*   [*PDF-Tags* in Acrobat ändern][3]
-*   [Unwichtige und dekorative Inhalte als Artefakt][4]
+Weiter unten erfährst du wie einzelne *Tags* in Acrobat hinzugefügt oder angepasst werden.
 
 Hinweis: Mit dem kostenlosen [Adobe Acrobat Reader][5] können keine Anpassungen der *Tagstruktur* vorgenommen werden. Dafür wird der kostenpflichtige [Adobe Acrobat][6] benötigt.
 
-## Erste Schritte {#ersteSchritte}
+## Erste Schritte (PDF enthält keine *Tags*) {#ersteSchritte}
 
 Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 
@@ -42,7 +39,7 @@ Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 
 ![Erste Schritte um ein Tagged PDF aus Acrobat zu erstellen. Gif-Animation.][7]
 
-## Semantik
+### Semantik
 
 Jetzt kannst du mit dem *Taggen* beginnen. Als oberstes *Tag* wird `<Document>` benötigt.
 
@@ -94,6 +91,26 @@ Eine weitere Möglichkeit ist die Verwendung des „Leserichtung“-Werkzeugs. D
 4.  Im Fenster „Leserichtung“ kann nun der entsprechende *Tag* ausgewählt werden.
 
 ![Lösungsweg 3 um in Acrobat manuell ein neuer Tag hinzuzufügen. Gif-Animation.][13]
+
+## *Tag* in ein anderen *Tag* ändern {#tagAendern}
+
+Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen.
+
+### Lösungsweg 1
+
+1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+2.  Das betroffene *Tag* im Navigationsfenster „Tags“ einmal anklicken um es auszuwählen.
+3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)“
+
+![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif)
+
+### Lösungsweg 2
+
+1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
+2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü „Eigenschaften“ auswählen.
+3.  Im Register „Tag“ und Dropdown-Feld „Typ“ kann das gewünschte *Tag* ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
+
+![Animation zeigt die drei Schritte des manuellen Lösungswegs 2 in Acrobat](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2.gif)
 
  [1]: https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
  [2]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
