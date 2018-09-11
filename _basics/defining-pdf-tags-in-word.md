@@ -1,6 +1,6 @@
 ---
 ID: 3048
-post_title: Define tags in Word
+post_title: Defining PDF tags in Word
 author: Stefan Brechbühl
 post_excerpt: >
   In order to be able to define PDF tags
@@ -11,7 +11,7 @@ post_excerpt: >
   them to your needs.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/define-tags-in-word/
+  https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
 published: true
 post_date: 2018-06-21 16:32:30
 tags:
