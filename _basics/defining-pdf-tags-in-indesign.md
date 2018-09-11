@@ -1,6 +1,6 @@
 ---
 ID: 362
-post_title: Define tags in InDesign
+post_title: Defining PDF tags in InDesign
 author: Stefan Brechbühl
 post_excerpt: >
   In InDesign, the heading tags can be
@@ -10,7 +10,7 @@ post_excerpt: >
   proper PDF tag.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/define-tags-in-indesign/
+  https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/
 published: true
 post_date: 2018-04-06 19:53:24
 tags:
