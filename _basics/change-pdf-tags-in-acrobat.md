@@ -35,7 +35,7 @@ You can find out which PDF tags are available and what they are required for in 
 2.  Right-click with the mouse on the tag you want to change and select “Properties” from the menu.
 3.  The desired tag can be selected in the “Tag” tab and the “Type” dropdown field.
 
-![Animation shows the three steps of variation 2.][5]
+[test2][5]
 
  [1]: http://accessible-pdf.test/en/basics/overview-of-the-pdf-tags/
  [2]: https://acrobat.adobe.com/uk/en/acrobat.html
