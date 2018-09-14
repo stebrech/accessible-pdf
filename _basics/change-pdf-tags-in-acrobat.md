@@ -27,7 +27,7 @@ You can find out which PDF tags are available and what they are required for in 
 2.  Click once on the tag in the tags pane to select it.
 3.  Click again on the selected tag to rename it manually. Attention, the tag must be spelled correctly, see “[Overview of the PDF tags][1]”.
 
-<a href="![Animation shows the three steps of variation 1.][4]</a>">View
+[view][4]
 
 ## Variation 2
 
