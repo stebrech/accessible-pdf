@@ -27,8 +27,7 @@ You can find out which PDF tags are available and what they are required for in 
 2.  Click once on the tag in the tags pane to select it.
 3.  Click again on the selected tag to rename it manually. Attention, the tag must be spelled correctly, see “[Overview of the PDF tags][1]”.
 
-<a href="![Animation shows the three steps of variation 1.][4]</a>">View Gif animation
-
+</p> 
 ## Variation 2
 
 1.  The navigation pane Tags must be opened. If you haven't used it before, it can be displayed under “View” → “Show/Hide” → “Navigation Panes”.
@@ -40,5 +39,5 @@ You can find out which PDF tags are available and what they are required for in 
  [1]: http://accessible-pdf.test/en/basics/overview-of-the-pdf-tags/
  [2]: https://acrobat.adobe.com/uk/en/acrobat.html
  [3]: https://get.adobe.com/uk/reader/
- [4]: http://accessible-pdf.test/wp/wp-content/uploads/acrobat_rename_tag.gif
+ []: ![Animation shows the three steps of variation 1.][4]>View Gif animation</a>
  [5]: http://accessible-pdf.test/wp/wp-content/uploads/acrobat_rename_tag2_en.gif
