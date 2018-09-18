@@ -12,7 +12,7 @@ post_excerpt: >
   single tags in Acrobat.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/create-and-modify-pdf-tags-in-acrobat/
+  https://accessible-pdf.info/de/basics/create-and-modify-pdf-tags-in-acrobat/
 published: true
 post_date: 2018-04-03 19:12:45
 tags: [ ]
