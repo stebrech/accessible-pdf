@@ -96,7 +96,7 @@ Another possibility is to use the “Reading Order” tool. The handling of this
 
 Since the possibilities offered by Word or InDesign are limited, it’s often necessary to adjust the tag structure in Acrobat.
 
-## Solution 1
+### Solution 1
 
 1.  Open the navigation pane “Tags”. If you haven’t used it before, it can be displayed under “View” → “Show/Hide” → “Navigation Panes”.
 2.  Click once on the tag in the tags pane to select it.
@@ -104,7 +104,7 @@ Since the possibilities offered by Word or InDesign are limited, it’s often ne
 
 [Gif animation of solution 1.][12]
 
-## Solution 2
+### Solution 2
 
 1.  Open the navigation pane “Tags”. If you haven't used it before, it can be displayed under “View” → “Show/Hide” → “Navigation Panes”.
 2.  Right-click with the mouse on the tag you want to change and select “Properties” from the menu.
