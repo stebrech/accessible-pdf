@@ -19,14 +19,15 @@ The operator and responsible person of [accessible-pdf.info][1] is [Stefan Brech
 
 ## Personal information
 
-The operator of this website reduces the collection of personal data of visitors to an absolute minimum.
+The operator of this website takes the data protection of visitors seriously. It reduces the collection of personal data to a minimum.
 
 The privacy relevant interactions are restricted as follows:
 
 *   commenting on contributions is not possible;
 *   the website does not contain any forms for contact or other data transmission;
-*   no third-party content is embedded (e.g. YouTube videos);
 *   the integration of social media services are not used (like and share buttons).
+
+If personal data was sent to the operator by email or an account was set up for the site, those can be deleted on request.
 
 ## Statistics
 
@@ -52,6 +53,12 @@ These data are not combined with other data sources.
 For authors with an account for this website, various cookies with login informations and display settings are stored.
 
 For ordinary visitors, a cookie for the language selection is stored.
+
+## YouTube videos
+
+The website contains articles in which videos from the YouTube platform of the provider Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, are embedded. When one of these pages is visited, it connects to YouTube's servers. 
+
+[Google’s Privacy Policy](https://policies.google.com/privacy) indicates what information may be collected. It is possible to deactivate [personalised advertising](https://adssettings.google.com/authenticated).
 
  [1]: https://accessible-pdf.info
  [2]: https://accessible-pdf.info/en/imprint/

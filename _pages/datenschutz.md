@@ -18,14 +18,15 @@ Der Betreiber und Verantwortlicher von [accessible-pdf.info][1] ist [Stefan Brec
 
 ## Personenbezogene Daten
 
-Der Betreiber dieser Website reduziert das Sammeln von personenbezogenen Daten der BesucherInnen auf ein absolutes Minimum.
+Der Betreiber dieser Website nimmt den Datenschutz der Besucherinnen und Besucher ernst. Er reduziert das Sammeln von personenbezogenen Daten der BesucherInnen auf ein Minimum.
 
-Die Datenschutz relevanten Interaktionen sind wie folgt eingeschränkt:
+Folgende typische, Datenschutz relevanten Interaktionen sind auf dieser Website nur eingeschränkt verfügbar:
 
 *   das Kommentieren von Beiträgen ist nicht möglich;
 *   die Website enthält keine Formulare zur Kontaktaufnahme oder sonstiger Datenübermittlung;
-*   es werden keine Inhalte von Drittanbietern eingebettet (z.B. YouTube Videos);
 *   auf die Einbindung von Social Media Diensten wird verzichtet (Like und Teilen Buttons).
+
+Falls dem Betreiber personenbezogene Daten per E-Mail geschickt wurden oder ein Account für die Seite eingerichtet wurde, können diese auf Anfrage gelöscht werden.
 
 ## Besucherstatistik
 
@@ -51,6 +52,12 @@ Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenomm
 Für Autoren mit einem Konto für diese Website, werden diverse Cookies gespeichert, welche die Anmeldeinformationen und Anzeigeinstellungen speichern.
 
 Für die gewöhnlichen BesucherInnen wird ein Cookie für die Sprachauswahl gespeichert.
+
+## YouTube Videos
+
+Die Website enthält Beiträgen in denen Videos der Plattform YouTube des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, eingebettet sind. Wenn eine dieser Seiten besucht werden, stellt sie eine Verbindung zu den Servern von YouTube her. 
+
+In der [Datenschutzerklärung von Google](https://www.google.de/intl/de/policies/privacy) ist ersichtlich welche Daten erhoben werden können. Es besteht die Möglichkeit [personalisierte Werbung](https://adssettings.google.com/authenticated) zu deaktivieren.
 
  [1]: https://accessible-pdf.info
  [2]: https://accessible-pdf.info/de/impressum/
