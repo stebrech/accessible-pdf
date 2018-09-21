@@ -100,7 +100,7 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 
 1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
 2.  Das betroffene *Tag* im Navigationsfenster „Tags“ einmal anklicken um es auszuwählen.
-3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das Tag muss korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][6]“
+3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das *Tag* muss in Englisch und korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][6]“
 
 ![Animation zeigt die drei Schritte des manuellen Lösungswegs 1 in Acrobat][12]
 
