@@ -33,12 +33,11 @@ Behälterelemente bilden die höchste Ebene von Elementen und erlauben die hiera
 
 ## Überschriften und Absätze
 
-| Tag                           | Übersetzung                   | Beschreibung                                                                                                                                                                                                                  |
-|:----------------------------- |:----------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `<P>`                   | Absatz (engl. Paragraph)      | Gewöhnlicher Absatz                                                                                                                                                                                                           |
-| `<H1>` bis `<H6>` | Überschriften (engl. Heading) | Überschriften mit Hierarchiestufe 1 bis 6.                                                                                                                                                                                    |
-| `<H>`                   | Überschrift                   | Überschrift muss einer übergeordneten Einteilung untergeordnet sein.   
-*Da es mit den `<H1>` bis `<H6>` Tags in aller Regel einfacher ist eine Struktur aufzubauen, empfehle ich diesen Tag nicht zu verwenden.* |
+| Tag                           | Übersetzung                   | Beschreibung                                                                                                                                                                                                               |
+|:----------------------------- |:----------------------------- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `<P>`                   | Absatz (engl. Paragraph)      | Gewöhnlicher Absatz                                                                                                                                                                                                        |
+| `<H1>` bis `<H6>` | Überschriften (engl. Heading) | Überschriften mit Hierarchiestufe 1 bis 6.                                                                                                                                                                                 |
+| `<H>`                   | Überschrift                   | Überschrift muss einer übergeordneten Einteilung untergeordnet sein. *Da es mit den `<H1>` bis `<H6>` Tags in aller Regel einfacher ist eine Struktur aufzubauen, empfehle ich diesen Tag nicht zu verwenden.* |
 
 ## Beschriftungs- und Listenelemente
 
@@ -48,7 +47,7 @@ Beschriftungs- und Listenelemente sind Elemente auf Blockebene, die zur Struktur
 |:--------------- |:------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `<L>`     | Liste                           | Folge von Einträgen ähnlicher Bedeutung oder Relevanz; die unmittelbar untergeordneten Elemente müssen Listeneinträge sein                      |
 | `<LI>`    | Listeneintrag (engl. list item) | einzelnes Element einer Liste; ihm kann ein Beschriftungselement (optional) und muss ein Listenkörperelement (obligatorisch) untergeordnet sein |
-| `<LBL>`   | Beschriftung (engl. label)      | Aufzählungszeichen, ein Name oder eine Nummer, die einen Eintrag kennzeichnet und von anderen Einträgen in derselben Liste unterscheidet        |
+| `<Lbl>`   | Beschriftung (engl. label)      | Aufzählungszeichen, ein Name oder eine Nummer, die einen Eintrag kennzeichnet und von anderen Einträgen in derselben Liste unterscheidet        |
 | `<LBody>` | Listenkörper (engl. list body)  | eigentlicher Inhalt eines einzelnen Listeneintrags                                                                                              |
 
 ## Sondertextelemente
