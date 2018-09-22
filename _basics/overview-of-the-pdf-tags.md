@@ -33,7 +33,11 @@ Container elements are the highest level of element and provide hierarchical gro
 
 ## Heading and paragraph elements
 
-| Tag | Beschreibung | |:---------------------------- |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | | `<P>` | Generic paragraph | | `<H1>` to `<H6>` | Headings from level 1 to 6 | | `<H>` | Heading as the first child of any higher-level division. *It's usually easier to structure the document with the help of the `<H1>` to `<H6>` tags. I don't recommend to use `<H>`.* |
+| Tag                          | Description                                                                                                                                                                                            |
+|:---------------------------- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `<P>`                  | Generic paragraph                                                                                                                                                                                      |
+| `<H1>` to `<H6>` | Headings from level 1 to 6                                                                                                                                                                             |
+| `<H>`                  | Heading as the first child of any higher-level division. *It's usually easier to structure the document with the help of the `<H1>` to `<H6>` tags. I don't recommend to use `<H>`.* |
 
 ## Label and list elements
 
