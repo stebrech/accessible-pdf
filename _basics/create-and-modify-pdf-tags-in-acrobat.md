@@ -35,7 +35,7 @@ First the document must be marked as “Tagged PDF”.
 2.  Choose "Create Tags Root" under options (small rectangular icon with two list items).
 3.  The text “No tags available” has changed to “Tags”.
 4.  Another click on the icon “Options” now shows the command “Document is PDF (with tags)”. Click on this command.
-5.  The entry “PDF with tags” → “Yes” is now displayed under “Description” in the “Document properties”.
+5.  The entry “Tagged PDF” says now “Yes” within the “Document properties”.
 
 [Gif animation of the first steps.][5]
 
