@@ -37,15 +37,14 @@ First the document must be marked as “Tagged PDF”.
 4.  Another click on the icon “Options” now shows the command “Document is Tagged PDF”. Click on this command.
 5.  The entry “Tagged PDF” says now “Yes” within the “Document properties”.
 
-[Gif animation of the first steps.][5]
-
+<iframe width="750" height="422" title="YouTube video: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube.com/embed/0RjSl40PKKs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 ### Semantics
 
 Now you can start tagging. The topmost tag needs to be `<Document>`.
 
-The possible tags that can be used within this `<Document>` tag are listed in [“Overview of PDF tags”][6].
+The possible tags that can be used within this `<Document>` tag are listed in [“Overview of PDF tags”][5].
 
-According to the [Matterhorn Protocol][7], error condition 01-006, the semantically correct tag must always be used.
+According to the [Matterhorn Protocol][6], error condition 01-006, the semantically correct tag must always be used.
 
 ## Automatically add tags {#automaticTagging}
 
@@ -53,7 +52,7 @@ In Acrobat, tags can be assigned automatically. The recognition of semantic tags
 
 ### Solution 1
 
-Same procedure as under [Getting Started][8], only at point 2 “Add Tags to Document” is selected instead of “Create Tags Root”.
+Same procedure as under [Getting Started][7], only at point 2 “Add Tags to Document” is selected instead of “Create Tags Root”.
 
 ### Solution 2
 
@@ -70,8 +69,7 @@ The manual procedure is usually required to add single, missing tags to the exis
 3.  Click on the newly created tag and select the text with the selection tool.
 4.  Now open the options menu of the “Tags” navigation pane again and select “Create Tag from Selection”.
 
-[Gif animation of solution 1.][9]
-
+<iframe width="750" height="422" title="YouTube video: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube.com/embed/-KwwcESjC6g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 ### Solution 2
 
 1.  Click on the root element “Tags” in the navigation pane “Tags”.
@@ -79,8 +77,7 @@ The manual procedure is usually required to add single, missing tags to the exis
 3.  Open the options menu (small rectangular icon with two list items) of the navigation pane “Tags” and select “Create Tag from Selection”.
 4.  In the displayed window you can select the correct tag and confirm with “OK”.
 
-[Gif animation of solution 2.][10]
-
+<iframe width="750" height="422" title="YouTube video: Assign single PDF tag in Acrobat – solution 2" src="https://www.youtube.com/embed/JUrEw61XLE0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 ### Solution 3
 
 Another possibility is to use the “Reading Order” tool. The handling of this tool takes some time to get familiar with as well as not all possible tags are available.
@@ -90,8 +87,7 @@ Another possibility is to use the “Reading Order” tool. The handling of this
 3.  Use the new cursor to select the content that needs to be tagged. 
 4.  In the window “Reading Order” you can select the button with the appropriate tag.
 
-[Gif animation of solution 3.][11]
-
+<iframe width="750" height="422" title="YouTube video: Assign single PDF tag in Acrobat – solution 3" src="https://www.youtube.com/embed/VJON86W_5Z8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 ## Change tag to another tag {#ChangeTag}
 
 Since the possibilities offered by Word or InDesign are limited, it’s often necessary to adjust the tag structure in Acrobat.
@@ -100,28 +96,21 @@ Since the possibilities offered by Word or InDesign are limited, it’s often ne
 
 1.  Open the navigation pane “Tags”. If you haven’t used it before, it can be displayed under “View” → “Show/Hide” → “Navigation Panes”.
 2.  Click once on the tag in the tags pane to select it.
-3.  Click again on the selected tag to rename it manually. Attention, the tag must be spelled correctly, see “[Overview of the PDF tags][6]”.
+3.  Click again on the selected tag to rename it manually. Attention, the tag must be spelled correctly, see “[Overview of the PDF tags][5]”.
 
-[Gif animation of solution 1.][12]
-
+<iframe width="750" height="422" title="YouTube video: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube.com/embed/m3wWWuMdszA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
 ### Solution 2
 
 1.  Open the navigation pane “Tags”. If you haven't used it before, it can be displayed under “View” → “Show/Hide” → “Navigation Panes”.
 2.  Right-click with the mouse on the tag you want to change and select “Properties” from the menu.
 3.  The desired tag can be selected in the “Tag” tab and the “Type” dropdown field.
 
-[Gif animation of solution 2.][13]
+<iframe width="750" height="422" title="YouTube video: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube.com/embed/bE-5RO1gLWM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
  [1]: https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
  [2]: https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/
  [3]: https://get.adobe.com/reader/
  [4]: https://acrobat.adobe.com/uk/en/acrobat.html
- [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_tagging_first_steps.gif
- [6]: https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
- [7]: https://accessible-pdf.info/en/glossary/#matterhorn
- [8]: #firstSteps
- [9]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_manual_tagging1.gif
- [10]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_manual_tagging2.gif
- [11]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_manual_tagging3.gif
- [12]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag.gif
- [13]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rename_tag2_en.gif
+ [5]: https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
+ [6]: https://accessible-pdf.info/en/glossary/#matterhorn
+ [7]: #firstSteps
