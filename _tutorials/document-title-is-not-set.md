@@ -19,7 +19,8 @@ tags:
   - Adobe InDesign
   - automatic testing
   - Microsoft Word
-categories: [ ]
+categories:
+  - 07. Dictionary
 ---
 ## Issue
 
