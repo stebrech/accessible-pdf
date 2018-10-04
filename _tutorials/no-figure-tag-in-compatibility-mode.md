@@ -2,7 +2,7 @@
 ID: 412
 post_title: 'No <code>Figure</code> tag in compatibility mode'
 author: Stefan Brechbühl
-post_excerpt: "An image is placed with the “In Line with Text” layout option into Word in “Compatibility Mode” (.doc file). After exporting as PDF the image won't be within a <Figure> tag as expected, but within an <InlineShape>, to which the role <Sect> is assigned."
+post_excerpt: "An image is placed with the “In Line with Text” layout option into Word in “Compatibility Mode” (.doc file). After exporting as PDF the image won't be within a <Figure> tag as expected, but within an , to which the role  is assigned."
 layout: tutorials
 permalink: >
   https://accessible-pdf.info/en/tutorials/no-figure-tag-in-compatibility-mode/
