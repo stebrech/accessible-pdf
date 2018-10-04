@@ -2,10 +2,17 @@
 ID: 21943
 post_title: 'Liste ist nicht als Liste <em>getaggt</em>'
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Wenn undefinierte oder nummerierte
+  Listen verwendet werden, sollen diese
+  auch als Liste getaggt werden. Die
+  Listen-Tags werden beim Export aus
+  Microsoft Word oder Adobe InDesign
+  automatisch vergeben, sofern die Listen
+  korrekt erstellt wurden.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/tutorials/liste-ist-nicht-als-liste-getaggt/
+  https://accessible-pdf.info/de/tutorials/liste-ist-nicht-als-liste-getaggt/
 published: true
 post_date: 2018-01-12 16:35:46
 tags:
