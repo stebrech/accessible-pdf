@@ -2,10 +2,17 @@
 ID: 21944
 post_title: Übersprungene Überschriftsebenen
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Ein Dokument wird mithilfe von
+  Überschriften mit unterschiedlicher
+  Hierarchiestufe gegliedert. Damit die
+  Struktur mittels Überschriften stets
+  nachvollzogen werden kann, dürfen die
+  Überschriftsebenen nicht übersprungen
+  werden.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/tutorials/uebersprungene-ueberschriftsebenen/
+  https://accessible-pdf.info/de/tutorials/uebersprungene-ueberschriftsebenen/
 published: true
 post_date: 2018-06-22 05:47:24
 tags:
