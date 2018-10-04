@@ -5,14 +5,15 @@ author: Stefan Brechbühl
 post_excerpt: 'To ensure that the structure made with headings can always be understood, the heading levels mustn’t be skipped. This means &lt;H1&gt; mustn’t be followed directly by &lt;H3&gt;. However, after a &lt;H3&gt; another &lt;H1&gt; can follow, because a new chapter begins for example.'
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/skipped-heading-levels/
+  https://accessible-pdf.info/en/tutorials/skipped-heading-levels/
 published: true
 post_date: 2018-06-25 15:25:12
 tags:
   - Adobe InDesign
-  - automatische Prüfung
+  - automatic testing
   - Microsoft Word
-categories: [ ]
+categories:
+  - 14. Headings
 ---
 ## Issue
 
