@@ -54,8 +54,9 @@ This fix is also part of the preflight profile “Fix problems in PDF tagging st
 
 ## Automatic approach in InDesign (MadeToTag)
 
-Using the [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag) plugin, the PDF/UA identifier is automatically appended.
+Using the [MadeToTag][4] plugin, the PDF/UA identifier is automatically appended.
 
  [1]: https://accessible-pdf.info/en/glossary/#pdfua
  [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
  [3]: https://taggedpdf.com/xmp/pdfUA-ID.xmp
+ [4]: https://www.axaio.com/doku.php/en:products:madetotag
