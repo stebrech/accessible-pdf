@@ -4,11 +4,11 @@
 | Title in English | Title in German |
 | :--- | :--- |
 | [Overview of the PDF tags](_basics/overview-of-the-pdf-tags.md) | [Übersicht der PDF-Tags](_basics/uebersicht-der-pdf-tags.md) |
-| [Create and modify PDF tags in Acrobat](create-and-modify-pdf-tags-in-acrobat.md) | [*PDF-Tags* in Acrobat erstellen und ändern](_basics/pdf-tags-in-acrobat-erstellen-und-aendern.md) |
+| [Create and modify PDF tags in Acrobat](_basics/create-and-modify-pdf-tags-in-acrobat.md) | [*PDF-Tags* in Acrobat erstellen und ändern](_basics/pdf-tags-in-acrobat-erstellen-und-aendern.md) |
 | [Unimportant and decorative objects as artifact](_basics/unimportant-and-decorative-objects-as-artifact.md) | [Unwichtige und dekorative Inhalte als Artefakt](_basics/unwichtige-und-dekorative-inhalte-als-artefakt.md) |
 | [Structure with the help of multi-level headings](_basics/structure-with-the-help-of-multi-level-headings.md) | [Strukturieren mithilfe von hierarchischen Überschriften](_basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften.md) |
-| [Define PDF tags in InDesign](_basics/define-pdf-tags-in-indesign.md) | [*PDF-Tags* in InDesign festlegen](_basics/pdf-tags-in-indesign-festlegen.md) |
-| [Define PDF tags in Word](_basics/define-pdf-tags-in-word.md) | [*PDF-Tags* in Word festlegen](_basics/pdf-tags-in-word-festlegen.md) |
+| [Defining PDF tags in InDesign](_basics/defining-pdf-tags-in-indesign.md) | [*PDF-Tags* in InDesign festlegen](_basics/pdf-tags-in-indesign-festlegen.md) |
+| [Defining PDF tags in Word](_basics/defining-pdf-tags-in-word.md) | [*PDF-Tags* in Word festlegen](_basics/pdf-tags-in-word-festlegen.md) |
 
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
