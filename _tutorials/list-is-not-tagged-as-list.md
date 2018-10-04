@@ -12,15 +12,15 @@ post_excerpt: >
   InDesign.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/de/tutorials/list-is-not-tagged-as-list/
+  https://accessible-pdf.info/en/tutorials/list-is-not-tagged-as-list/
 published: true
 post_date: 2018-02-18 20:43:59
 tags:
   - Adobe InDesign
-  - manuelle Prüfung
+  - manual testing
   - Microsoft Word
 categories:
-  - 16. Listen
+  - 16. Lists
 ---
 ## Issue
 
