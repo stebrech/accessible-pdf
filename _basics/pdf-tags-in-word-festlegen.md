@@ -35,7 +35,7 @@ Weitere Tags, welche automatisch beim PDF-Export generiert werden, sind Listen. 
 
 Dasselbe gilt für die Tabellen – diese müssen ebenfalls mit den dafür vorgesehenen Werkzeugen erstellt werden. Wenn Tabelleninhalte mithilfe von Leerzeichen oder Tabulatoren visuell dargestellt werden, kann keine barrierefreie PDF-Ausgabe erzeugt werden.
 
-## Exporteinstellung
+## Exporteinstellung {#export}
 
 Damit die gewünschten *Tags* beim PDF-Export erstellt werden, muss folgendes beachtet werden:
 

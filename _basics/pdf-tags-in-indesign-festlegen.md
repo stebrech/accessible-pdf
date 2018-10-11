@@ -32,7 +32,7 @@ Im Flyout-Menü des Panels „Absatzformate“ befindet sich der Befehl „Alle 
 
 Das Fenster, welches sich anschliessend öffnet, erlaubt es sehr schnell alle vorhandenen Absatzformate mit einem Exporttag zu versehen.
 
-## Exportoption
+## Exportoption {#export}
 
 Beim Export wird nur ein *Tagged PDF* erstellt, wenn die Option „PDF mit Tags erstellen“ aktiviert wurde. Diese Option existiert in den Exportoptionen von Adobe PDF (Druck)
 
