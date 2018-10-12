@@ -17,7 +17,7 @@ published: true
 post_date: 2018-05-03 05:40:11
 tags:
   - Adobe InDesign
-  - automatic testing
+  - Automatic testing
   - Microsoft Word
 categories:
   - 07. Dictionary
