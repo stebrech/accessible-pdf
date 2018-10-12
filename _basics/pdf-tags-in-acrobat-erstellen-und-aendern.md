@@ -92,7 +92,7 @@ Eine weitere Möglichkeit ist die Verwendung des „Leserichtung“-Werkzeugs. D
 
 ![Lösungsweg 3 um in Acrobat manuell ein neuer Tag hinzuzufügen. Gif-Animation.][11]
 
-## *Tag* in ein anderen *Tag* ändern {#tagAendern}
+## *Tag* in einen anderen *Tag* ändern {#tagAendern}
 
 Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen.
 
