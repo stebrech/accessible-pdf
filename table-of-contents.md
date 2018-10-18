@@ -9,6 +9,7 @@
 | [Structure with the help of multi-level headings](_basics/structure-with-the-help-of-multi-level-headings.md) | [Strukturieren mithilfe von hierarchischen Überschriften](_basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften.md) |
 | [Defining PDF tags in InDesign](_basics/defining-pdf-tags-in-indesign.md) | [*PDF-Tags* in InDesign festlegen](_basics/pdf-tags-in-indesign-festlegen.md) |
 | [Defining PDF tags in Word](_basics/defining-pdf-tags-in-word.md) | [*PDF-Tags* in Word festlegen](_basics/pdf-tags-in-word-festlegen.md) |
+| [Add an alt text](_basics/add-an-alt-text.md) | [Alt-Texte hinzufügen](_basics/alt-texte-hinzufuegen.md) |
 
 ## Troubleshooting tutorials
 | Category | Title in English | Title in German |
