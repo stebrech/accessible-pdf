@@ -2,11 +2,23 @@
 ID: 43759
 post_title: Add an alt text
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  An alt text (short for alternative text)
+  describes a non-text element, like an
+  image or a graphic. The invisible text
+  can be read and displayed by software,
+  especially AT. In this post we’re
+  looking how to add such alt texts in
+  Microsoft Word, Adobe InDesign and Adobe
+  Acrobat.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=43759'
-published: false
-tags: [ ]
+permalink: >
+  https://accessible-pdf.info/en/basics/add-an-alt-text/
+published: true
+post_date: 2018-10-18 05:29:42
+tags:
+  - Adobe InDesign
+  - Microsoft Word
 categories: [ ]
 ---
 An alt text (short for alternative text) describes a non-text element, like an image or a graphic. The invisible text can be read and displayed by software, especially [AT][1]. In the glossary you can learn more about the meaning of an [alt text][2] and what it should look like.
