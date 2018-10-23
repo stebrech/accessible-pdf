@@ -37,8 +37,8 @@ First the document must be marked as “Tagged PDF”.
 4.  Another click on the icon “Options” now shows the command “Document is Tagged PDF”. Click on this command.
 5.  The entry “Tagged PDF” says now “Yes” within the “Document properties”.
 
-https://www.youtube.com/watch?v=0RjSl40PKKs
- 
+https://youtu.be/zlG1DKLW9h0
+
 ### Semantics
 
 Now you can start tagging. The topmost tag needs to be `<Document>`.
