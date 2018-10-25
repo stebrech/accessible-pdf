@@ -1,15 +1,15 @@
 ---
 ID: 218
-post_title: <em>Getaggte</em> Bilder in Kopf- und Fusszeile
+post_title: '<em>Getaggte</em> Bilder in Kopf- und Fusszeile'
 author: Stefan Brechbühl
-post_excerpt: 'Sämtliche Inhalte in Kopf- und Fusszeile eines Word-Dokuments werden als Artefakt behandelt und nicht getaggt. Bilder mit inhaltlichen Wert dürfen daher nicht darin platziert werden.'
+post_excerpt: 'Sämtliche Inhalte in Kopf- und Fusszeile werden als Artefakt behandelt und nicht getaggt. Bilder mit inhaltlichen Wert dürfen daher nicht darin platziert werden. In Word 2013 werden bei einem <em>.docx-Dokument</em> fälschlicherweise Bilder getaggt, wenn sie mit der Layoutoption <em>„Hinter den Text“</em> platziert wurden.'
 layout: tutorials
 permalink: >
   https://accessible-pdf.info/de/tutorials/getaggte-bilder-in-kopf-und-fusszeile/
 published: true
 post_date: 2018-01-12 16:21:50
 tags:
-  - manuelle Prüfung
+  - Manuelle Prüfung
   - Microsoft Word
 categories:
   - 01. Getaggter realer Inhalt
