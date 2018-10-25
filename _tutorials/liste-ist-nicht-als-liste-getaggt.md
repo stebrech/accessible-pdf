@@ -17,7 +17,7 @@ published: true
 post_date: 2018-01-12 16:35:46
 tags:
   - Adobe InDesign
-  - manuelle Prüfung
+  - Manuelle Prüfung
   - Microsoft Word
 categories:
   - 16. Listen
