@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-01-05 16:24:27
 tags:
-  - manuelle Prüfung
+  - Manuelle Prüfung
   - Microsoft Word
 categories:
   - 01. Getaggter realer Inhalt
