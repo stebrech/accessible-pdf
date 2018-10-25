@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-01-12 16:35:46
 tags:
-  - manuelle Prüfung
+  - Manuelle Prüfung
   - Microsoft Word
 categories:
   - 13. Grafiken
