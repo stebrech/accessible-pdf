@@ -67,7 +67,7 @@ Das manuelle Vorgehen wird in der Regel benötigt um einzelne, fehlende *Tags* d
 1.  Füge einen neuen *Tag* hinzu indem du im Navigationsfenster „Tags“ die Optionen öffnest (kleines rechteckiges *Icon* mit zwei Listenpunkten) und „Neuer Tag“ auswählst. 
 2.  Im angezeigten Fenster kannst du den korrekten *Tag* auswählen und mit „OK“ bestätigen.
 3.  Klicke auf den neu erstellten *Tag* und wähle den dafür vorgesehene Text mit dem Auswahlwerkzeug aus.
-4.  Öffne nun das Optionen-Menü des Navigationsfensters *Tags* erneut und wähle „Tag aus Auswahl erstellen“.
+4.  Öffne nun das Optionen-Menü des Navigationsfensters „Tags“ erneut und wähle „Tag aus Auswahl erstellen“.
 
 <iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/AN-RyLPNNl4" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
 ### Lösungsweg 2
