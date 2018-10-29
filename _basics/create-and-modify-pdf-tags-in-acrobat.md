@@ -37,7 +37,7 @@ First the document must be marked as “Tagged PDF”.
 4.  Another click on the icon “Options” now shows the command “Document is Tagged PDF”. Click on this command.
 5.  The entry “Tagged PDF” says now “Yes” within the “Document properties”.
 
-<iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0" frameborder="0" allow="encrypted-media" allowfullscreen hl="en"></iframe> 
+<iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0?hl=en?cc_load_policy=1" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ### Semantics
 
 Now you can start tagging. The topmost tag needs to be `<Document>`.
