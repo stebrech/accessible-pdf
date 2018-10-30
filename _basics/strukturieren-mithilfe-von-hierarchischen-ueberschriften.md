@@ -31,9 +31,11 @@ Zudem haben NutzerInnen damit eine weitere Möglichkeit durch ein Dokument zu na
 
 Die Zuordnung der Überschriften-*Tags* kann bereits mithilfe der Autorensoftware gemacht werden. Siehe dazu:
 
-*   [*Tags* in InDesign festlegen][4]
+*   [*PDF-Tags* in Word festlegen][4]
+*   [*PDF-Tags* in InDesign festlegen][5]
 
  [1]: https://accessible-pdf.info/de/glossar/#zugaenglichkeit
  [2]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [3]: https://webaim.org/projects/screenreadersurvey7/#finding
- [4]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
+ [4]: https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
+ [5]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
