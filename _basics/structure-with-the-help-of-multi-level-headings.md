@@ -30,10 +30,12 @@ In addition, users get another possibility to navigate through a document. 67.5%
 
 The heading tags can already be assigned using the authoring software. See also:
 
-*   [Define tags in InDesign][5]
+*   [Defining PDF tags in InDesign][5]
+*   [Defining PDF tags in Word][6]
 
  [1]: https://accessible-pdf.info/en/glossary/#accessible
  [2]: https://accessible-pdf.info/de/glossar/#assistive-technologie
  [3]: https://accessible-pdf.info/en/glossary/#assistive-technology
  [4]: https://webaim.org/projects/screenreadersurvey7/#finding
- [5]: https://accessible-pdf.info/en/basics/define-tags-in-indesign/
+ [5]: https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/
+ [6]: https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
