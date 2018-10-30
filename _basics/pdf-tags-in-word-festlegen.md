@@ -2,7 +2,13 @@
 ID: 21940
 post_title: '<em>PDF-Tags</em> in Word festlegen'
 author: Stefan Brechbühl
-post_excerpt: 
+post_excerpt: >
+  Eines der wichtigsten Strukturelemente
+  sind verschachtelte mehrstufige
+  Überschriften. Solches Strukturieren
+  kann durch die konsequente Verwendung
+  von Absatzformaten in Word erreicht
+  werden.
 layout: basics
 permalink: >
   https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
@@ -18,30 +24,30 @@ Word bietet bereits einen umfangreichen Formatvorlagenkatalog, einschliesslich �
 
 Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen die entsprechende Gliederungsebene vergeben. Werfen wir einen Blick auf diese Option.
 
-1. Öffne den Bereich Formatvorlagen. Windows-Benutzer müssen auf ein kleines Symbol unten rechts in der Liste der Schnellformatvorlagen klicken.
-2. Fahre mit der Maus über die Formatvorlage, die du ändern möchtest und klicke auf das erscheinende Dropdown-Menü.
-3. Klicke auf “Formatvorlage ändern”.
-4. Im Dropdown-Menü unten links kannst du zu den Absatzeinstellungen wechseln.
-5. Die zweite Option unter „Allgemein“ ist die „Gliederungsstufe“. Diese wird verwendet, um das PDF-*Tag* für die Überschrift zu generieren:
-	- Textkörper = `<P>`
-	- Ebene 1 = `<H1>`
-	- Ebene 2 = `<H2>`
-	- Ebene 3 = `<H3>`
-	- usw.
+1.  Öffne den Bereich Formatvorlagen. Windows-Benutzer müssen auf ein kleines Symbol unten rechts in der Liste der Schnellformatvorlagen klicken.
+2.  Fahre mit der Maus über die Formatvorlage, die du ändern möchtest und klicke auf das erscheinende Dropdown-Menü.
+3.  Klicke auf “Formatvorlage ändern”.
+4.  Im Dropdown-Menü unten links kannst du zu den Absatzeinstellungen wechseln.
+5.  Die zweite Option unter „Allgemein“ ist die „Gliederungsstufe“. Diese wird verwendet, um das PDF-*Tag* für die Überschrift zu generieren: 
+    *   Textkörper = `<P>`
+    *   Ebene 1 = `<H1>`
+    *   Ebene 2 = `<H2>`
+    *   Ebene 3 = `<H3>`
+    *   usw.
 
-## Listen 
+## Listen
 
 Listen eignen sich hervorragend, um mehrere Informationen übersichtlich und in kurzer Form zu strukturieren. Du solltest jedoch die richtigen Listenwerkzeuge dazu verwenden.
 
-Abhängig von deinen Word Einstellungen wird ein Bindestrich gefolgt von einem Leerzeichen automatisch in eine korrekte Liste umgewandelt. Man sollte sich jedoch nicht darauf verlassen und eine Liste bewusst formatieren. 
+Abhängig von deinen Word Einstellungen wird ein Bindestrich gefolgt von einem Leerzeichen automatisch in eine korrekte Liste umgewandelt. Man sollte sich jedoch nicht darauf verlassen und eine Liste bewusst formatieren.
 
 Mit folgenden Schaltflächen kannst du das tun:
 
-![Listen Werkzeuge in Word.][3]
+![Listen Werkzeuge in Word.][2]
 
-1. Die erste Schaltfläche erstellt eine ungeordnete Liste mit Aufzählungszeichen,
-2. die zweite eine nummerierte Liste und
-3. Die dritte gibt dir die Möglichkeit eine mehrstufige Liste zu verwenden. Neben vordefinierten Formaten kannst du auch deinen eigenen Listenformat erstellen, indem du auf „Neue Listenfomatvorlage definieren“ klickst.
+1.  Die erste Schaltfläche erstellt eine ungeordnete Liste mit Aufzählungszeichen,
+2.  die zweite eine nummerierte Liste und
+3.  Die dritte gibt dir die Möglichkeit eine mehrstufige Liste zu verwenden. Neben vordefinierten Formaten kannst du auch deinen eigenen Listenformat erstellen, indem du auf „Neue Listenfomatvorlage definieren“ klickst.
 
 ## Tabellen
 
@@ -49,9 +55,9 @@ Wenn Daten sowie horizontal wie auch vertikal angeordnet sind, gehören sie in e
 
 Um eine Tabelle hinzuzufügen, kann im Menüpunkt „Einfügen“ auf „Tabelle“ geklickt werden. Das erscheinende Raster kann verwendet werden, um auszuwählen wie viele Spalten und Zeilen die Tabelle haben soll.
 
-![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.](https://accessible-pdf.info/wp/wp-content/uploads/word_tabelle.png)
+![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.][3]
 
-Wenn sich der Cursor irgendwo in der Tabelle befindet, werden  zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
+Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
 
 ### Layout-Raster
 
@@ -74,5 +80,5 @@ Damit die gewünschten *Tags* beim PDF-Export erstellt werden, muss folgendes be
 3.  Aktiviere die Option „Optimal für elektronische Verteilung und Barrierefreiheit“
 
  [1]: https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/
- [2]: https://accessible-pdf.info/wp/wp-content/uploads/word-gliederungsebene.gif
- [3]: https://accessible-pdf.info/wp/wp-content/uploads/word-list.png
+ [2]: https://accessible-pdf.info/wp/wp-content/uploads/word-list.png
+ [3]: https://accessible-pdf.info/wp/wp-content/uploads/word_tabelle.png
