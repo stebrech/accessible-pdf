@@ -37,7 +37,7 @@ Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 4.  Ein erneuter Klick auf das Icon „Optionen“ zeigt neu den Befehl „Dokument ist PDF (mit Tags)„. Klicke diesen an.
 5.  In den „Dokumenteigenschaften“ wird nun unter „Beschreibung“ der Eintrag „PDF mit Tags“ → „Ja“ angezeigt.
 
-<iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
+<iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ### Semantik
 
 Jetzt kannst du mit dem *Taggen* beginnen. Als oberstes *Tag* wird `<Document>` benötigt.
@@ -69,7 +69,7 @@ Das manuelle Vorgehen wird in der Regel benötigt um einzelne, fehlende *Tags* d
 3.  Klicke auf den neu erstellten *Tag* und wähle den dafür vorgesehene Text mit dem Auswahlwerkzeug aus.
 4.  Öffne nun das Optionen-Menü des Navigationsfensters „Tags“ erneut und wähle „Tag aus Auswahl erstellen“.
 
-<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/AN-RyLPNNl4" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/AN-RyLPNNl4?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ### Lösungsweg 2
 
 1.  Klicke auf das *Root*-Element „Tags“ im Navigationsfenster „Tags“.
@@ -77,7 +77,7 @@ Das manuelle Vorgehen wird in der Regel benötigt um einzelne, fehlende *Tags* d
 3.  Öffne das Optionen-Menü (kleines rechteckiges *Icon* mit zwei Listenpunkten) des Navigationsfensters *Tags* und wähle „Tag aus Auswahl erstellen“
 4.  Im angezeigten Fenster kannst du den korrekten *Tag* auswählen und mit „OK“ bestätigen.
 
-<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/b0XUfbRnMe0" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/b0XUfbRnMe0?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ### Lösungsweg 3
 
 Eine weitere Möglichkeit ist die Verwendung des „Leserichtung“-Werkzeugs. Die Handhabung dieses Werkzeugs ist etwas gewöhnungsbedürftig und es stehen nicht alle möglichen *Tags* zur Verfügung.
@@ -87,7 +87,7 @@ Eine weitere Möglichkeit ist die Verwendung des „Leserichtung“-Werkzeugs. D
 3.  Wähle damit den Inhalt aus, welcher *getaggt* werden muss. 
 4.  Im Fenster „Leserichtung“ kann nun der entsprechende *Tag* ausgewählt werden.
 
-<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 3" src="https://www.youtube-nocookie.com/embed/vBK1jO5xi90" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 3" src="https://www.youtube-nocookie.com/embed/vBK1jO5xi90?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ## *Tag* in einen anderen *Tag* ändern {#tagAendern}
 
 Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist es häufig nötig die *Tagstruktur* in Acrobat noch anzupassen.
@@ -98,14 +98,14 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 2.  Das betroffene *Tag* im Navigationsfenster „Tags“ einmal anklicken um es auszuwählen.
 3.  Mit der Maus erneut auf das ausgewählte *Tag* klicken um es manuell umzubenennen. Achtung: Das *Tag* muss in Englisch und korrekt geschrieben sein, siehe „[Übersicht der *PDF-Tags*][5]“
 
-<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe> 
+<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
 ### Lösungsweg 2
 
 1.  Das Navigationsfenster „Tags“ muss geöffnet werden. Falls es bisher nie verwendet wurde, kann es unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ eingeblendet werden.
 2.  Rechtsklick mit der Maus auf das betroffene Tag und im Menü „Eigenschaften“ auswählen.
 3.  Im Register „Tag“ und Dropdown-Feld „Typ“ kann das gewünschte *Tag* ausgewählt werden. Achtung: Die *Tags* sind hier ins Deutsche übersetzt.
 
-<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM" frameborder="0" allow="encrypted-media" allowfullscreen hl="de"></iframe>
+<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
  [1]: https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
  [2]: https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
