@@ -2,13 +2,7 @@
 ID: 3048
 post_title: Defining PDF tags in Word
 author: Stefan Brechbühl
-post_excerpt: >
-  In order to be able to define PDF tags
-  in Word, paragraph styles must be used
-  consistently. The easiest way is to use
-  the existing standard styles “Heading
-  1”, “Heading 2”, etc. and adapt
-  them to your needs.
+post_excerpt: 
 layout: basics
 permalink: >
   https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
@@ -18,23 +12,50 @@ tags:
   - Microsoft Word
 categories: [ ]
 ---
-A document is structured using headings with different hierarchy levels, see [“Structure with the help of multi-level headings”][1].
+One of the key structure elements are nested multi-level headings, see also [“Structure with the help of multi-level headings”][1]. Such structuring work can be achieved by consistently using paragraph styles in Word. If used correctly, the headings will be exported to the PDF with the appropriate tag.
 
-In order to be able to define PDF tags in Word, paragraph styles must be used consistently. The easiest way is to use the existing standard styles “Heading 1”, “Heading 2”, etc. and adapt them to your needs.
+Word already provides a large styles catalog, including “Heading 1“ to “Heading 9”. Currently, in PDF there are only `<H1>` to `<H6>` numbered heading tags available. Therefore, the paragraph styles “Heading 7” to “Heading 9” are mapped with a general paragraph tag (`<P>`). 
 
-If you need your own or additional styles, you must ensure that the correct outline level is set within the paragraph settings. This controls the hierarchy level and generates the appropriate heading tag.
+If you want you can use your own paragraph styles and give them the appropriate “Outline Level”. Let’s have a look at this option.
 
-[![Change outline level in Word‘s paragraph settings. Gif animation.][2]][2]
+1. Open the styles pane. Windows users need to click on a small icon on the bottom right of the Quick Style Gallery.
+2. Hover over the style you want to change and click on the appearing dropdown menu.
+3. Click on modify style.
+4. Go to the paragraph settings with the help of the dropdown menu on the bottom left.
+5. The second general option is called the outline level. This level will be used to generate the PDF heading tag:
+	- Body Text = `<P>`
+	- Level 1 = `<H1>`
+	- Level 2 = `<H2>`
+	- Level 3 = `<H3>`
+	- and so on
 
-Although up to nine levels can be defined, only levels 1–6 should be used. This is because there are no more than six headline tags in PDF.
+## Lists
 
-## Lists and tables
+Lists are great to structure multiple informations in a clear and brief way. However, you should use the correct list tools.
 
-Other tags that are automatically generated during PDF export are lists. However, this also depends on the correct use of the styling tools. This means that the bullets and numbering must not be created manually, but with the appropriate list tools.
+Depend on your configuration, Word can automatically convert a hyphen sign followed by a space into a correct list. However, you should format your list by conscious. 
+
+You can do that with the help of the following buttons:
 
 ![List tools in Word.][3]
 
-The same applies to the tables – these must also be created using the tools provided for this purpose. If table contents are created using spaces or tabs, no accessible PDF output can be generated.
+1. The first button creates an unordered list,
+2. the second an ordered list and
+3. the third gives you the ability to use a multi level list. Besides predefined styles you can create your own list style by clicking on “New Multilevel list”
+
+## Tables
+
+When data is arranged both horizontally and vertically, it belongs inside a table. Authors sometimes create a false table with the help of tabulators. This is wrong because of the semantics and the logical reading order. 
+
+For adding a table, go to the menu item “Insert” and click on “Table”. The appearing pattern can be used to choose how many columns and rows the table should have. 
+
+![Add a table in Word. Screenshot](https://accessible-pdf.info/wp/wp-content/uploads/word_table.png)
+
+If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
+
+### Layout grid
+
+A table shouldn’t be misused as a layout grid as well. If you need multiple columns, there is an option called “Columns” within the “Layout” menu item. With the help of a column break (“Layout” → “Breaks” → “Column”) you switch to another column. With a section break (“Layout” → “Breaks” → “Continuous”) you can switch to another column layout.
 
 ## Export settings
 
