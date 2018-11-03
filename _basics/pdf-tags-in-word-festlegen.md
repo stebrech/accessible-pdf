@@ -59,6 +59,8 @@ Um eine Tabelle hinzuzufügen, kann im Menüpunkt „Einfügen“ auf „Tabelle
 
 Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
 
+Die wichtigsten Tabelleneinstellungen für die Barrierefreiheit sind die Optionen „Überschrift“, „Erste Spalte“ und „Letzte Spalte“. Mit Hilfe dieser Optionen erstellen Sie Tabellenüberschriftszellen. 
+
 ### Layout-Raster
 
 Eine Tabelle sollte nicht als Layout-Raster missbraucht werden. Falls mehrere Spalten benötigt werden, steht im Menüeintrag „Layout“ die Option „Spalten“ zur Verfügung. Mithilfe eines Spaltenumbruchs („Layout“ → „Umbrüche“ → „Spalte“) kann in die nächste Spalte gewechselt werden. Durch einen Abschnittswechsel („Layout“ → „Umbrüche“ → „Fortlaufend“) kann ein anderes Spaltenlayout angewendet werden.
