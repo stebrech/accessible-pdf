@@ -77,8 +77,8 @@ In order to create the desired tags during PDF export, the following must be obs
 ### Word for Mac
 
 1.  Select “File” → “Save As”
-2.  Select the option "PDF" in the drop-down “File format”
-3.  Activate the option "Optimal for electronic distribution and accessibility
+2.  Select the option “PDF” in the drop-down “File format”
+3.  Activate the option “Optimal for electronic distribution and accessibility”
 
  [1]: https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/
  [2]: https://accessible-pdf.info/wp/wp-content/uploads/word-list.png
