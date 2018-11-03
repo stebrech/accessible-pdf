@@ -58,6 +58,8 @@ For adding a table, go to the menu item “Insert” and click on “Table”. T
 
 If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
 
+The most important table settings for accessibility are the options “Header Row”, “First Column” and “Last Column”. With the help of these options you’re creating table header cells. 
+
 ### Layout grid
 
 A table shouldn’t be misused as a layout grid as well. If you need multiple columns, there is an option called “Columns” within the “Layout” menu item. With the help of a column break (“Layout” → “Breaks” → “Column”) you switch to another column. With a section break (“Layout” → “Breaks” → “Continuous”) you can switch to another column layout.
