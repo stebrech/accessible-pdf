@@ -34,6 +34,8 @@ If you want you can use your own paragraph styles and give them the appropriate 
     *   Level 3 = `<H3>`
     *   and so on
 
+https://www.youtube.com/embed/ahD5WYjfuLE
+
 ## Lists
 
 Lists are great to structure multiple informations in a clear and brief way. However, you should use the correct list tools.
@@ -58,7 +60,7 @@ For adding a table, go to the menu item “Insert” and click on “Table”. T
 
 If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
 
-The most important table settings for accessibility are the options “Header Row”, “First Column” and “Last Column”. With the help of these options you’re creating table header cells. 
+The most important table settings for accessibility are the options “Header Row”, “First Column” and “Last Column”. With the help of these options you’re creating table header cells.
 
 ### Layout grid
 
