@@ -34,7 +34,7 @@ If you want you can use your own paragraph styles and give them the appropriate 
     *   Level 3 = `<H3>`
     *   and so on
 
-https://www.youtube.com/embed/ahD5WYjfuLE
+https://www.youtube.com/watch?v=ahD5WYjfuLE&rel=0&hl=en
 
 ## Lists
 
