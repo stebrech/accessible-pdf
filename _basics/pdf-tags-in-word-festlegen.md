@@ -47,7 +47,7 @@ Mit folgenden Schaltflächen kannst du das tun:
 
 1.  Die erste Schaltfläche erstellt eine ungeordnete Liste mit Aufzählungszeichen,
 2.  die zweite eine nummerierte Liste und
-3.  Die dritte gibt dir die Möglichkeit eine mehrstufige Liste zu verwenden. Neben vordefinierten Formaten kannst du auch deinen eigenen Listenformat erstellen, indem du auf „Neue Listenfomatvorlage definieren“ klickst.
+3.  Die dritte gibt dir die Möglichkeit eine mehrstufige Liste zu verwenden. Neben vordefinierten Formaten kannst du auch dein eigenes Listenformat erstellen, indem du auf „Neue Listenfomatvorlage definieren“ klickst.
 
 ## Tabellen
 
@@ -59,7 +59,7 @@ Um eine Tabelle hinzuzufügen, kann im Menüpunkt „Einfügen“ auf „Tabelle
 
 Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
 
-Die wichtigsten Tabelleneinstellungen für die Barrierefreiheit sind die Optionen „Überschrift“, „Erste Spalte“ und „Letzte Spalte“. Mit Hilfe dieser Optionen erstellen Sie Tabellenüberschriftszellen. 
+Die wichtigsten Tabelleneinstellungen für die Barrierefreiheit sind die Optionen „Überschrift“, „Erste Spalte“ und „Letzte Spalte“. Mit Hilfe dieser Optionen erstellst du Tabellenüberschriftszellen.
 
 ### Layout-Raster
 
