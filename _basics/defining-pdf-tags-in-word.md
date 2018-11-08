@@ -34,7 +34,10 @@ If you want you can use your own paragraph styles and give them the appropriate 
     *   Level 3 = `<H3>`
     *   and so on
 
-<iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<div>
+  <iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 ## Lists
 
 Lists are great to structure multiple informations in a clear and brief way. However, you should use the correct list tools.
