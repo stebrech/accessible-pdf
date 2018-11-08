@@ -35,7 +35,7 @@ Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen d
     *   Ebene 3 = `<H3>`
     *   usw.
 
-https://www.youtube.com/watch?v=ahD5WYjfuLE&rel=0&hl=de
+https://www.youtube.com/watch?v=ahD5WYjfuLE&hl=de
 
 ## Listen
 
