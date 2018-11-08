@@ -37,14 +37,9 @@ Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 4.  Ein erneuter Klick auf das Icon „Optionen“ zeigt neu den Befehl „Dokument ist PDF (mit Tags)„. Klicke diesen an.
 5.  In den „Dokumenteigenschaften“ wird nun unter „Beschreibung“ der Eintrag „PDF mit Tags“ → „Ja“ angezeigt.
 
-<
-
-div>
-
-<iframe width="750" height="422" title="YouTube video tutorial: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0&hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe> 
-<
-
-div>
+<div>
+  <iframe width="750" height="422" title="YouTube video tutorial: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0&hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+</div>
 
 ### Semantik
 
