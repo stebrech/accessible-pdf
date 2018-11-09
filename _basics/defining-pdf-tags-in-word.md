@@ -38,7 +38,7 @@ If you want you can use your own paragraph styles and give them the appropriate 
   <iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Lists
+## Lists {#lists}
 
 Lists are great to structure multiple informations in a clear and brief way. However, you should use the correct list tools.
 
@@ -52,7 +52,7 @@ You can do that with the help of the following buttons:
 2.  the second an ordered list and
 3.  the third gives you the ability to use a multi level list. Besides predefined styles you can create your own list style by clicking on “New Multilevel list”
 
-## Tables
+## Tables {#tables}
 
 When data is arranged both horizontally and vertically, it belongs inside a table. Authors sometimes create a false table with the help of tabulators. This is wrong because of the semantics and the logical reading order.
 
@@ -64,11 +64,11 @@ If your cursor is placed somewhere in the table, you’ll see two additional men
 
 The most important table settings for accessibility are the options “Header Row”, “First Column” and “Last Column”. With the help of these options you’re creating table header cells.
 
-### Layout grid
+### Layout grid {#layoutgrid}
 
 A table shouldn’t be misused as a layout grid as well. If you need multiple columns, there is an option called “Columns” within the “Layout” menu item. With the help of a column break (“Layout” → “Breaks” → “Column”) you switch to another column. With a section break (“Layout” → “Breaks” → “Continuous”) you can switch to another column layout.
 
-## Export settings
+## Export settings {#export}
 
 In order to create the desired tags during PDF export, the following must be observed:
 

@@ -39,7 +39,7 @@ Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen d
   <iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=de" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-## Listen
+## Listen {#listen}
 
 Listen eignen sich hervorragend, um mehrere Informationen übersichtlich und in kurzer Form zu strukturieren. Du solltest jedoch die richtigen Listenwerkzeuge dazu verwenden.
 
@@ -53,7 +53,7 @@ Mit folgenden Schaltflächen kannst du das tun:
 2.  die zweite eine nummerierte Liste und
 3.  Die dritte gibt dir die Möglichkeit eine mehrstufige Liste zu verwenden. Neben vordefinierten Formaten kannst du auch dein eigenes Listenformat erstellen, indem du auf „Neue Listenfomatvorlage definieren“ klickst.
 
-## Tabellen
+## Tabellen {#tabellen}
 
 Wenn Daten sowie horizontal wie auch vertikal angeordnet sind, gehören sie in eine Tabelle. Manchmal erstellen Autorinnen und Autoren mithilfe von Tabulatoren eine *falsche* Tabelle. Dies ist wegen der Semantik und der logischen Lesereihenfolge nicht korrekt.
 
@@ -65,7 +65,7 @@ Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche 
 
 Die wichtigsten Tabelleneinstellungen für die Barrierefreiheit sind die Optionen „Überschrift“, „Erste Spalte“ und „Letzte Spalte“. Mit Hilfe dieser Optionen erstellst du Tabellenüberschriftszellen.
 
-### Layout-Raster
+### Layout-Raster {#layouttabellen}
 
 Eine Tabelle sollte nicht als Layout-Raster missbraucht werden. Falls mehrere Spalten benötigt werden, steht im Menüeintrag „Layout“ die Option „Spalten“ zur Verfügung. Mithilfe eines Spaltenumbruchs („Layout“ → „Umbrüche“ → „Spalte“) kann in die nächste Spalte gewechselt werden. Durch einen Abschnittswechsel („Layout“ → „Umbrüche“ → „Fortlaufend“) kann ein anderes Spaltenlayout angewendet werden.
 
