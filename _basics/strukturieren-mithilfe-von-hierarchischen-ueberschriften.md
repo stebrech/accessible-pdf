@@ -17,8 +17,8 @@ permalink: >
 published: true
 post_date: 2018-05-25 05:47:40
 tags:
-  - Adobe InDesign
-  - Microsoft Word
+  - InDesign
+  - Word
 categories: [ ]
 ---
 Eines der Hauptwerkzeuge um Dokumente zu strukturieren, ist die Verwendung von Überschriften. Auf visueller Ebene werden Überschriften meist mit grösserer Schriftgrösse oder fetterem Schriftschnitt kenntlich gemacht.
