@@ -14,9 +14,9 @@ permalink: >
 published: true
 post_date: 2018-01-11 17:29:45
 tags:
-  - Adobe InDesign
   - Automatische Prüfung
-  - Microsoft Word
+  - InDesign
+  - Word
 categories:
   - 06. Metadaten
 ---
