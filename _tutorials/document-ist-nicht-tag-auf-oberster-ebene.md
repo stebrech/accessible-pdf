@@ -10,7 +10,7 @@ published: true
 post_date: 2018-01-05 16:24:27
 tags:
   - Manuelle Prüfung
-  - Microsoft Word
+  - Word
 categories:
   - 01. Getaggter realer Inhalt
 ---
