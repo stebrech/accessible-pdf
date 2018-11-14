@@ -63,6 +63,16 @@ AT is the abbreviation of [assistive Technology][3]
 
 As the [Matterhorn Protocol][10] says there are 87 failure conditions which can be checked through software. [PAC][11] for instance can find such kind of errors.
 
+## logical reading order {#logical-reading-order}
+
+The logical reading order stands for the correct order in which individual parts of the content should be read so that the document is understood correctly. A good practical example is a multi-column layout in which line by line within a column must be read and not over the entire page. 
+
+Assistive technology ([AT](#assistive-technology)) requires PDF [tags](#tags) not only to recognize the meaning of the contents, but also to derive the logical reading order. Unfortunately, not all AT use the order of the tags but take them from the visual order of the contents, which is displayed in Acrobat in the navigation pane “Order”. Adapting this visual order to the logical reading order can be very time-consuming and is not a requirement of [PDF/UA](#pdfua).
+
+![Acrobat info window: The Tags panel displays the logical document structure assistive technologies use to interpret the document. The logical structure defines the reading order and identifies elements such as headings, lists, tables, and other components that assistive technology users rely on for document navigation. To modify the reading order that is used by Adobe Acrobat and Adobe Acrobat Reader’s Read Out Loud text-to-speech tool, please use the Reading Order panel.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat-info-tags-order.png)
+
+The logical reading order can be checked using the tag tree in Acrobat, the “Screenreader Preview” in [PAC](#pac), the Acrobat plugin [“pdfGoHTML”](https://www.callassoftware.com/en/products/pdfgohtml) or an [AT](#assistive-technology).
+
 ## manual testing {#manual-testing}
 
 As the [Matterhorn Protocol][10] says there are 47 failure conditions which need human inspection. Software like [PAC][11] can warn for possible semantic issues at most.
@@ -70,6 +80,10 @@ As the [Matterhorn Protocol][10] says there are 47 failure conditions which need
 ## Matterhorn Protocol {#matterhorn}
 
 The [Matterhorn Protocol][12] is a document by the [PDF Association][13] and helps software developers and testers to check a PDF for PDF/UA compatibility. It describes 136 failure conditions. 87 of them can be tested by software. 47 of them have to be checked manually by a human. 2 failure conditions cannot be categorized.
+
+## order {#order}
+
+see [logical reading order](#logical-reading-order)
 
 ## PAC {#pac}
 
@@ -80,6 +94,10 @@ The [Matterhorn Protocol][12] is a document by the [PDF Association][13] and hel
 PDF/UA is the ISO standard 14289-1. The part “UA” stands for universal accessibility. The standard is aimed at production companies of software and [assistive technology][3]. To check a document for PDF/UA, you do not need to purchase the ISO documentation. Using the free [Matterhorn Protocol][10], a document can be checked for PDF/UA compatibility.
 
 PDF/UA is based on the [WCAG][16], does not contradict those guidelines, but does not cover all regulations of the WCAG.
+
+## reading order {#reading-order}
+
+see [logical reading order](#logical-reading-order)
 
 ## Tagged PDF {#tagged-pdf}
 
