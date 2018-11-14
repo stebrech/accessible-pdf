@@ -18,8 +18,8 @@ permalink: >
 published: true
 post_date: 2018-10-11 16:09:22
 tags:
-  - Adobe InDesign
-  - Microsoft Word
+  - InDesign
+  - Word
 categories: [ ]
 ---
 Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ein Bild / eine Grafik. Der unsichtbare Text kann durch Software, insbesondere [AT][1], ausgelesen und wiedergegeben werden. Im Glossar kannst du mehr darüber erfahren was ein [Alt-Text][2] ist und wie er aussehen sollte.
