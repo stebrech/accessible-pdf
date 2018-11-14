@@ -16,9 +16,9 @@ permalink: >
 published: true
 post_date: 2018-06-22 05:47:24
 tags:
-  - Adobe InDesign
   - Automatische Prüfung
-  - Microsoft Word
+  - InDesign
+  - Word
 categories:
   - 14. Überschriften
 ---
