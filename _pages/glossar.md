@@ -71,6 +71,24 @@ Die wichtigsten Grundlagen sind erreicht, wenn
 *   Alternativtexte verwendet werden um Nicht-Text-Elemente (Bilder und Grafiken) zu beschreiben;
 *   keine schwachen oder ungeeignete Farbkontraste verwendet werden.
 
+## Hilfstechnologie {#hilfstechnologie}
+
+siehe [assistive Technologie](#assistive-technologie)
+
+## Lesereihenfolge {#lesereihenfolge}
+
+siehe [Logische Lesereihenfolge](#logische-lesereihenfolge)
+
+## Logische Lesereihenfolge {#logische-lesereihenfolge}
+
+Die logische Lesereihenfolge steht für die korrekte Reihenfolge, in welcher einzelne Inhaltsteile gelesen werden sollten damit das Dokument richtig verstanden wird. Ein gutes Praxisbeispiel ist ein mehrspaltiges Layout indem Zeile für Zeile innerhalb einer Spalte und nicht über die ganze Seite gelesen werden muss. 
+
+Hilfstechnologien ([AT](#assistive-technologie)) benötigen PDF-*[Tags](#tags)* nicht nur um die Bedeutung der enthaltenen Inhalte zu erkennen, sondern auch um die logische Lesereihenfolge abzuleiten. Leider nutzen nicht alle AT die Reihenfolge der *Tags* sondern entnehmen sie der visuellen Reihenfolge der Inhalte, welche in Acrobat im Navigationsfenster „Reihenfolge“ abgebildet wird. Diese visuelle Reihenfolge der logischen Lesereihenfolge anzupassen kann sehr zeitraubend sein und ist keine Anforderung von [PDF/UA](#pdf-ua).
+
+![Acrobat Infofenster: Im Tags-Fenster wird die logische Dokumentstruktur angezeigt, die von Hilfstechnologien für die Auswertung des Dokuments verwendet wird. Durch die logische Struktur wird die Lesereihenfolge festgelegt. Ausserdem werden Überschriften, Listen, Tabellen und andere Elemente identifiziert, die Benutzer von Hilfstechnologien verwenden können, um durch das Dokument zu navigieren. Um die Lesereihenfolge zu ändern, die von der Sprachausgabe von Adobe Acrobat und Adobe Acrobat Reader verwendet wird, verwenden Sie das Leserichtung-Fenster.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat-info-tags-reihenfolge.png	)
+
+Die logische Lesereihenfolge kann mithilfe des *Tag*-Strukturbaums in Acrobat, mit der „Screenreader-Vorschau“ in [PAC](#pac), mit dem Acrobat Plugin [„pdfGoHTML“](https://www.callassoftware.com/de/produkte/pdfgohtml) oder einer [AT](#assistive-technologie) überprüft werden.
+
 ## manuelle Prüfung {#manuelle-pruefung}
 
 Gemäss [Matterhorn Protokoll][8] sind 47 Prüfpunkte durch einen Menschen zu prüfen. Diese können nicht durch eine Software, wie zum Beispiel [PAC][9], geprüft werden. Es kann höchstens eine Warnung ausgegeben werden.
@@ -88,6 +106,10 @@ Das [Matterhorn Protokoll][14] ist ein Dokument der [PDF Association][15], welch
 PDF/UA ist der ISO-Standard 14289-1. Der Teil „UA“ steht für *Universal Accessibility*. Dieser Standard definiert Anforderungen an die Barrierefreiheit des PDF-Dokuments. Er richtet sich an Herstellerfirmen von Software und assistiver Technologie. Um ein Dokument nach PDF/UA zu prüfen, muss nicht die ISO-Dokumentation erworben werden. Mithilfe des kostenlosen [Matterhorn Protokolls][8] lässt sich ein Dokument auf dessen PDF/UA-Kompatibilität prüfen.
 
 PDF/UA baut auf die [WCAG][17] auf, widerspricht diesen Richtlinien nicht, behandelt aber nicht alle Regelungen der WCAG.
+
+## Reihenfolge {#reihenfolge}
+
+siehe [Logische Lesereihenfolge](#logische-lesereihenfolge)
 
 ## *Tagged PDF* {#tagged-pdf}
 
