@@ -18,8 +18,8 @@ permalink: >
 published: true
 post_date: 2018-03-28 14:53:24
 tags:
-  - Adobe InDesign
-  - Microsoft Word
+  - InDesign
+  - Word
 categories: [ ]
 ---
 BenutzerInnen von [AT][1] sind nicht nur auf semantisch korrekte *Tags* angewiesen. Es ist auch wichtig dekorative, nicht relevante Objekte von der Ausgabe auszuschliessen. Dies wird erreicht indem solche unwichtige Elemente als Artefakt gekennzeichnet werden.
