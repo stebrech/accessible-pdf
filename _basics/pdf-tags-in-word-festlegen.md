@@ -15,7 +15,7 @@ permalink: >
 published: true
 post_date: 2018-06-19 17:24:08
 tags:
-  - Microsoft Word
+  - Word
 categories: [ ]
 ---
 Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschriften, siehe auch [„Strukturieren mithilfe von hierarchischen Überschriften“][1]. Solches Strukturieren kann durch die konsequente Verwendung von Absatzformaten in Word erreicht werden. Bei korrekter Verwendung, werden die Überschriften mit dem passenden *Tag* in das PDF exportiert.
@@ -36,7 +36,6 @@ Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen d
     *   usw.
 
 <div>
-  <iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=de" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ## Listen {#listen}
