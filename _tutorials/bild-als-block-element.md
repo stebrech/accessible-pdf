@@ -10,7 +10,7 @@ published: true
 post_date: 2018-01-12 16:19:17
 tags:
   - Automatische Prüfung
-  - Microsoft Word
+  - Word
 categories:
   - 13. Grafiken
 ---
