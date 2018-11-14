@@ -15,7 +15,7 @@ permalink: >
 published: true
 post_date: 2018-01-19 12:45:49
 tags:
-  - Adobe InDesign
+  - InDesign
 categories: [ ]
 ---
 In InDesign können die Überschriften-*Tags* innerhalb der Absatzformateinstellungen definiert werden. Unter „Tagsexport“ wird einem Absatzformat ein PDF-*Tag* zugewiesen.
