@@ -1,4 +1,4 @@
-*[[DE] Die deutsche Übersetzung findest du weiter unten.](#de)*
+*[DE] Die deutsche Übersetzung mit dem Titel „Anstandsregeln“ findest du weiter unten.*
 
 # Contributors Guide
 
@@ -38,17 +38,17 @@ Every post needs proper metadata at the beginning of the file. You'll find more 
 
 Hint: Contribution is only possible with a [Github account](https://github.com/join).
 
-1. **Fork** this repository ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). This means you copy the project to your own account. [See annex 1](#annex1)
-2. Create a **new branch** from the `master` branch. This step keeps the `master` branch clean and makes it easier to keep your repository up to date. [See annex 2](#annex2)
-3. Check the branch your in and open the file you want to change. Click on the *edit* icon. Make the changes you wish and save – or in Git language – **commit** your changes. [See annex 3](#annex3)
-4. Create a **pull request** by clicking on the provided tab and the green button *New pull request*. Now you define which repos and branches should be compared with each other. The only thing you probably need to do, is to choose the branch you created in step 2. Great, hit *Create pull request* and you successfully made your change request. [See annex 4](#annex4)
+1. **Fork** this repository ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). This means you copy the project to your own account. [(See gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)
+2. Create a **new branch** from the `master` branch. This step keeps the `master` branch clean and makes it easier to keep your repository up to date. [(See gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)
+3. Check the branch your in and open the file you want to change. Click on the *edit* icon. Make the changes you wish and save – or in Git language – **commit** your changes. [(See gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)
+4. Create a **pull request** by clicking on the provided tab and the green button *New pull request*. Now you define which repos and branches should be compared with each other. The only thing you probably need to do, is to choose the branch you created in step 2. Great, hit *Create pull request* and you successfully made your change request. [(See gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)
 5. If your pull request will be merged (accepted), you can delete the branch you created.
 
 #### How to submit a pull request the next time? (The “Github web interface” way)
 
 Before you change anything you should update your `master` so that it has the official status. If your branch is behind, it might cause conflicts.
 
-The way of updating your `master` branch is ([See annex 5](#annex5)):
+The way of updating your `master` branch is [(see gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif):
 
 1. create a pull request. It should compare the two `master` branches. 
 2. click on the link *switching the base*.
@@ -98,17 +98,17 @@ Jeder Beitrag benötigt passende Metadaten am Anfang der Datei. Du findest mehr 
 
 Hinweis: Die Mithilfe ist nur mit einem [Github Konto](https://github.com/join) möglich.
 
-1. ***Fork*** dieses *Repository* ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). Das bedeutet, dass du eine Kopie des Projekts für dein Konto anlegst. [(Siehe Annex 1)](#annex1) 
-2. Erstelle einen **neuen *Branch*** vom `master` *Branch* aus. Dieser Schritt hält den `master` *Branch* sauber und macht es einfacher dein *Repository* zu aktualisieren. [(Siehe Annex 2)](#annex2)
-3. Prüfe in welchem *Branch* du dich befindest und öffne die Datei, die du ändern möchtest. Klicke auf *Bearbeiten* (Bleistiftsymbol). Mache die Änderungen, die du wünscht und speichere – oder in der Git Sprache – ***Commit(te)*** deine Änderungen. [(Siehe Annex 3)](#annex3)
-4. Erstelle einen ***Pull Request*** indem du auf den gleichnamigen Tab und dann auf den grünen Knopf *New pull request* klickst. Jetzt definierst du welche *Repos* miteinander verglichen werden sollen. Normalerweise musst du nur noch dein *Branch*, den du in Schritt 2 angelegt hast, auswählen. Super, drücke *Create pull request* und du hast erfolgreich deine Änderung eingereicht. [(Siehe Annex 4)](#annex4)
+1. ***Fork*** dieses *Repository* ([pixelstrolch/accessible-pdf](https://github.com/pixelstrolch/accessible-pdf)). Das bedeutet, dass du eine Kopie des Projekts für dein Konto anlegst. [(Siehe Gif-Animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)
+2. Erstelle einen **neuen *Branch*** vom `master` *Branch* aus. Dieser Schritt hält den `master` *Branch* sauber und macht es einfacher dein *Repository* zu aktualisieren. [(Siehe Gif-Animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)
+3. Prüfe in welchem *Branch* du dich befindest und öffne die Datei, die du ändern möchtest. Klicke auf *Bearbeiten* (Bleistiftsymbol). Mache die Änderungen, die du wünscht und speichere – oder in der Git Sprache – ***Commit(te)*** deine Änderungen. [(Siehe Gif-Animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)
+4. Erstelle einen ***Pull Request*** indem du auf den gleichnamigen Tab und dann auf den grünen Knopf *New pull request* klickst. Jetzt definierst du welche *Repos* miteinander verglichen werden sollen. Normalerweise musst du nur noch dein *Branch*, den du in Schritt 2 angelegt hast, auswählen. Super, drücke *Create pull request* und du hast erfolgreich deine Änderung eingereicht. [(Siehe Gif-Animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)
 5. Wenn dein *Pull Request* akzeptiert wird (merged), kannst du dein erstellter *Branch* löschen.
 
 #### Wie kann ein *Pull Request* das nächste Mal eingereicht werden? (Weg über die Github Website)
 
 Bevor du etwas änderst, solltest du dein `master` *Branch* aktualisieren, so dass dieser auf dem offiziellen Stand ist. Wenn dein `master` *Branch* veraltet ist, kann es zu Konflikten kommen.
 
-Wie der `master` *Branch* aktualisiert wird [(siehe Annex 5)](#annex5):
+Wie der `master` *Branch* aktualisiert wird [(siehe Gif-Animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif):
 
 1. Erstelle einen *Pull Request*. Es sollten die beiden `master` *Branches* vergleichen.
 2. Klicke auf den Link *switching the base*
@@ -117,25 +117,3 @@ Wie der `master` *Branch* aktualisiert wird [(siehe Annex 5)](#annex5):
 5. Drücke den grünen Knopf *Merge pull request*
 6. Drücke den grünen Knopf *Confirm merge*   
 7. Dein `master` ist nun auf dem aktuellen Stand und du kannst mit Schritt 2 in „[Wie kann ein *Pull Request* das erste Mal eingereicht werden?](#de-pull-request-first-time)“ fortfahren.
-
-***
-
-<h2 id="annex1">Annex 1:</h2> 
-
-![Github fork (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_fork.gif)
-
-<h2 id="annex2">Annex 2</h2>
-
-![Github branch (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_branch.gif)
-
-<h2 id="annex3">Annex 3</h2>
-
-![Github commit (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_commit.gif)
-
-<h2 id="annex4">Annex 4</h2>
-
-![Github pull request (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest.gif)
-
-<h2 id="annex5">Annex 5</h2>
-
-![Github update `master` (Gif animation)](https://accessible-pdf.info/wp/wp-content/uploads/github_pullRequest_updateMaster.gif)
