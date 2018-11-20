@@ -20,11 +20,11 @@ Der Betreiber und Verantwortlicher von [accessible-pdf.info][1] ist [Stefan Brec
 
 Der Betreiber dieser Website nimmt den Datenschutz der Besucherinnen und Besucher ernst. Er reduziert das Sammeln von personenbezogenen Daten der BesucherInnen auf ein Minimum.
 
-Folgende typische, Datenschutz relevanten Interaktionen sind auf dieser Website nur eingeschränkt verfügbar:
+Das Übertragen von personenbezogenen Daten ist aus folgenden Gründen nur beschränkt möglich:
 
 *   das Kommentieren von Beiträgen ist nicht möglich;
-*   die Website enthält keine Formulare zur Kontaktaufnahme oder sonstiger Datenübermittlung;
-*   auf die Einbindung von Social Media Diensten wird verzichtet (Like und Teilen Buttons).
+*   die Website enthält kein Kontaktformular;
+*   auf die Einbindung von Social Media Diensten wird verzichtet.
 
 Falls dem Betreiber personenbezogene Daten per E-Mail geschickt wurden oder ein Account für die Seite eingerichtet wurde, können diese auf Anfrage gelöscht werden.
 
@@ -49,9 +49,15 @@ Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenomm
 
 ## Cookies
 
-Für Autoren mit einem Konto für diese Website, werden diverse Cookies gespeichert, welche die Anmeldeinformationen und Anzeigeinstellungen speichern.
+Cookies sind lokal gespeicherte Daten, welche durch eine Website gespeichert und abgerufen werden können. Du kannst Cookies blockieren, verwalten und löschen, siehe auch den [Support-Artikel von Mozilla](https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen). 
 
-Für die gewöhnlichen BesucherInnen wird ein Cookie für die Sprachauswahl gespeichert.
+Die Website accessible-pdf.info setzt Cookies für folgende Szenarien ein:
+
+* Allen Besucherinnen und Besuchern wird ein Cookie für die gewählte Sprache gespeichert.
+
+* Für das Liken eines Beitrags wird ein Cookie gespeichert. Darin wird gespeichert welche Beiträge bereits *geliked* wurden.
+
+* Für Autoren mit einem Konto der Website werden diverse Cookies gespeichert, welche die Anmeldeinformationen und Anzeigeinstellungen speichern.
 
 ## YouTube Videos
 
