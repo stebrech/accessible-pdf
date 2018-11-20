@@ -21,11 +21,11 @@ The operator and responsible person of [accessible-pdf.info][1] is [Stefan Brech
 
 The operator of this website takes the data protection of visitors seriously. It reduces the collection of personal data to a minimum.
 
-The privacy relevant interactions are restricted as follows:
+The transmission of personal data is for the following reasons only limited possible:
 
-*   commenting on contributions is not possible;
-*   the website does not contain any forms for contact or other data transmission;
-*   the integration of social media services are not used (like and share buttons).
+* commenting on posts is not possible;
+* the website does not contain a contact form;
+* the integration of social media services is avoided.
 
 If personal data was sent to the operator by email or an account was set up for the site, those can be deleted on request.
 
@@ -50,9 +50,13 @@ These data are not combined with other data sources.
 
 ## Cookies
 
-For authors with an account for this website, various cookies with login informations and display settings are stored.
+Cookies are locally stored data that can be stored and retrieved by a website. You can block, manage and delete cookies, see also the [support article by Mozilla](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences). 
 
-For ordinary visitors, a cookie for the language selection is stored.
+The accessible-pdf.info website uses cookies for the following scenarios:
+
+* A cookie for the selected language is stored for all visitors.
+* A cookie is stored for liking a post. The cookie stores which articles have already been liked.
+* For authors with an account on the website, various cookies are stored, which save the login information and display settings.
 
 ## YouTube videos
 
