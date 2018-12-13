@@ -38,9 +38,9 @@ Im <em>Flyout</em>-Menü oben rechts im Panel „Absatzformate“ findest du den
 
 <h2>Tabellen, Listen und Fussnoten</h2>
 
-Verwende zum Erstellen von Tabellen den Menüpunkt „Tabelle“ und schummle nicht mit Hilfe von Tabulatoren. Dies wäre semantisch nicht korrekt und verursacht Probleme mit der <a href="https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge">logischen Lesereihenfolge</a>. Innerhalb der Tabellenoptionen kannst du wählen, wie viele Kopf- und Fusszeilen die Tabelle haben soll.
+Verwende zum Erstellen von Tabellen den Menüpunkt „Tabelle“ und erstelle keine falsche Tabelle mit Hilfe von Tabulatoren. Dies wäre semantisch nicht korrekt und verursacht Probleme mit der <a href="https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge">logischen Lesereihenfolge</a>. Innerhalb der Tabellenoptionen kannst du wählen, wie viele Kopf- und Fusszeilen die Tabelle haben soll.
 
-Schummle auch nicht bei den Listen. Du darfst nicht nur ein Bindestrich oder eine Zahl eingeben, um eine Liste zu erstellen. Innerhalb der Absatzformateinstellungen kann eine korrekt nummerierte oder ungeordnete Liste erstellt werden.
+Auch Listen müssen korrekt angelegt werden. Du darfst nicht nur ein Bindestrich oder eine Zahl eingeben, um eine Liste zu erstellen. Innerhalb der Absatzformateinstellungen kann eine korrekt nummerierte oder ungeordnete Liste erstellt werden.
 
 Im Menüpunkt „Schrift“ können korrekte Fuss- oder Endnoten hinzugefügt werden.
 
