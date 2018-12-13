@@ -18,41 +18,48 @@ tags:
   - InDesign
 categories: [ ]
 ---
-In InDesign können die Überschriften-*Tags* innerhalb der Absatzformateinstellungen definiert werden. Unter „Tagsexport“ wird einem Absatzformat ein PDF-*Tag* zugewiesen.
+In InDesign kannst du Überschriften-*Tags* manuell über die Einstellungen des Absatzformats definieren. Für Tabellen, Listen und Fussnoten wirst du die entsprechenden *Tags* automatisch erhalten, wenn die verfügbaren *Tools* korrekt verwendet wurden.
 
-![PDF-Tag für Absatzformat in InDesign definieren. Gif-Animation.][1]
+## *Tagsexport*
 
-Zudem gibt es auch die Möglichkeit ein bestimmtes Absatzformat als Artefakt zu behandeln. Mehr über Artefakte erfährst du in [„Unwichtige und dekorative Inhalte als Artefakt“][2].
+Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschriften, siehe auch ["Struktur mit Hilfe von mehrstufigen Überschriften"](https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/). Zur Einstellung des *Tags* für jedes Absatzformat 
 
-## Alle *Tags* auf einmal festlegen
+1. klickst du mit der rechten Maustaste auf das Absatzformat welches du ändern möchtest und wählst „… bearbeiten“; 
+2. öffnest den letzten Abschnitt „Tagsexport“;
+3. und wählst das passende *Tag* im letzten *Dropdown*-Feld mit der Bezeichnung „PDF“ → „Tag“.
 
-Im Flyout-Menü des Panels „Absatzformate“ befindet sich der Befehl „Alle Exporttags bearbeiten“.
+Du kannst dem Absatzformat jeden beliebigen Überschriften-*Tag* zuweisen. Es besteht auch die Möglichkeit „Artifact“ auszuwählen, wenn der Text keine relevanten Informationen enthält. Mehr dazu findest du unter [„Unwichtige und dekorative Inhalte als Artefakt“](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/).
 
-![Wo befindet sich das Flyout-Menü der Absatzformate? Screenshot.][3]
+### Alle *Tags* auf einmal festlegen
 
-Das Fenster, welches sich anschliessend öffnet, erlaubt es sehr schnell alle vorhandenen Absatzformate mit einem Exporttag zu versehen.
+Im *Flyout*-Menü oben rechts im Panel „Absatzformate“ findest du den Befehl „Alle Exporttags bearbeiten“. Im sich öffnenden Fenster musst du auf „PDF“ wechseln. Danach kannst du die *Tags* auf einmal festlegen.
 
-## Exportoption {#export}
+## Tabellen, Listen und Fussnoten
 
-Beim Export wird nur ein *Tagged PDF* erstellt, wenn die Option „PDF mit Tags erstellen“ aktiviert wurde. Diese Option existiert in den Exportoptionen von Adobe PDF (Druck)
+Verwende zum Erstellen von Tabellen den Menüpunkt „Tabelle“ und schummle nicht mit Hilfe von Tabulatoren. Dies wäre semantisch nicht korrekt und verursacht Probleme mit der [logischen Lesereihenfolge](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge). Innerhalb der Tabellenoptionen kannst du wählen, wie viele Kopf- und Fusszeilen die Tabelle haben soll.
 
-![Screenshot vom PDF-Exportdialog Druck.][4]
+Schummle auch nicht bei den Listen. Du darfst nicht nur ein Bindestrich oder eine Zahl eingeben, um eine Liste zu erstellen. Innerhalb der Absatzformateinstellungen kann eine korrekt nummerierte oder ungeordnete Liste erstellt werden.
 
-sowie auch für Adobe PDF (Interaktiv).
+Im Menüpunkt „Schrift“ können korrekte Fuss- oder Endnoten hinzugefügt werden.
 
-![Screenshot vom PDF-Exportdialog Interaktiv.][5]
+## Export
 
-## Rollenzuordnung der *Tags*
+Sobald dein Dokument fertig ist, gibt es eine wichtige Exporteinstellung, die du prüfen musst. Die Option „PDF mit Tags erstellen“ muss aktiviert sein. Du wirst sie finden ob du das Format „Adobe PDF (Druck)“.
 
-Auch wenn nach all den oben beschriebenen Schritten vorgegangen wurde, findet man im Navigationsfenster „Tags“ in Acrobat nicht die gewählten Überschriften-*Tags*. Die Inhalte sind zwar in Tags unterteilt, diese tragen aber den Namen des Absatzformates von InDesign.
+![Screenshot der Exportoptionen im PDF-Druckformat.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_druck.jpg)
 
-Was ist denn nun passiert? InDesign hat beim Export die korrekten Tags per Rollenzuordnung zugewiesen. Geöffnet wird die Rollenzuordnung in den Optionen des Navigationsfensters „Tags“.
+oder „Adobe PDF (Interaktiv)“ auswählst.
 
-![Wo befinden sich die Optionen des Navigationsfensters „Tags“? Animiertes Gif.][6]
+![Screenshot der Exportoptionen im interaktiven PDF-Format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.jpg)
 
- [1]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_tagsexport.gif
- [2]: https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
- [3]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_absatzformate_flyout.png
- [4]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_druck.jpg
- [5]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.jpg
- [6]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_rollenzuordnung.gif
+Wenn dein Dokument interaktiv ist und Links oder Formularfelder enthält, musst du „Adobe PDF (Interaktiv)“ wählen und auch die Option „Struktur für Aktivierreihenfolge verwenden“ aktivieren.
+
+## Rollenzuordnung von Tags
+
+Wenn du dir in Acrobat den Navigationsbereich „Tags“ anschaust, wirst du feststellen, dass das Dokument *getaggt* wurde. Die *Tags* werden jedoch nach dem Absatzformat benannt, den du in InDesign gewählt hast und nicht nach dem ausgewählten Export-*Tag*. 
+
+Also, weshalb die zusätzliche Arbeit? InDesign hat mit Hilfe der Rollenzuordnung die richtigen Tags zugewiesen. Das bedeutet, dass jedes *Tag* mit dem Namen des Absatzformats einem gültigen PDF-*Tag* zugeordnet wird. 
+
+Um diese Regeln zu überprüfen oder zu ändern, öffnest du das Menü in „Tags“ und wählst „Rollenzuordnung bearbeiten“.
+
+Seit Adobe Acrobat DC 2017 hat es im Menü „Tags“ eine neue Option namens „Rollenzuordnung auf Tags anwenden“. Wenn diese Option aktiv ist, siehst du die zugeordneten *Tags* anstelle der Namens, wie sie tatsächlich benannt wurden.
