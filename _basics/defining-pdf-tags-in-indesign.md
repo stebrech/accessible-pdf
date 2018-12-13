@@ -3,11 +3,7 @@ ID: 362
 post_title: Defining PDF tags in InDesign
 author: Stefan Brechbühl
 post_excerpt: >
-  In InDesign, the heading tags can be
-  defined within the paragraph style
-  options. Go to “Export Tagging” and
-  assign your paragraph style to the
-  proper PDF tag.
+  In InDesign, the export tags can be defined within the paragraph style options.
 layout: basics
 permalink: >
   https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/
@@ -17,40 +13,51 @@ tags:
   - Adobe InDesign
 categories: [ ]
 ---
-In InDesign, the heading tags can be defined within the paragraph style options. Go to “Export Tagging” and assign your paragraph style to the proper PDF tag.
+In InDesign you can define heading tags manually through the paragraph style settings. For tables, lists and footnotes you’ll automatically get the appropriate tags if you use the available tools correctly. 
 
-![Define a PDF tag for a paragraph style in InDesign. Gif animation.][1]
+## Export tags
 
-Additionally, there is the possibility to assign a paragraph style to an artifact.
+One of the key structure elements are nested multi-level headings, see also [“Structure with the help of multi-level headings”](https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/). For setting the export tag for each paragraph style, 
 
-## Set all tags at once
+1. right click on the paragraph style you want to change and choose “Edit”; 
+2. open the last section called “Export Tagging”; and
+3. choose the appropriate tag in the last dropdown field, labeled as “PDF” → “Tag”.
 
-In the flyout menu of the panel “Paragraph Styles” you’ll find the command “Edit all export tags…”.
+You’re able to assign any heading tag to a paragraph style. There is also the possibility to select “Artifact” if the text has not relevant information, read more about this in [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)).
 
-![Where is the paragraph style flyout menu? Screenshot.][2]
+### Set all tags at once
 
-The opening window allows to adjust the export tags for all existing paragraph styles very quickly.
+In the flyout menu on the top right of the panel “Paragraph Styles” you’ll find the command “Edit all export tags”. In the opening window you need to change to “PDF”. After that you’re able to adjust the export tags all at once.
 
-## Export option
+## Tables, lists and footnotes
 
-A tagged PDF will only be exported if the option “Create Tagged PDF” has been activated. You’ll find this option in the export options of Adobe PDF (Print)
+For creating tables use the menu item “Table” and don’t cheat by just using tabulators. This wouldn’t semantically be correct and causes issues with the [logical reading order](https://accessible-pdf.info/en/glossary/#logical-reading-order). Inside the table options you can choose how many header and footer rows the table should have.
+
+Don’t cheat for lists as well. You mustn’t only type a hyphen sign or number to create a list. Within the paragraph style options you’re able to create a correct numbered or unordered lists.
+
+Correct footnotes or endnotes can be added within the menu item “Type”.
+
+## Export
+
+As soon as your document is ready, there is an important export setting you need to check. The option “Create Tagged PDF” has to be activated. You’ll find it either you choose the format “Adobe PDF (Print)”
 
 ![Screenshot of export options with the PDF print format.][3]
 
-as well as for Adobe PDF (Interactive).
+or “Adobe PDF (Interactive)”.
 
 ![Screenshot of export options with the PDF interactive format.][4]
 
+If your document is interactive and includes hyperlinks or form fields you have to choose “Adobe PDF (Interactive)” and check the option “Use Structure for Tab Order” as well.
+
 ## Role mapping of tags
 
-Even if all the steps described above have been followed, you will not find the selected headline tags inside the navigation pane “Tags” in Acrobat. The headline tags are called the same as the paragraph styles in InDesign.
+You’ll realise that the document has been tagged by looking into the ”Tags” navigation pane. However, the tags are named by the paragraph style you chose in InDesign and not by the export tag you choose in InDesign. 
 
-What’s happened now? InDesign has assigned the correct tags with the help of role map. You can check the existing role map from the options of the navigation pane “Tags”.
+So, why the extra work? InDesign has assigned the correct tags with the help of the role mapping. That means each tag with the name of the paragraph style is mapped to a valid PDF tag. 
 
-![Where to find the options of the navigation pane “Tags”? Animated gif.][5]
+To check or change those rules, open the “Tags” menu and choose “Edit Role Map”.
 
- [1]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_export-tag.gif
- [2]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_edit-all-tags.gif
+Since Adobe Acrobat DC 2017 you have a new option in the “Tags” menu called “Apply Role Mapping to Tags”. If this option is active you see the mapped tags instead of the name they are actually called. 
+
  [3]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_export-option-print.jpg
  [4]: https://accessible-pdf.info/wp/wp-content/uploads/indesign_export-option-interactive.jpg
- [5]: https://accessible-pdf.info/wp/wp-content/uploads/acrobat_roll_map.gif
