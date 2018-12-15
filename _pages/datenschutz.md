@@ -14,57 +14,57 @@ post_date: 2018-05-18 18:56:16
 tags: [ ]
 categories: [ ]
 ---
-Der Betreiber und Verantwortlicher von [accessible-pdf.info][1] ist [Stefan Brechbühl][2].
+Der Betreiber und Verantwortlicher von <a href="https://accessible-pdf.info">accessible-pdf.info</a> ist <a href="https://accessible-pdf.info/de/impressum/">Stefan Brechbühl</a>.
 
-## Personenbezogene Daten
+<h2>Personenbezogene Daten</h2>
 
 Der Betreiber dieser Website nimmt den Datenschutz der Besucherinnen und Besucher ernst. Er reduziert das Sammeln von personenbezogenen Daten der BesucherInnen auf ein Minimum.
 
 Das Übertragen von personenbezogenen Daten ist aus folgenden Gründen nur beschränkt möglich:
 
-*   das Kommentieren von Beiträgen ist nicht möglich;
-*   die Website enthält kein Kontaktformular;
-*   auf die Einbindung von Social Media Diensten wird verzichtet.
+<ul>
+<li>das Kommentieren von Beiträgen ist nicht möglich;</li>
+<li>die Website enthält kein Kontaktformular;</li>
+<li>auf die Einbindung von Social Media Diensten wird verzichtet.</li>
+</ul>
 
 Falls dem Betreiber personenbezogene Daten per E-Mail geschickt wurden oder ein Account für die Seite eingerichtet wurde, können diese auf Anfrage gelöscht werden.
 
-## Besucherstatistik
+<h2>Besucherstatistik</h2>
 
-Als Statistiktool wird das WordPress Plugin [Statify][3] verwendet. Das datenschutzfreundliche Plugin speichert keine personenbezogene Daten.
+Als Statistiktool wird das WordPress Plugin <a href="https://wordpress.org/plugins/statify/">Statify</a> verwendet. Das datenschutzfreundliche Plugin speichert keine personenbezogene Daten.
 
-## Server Log
+<h2>Server Log</h2>
 
-Der Hostingprovider dieser Website ist [cyon](https://www.cyon.ch/) (Basel, Schweiz) erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die dein Browser automatisch übermittelt.
+Der Hostingprovider dieser Website ist <a href="https://www.cyon.ch/">cyon</a> (Basel, Schweiz) erhebt und speichert automatisch Informationen in sogenannten Server-Log-Dateien, die dein Browser automatisch übermittelt.
 
 Dies sind:
 
-*   Browsertyp und Browserversion
-*   verwendetes Betriebssystem
-*   Referrer URL
-*   Hostname des zugreifenden Rechners
-*   Uhrzeit der Serveranfrage
-*   IP-Adresse
+<ul>
+<li>Browsertyp und Browserversion</li>
+<li>verwendetes Betriebssystem</li>
+<li>Referrer URL</li>
+<li>Hostname des zugreifenden Rechners</li>
+<li>Uhrzeit der Serveranfrage</li>
+<li>IP-Adresse</li>
+</ul>
 
 Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
 
-## Cookies
+<h2>Cookies</h2>
 
-Cookies sind lokal gespeicherte Daten, welche durch eine Website gespeichert und abgerufen werden können. Du kannst Cookies blockieren, verwalten und löschen, siehe auch den [Support-Artikel von Mozilla](https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen). 
+Cookies sind lokal gespeicherte Daten, welche durch eine Website gespeichert und abgerufen werden können. Du kannst Cookies blockieren, verwalten und löschen, siehe auch den <a href="https://support.mozilla.org/de/kb/cookies-erlauben-und-ablehnen">Support-Artikel von Mozilla</a>.
 
 Die Website accessible-pdf.info setzt Cookies für folgende Szenarien ein:
 
-* Allen Besucherinnen und Besuchern wird ein Cookie für die gewählte Sprache gespeichert.
+<ul>
+<li>Allen Besucherinnen und Besuchern wird ein Cookie für die gewählte Sprache gespeichert.</p></li>
+<li><p>Für das Liken eines Beitrags wird ein Cookie gespeichert. Darin wird gespeichert welche Beiträge bereits <em>geliked</em> wurden.</p></li>
+<li><p>Für Autoren mit einem Konto der Website werden diverse Cookies gespeichert, welche die Anmeldeinformationen und Anzeigeinstellungen speichern.</p></li>
+</ul>
 
-* Für das Liken eines Beitrags wird ein Cookie gespeichert. Darin wird gespeichert welche Beiträge bereits *geliked* wurden.
+<h2>YouTube Videos</h2>
 
-* Für Autoren mit einem Konto der Website werden diverse Cookies gespeichert, welche die Anmeldeinformationen und Anzeigeinstellungen speichern.
+<p>Die Website enthält Beiträgen in denen Videos der Plattform YouTube des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, eingebettet sind. Wenn eine dieser Seiten besucht werden, stellt sie eine Verbindung zu den Servern von YouTube her.
 
-## YouTube Videos
-
-Die Website enthält Beiträgen in denen Videos der Plattform YouTube des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, eingebettet sind. Wenn eine dieser Seiten besucht werden, stellt sie eine Verbindung zu den Servern von YouTube her. 
-
-In der [Datenschutzerklärung von Google](https://www.google.de/intl/de/policies/privacy) ist ersichtlich welche Daten erhoben werden können. Es besteht die Möglichkeit [personalisierte Werbung](https://adssettings.google.com/authenticated) zu deaktivieren.
-
- [1]: https://accessible-pdf.info
- [2]: https://accessible-pdf.info/de/impressum/
- [3]: https://wordpress.org/plugins/statify/
+In der <a href="https://www.google.de/intl/de/policies/privacy">Datenschutzerklärung von Google</a> ist ersichtlich welche Daten erhoben werden können. Es besteht die Möglichkeit <a href="https://adssettings.google.com/authenticated">personalisierte Werbung</a> zu deaktivieren.
