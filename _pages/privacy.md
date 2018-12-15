@@ -15,56 +15,57 @@ post_date: 2018-05-25 16:21:42
 tags: [ ]
 categories: [ ]
 ---
-The operator and responsible person of [accessible-pdf.info][1] is [Stefan Brechbühl][2].
+The operator and responsible person of <a href="https://accessible-pdf.info">accessible-pdf.info</a> is <a href="https://accessible-pdf.info/en/imprint/">Stefan Brechbühl</a>.
 
-## Personal information
+<h2>Personal information</h2>
 
 The operator of this website takes the data protection of visitors seriously. It reduces the collection of personal data to a minimum.
 
 The transmission of personal data is for the following reasons only limited possible:
 
-* commenting on posts is not possible;
-* the website does not contain a contact form;
-* the integration of social media services is avoided.
+<ul>
+<li>commenting on posts is not possible;</li>
+<li>the website does not contain a contact form;</li>
+<li>the integration of social media services is avoided.</li>
+</ul>
 
 If personal data was sent to the operator by email or an account was set up for the site, those can be deleted on request.
 
-## Statistics
+<h2>Statistics</h2>
 
-The WordPress plugin [Statify][3] is used to measure the traffic on the site. The data protection friendly plugin does not store any personal data.
+The WordPress plugin <a href="https://wordpress.org/plugins/statify/">Statify</a> is used to measure the traffic on the site. The data protection friendly plugin does not store any personal data.
 
-## Server log
+<h2>Server log</h2>
 
-The hosting provider of this website is [cyon][4] (Basel, Switzerland). cyon automatically collects and stores information in so-called server log files, which are automatically transmitted by your browser.
+The hosting provider of this website is <a href="https://www.cyon.ch/">cyon</a> (Basel, Switzerland). cyon automatically collects and stores information in so-called server log files, which are automatically transmitted by your browser.
 
 These are:
 
-*   Browser type and browser version
-*   operating system used
-*   Referrer URL
-*   Host name of the accessing computer
-*   Time of the server request
-*   IP address
+<ul>
+<li>Browser type and browser version</li>
+<li>operating system used</li>
+<li>Referrer URL</li>
+<li>Host name of the accessing computer</li>
+<li>Time of the server request</li>
+<li>IP address</li>
+</ul>
 
 These data are not combined with other data sources.
 
-## Cookies
+<h2>Cookies</h2>
 
-Cookies are locally stored data that can be stored and retrieved by a website. You can block, manage and delete cookies, see also the [support article by Mozilla](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences). 
+Cookies are locally stored data that can be stored and retrieved by a website. You can block, manage and delete cookies, see also the <a href="https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences">support article by Mozilla</a>.
 
 The accessible-pdf.info website uses cookies for the following scenarios:
 
-* A cookie for the selected language is stored for all visitors.
-* A cookie is stored for liking a post. The cookie stores which articles have already been liked.
-* For authors with an account on the website, various cookies are stored, which save the login information and display settings.
+<ul>
+<li>A cookie for the selected language is stored for all visitors.</li>
+<li>A cookie is stored for liking a post. The cookie stores which articles have already been liked.</li>
+<li>For authors with an account on the website, various cookies are stored, which save the login information and display settings.</li>
+</ul>
 
-## YouTube videos
+<h2>YouTube videos</h2>
 
-The website contains articles in which videos from the YouTube platform of the provider Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, are embedded. When one of these pages is visited, it connects to YouTube's servers. 
+The website contains articles in which videos from the YouTube platform of the provider Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, are embedded. When one of these pages is visited, it connects to YouTube's servers.
 
-[Google’s Privacy Policy](https://policies.google.com/privacy) indicates what information may be collected. It is possible to deactivate [personalised advertising](https://adssettings.google.com/authenticated).
-
- [1]: https://accessible-pdf.info
- [2]: https://accessible-pdf.info/en/imprint/
- [3]: https://wordpress.org/plugins/statify/
- [4]: https://www.cyon.ch/
+<a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> indicates what information may be collected. It is possible to deactivate <a href="https://adssettings.google.com/authenticated">personalised advertising</a>.
