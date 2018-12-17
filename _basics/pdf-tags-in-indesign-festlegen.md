@@ -3,12 +3,14 @@ ID: 21939
 post_title: '<em>PDF-Tags</em> in InDesign festlegen'
 author: Stefan Brechbühl
 post_excerpt: >
-  In InDesign können die
-  Überschriften-Tags innerhalb der
-  Absatzformateinstellungen definiert
-  werden. Unter „Tagsexport“ wird
-  einem Absatzformat ein PDF-Tag
-  zugewiesen.
+  In InDesign kannst du
+  Überschriften-Tags manuell über die
+  Einstellungen des Absatzformats
+  definieren. Für Tabellen, Listen und
+  Fussnoten wirst du die entsprechenden
+  Tags automatisch erhalten, wenn die
+  verfügbaren Tools korrekt verwendet
+  wurden.
 layout: basics
 permalink: >
   https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/
@@ -60,7 +62,7 @@ Wenn dein Dokument interaktiv ist und Links oder Formularfelder enthält, musst 
 
 Wenn du dir in Acrobat den Navigationsbereich „Tags“ anschaust, wirst du feststellen, dass das Dokument <em>getaggt</em> wurde. Die <em>Tags</em> werden jedoch nach dem Absatzformat benannt, den du in InDesign gewählt hast und nicht nach dem ausgewählten Export-<em>Tag</em>.
 
-Also, weshalb die zusätzliche Arbeit? InDesign hat mit Hilfe der Rollenzuordnung die richtigen Tags zugewiesen. Das bedeutet, dass jedes <em>Tag</em> mit dem Namen des Absatzformats einem gültigen PDF-<em>Tag</em> zugeordnet wird.
+Also, weshalb die zusätzliche Arbeit? InDesign hat mit Hilfe der Rollenzuordnung die richtigen Tags zugewiesen. Das bedeutet, dass jedes <em>Tag</em> mit dem Namen des Absatzformats einem <a href="https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/">gültigen PDF-<em>Tag</em></a> zugeordnet wird.
 
 Um diese Regeln zu überprüfen oder zu ändern, öffnest du das Menü in „Tags“ und wählst „Rollenzuordnung bearbeiten“.
 
