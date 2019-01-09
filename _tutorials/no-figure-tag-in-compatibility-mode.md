@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-05-04 15:47:20
 tags:
-  - manual testing
+  - Manual testing
   - Microsoft Word
 categories:
   - 13. Graphics

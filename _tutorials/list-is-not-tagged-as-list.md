@@ -17,7 +17,7 @@ published: true
 post_date: 2018-02-18 20:43:59
 tags:
   - Adobe InDesign
-  - manual testing
+  - Manual testing
   - Microsoft Word
 categories:
   - 16. Lists

@@ -13,7 +13,7 @@ permalink: >
 published: true
 post_date: 2018-05-17 05:33:07
 tags:
-  - automatic testing
+  - Automatic testing
   - Microsoft Word
 categories:
   - 13. Graphics
