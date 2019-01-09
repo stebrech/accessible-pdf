@@ -10,7 +10,7 @@ published: true
 post_date: 2018-06-25 15:25:12
 tags:
   - Adobe InDesign
-  - automatic testing
+  - Automatic testing
   - Microsoft Word
 categories:
   - 14. Headings

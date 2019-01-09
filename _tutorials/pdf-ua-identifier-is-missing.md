@@ -13,7 +13,7 @@ published: true
 post_date: 2018-04-27 16:19:40
 tags:
   - Adobe InDesign
-  - automatic testing
+  - Automatic testing
   - Microsoft Word
 categories:
   - 06. Metadata

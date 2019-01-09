@@ -9,7 +9,7 @@ permalink: >
 published: true
 post_date: 2018-04-20 04:57:44
 tags:
-  - manual testing
+  - Manual testing
   - Microsoft Word
 categories:
   - 01. Real content tagged

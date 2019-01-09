@@ -9,8 +9,8 @@ permalink: >
 published: true
 post_date: 2018-04-23 15:25:28
 tags:
-  - automatic testing
-  - manual testing
+  - Automatic testing
+  - Manual testing
   - Microsoft Word
 categories:
   - 01. Real content tagged
