@@ -18,6 +18,8 @@ categories: [ ]
 ---
 Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
 
+<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-apps.png" alt=""/></div>
+
 ## Unterstützte Software
 
 Momentan werden folgende Software-Produkte behandelt:
@@ -31,6 +33,8 @@ Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität hab
 ## Freie Inhalte zur Bearbeitung
 
 Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht. Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt.
+
+<img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png" alt="" />
 
 ### Wie kannst du helfen?
 
@@ -59,6 +63,8 @@ Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basi
 Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftware `git` vereint. Es ist eine der beliebtesten Websites um freie Software zur Verfügung zu stellen, so dass alle sich daran beteiligen können.
 
 Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
+
+<img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-sync.png" alt="" />
 
 **Um Änderungen einreichen zu können, benötigst du ein kostenloses Konto bei Github. Weitere Infos findest du unter [Regeln für die Mithilfe](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md#de).**
 
