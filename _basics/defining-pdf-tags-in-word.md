@@ -19,6 +19,8 @@ categories: [ ]
 ---
 One of the key structure elements are nested multi-level headings, see also [“Structure with the help of multi-level headings”][1]. Such structuring work can be achieved by consistently using paragraph styles in Word. If used correctly, the headings will be exported to the PDF with the appropriate tag.
 
+<iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Word already provides a large styles catalog, including “Heading 1“ to “Heading 9”. Currently, in PDF there are only `<H1>` to `<H6>` numbered heading tags available. Therefore, the paragraph styles “Heading 7” to “Heading 9” are mapped with a general paragraph tag (`<P>`).
 
 If you want you can use your own paragraph styles and give them the appropriate “Outline Level”. Let’s have a look at this option.
@@ -33,10 +35,6 @@ If you want you can use your own paragraph styles and give them the appropriate 
     *   Level 2 = `<H2>`
     *   Level 3 = `<H3>`
     *   and so on
-
-<div>
-  <iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
 ## Lists {#lists}
 
