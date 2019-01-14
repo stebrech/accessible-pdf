@@ -34,7 +34,7 @@ Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität hab
 
 Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht. Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt.
 
-![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz).](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png)
+![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz und beiden Logos).](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png)
 
 ### Wie kannst du helfen?
 
