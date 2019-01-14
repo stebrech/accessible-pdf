@@ -20,6 +20,8 @@ categories: [ ]
 ---
 Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschriften, siehe auch [„Strukturieren mithilfe von hierarchischen Überschriften“][1]. Solches Strukturieren kann durch die konsequente Verwendung von Absatzformaten in Word erreicht werden. Bei korrekter Verwendung, werden die Überschriften mit dem passenden *Tag* in das PDF exportiert.
 
+<iframe width="750" height="422" title="YouTube video tutorial: PDF-Tags in Word festlegen" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
+
 Word bietet bereits einen umfangreichen Formatvorlagenkatalog, einschliesslich „Überschrift 1“ bis „Überschrift 9“. Derzeit sind in PDF nur `<H1>` bis `<H6>` als nummerierte Überschriften-*Tags* verfügbar. Daher werden die Absatzformate "Überschrift 7" bis „Überschrift 9“ mit dem allgemeinen Absatz-*Tag* (`<P>`) *getaggt*.
 
 Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen die entsprechende Gliederungsebene vergeben. Werfen wir einen Blick auf diese Option.
@@ -34,9 +36,6 @@ Wenn du willst, kannst du auch deine eigenen Absatzformate verwenden und ihnen d
     *   Ebene 2 = `<H2>`
     *   Ebene 3 = `<H3>`
     *   usw.
-
-<div>
-</div>
 
 ## Listen {#listen}
 
