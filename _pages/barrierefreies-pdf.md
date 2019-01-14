@@ -18,7 +18,7 @@ categories: [ ]
 ---
 Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
 
-<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-apps.png" alt=""/></div>
+<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-apps.png" alt="Grafik: Pfeile zeigen von einem InDesign-, Word- und Acrobat-Dokument zu einem barrierefreien Dokument (Logo accessible-pdf.info). Zusätzlich zeigen Pfeile den Umweg von InDesign- und Word-Dokumenten über Acrobat." /></div>
 
 ## Unterstützte Software
 
@@ -34,7 +34,7 @@ Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität hab
 
 Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht. Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt.
 
-<img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png" alt="" />
+![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz).](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png)
 
 ### Wie kannst du helfen?
 
@@ -64,7 +64,7 @@ Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftw
 
 Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
 
-<img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-sync.png" alt="" />
+![Grafik: Markdown Dokument ist über die Github Plattform in Sync mit der Website accessible-pdf.info.](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-sync.png)
 
 **Um Änderungen einreichen zu können, benötigst du ein kostenloses Konto bei Github. Weitere Infos findest du unter [Regeln für die Mithilfe](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md#de).**
 
