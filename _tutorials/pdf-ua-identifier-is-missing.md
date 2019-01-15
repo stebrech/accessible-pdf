@@ -20,12 +20,12 @@ categories:
 ---
 ## Issue
 
-In order for a PDF document to be technically accessible, the [PDF/UA][1] identifier (metadata) must be set.
+In order for a PDF document to be technically accessible, the [PDF/UA](https://accessible-pdf.info/en/glossary/#pdfua) identifier (metadata) must be set.
 
 Issue detected in PDFs made from:
 
-*   Microsoft Word 2013 for Windows
-*   Adobe InDesign all versions
+- Microsoft Word 2013 for Windows
+- Adobe InDesign all versions
 
 ### PAC 3 error message
 
@@ -33,30 +33,25 @@ Issue detected in PDFs made from:
 
 ### Failure Condition of the Matterhorn Protocol
 
-> **06-002** The metadata stream in the Catalog dictionary does not include the PDF/UA identifier. (→ [automatic testing][2])
-
-## Manual approach in Acrobat
-
-1.  Download the [pdfUA-ID.xmp file][3]
-2.  Open the document in Acrobat
-3.  Display the Document Properties (“File” → “Properties”)
-4.  Switch to the “Description” tab and click the button “Additional metadata”
-5.  Switch to the “Advanced” tab and click the button “Append”
-6.  Select the “pdfUA-ID.xmp” you previously downloaded and click “Open”
+> **06-002** The metadata stream in the Catalog dictionary does not include the PDF/UA identifier. (→ [automatic testing](https://accessible-pdf.info/en/glossary/#automatic-testing))
 
 ## Automatic approach in Acrobat DC
 
-1.  Open the “Print production” tools and click on “Preflight”
-2.  In the preflight window, change to the “Single Fixups” (click on the small button with the wrench icon)
-3.  Select the mixup “Set PDF/UA-1 entry” and click on the button “Fix”
+1. Open the “Print production” tools and click on “Preflight”
+2. In the preflight window, change to the “Single Fixups” (click on the small button with the wrench icon)
+3. Select the mixup “Set PDF/UA-1 entry” and click on the button “Fix”
 
 This fix is also part of the preflight profile “Fix problems in PDF tagging structure”.
 
 ## Automatic approach in InDesign (MadeToTag)
 
-Using the [MadeToTag][4] plugin, the PDF/UA identifier is automatically appended.
+Using the [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag) plugin, the PDF/UA identifier is automatically appended.
 
- [1]: https://accessible-pdf.info/en/glossary/#pdfua
- [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
- [3]: https://taggedpdf.com/xmp/pdfUA-ID.xmp
- [4]: https://www.axaio.com/doku.php/en:products:madetotag
+## Manual approach in Acrobat
+
+1. Download the [pdfUA-ID.xmp file](https://taggedpdf.com/xmp/pdfUA-ID.xmp) (Source: [taggedpdf.com](https://taggedpdf.com/508-pdf-help-center/pdfua-identifier-missing/))
+2. Open the document in Acrobat
+3. Display the Document Properties (“File” → “Properties”)
+4. Switch to the “Description” tab and click the button “Additional metadata”
+5. Switch to the “Advanced” tab and click the button “Append”
+6. Select the “pdfUA-ID.xmp” you previously downloaded and click “Open”

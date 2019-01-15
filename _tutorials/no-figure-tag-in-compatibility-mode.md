@@ -30,16 +30,16 @@ Issue detected in PDFs made from:
 
 > **13-001** Graphics objects other than text objects and artifacts are not tagged with a Figure tag. (→ [manual testing][1])
 
-## Manual approach in Acrobat
-
-1.  The “Reading order” tool can be used to select the image and convert it to a figure.
-2.  `<InlineShape>` is going to be converted to `<Figure>`. 
-3.  The alternative text is copied automatically.
-
 ## Automatic approach in Word 2013
 
 Since the problem only exists in compatibility mode (`.doc` files), the document can be converted to the newer `.docx` file format. The “Convert” command is located in the menu “File” → “Info”.
 
 Attention: The conversion can cause (minor) layout changes!
+
+## Manual approach in Acrobat
+
+1.  The “Reading order” tool can be used to select the image and convert it to a figure.
+2.  `<InlineShape>` is going to be converted to `<Figure>`. 
+3.  The alternative text is copied automatically.
 
  [1]: https://accessible-pdf.info/en/glossary/#manual-testing
