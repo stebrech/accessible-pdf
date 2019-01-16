@@ -1,6 +1,6 @@
 ---
 ID: 21939
-post_title: '<em>PDF-Tags</em> in InDesign festlegen'
+post_title: 'PDF-<em>Tags</em> in InDesign festlegen'
 author: Stefan Brechbühl
 post_excerpt: >
   In InDesign kannst du
@@ -22,7 +22,7 @@ categories: [ ]
 ---
 In InDesign kannst du Überschriften-<em>Tags</em> manuell über die Einstellungen des Absatzformats definieren. Für Tabellen, Listen und Fussnoten wirst du die entsprechenden *Tags* automatisch erhalten, wenn die verfügbaren *Tools* korrekt verwendet wurden.
 
-## *Tagsexport*
+## *Tags*export
 
 Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschriften, siehe auch [„Struktur mit Hilfe von mehrstufigen Überschriften“](https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/). Um ein *Tag* je Absatzformat zu definieren
 
