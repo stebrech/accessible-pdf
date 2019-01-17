@@ -25,7 +25,7 @@ Das vollständige *Taggen* eines PDFs in Acrobat ist nur empfohlen wenn die Auto
 
 Weiter unten erfährst du wie einzelne *Tags* in Acrobat hinzugefügt oder angepasst werden.
 
-Hinweis: Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können keine Anpassungen der *Tagstruktur* vorgenommen werden. Dafür wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt.
+<p class="note-block">Hinweis: Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können keine Anpassungen der <em>Tag</em>struktur vorgenommen werden. Dafür wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt.</p>
 
 ## Erste Schritte (PDF enthält keine *Tags*) {#ersteSchritte}
 

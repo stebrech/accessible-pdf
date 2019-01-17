@@ -25,7 +25,7 @@ The complete tagging of a PDF in Acrobat is only recommended if the authoring so
 
 More below you will learn how to add or adjust single tags in Acrobat.
 
-Note: The free [Adobe Acrobat Reader](https://get.adobe.com/reader/) does not allow you to make any adjustments to the tag structure. You’ll need [Adobe Acrobat](https://acrobat.adobe.com/uk/en/acrobat.html) to do that.
+<p class="note-block">Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you to make any adjustments to the tag structure. You’ll need <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.</p>
 
 ## First Steps (PDF does not contain any tags) {#firstSteps}
 
