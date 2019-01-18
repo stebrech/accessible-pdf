@@ -91,7 +91,7 @@ Die logische Lesereihenfolge kann mithilfe des *Tag*-Strukturbaums in Acrobat, m
 
 ![Bildschirmfoto: Auf der linken Seite ist das PDF im Acrobat geöffnet. Rechts befindet sich das gleiche PDF in der Screenreader-Vorschau von PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
 
-Idealerweise kann an einem grösseren Bildschirm auf einer Seite das betreffende PDF und der anderen Seite die Screenreader-Vorschau gleichzeitig angezeigt werden. So kann die visuelle Erscheinung und die *Tags* direkt miteinander verglichen werden. Man sieht ob alle relevanten Inhalte *getaggt* sind und ob sie in der richtigen Reihenfolge sind.
+Wird die logische Lesereihenfolge mithilfe von [PAC](#pac) geprüft, kann an einem grösseren Bildschirm auf einer Seite das betreffende PDF und der anderen Seite die Screenreader-Vorschau gleichzeitig angezeigt werden. So kann die visuelle Erscheinung und die *Tags* direkt miteinander verglichen werden. Man sieht ob alle relevanten Inhalte *getaggt* sind und ob sie in der richtigen Reihenfolge sind.
 
 ## manuelle Prüfung {#manuelle-pruefung}
 

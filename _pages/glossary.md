@@ -75,7 +75,7 @@ The logical reading order can be checked using the tag tree in Acrobat, the “S
 
 ![Screenshot: On the left side the PDF is opened in Acrobat. On the right you can see the same PDF in the screenreader preview of PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
 
-Ideally, the PDF in question can be displayed on a larger screen on one side and the screenreader preview on the other side at the same time. This way the visual appearance and the tags can be directly compared. You can check if all relevant content is tagged and if it is in the right order.
+If you check the logical reading order using [PAC](#pac), a larger screen on one side can display the PDF in question and the screenreader preview on the other side at the same time. This way the visual appearance and the tags can be directly compared. You can check if all relevant content is tagged and if it’s in the right order.
 
 ## manual testing {#manual-testing}
 
