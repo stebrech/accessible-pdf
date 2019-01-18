@@ -73,6 +73,10 @@ Assistive technology ([AT](#assistive-technology)) requires PDF [tags](#tags) no
 
 The logical reading order can be checked using the tag tree in Acrobat, the “Screenreader Preview” in [PAC](#pac), the Acrobat plugin [“pdfGoHTML”](https://www.callassoftware.com/en/products/pdfgohtml) or an [AT](#assistive-technology).
 
+![Screenshot: On the left side the PDF is opened in Acrobat. On the right you can see the same PDF in the screenreader preview of PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
+
+Ideally, the PDF in question can be displayed on a larger screen on one side and the screenreader preview on the other side at the same time. This way the visual appearance and the tags can be directly compared. You can check if all relevant content is tagged and if it is in the right order.
+
 ## manual testing {#manual-testing}
 
 As the [Matterhorn Protocol](#matterhorn) says there are 47 failure conditions which need human inspection. Software like [PAC](#pac) can warn for possible semantic issues at most.
