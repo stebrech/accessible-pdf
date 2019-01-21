@@ -20,8 +20,6 @@ tags:
 categories:
   - 06. Metadaten
 ---
-## Problembeschreibung
-
 Damit ein PDF-Dokument als technisch barrierefrei gilt, muss die Metainformation vorhanden sein, welche das Dokument als [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua) kompatibel kennzeichnet.
 
 Problem festgestellt bei der PDF-Konvertierung aus:

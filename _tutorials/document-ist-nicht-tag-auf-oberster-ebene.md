@@ -14,13 +14,11 @@ tags:
 categories:
   - 01. Getaggter realer Inhalt
 ---
-## Problembeschreibung
-
 Ein aus Word konvertiertes PDF enthält als oberster Container das `<Part>` Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere `<Document>` Tag verwendet werden.
 
 Problem wurde festgestellt bei der PDF-Konvertierung aus:
 
-*   Microsoft Word 2013 für Windows
+- Microsoft Word 2013 für Windows
 
 ### PAC 3 Warnung
 
@@ -28,11 +26,8 @@ Problem wurde festgestellt bei der PDF-Konvertierung aus:
 
 ### Prüfpunkt des Matterhorn Protokolls
 
-> **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung][1])
+> **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung))
 
 ## Manueller Lösungsweg in Acrobat
 
-Der oberste `<Part>` *Tag* muss in den `<Document>` *Tag* geändert werden, siehe dazu [„PDF-Tags in Acrobat ändern“][2].
-
- [1]: https://accessible-pdf.info/de/glossar/#manuelle-pruefung
- [2]: https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/
+Der oberste `<Part>` *Tag* muss in den `<Document>` *Tag* geändert werden, siehe dazu [„PDF-Tags in Acrobat ändern“](https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/).

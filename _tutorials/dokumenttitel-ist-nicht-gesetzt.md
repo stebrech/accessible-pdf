@@ -26,16 +26,14 @@ tags:
 categories:
   - '07. Dictionary [de]'
 ---
-## Problembeschreibung
+In den PDF-Dokumenteigenschaften kann definiert werden ob das Dokument mit dem Dateinamen oder dem Dokumenttitel angezeigt wird. Dieser Name erscheint dann in der Titelleiste von Acrobat (Reader). [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie) nutzt somit ebenfalls den Dokumenttitel.
 
-In den PDF-Dokumenteigenschaften kann definiert werden ob das Dokument mit dem Dateinamen oder dem Dokumenttitel angezeigt wird. Dieser Name erscheint dann in der Titelleiste von Acrobat (Reader). [AT][1] nutzt somit ebenfalls den Dokumenttitel.
-
-PDFs, welche aus Microsoft Word und Adobe InDesign hergestellt werden, zeigen den Dateinamen. [PDF/UA][2] gibt jedoch vor, dass der Dokumenttitel einzustellen ist. Wenn ein Dokumenttitel gesetzt und angezeigt wird, ist dies in der Regel viel aussagekräftiger als ein Dateiname.
+PDFs, welche aus Microsoft Word und Adobe InDesign hergestellt werden, zeigen den Dateinamen. [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua) gibt jedoch vor, dass der Dokumenttitel einzustellen ist. Wenn ein Dokumenttitel gesetzt und angezeigt wird, ist dies in der Regel viel aussagekräftiger als ein Dateiname.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
-*   Microsoft Word 2013 für Windows
-*   Adobe InDesign bis CC 2015 (ab Version CC 2015 steht eine Option im Exportfenster zur Verfügung)
+- Microsoft Word 2013 für Windows
+- Adobe InDesign bis CC 2015 (ab Version CC 2015 steht eine Option im Exportfenster zur Verfügung)
 
 ### PAC 3 Fehlermeldung
 
@@ -43,21 +41,21 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 ### Prüfpunkte des Matterhorn Protokolls
 
-> **07-001** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält keinen Schlüssel DisplayDocTitle. (→ [automatische Prüfung][3])
+> **07-001** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält keinen Schlüssel DisplayDocTitle. (→ [automatische Prüfung](https://accessible-pdf.info/de/glossar/#automatische-pruefung))
 > 
-> **07-002** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält einen Schlüssel DisplayDocTitle mit dem Wert false. (→ [automatische Prüfung][3])
+> **07-002** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält einen Schlüssel DisplayDocTitle mit dem Wert false. (→ [automatische Prüfung](https://accessible-pdf.info/de/glossar/#automatische-pruefung))
 
 ## Manueller Lösungsweg in Acrobat
 
-1.  Das betroffene Dokument in Acrobat öffnen
-2.  Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
-3.  In das Register „Ansicht beim Öffnen“ wechseln und unter „Einblenden“ den Wert auf „Dokumenttitel“ wechseln
+1. Das betroffene Dokument in Acrobat öffnen
+2. Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
+3. In das Register „Ansicht beim Öffnen“ wechseln und unter „Einblenden“ den Wert auf „Dokumenttitel“ wechseln
 
 ## Automatischer Lösungsweg in Acrobat DC
 
-1.  Das Werkzeug-Register „Druckproduktion“ öffnen und auf „Preflight“ klicken
-2.  Im Preflight-Fenster die Preflight Korrekturen anzeigen (auf den kleinen Button mit dem Schraubenschlüssel Symbol klicken)
-3.  Die Korrektur „Dokumenttitel in Dokumentfenster anzeigen“ auswählen und auf den Button „Korrigieren“ klicken
+1. Das Werkzeug-Register „Druckproduktion“ öffnen und auf „Preflight“ klicken
+2. Im Preflight-Fenster die Preflight Korrekturen anzeigen (auf den kleinen Button mit dem Schraubenschlüssel Symbol klicken)
+3. Die Korrektur „Dokumenttitel in Dokumentfenster anzeigen“ auswählen und auf den Button „Korrigieren“ klicken
 
 Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils „Strukturprobleme getaggter PDF-Dokumente beheben“.
 
@@ -67,9 +65,4 @@ Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Berei
 
 ## Automatischer Lösungsweg in InDesign (MadeToTag)
 
-Mit der Verwendung des Plugins [MadeToTag][4] wird der Dokumenttitel automatisch definiert.
-
- [1]: https://accessible-pdf.info/de/glossar/#assistive-technologie
- [2]: https://accessible-pdf.info/de/glossar/#pdf-ua
- [3]: https://accessible-pdf.info/de/glossar/#automatische-pruefung
- [4]: https://www.axaio.com/doku.php/de:products:madetotag
+Mit der Verwendung des Plugins [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) wird der Dokumenttitel automatisch definiert.

@@ -15,13 +15,11 @@ tags:
 categories:
   - 01. Real content tagged
 ---
-## Issue
-
 When exporting a table from Word 2013, the lines of a table are set within `<Span>` tags. `<Span>` tags are not allowed inside a `<TR>` (table row) on the same level as the `<TD>` tags (table cell). In addition, table lines must be marked as artifacts and must not be tagged.
 
 Issue detected in PDFs made from:
 
-*   Microsoft Word 2013 for Windows
+- Microsoft Word 2013 for Windows
 
 ### PAC 3 error message
 
@@ -29,17 +27,13 @@ Issue detected in PDFs made from:
 
 ### Failure Conditions of the Matterhorn Protocol
 
-> **01-001** Artifact is tagged as real content. (→ [manual testing][1])
+> **01-001** Artifact is tagged as real content. (→ [manual testing](https://accessible-pdf.info/en/glossary/#manual-testing))
 > 
-> **09-004** A table-related structure element is used in a way that does not conform to the syntax defined in ISO 32000-1, Table 337. (→ [automatic testing][2])
+> **09-004** A table-related structure element is used in a way that does not conform to the syntax defined in ISO 32000-1, Table 337. (→ [automatic testing](https://accessible-pdf.info/en/glossary/#automatic-testing))
 
 ## Manual approach in Acrobat
 
-1.  The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
-2.  Delete the empty `<Span>` tag afterwards.
+1. The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
+2. Delete the empty `<Span>` tag afterwards.
 
-See also [“Unimportant and decorative objects as artifact”][3].
-
- [1]: https://accessible-pdf.info/en/glossary/#manual-testing
- [2]: https://accessible-pdf.info/en/glossary/#automatic-testing
- [3]: https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
+See also [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/).

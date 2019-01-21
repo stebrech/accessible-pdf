@@ -14,14 +14,12 @@ tags:
 categories:
   - 13. Grafiken
 ---
-## Problembeschreibung
-
 Bilder in Word-Dokumenten werden beim PDF-Export immer auf Block-Ebene ausgegeben. Dem `<Figure>` Tag werden keine zusätzliche Attribute mitgegeben, welche es als Block-Element kennzeichnen.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
-*   Microsoft Word 2013 für Windows
-*   Microsoft Word für Mac (mind. bis Version 15.33)
+- Microsoft Word 2013 für Windows
+- Microsoft Word für Mac (mind. bis Version 15.33)
 
 ### PAC 3 Warnung
 
@@ -37,8 +35,8 @@ Schnellster und einfachster Weg ist es das `<Figure>` Tag nicht als eigenständi
 
 Dazu kann das `<Figure>` Tag
 
-*   innerhalb des zugehörigen Absatz (`<P>`-Tag) verschoben werden oder
-*   ein neues `<P>` Tag erstellt werden und das `<Figure>` Tag darin verschoben werden.
+- innerhalb des zugehörigen Absatz (`<P>`-Tag) verschoben werden oder
+- ein neues `<P>` Tag erstellt werden und das `<Figure>` Tag darin verschoben werden.
 
 Zu beachten gilt, dass die Lesereihenfolge (Reihenfolge der Tags) danach immer noch korrekt ist.
 
@@ -46,10 +44,10 @@ Zu beachten gilt, dass die Lesereihenfolge (Reihenfolge der Tags) danach immer n
 
 Füge das „Placement“ Attribut dem `<Figure>` *Tag* hinzu um es in ein Block-Element umzuwandeln.
 
-1.  In den Eigenschaften des `<Figure>` Tags auf „Attributobjekte bearbeiten…“ klicken
-2.  Auf das Pluszeichen links von „Attributobjekte“ klicken
-3.  Die nächst untere Ebene „Attributobjekt 1“ markieren und den Button „Neues Element“ klicken
-4.  Das Dialogfeld wie folgt ausfüllen: 
-    *   Schlüssel: Placement
-    *   Wert: Block
-    *   Werttyp: Name
+1. In den Eigenschaften des `<Figure>` Tags auf „Attributobjekte bearbeiten…“ klicken
+2. Auf das Pluszeichen links von „Attributobjekte“ klicken
+3. Die nächst untere Ebene „Attributobjekt 1“ markieren und den Button „Neues Element“ klicken
+4. Das Dialogfeld wie folgt ausfüllen: 
+    - Schlüssel: Placement
+    - Wert: Block
+    - Werttyp: Name
