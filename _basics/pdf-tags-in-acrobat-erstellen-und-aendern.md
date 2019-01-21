@@ -51,7 +51,9 @@ Gemäss [Matterhorn Protokoll](https://accessible-pdf.info/de/glossar/#matterhor
 
 ## *Tags* automatisch zuweisen {#automatischesTaggen}
 
-In Acrobat können *Tags* automatisch zugewiesen werden. Die Erkennung semantischer Auszeichnungen wurde in Acrobat stets verbessert. Trotzdem wird es einem Computerprogramm nie zu 100 % gelingen, jegliche Gestaltungslogik zu erkennen. **Daher bedingt das automatische *Taggen*, dass zwingend eine manuelle Prüfung und Optimierung des *Tagbaums* gemacht werden muss.**
+In Acrobat können *Tags* automatisch zugewiesen werden. Die Erkennung semantischer Auszeichnungen wurde in Acrobat stets verbessert. Trotzdem wird es einem Computerprogramm nie zu 100 % gelingen, jegliche Gestaltungslogik zu erkennen.
+
+<p class="warning-block">Daher bedingt das automatische <em>Taggen</em>, dass zwingend eine manuelle Prüfung und Optimierung des <em>Tag</em>baums gemacht werden muss.</p>
 
 ### Lösungsweg 1
 

@@ -51,7 +51,9 @@ According to the [Matterhorn Protocol](https://accessible-pdf.info/en/glossary/#
 
 ## Automatically add tags {#automaticTagging}
 
-In Acrobat, tags can be assigned automatically. The recognition of semantic tags has always been improved in Acrobat. Nevertheless, a computer program will never succeed 100% in recognizing any design logic. **Therefore the automatic tagging requires a manual check and optimization of the tag tree.**
+In Acrobat, tags can be assigned automatically. The recognition of semantic tags has always been improved in Acrobat. Nevertheless, a computer program will never succeed 100% in recognizing any design logic. 
+
+<p class="warning-block">Therefore the automatic tagging requires a manual check and optimization of the tag tree.</p>
 
 ### Solution 1
 
