@@ -1,8 +1,10 @@
 ---
-post_title: Generelles Arbeiten mit PDF-<em>Tags</em> in Acrobat
+ID: 57935
+post_title: 'Generelles Arbeiten mit PDF-<em>Tags</em> in Acrobat'
 author: Stefan Brechbühl
-post_excerpt: Das Arbeiten mit dem sogenannten <em>Tag</em>baum, welcher im Navigationsfenster „Tags“ abgebildet ist, kann vor allem zu Beginn etwas unübersichtlich sein. Um dem entgegenzuwirken, werden in diesem Beitrag einige Arbeitstechniken erklärt.
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57935'
 published: false
 tags: [ ]
 categories: [ ]
