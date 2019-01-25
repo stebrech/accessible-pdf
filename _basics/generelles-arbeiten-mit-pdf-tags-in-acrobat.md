@@ -17,7 +17,7 @@ Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tag
 - [Zum Inhalt von ausgewähltem *Tag* navigieren und markieren](#inPDFfinden)
 - [Standardisierte *Tags* und *Tags* mit Rollenzuordnung](#rollenzuordnung)
 
-<aside class="notice-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird. <img href="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird. <img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
 ## *Getaggter* Text im *Tag*baum finden {#tagfinden}
 
@@ -27,7 +27,7 @@ Um schnell zu einer gewünschten Postion im *Tag*baum zu gelangen, kann wie folg
 2. Wähle die betroffene Textstelle mit dem Auswahlwerkzeug aus
 3. Öffne die Optionen im Navigationsfenster „Tags“ und wähle „Tag in Auswahl suchen“
 
-<aside class="notice-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden. <img href="https://accessible-pdf.info/wp/wp-content/uploads/tags-options-icon.png	" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
+<aside class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden. <img src="https://accessible-pdf.info/wp/wp-content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
 
 ## Zum Inhalt von ausgewähltem *Tag* navigieren und markieren {#inPDFfinden}
 
