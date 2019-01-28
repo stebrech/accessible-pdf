@@ -2,10 +2,18 @@
 ID: 57937
 post_title: General working with PDF tags in Acrobat
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Working with the so-called tag tree,
+  which is shown in the navigation pane
+  “Tags”, can be a bit confusing,
+  especially at the beginning. To
+  counteract this, some techniques are
+  explained in this article.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=57937'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/
+published: true
+post_date: 2019-01-28 16:59:17
 tags: [ ]
 categories: [ ]
 ---
