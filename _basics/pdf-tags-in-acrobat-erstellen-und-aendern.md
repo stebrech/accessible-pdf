@@ -108,7 +108,7 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 2. Klicke den betroffenen *Tag* im Navigationsfenster „Tags“ einmal an um es auszuwählen.
 3. Klicke mit der Maus erneut auf das ausgewählte *Tag* um es manuell umzubenennen. 
 
-<p class="warning-block">Achtung: Das *Tag* muss in Englisch und korrekt geschrieben sein, siehe <a href="https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/">„Übersicht der PDF-*Tags*“</a></p>
+<p class="warning-block">Achtung: Der <em>Tag</em> muss in Englisch und korrekt geschrieben sein, siehe <a href="https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/">„Übersicht der PDF-<em>Tags</em>“</a></p>
 
 <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
@@ -118,6 +118,6 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 2. Mache einen Rechtsklick auf den betroffenen *Tag* und wähle „Eigenschaften“ im Menü aus.
 3. Im Register „Tag“ und dem Dropdown-Feld „Typ“ kann der gewünschte *Tag* ausgewählt werden. 
 
-<aside class="note-block">Die Bezeichnung der *Tags* in diesem Menü sind ins Deutsche übersetzt aber in der Reihenfolge der englischen Originalbezeichnungen geblieben.</aside>
+<aside class="note-block">Die Bezeichnung der <em>Tags</em> in diesem Menü sind ins Deutsche übersetzt aber in der Reihenfolge der englischen Originalbezeichnungen geblieben.</aside>
 
 <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
