@@ -23,7 +23,7 @@ Working with the so-called tag tree, which is shown in the navigation pane “Ta
 - [Navigate to the contents of the selected tag and highlight it](#findinPDF)
 - [Standardized tags and tags with role mapping](#rolemapping)
 
-<aside class="notice-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
+<aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
 
 ## Find tagged text in the tag tree {#findtag}
 
