@@ -1,7 +1,10 @@
 ---
+ID: 57937
 post_title: General working with PDF tags in Acrobat
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57937'
 published: false
 tags: [ ]
 categories: [ ]
