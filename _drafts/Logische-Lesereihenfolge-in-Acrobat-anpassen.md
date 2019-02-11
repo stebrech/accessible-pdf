@@ -1,7 +1,12 @@
 ---
-post_title: Logische Lesereihenfolge in Acrobat anpassen
+ID: 57980
+post_title: >
+  Logische Lesereihenfolge in Acrobat
+  anpassen
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57980'
 published: false
 tags: [ ]
 categories: [ ]
