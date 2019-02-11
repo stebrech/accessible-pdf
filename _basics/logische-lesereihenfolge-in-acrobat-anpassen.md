@@ -4,10 +4,12 @@ post_title: >
   Logische Lesereihenfolge in Acrobat
   anpassen
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: 'PDF-<em>Tags</em> werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge zu bestimmen.'
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=57980'
-published: false
+permalink: >
+  https://accessible-pdf.info/de/basics/logische-lesereihenfolge-in-acrobat-anpassen/
+published: true
+post_date: 2019-02-11 17:32:19
 tags: [ ]
 categories: [ ]
 ---
@@ -34,5 +36,5 @@ Klicke auf den *Tag* (erkennbar durch die Spitzklammern `< >`), welcher sich an 
 
 Während dem gedrückt halten wird eine schwarze Linie angezeigt und markiert wo der *Tag* beim Loslassen verschoben wird. 
 
-1. Wenn sich der kleine Pfeil der Linie ganz links befindet, wird der *Tag* beim Loslassen unterhalb und auf gleicher Ebene des darüber angezeigten *Tags*, verschoben.
-2. Wenn sich der kleine Pfeil der Linie weiter rechts befindet, wird der *Tag* beim Loslassen innerhalb des darüber angezeigten *Tags*, verschoben.
+- Wenn sich der kleine Pfeil der Linie ganz links befindet, wird der *Tag* beim Loslassen unterhalb und auf gleicher Ebene des darüber angezeigten *Tags*, verschoben.
+- Wenn sich der kleine Pfeil der Linie weiter rechts befindet, wird der *Tag* beim Loslassen innerhalb des darüber angezeigten *Tags*, verschoben.
