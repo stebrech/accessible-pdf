@@ -1,7 +1,10 @@
 ---
+ID: 57982
 post_title: Adjust logical reading order in Acrobat
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57982'
 published: false
 tags: [ ]
 categories: [ ]
