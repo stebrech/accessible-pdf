@@ -2,10 +2,15 @@
 ID: 57982
 post_title: Adjust logical reading order in Acrobat
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  PDF tags are not only needed to give
+  content a semantic meaning, but also to
+  determine the logical reading order.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=57982'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/adjust-logical-reading-order-in-acrobat/
+published: true
+post_date: 2019-02-12 20:21:36
 tags: [ ]
 categories: [ ]
 ---
@@ -24,7 +29,7 @@ Even if it’s possible to correct the order of the tags in Acrobat, this should
 - Adjust logical reading order in Word (not ready yet)
 - Adjust logical reading order in InDesign (not ready yet)
 
-‌<aside class="note-block">How to orientate and navigate more quickly in the tag tree is explained in <a href="https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/">“General working with PDF tags in Acrobat”</a>.</aside>
+<aside class="note-block">How to orientate and navigate more quickly in the tag tree is explained in <a href="https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/">“General working with PDF tags in Acrobat”</a>.</aside>
 
 ## Move a tag {#move}
 
