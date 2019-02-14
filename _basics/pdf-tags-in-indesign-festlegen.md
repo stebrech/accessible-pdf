@@ -60,8 +60,4 @@ Wenn dein Dokument interaktiv ist und Links oder Formularfelder enthält, musst 
 
 Wenn du dir in Acrobat den Navigationsbereich „Tags“ anschaust, wirst du feststellen, dass das Dokument *getaggt* wurde. Die *Tags* werden jedoch nach dem Absatzformat benannt, den du in InDesign gewählt hast und nicht nach dem ausgewählten Export-*Tag*.
 
-Also, weshalb die zusätzliche Arbeit? InDesign hat mit Hilfe der Rollenzuordnung die richtigen Tags zugewiesen. Das bedeutet, dass jedes *Tag* mit dem Namen des Absatzformats einem [gültigen PDF-*Tag*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) zugeordnet wird.
-
-Um diese Regeln zu überprüfen oder zu ändern, öffnest du das Menü in „Tags“ und wählst „Rollenzuordnung bearbeiten“.
-
-Seit Adobe Acrobat DC 2017 hat es im Menü „Tags“ eine neue Option namens „Rollenzuordnung auf Tags anwenden“. Wenn diese Option aktiv ist, siehst du die zugeordneten *Tags* anstelle der Namens, wie sie tatsächlich benannt wurden.
+Also, weshalb die zusätzliche Arbeit? InDesign hat mit Hilfe der Rollenzuordnung die richtigen Tags zugewiesen. Im Beitrag [„Generelles Arbeiten mit PDF-Tags in Acrobat“](https://accessible-pdf.info/de/basics/generelles-arbeiten-mit-pdf-tags-in-acrobat/#rollenzuordnung) kannst du mehr über diese Rollenzuordnung erfahren.

@@ -58,8 +58,4 @@ If your document is interactive and includes hyperlinks or form fields you have 
 
 You’ll realise that the document has been tagged by looking into the ”Tags” navigation pane. However, the tags are named by the paragraph style and not by the export tag you chose in InDesign.
 
-So, why the extra work? InDesign has assigned the correct tags with the help of the role mapping. That means each tag with the name of the paragraph style is mapped to [a valid PDF tag](https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/).
-
-To check or change those rules, open the “Tags” menu and choose “Edit Role Map”.
-
-Since Adobe Acrobat DC 2017 you have a new option in the “Tags” menu called “Apply Role Mapping to Tags”. If this option is active you see the mapped tags instead of the name they are actually called.
+So, why the extra work? InDesign has assigned the correct tags with the help of the role mapping. In the article [“General working with PDF tags in Acrobat”](https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/#rolemapping) you can learn more about this role mapping.
