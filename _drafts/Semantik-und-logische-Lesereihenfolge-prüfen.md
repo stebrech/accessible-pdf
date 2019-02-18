@@ -1,7 +1,12 @@
 ---
-post_title: Semantik und logische Lesereihenfolge prüfen
+ID: 57986
+post_title: >
+  Semantik und logische Lesereihenfolge
+  prüfen
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57986'
 published: false
 tags: [ ]
 categories: [ ]

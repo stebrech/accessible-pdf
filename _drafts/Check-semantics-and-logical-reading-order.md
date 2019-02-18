@@ -1,7 +1,12 @@
 ---
-post_title: Check semantics and logical reading order
+ID: 57985
+post_title: >
+  Check semantics and logical reading
+  order
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=57985'
 published: false
 tags: [ ]
 categories: [ ]
