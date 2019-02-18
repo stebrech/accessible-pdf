@@ -4,10 +4,18 @@ post_title: >
   Check semantics and logical reading
   order
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  The semantics and the logical reading
+  order can be checked in Adobe Acrobat
+  using the tag tree. However, this might
+  not be very comfortable and clear, which
+  is why further possibilities are shown
+  here.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=57985'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/check-semantics-and-logical-reading-order/
+published: true
+post_date: 2019-02-18 06:22:14
 tags: [ ]
 categories: [ ]
 ---
