@@ -87,11 +87,7 @@ Hilfstechnologien ([AT](#assistive-technologie)) benötigen PDF-*[Tags](#tags)* 
 
 ![Acrobat Infofenster: Im Tags-Fenster wird die logische Dokumentstruktur angezeigt, die von Hilfstechnologien für die Auswertung des Dokuments verwendet wird. Durch die logische Struktur wird die Lesereihenfolge festgelegt. Ausserdem werden Überschriften, Listen, Tabellen und andere Elemente identifiziert, die Benutzer von Hilfstechnologien verwenden können, um durch das Dokument zu navigieren. Um die Lesereihenfolge zu ändern, die von der Sprachausgabe von Adobe Acrobat und Adobe Acrobat Reader verwendet wird, verwenden Sie das Leserichtung-Fenster.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat-info-tags-reihenfolge.png)
 
-Die logische Lesereihenfolge kann mithilfe des *Tag*-Strukturbaums in Acrobat, mit der „Screenreader-Vorschau“ in [PAC](#pac), mit dem Acrobat Plugin [„pdfGoHTML“](https://www.callassoftware.com/de/produkte/pdfgohtml) oder einer [AT](#assistive-technologie) überprüft werden. 
-
-![Bildschirmfoto: Auf der linken Seite ist das PDF im Acrobat geöffnet. Rechts befindet sich das gleiche PDF in der Screenreader-Vorschau von PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
-
-Wird die logische Lesereihenfolge mithilfe von [PAC](#pac) geprüft, kann an einem grösseren Bildschirm auf einer Seite das betreffende PDF und der anderen Seite die Screenreader-Vorschau gleichzeitig angezeigt werden. So kann die visuelle Erscheinung und die *Tags* direkt miteinander verglichen werden. Man sieht ob alle relevanten Inhalte *getaggt* sind und ob sie in der richtigen Reihenfolge sind.
+In [„Semantik und logische Lesereihenfolge prüfen“](https://accessible-pdf.info/de/basics/semantik-und-logische-lesereihenfolge-pruefen/) lernst du wie die logische Lesereihenfolge geprüft werden kann.
 
 ## manuelle Prüfung {#manuelle-pruefung}
 

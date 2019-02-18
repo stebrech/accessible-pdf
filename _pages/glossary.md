@@ -71,11 +71,7 @@ Assistive technology ([AT](#assistive-technology)) requires PDF [tags](#tags) no
 
 ![Acrobat info window: The Tags panel displays the logical document structure assistive technologies use to interpret the document. The logical structure defines the reading order and identifies elements such as headings, lists, tables, and other components that assistive technology users rely on for document navigation. To modify the reading order that is used by Adobe Acrobat and Adobe Acrobat Reader’s Read Out Loud text-to-speech tool, please use the Reading Order panel.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat-info-tags-order.png)
 
-The logical reading order can be checked using the tag tree in Acrobat, the “Screenreader Preview” in [PAC](#pac), the Acrobat plugin [“pdfGoHTML”](https://www.callassoftware.com/en/products/pdfgohtml) or an [AT](#assistive-technology).
-
-![Screenshot: On the left side the PDF is opened in Acrobat. On the right you can see the same PDF in the screenreader preview of PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
-
-If you check the logical reading order using [PAC](#pac), a larger screen on one side can display the PDF in question and the screenreader preview on the other side at the same time. This way the visual appearance and the tags can be directly compared. You can check if all relevant content is tagged and if it’s in the right order.
+In [“Check semantics and logical reading order”](https://accessible-pdf.info/en/basics/check-semantics-and-logical-reading-order/) you can learn how to check the logical reading order.
 
 ## manual testing {#manual-testing}
 
