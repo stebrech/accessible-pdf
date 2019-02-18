@@ -4,18 +4,27 @@ post_title: >
   Semantik und logische Lesereihenfolge
   prüfen
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Die Semantik und die logische
+  Lesereihenfolge kann in Adobe Acrobat
+  anhand des Tagbaums überprüft werden.
+  Dies ist aber nicht sehr komfortabel und
+  übersichtlich, weshalb hier noch
+  weitere Möglichkeiten aufgezeigt
+  werden.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=57986'
-published: false
+permalink: >
+  https://accessible-pdf.info/de/basics/semantik-und-logische-lesereihenfolge-pruefen/
+published: true
+post_date: 2019-02-18 06:09:28
 tags: [ ]
 categories: [ ]
 ---
-Die Semantik und die [logische Lesereihenfolge](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge) kann  in Adobe Acrobat anhand des *Tag*baums überprüft werden. Dies ist aber nicht sehr komfortabel und übersichtlich, weshalb hier noch weitere Möglichkeiten aufgezeigt werden.
+Die Semantik und die [logische Lesereihenfolge](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge) kann in Adobe Acrobat anhand des *Tag*baums überprüft werden. Dies ist aber nicht sehr komfortabel und übersichtlich, weshalb hier noch weitere Möglichkeiten aufgezeigt werden.
 
 ## PAC
 
-Nebst der Prüfung der automatisch prüfbarem Kriterien, kann der [PDF Accessibility Checker, kurz PAC,](https://accessible-pdf.info/de/glossar/#pac) auch für die [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung) genutzt werden. 
+Nebst der Prüfung der automatisch prüfbaren Kriterien, kann der [PDF Accessibility Checker, kurz PAC,](https://accessible-pdf.info/de/glossar/#pac) auch für die [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung) genutzt werden. 
 
 ### Screenreader Vorschau {#screenreaderVorschau}
 
@@ -29,7 +38,7 @@ Was durch diese Prüfungsart ebenfalls bestens festgestellt werden kann, sind *g
 
 ###  Logische Struktur
 
-Ein weiteres Werkzeug in PAC ist „Logische Struktur“. Sie zeigt den *Tag*baum, wie man es bereits aus Adobe Acrobat kennt. Der wesentliche Unterschied machen hier die Zusatzinfos die man ohne weiteren Mausklick auf der rechten Seite angezeigt erhält.
+Ein weiteres Werkzeug in PAC ist „Logische Struktur“. Es zeigt den *Tag*baum, wie man es bereits aus Adobe Acrobat kennt. Der wesentliche Unterschied machen hier die Zusatzinfos die man ohne weiteren Mausklick auf der rechten Seite angezeigt erhält.
 
 Das Werkzeug eignet sich bestens um die logische Lesereihenfolge zu überprüfen indem der Tab „Seitenansicht“ angezeigt wird. Wenn man nun im linken Strukturbaum mit den Pfeiltasten nach unten und oben navigiert, erhält man rechts visuell angezeigt wo sich dieser Inhaltsteil befindet.
 
