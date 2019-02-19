@@ -22,7 +22,7 @@ In the “Tags” navigation pane, the so-called tag tree can be used to analyze
 
 <aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
 
-Since checking the logical reading order in Acrobat quickly becomes confusing, another tool should be used for an extensive and more accurate check. In the [glossary](https://accessible-pdf.info/en/glossary/#logical-reading-order) you’ll find a practical example of how the check can be done using the “Screenreader Preview” in PAC.
+Since checking the logical reading order in Acrobat quickly becomes confusing, another tool should be used for an extensive and more accurate check. The post [“Check semantics and logical reading order”](https://accessible-pdf.info/en/basics/check-semantics-and-logical-reading-order/) shows how this [manual check](https://accessible-pdf.info/en/glossary/#manual-testing) can be done better.
 
 Even if it’s possible to correct the order of the tags in Acrobat, this should be done in the source document whenever possible. Therefore the following instructions are recommended:
 

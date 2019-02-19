@@ -21,7 +21,7 @@ Im Navigationsfenster „Tags“ kann der sogenannte *Tag*baum zur Analyse der l
 
 <aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
-Da die Prüfung der logischen Lesereihenfolge in Acrobat rasch unübersichtlich wird, sollte für eine umfangreiche und genauere Prüfung ein anderes Tool verwendet werden. Im [Glossar](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge) findest du einen praktisches Beispiel wie die Prüfung mithilfe der „Screenreader Vorschau“ durchgeführt werden kann.
+Da die Prüfung der logischen Lesereihenfolge in Acrobat rasch unübersichtlich wird, sollte für eine umfangreiche und genauere Prüfung ein anderes *Tool* verwendet werden. Der Artikel [„Semantik und logische Lesereihenfolge prüfen“](https://accessible-pdf.info/de/basics/semantik-und-logische-lesereihenfolge-pruefen/) zeigt wie diese [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung) besser gemacht werden kann.
 
 Auch wenn die Reihenfolge der *Tags* in Acrobat korrigiert werden kann, sollte diese wenn immer möglich im Quelldokument korrigiert werden. Daher werden folgende Anleitungen empfohlen:
 
