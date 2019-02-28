@@ -30,6 +30,8 @@ Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschr
 2. öffnest den letzten Abschnitt „Tagsexport“;
 3. und wählst das passende *Tag* im letzten *Dropdown*-Feld mit der Bezeichnung „PDF“ → „Tag“.
 
+![Screenshot der Absatzformat-Optionen mit geöffnetem Reiter Tagsexport.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_tagsexport.png)
+
 Du kannst dem Absatzformat jeden beliebigen Überschriften-*Tag* zuweisen. Es besteht auch die Möglichkeit „Artifact“ auszuwählen, wenn der Text keine relevanten Informationen enthält. Mehr dazu findest du unter [„Unwichtige und dekorative Inhalte als Artefakt“](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/).
 
 ### Alle *Tags* auf einmal festlegen
@@ -48,11 +50,11 @@ Im Menüpunkt „Schrift“ können korrekte Fuss- oder Endnoten hinzugefügt we
 
 Sobald dein Dokument fertig ist, gibt es eine wichtige Exporteinstellung, die du prüfen musst. Die Option „PDF mit Tags erstellen“ muss aktiviert sein. Du wirst sie finden ob du das Format „Adobe PDF (Druck)“.
 
-![Screenshot der Exportoptionen im PDF-Druckformat.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_druck.jpg)
+![Screenshot der Exportoptionen im PDF-Druckformat.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_druck.png)
 
 oder „Adobe PDF (Interaktiv)“ auswählst.
 
-![Screenshot der Exportoptionen im interaktiven PDF-Format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.jpg)
+![Screenshot der Exportoptionen im interaktiven PDF-Format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.png)
 
 Wenn dein Dokument interaktiv ist und Links oder Formularfelder enthält, musst du „Adobe PDF (Interaktiv)“ wählen und auch die Option „Struktur für Aktivierreihenfolge verwenden“ aktivieren.
 
