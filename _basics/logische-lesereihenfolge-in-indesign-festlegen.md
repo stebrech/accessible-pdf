@@ -4,10 +4,20 @@ post_title: >
   Logische Lesereihenfolge in InDesign
   festlegen
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  PDF-Tags werden nicht nur benötigt um
+  Inhalten eine semantische Bedeutung zu
+  geben, sondern auch auch um die logische
+  Lesereihenfolge festzulegen. In InDesign
+  kann die Reihenfolge der Tags festgelegt
+  werden, sodass beim erzeugten PDF die
+  logische Lesereihenfolge bereits korrekt
+  ist.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=58008'
-published: false
+permalink: >
+  https://accessible-pdf.info/de/basics/logische-lesereihenfolge-in-indesign-festlegen/
+published: true
+post_date: 2019-02-28 17:26:29
 tags:
   - InDesign
 categories: [ ]
@@ -28,11 +38,11 @@ Um die logische Lesereihenfolge bereits in InDesign zu bestimmen, wird das Bedie
 
 ### Nachträgliche Anpassungen
 
-Falls ein Objekt verschoben werden muss, lässt sich dies bequem per „Drag&Drop“ verschieben. Klicke und verschiebe ein Objekt mit gedrückter Maustaste an die korrekte Stelle im selben oder in einen anderen Artikel.
+Falls ein Objekt verschoben werden muss, lässt sich dies bequem per „Drag&Drop“ tun. Klicke und verschiebe ein Objekt mit gedrückter Maustaste an die korrekte Stelle im selben oder in einen anderen Artikel.
 
 ### Verhalten bei Textverkettungen
 
-Wenn Textrahmen miteinander verkettet sind, fliesst der Text dynamisch in den nächsten Rahmen, falls nicht mehr genügend Platz vorhanden ist oder dies manuell gewünscht wird. Auch technisch gesehen macht es Sinn, zueinander gehörende Texte miteinander zu verketten. Sie werden so nämlich in einem gemeinsamen Container *getaggt*.
+Wenn Textrahmen miteinander verkettet sind, fliesst der Text dynamisch in den nächsten Rahmen. Dies ist nicht nur praktisch, sondern macht auch technisch Sinn. Sie werden so nämlich in einem gemeinsamen Container *getaggt*.
 
 Im Artikel Bedienfeld werden verkettete Textrahmen als ein Objekt behandelt. Fügt man also den ersten Textrahmen hinzu, sind alle verketten Textrahmen inklusive. Die Reihenfolge ist durch die Verkettung vorgegeben.
 
@@ -44,11 +54,11 @@ Grafiken oder andere Objekte können ebenfalls in einen Artikel integriert werde
 
 Um eine Grafik an einer bestimmten Stelle in der logischen Reihenfolge zu platzieren, muss diese meist innerhalb eines Textrahmens verankert werden. Wird dies gemacht, kann man die Grafik als Bestandteil des Textrahmens betrachten. Sie erscheint nämlich nicht mehr separat im Artikel Bedienfeld.
 
-Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte, kleine Quadrat geklickt. Mit geklickter Maustaste wird dann der Zeiger an die gewünschte Stelle im Text verschoben und die Taste losgelassen.
+Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte, kleine Quadrat geklickt. Mit geklickter Maustaste wird dann der Zeiger an die gewünschte Stelle innerhalb eines Textrahmens verschoben und die Taste losgelassen.
 
 <aside class="note-block">Mehr zu <a href="https://helpx.adobe.com/ch_de/indesign/using/anchored-objects.html">„Verankerte Objekte“</a> kannst du im offiziellen Onlinehandbuch nachlesen.</aside>
 
-<aside class="note-block">Da Grafiken Nicht-Text-Inhalte sind, muss ein Alternativtext hinterlegt werden, sofern sie inhaltlich relevant sind. Falls sie nicht relevant sind, gehören sie nicht in einen Artikel.<br>Für weitere Informationen, siehe auch <a href="https://accessible-pdf.info/de/glossar/#alt-text">Alt-Text</a> im Glossar oder <a href="https://accessible-pdf.info/de/basics/alt-texte-hinzufuegen/">„Alt-Texte hinzufügen“</a>.</aside>
+<aside class="note-block">Da Grafiken Nicht-Text-Inhalte sind, muss ein Alternativtext hinterlegt werden, sofern sie inhaltlich relevant sind. Falls sie nicht relevant sind, gehören sie nicht in einen Artikel. Für weitere Informationen, siehe auch <a href="https://accessible-pdf.info/de/glossar/#alt-text">Alt-Text</a> im Glossar oder <a href="https://accessible-pdf.info/de/basics/alt-texte-hinzufuegen/">„Alt-Texte hinzufügen“</a>.</aside>
 
 ## Formularfelder und Tab-Reihenfolge
 
@@ -62,6 +72,6 @@ Das kostenpflichtige InDesign Plugin <a href="https://www.axaio.com/doku.php/de:
 
 Im zweiten Aufgabenschritt des Plugins lassen sich sämtliche Inhalte eines Artikels oder aller Artikel ein- und ausblenden. Dies hilft um noch fehlende Inhalte zu finden, welche noch in einen Artikel aufgenommen werden müssen. Umgekehrt können auch Objekte, die nicht *getaggt* werden sollen, besser identifiziert werden.
 
-![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](https://accessible-pdf.info/wp/wp-content/uploads/mtt_artikel.png	)
+![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](https://accessible-pdf.info/wp/wp-content/uploads/mtt_artikel.png)
 
 Ähnlich wie in [„Semantik und logische Lesereihenfolge prüfen“](https://accessible-pdf.info/de/basics/semantik-und-logische-lesereihenfolge-pruefen/) gezeigt, kann mithilfe des Plugins eine Vorschau der Tags und deren Reihenfolge innerhalb von InDesign angezeigt werden.
