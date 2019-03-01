@@ -17,7 +17,7 @@ Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tag
 - [Zum Inhalt von ausgewähltem *Tag* navigieren und markieren](#inPDFfinden)
 - [Standardisierte *Tags* und *Tags* mit Rollenzuordnung](#rollenzuordnung)
 
-<aside class="note-block">Hinweis: Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können keine Anpassungen der <em>Tag</em>struktur vorgenommen werden. Dafür wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt.</aside>
+<aside class="note-block">Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können <em>Tags</em> weder geprüft noch geändert werden.</aside>
 
 <aside class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
