@@ -46,11 +46,11 @@ Correct footnotes or endnotes can be added within the menu item “Type”.
 
 As soon as your document is ready, there is an important export setting you need to check. The option “Create Tagged PDF” has to be activated. You’ll find it either you choose the format “Adobe PDF (Print)”
 
-![Screenshot of export options with the PDF print format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_export-option-print.jpg)
+![Screenshot of export options with the PDF print format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign-export-print.png)
 
 or “Adobe PDF (Interactive)”.
 
-![Screenshot of export options with the PDF interactive format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_export-option-interactive.jpg)
+![Screenshot of export options with the PDF interactive format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign-export-interactive.png)
 
 If your document is interactive and includes hyperlinks or form fields you have to choose “Adobe PDF (Interactive)” and check the option “Use Structure for Tab Order” as well.
 
