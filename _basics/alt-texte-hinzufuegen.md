@@ -35,8 +35,8 @@ Die möglichen Wege in Word einen Alt-Text hinzuzufügen, unterscheiden sich je 
 3. Der letzte Schritt kann nun wie folgt aussehen: 
 	    
 	-	Falls sich nun rechts ein neuer Bereich „Grafik formatieren“ öffnet, klicke darin auf die dritte Registerkarte „Layout und Eigenschaften“ und schreibe deinen Alt-Text in „Alternativtext“ → „Beschreibung“.
-	  - Eine weitere mögliche Variante ist, dass sich ein Fenster „Grafik formatieren” öffnet, in welchem auf den Reiter „Alternativtext“ gewechselt werden muss.
-	  - Noch eine weitere Variante ist, dass sich ein Fenster öffnet bei dem der Alt-Text direkt eingegeben werden kann.
+  - Eine weitere mögliche Variante ist, dass sich ein Fenster „Grafik formatieren” öffnet, in welchem auf den Reiter „Alternativtext“ gewechselt werden muss.
+  - Noch eine weitere Variante ist, dass sich ein Fenster öffnet bei dem der Alt-Text direkt eingegeben werden kann.
 
 Die Alternativtexte werden bei einem PDF-Export nun mitgeliefert und müssen in Acrobat nicht erneut hinzugefügt werden.
 
