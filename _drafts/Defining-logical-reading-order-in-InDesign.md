@@ -1,7 +1,12 @@
 ---
-post_title: Defining logical reading order in InDesign
+ID: 58030
+post_title: >
+  Defining logical reading order in
+  InDesign
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58030'
 published: false
 tags:
   - Adobe InDesign
