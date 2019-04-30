@@ -8,7 +8,7 @@ published: false
 post_date: 
 tags:
   - Automatische Prüfung
-	- Manual Prüfung
+  - Manuelle Prüfung
   - InDesign
 categories:
   - 01. Getaggter realer Inhalt
