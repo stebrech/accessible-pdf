@@ -16,7 +16,7 @@ categories: [ ]
 ---
 Meaning and purpose of this website is a reference guide to solve PDF/UA issues. The tutorials shall help everyone who is interested in creating accessible PDF.
 
-<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-apps.png" alt="Graphic: Arrows point from an InDesign, Word and Acrobat document to a accessible document (Logo of accessible-pdf.info). In addition, arrows show the detour of InDesign and Word documents via Acrobat." /></div>
+<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/content/uploads/homepage-teaser-apps.png" alt="Graphic: Arrows point from an InDesign, Word and Acrobat document to a accessible document (Logo of accessible-pdf.info). In addition, arrows show the detour of InDesign and Word documents via Acrobat." /></div>
 
 ## Supported Software
 
@@ -32,7 +32,7 @@ It is possible the list is going to extend. However, the most famous and popular
 
 All contents of this website are published under the [Creative Commons License CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are welcome to contribute to the quality of the content by actively correcting or enhancing it.
 
-![accessible-pdf.info likes creative commons (symbolized with a heart and both logos).](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-cc.png)
+![accessible-pdf.info likes creative commons (symbolized with a heart and both logos).](https://accessible-pdf.info/content/uploads/homepage-teaser-cc.png)
 
 ### How can you help?
 
@@ -61,7 +61,7 @@ Github is platform which combines collaboration and the version control software
 
 Like our example proves, it can be used for non-software projects as well.
 
-![Markdown document is synchronized via the Github platform with the accessible-pdf.info website.](https://accessible-pdf.info/wp/wp-content/uploads/homepage-teaser-sync.png)
+![Markdown document is synchronized via the Github platform with the accessible-pdf.info website.](https://accessible-pdf.info/content/uploads/homepage-teaser-sync.png)
 
 **To submit changes, you need a free Github account. For more informations, see [Contributors Guide](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
 
