@@ -1,15 +1,15 @@
 ---
-post_title: Verankerte Objekte nicht <em>getaggt</em>
+ID: 58036
+post_title: 'Verankerte Objekte nicht <em>getaggt</em>'
 author: Stefan Brechbühl
-post_excerpt: 
+post_excerpt: ""
 layout: tutorials
-permalink: 
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58036'
 published: false
-post_date: 
 tags:
   - Automatische Prüfung
-  - Manuelle Prüfung
   - InDesign
+  - Manuelle Prüfung
 categories:
   - 01. Getaggter realer Inhalt
   - 09. Geeignete Tags

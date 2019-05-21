@@ -1,15 +1,15 @@
 ---
+ID: 58035
 post_title: Anchored objects not tagged
 author: Stefan Brechbühl
-post_excerpt: 
+post_excerpt: ""
 layout: tutorials
-permalink: 
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58035'
 published: false
-post_date: 
 tags:
+  - Adobe InDesign
   - Automatic testing
   - Manual testing
-  - Adobe InDesign
 categories:
   - 01. Real content tagged
   - 09. Appropriate Tags
