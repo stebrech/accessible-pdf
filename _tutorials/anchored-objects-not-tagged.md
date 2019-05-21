@@ -2,10 +2,17 @@
 ID: 58035
 post_title: Anchored objects not tagged
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  In InDesign CC version 13.0, there are
+  serious problems with tagging anchored
+  objects and the use of the “Article”
+  panel as described in “Defining
+  logical reading order in InDesign”.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58035'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/tutorials/anchored-objects-not-tagged/
+published: true
+post_date: 2019-05-21 15:48:21
 tags:
   - Adobe InDesign
   - Automatic testing
