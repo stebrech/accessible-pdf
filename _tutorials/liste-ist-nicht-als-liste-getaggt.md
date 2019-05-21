@@ -40,7 +40,7 @@ Keine Warnung oder Fehlermeldung zu diesem Problem!
 
 Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
-![Listen-Schaltflächen in Microsoft Word](https://accessible-pdf.info/wp/wp-content/uploads/word_list_icons.png)
+![Listen-Schaltflächen in Microsoft Word](https://accessible-pdf.info/content/uploads/word_list_icons.png)
 
 Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer Listenformatvorlage empfohlen.
 
@@ -48,7 +48,7 @@ Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, w
 
 Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
-![Listen-Schaltflächen in Adobe InDesign](https://accessible-pdf.info/wp/wp-content/uploads/indesign_list_icons.png)
+![Listen-Schaltflächen in Adobe InDesign](https://accessible-pdf.info/content/uploads/indesign_list_icons.png)
 
 Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer separaten Absatzformatvorlage empfohlen.
 

@@ -37,9 +37,9 @@ Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 4. Ein erneuter Klick auf die Optionen zeigt neu den Befehl „Dokument ist PDF (mit Tags)„. Klicke darauf.
 5. In den „Dokumenteigenschaften“ wird nun unter „Beschreibung“ der Eintrag „PDF mit Tags“ → „Ja“ angezeigt.
 
-<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
-<aside id="options" class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
+<aside id="options" class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.<br><img src="https://accessible-pdf.info/content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
 
 <iframe width="750" height="422" title="YouTube video tutorial: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 

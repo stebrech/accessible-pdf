@@ -40,7 +40,7 @@ There is no warning or error for this issue.
 
 The concerning text can be reformatted with the available list function.
 
-![List buttons in Microsoft Word](https://accessible-pdf.info/wp/wp-content/uploads/word_list_icons.png)
+![List buttons in Microsoft Word](https://accessible-pdf.info/content/uploads/word_list_icons.png)
 
 For consistent formatting it's recommended to create or use an existing list style.
 
@@ -48,7 +48,7 @@ For consistent formatting it's recommended to create or use an existing list sty
 
 The concerning text can be reformatted with the available list function.
 
-![List buttons in Adobe InDesign](https://accessible-pdf.info/wp/wp-content/uploads/indesign_list_icons.png)
+![List buttons in Adobe InDesign](https://accessible-pdf.info/content/uploads/indesign_list_icons.png)
 
 For consistent formatting it's recommended to create or use an existing list style.
 

@@ -44,7 +44,7 @@ Depend on your configuration, Word can automatically convert a hyphen sign follo
 
 You can do that with the help of the following buttons:
 
-![List tools in Word.](https://accessible-pdf.info/wp/wp-content/uploads/word-list.png)
+![List tools in Word.](https://accessible-pdf.info/content/uploads/word-list.png)
 
 1. The first button creates an unordered list,
 2. the second an ordered list and
@@ -56,7 +56,7 @@ When data is arranged both horizontally and vertically, it belongs inside a tabl
 
 For adding a table, go to the menu item “Insert” and click on “Table”. The appearing pattern can be used to choose how many columns and rows the table should have.
 
-![Add a table in Word. Screenshot](https://accessible-pdf.info/wp/wp-content/uploads/word_table.png)
+![Add a table in Word. Screenshot](https://accessible-pdf.info/content/uploads/word_table.png)
 
 If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
 

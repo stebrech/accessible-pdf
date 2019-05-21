@@ -19,7 +19,7 @@ Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tag
 
 <aside class="note-block">Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können <em>Tags</em> weder geprüft noch geändert werden.</aside>
 
-<aside class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
 ## *Getaggter* Text im *Tag*baum finden {#tagfinden}
 
@@ -29,7 +29,7 @@ Um schnell zu einer gewünschten Postion im *Tag*baum zu gelangen, kann wie folg
 2. Wähle die betroffene Textstelle mit dem Auswahlwerkzeug aus
 3. Öffne die Optionen im Navigationsfenster „Tags“ und wähle „Tag in Auswahl suchen“
 
-<aside class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
+<aside class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.<br><img src="https://accessible-pdf.info/content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
 
 ## Zum Inhalt von ausgewähltem *Tag* navigieren und markieren {#inPDFfinden}
 

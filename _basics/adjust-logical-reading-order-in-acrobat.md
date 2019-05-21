@@ -29,7 +29,7 @@ PDF tags are not only needed to give content a semantic meaning, but also to det
 	- If the small arrow of the line is on the far left, the tag will be moved below and on the same level as the tag displayed above.
 	- If the small arrow of the line is further to the right, the tag will be moved within the tag displayed above.
 
-<aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
+<aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
 
 ## Navigating within the tag tree
 

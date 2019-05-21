@@ -69,7 +69,7 @@ Artefakte können entweder im *Tagbaum* oder mit dem Leserichtung-Werkzeug defin
 3. Der öffnende Dialog erlaubt dir noch die Art des Artefakts zu bestimmen.
 4. Falls dieses Artefakt alleine innerhalb eines *Tags* platziert war, sollte das leere Tag noch gelöscht werden.
 
-![Wie wird ein Artefakt mithilfe des Navigationsfensters *Tags* angelegt? Gif-Animation.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact.gif)
+![Wie wird ein Artefakt mithilfe des Navigationsfensters *Tags* angelegt? Gif-Animation.](https://accessible-pdf.info/content/uploads/acrobat_artifact.gif)
 
 ### Leserichtung-Werkzeug
 
@@ -80,4 +80,4 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 3. Wähle den Bereich aus, den du als Artefakt kennzeichnen möchtest. Dazu kannst in die linke obere Ecke klicken oder die Maus geklickt halten und ein Auswahlfeld aufziehen.
 4. Klicke nun im Fenster auf den Knopf „Hintergrund/Artefakt“.
 
-![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact2.gif)
+![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.](https://accessible-pdf.info/content/uploads/acrobat_artifact2.gif)

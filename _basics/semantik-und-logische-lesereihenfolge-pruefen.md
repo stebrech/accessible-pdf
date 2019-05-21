@@ -30,7 +30,7 @@ Nebst der Prüfung der automatisch prüfbaren Kriterien, kann der [PDF Accessibi
 
 Die Semantik lässt sich sehr gut anhand der farbig markierten Inhaltsblöcke der „Screenreader Vorschau“ prüfen. Insbesondere die für die Strukturierung wichtigen Überschriften können auf diesem Weg abstrakt wahrgenommen werden, siehe dazu auch [„Strukturieren mithilfe von hierarchischen Überschriften“](https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/).
 
-![Bildschirmfoto: Auf der linken Seite ist das PDF im Acrobat geöffnet. Rechts befindet sich das gleiche PDF in der Screenreader-Vorschau von PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
+![Bildschirmfoto: Auf der linken Seite ist das PDF im Acrobat geöffnet. Rechts befindet sich das gleiche PDF in der Screenreader-Vorschau von PAC.](https://accessible-pdf.info/content/uploads/acrobat_and_pac-screenreader-preview.png)
 
 Die logische Lesereihenfolge kann ebenfalls mit der  „Screenreader-Vorschau“ geprüft werden. Hierzu kann an einem grösseren Bildschirm auf einer Seite das betreffende PDF und der anderen Seite die Screenreader-Vorschau gleichzeitig angezeigt werden. So kann die visuelle Erscheinung und die *Tags* direkt miteinander verglichen werden und lässt es sich einfacher feststellen ob etwas an der Reihenfolge nicht logisch ist.
 

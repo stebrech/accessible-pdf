@@ -68,7 +68,7 @@ Artifacts can be defined with the navigation pane “Tags” as well as the “R
 3. The opening dialog allows you to specify the type of artifact.
 4. If this artifact was the only element within the tag, the empty tag should be deleted.
 
-![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact_en.gif)
+![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.](https://accessible-pdf.info/content/uploads/acrobat_artifact_en.gif)
 
 ### “Reading Order” tool
 
@@ -79,4 +79,4 @@ With the “Reading Order” tool it’s done faster. In return, you aren’t ab
 3. Select the area you want to mark as an artifact. To do this, click in the upper left corner or keep the mouse clicked and drag and select the content.
 4. Now click on the button “Background/Artifact” in the window, which opened before.
 
-![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_artifact2_en.gif)
+![How to create an artifact with the help of the navigation pane “Tags”? Gif animation.](https://accessible-pdf.info/content/uploads/acrobat_artifact2_en.gif)

@@ -34,7 +34,7 @@ Um die logische Lesereihenfolge bereits in InDesign zu bestimmen, wird das Bedie
 2. Falls noch kein Artikel existiert, kann direkt ein neuer Artikel mit dem ausgewählten Objekt erstellt werden. Klicke dazu auf das kleine Seitensymbol unten rechts im Bedienfeld. Danach wirst du aufgefordert dem Artikel einen Namen zu geben. Hier wird am besten ein passendes und beschreibendes Wort verwendet.
 3. Falls bereits ein Artikel existiert, kann es mit dem Plussymbol, unten rechts im Bedienfeld, einem Artikel hinzugefügt werden.
 
-<p class="warning-block">Bevor das Dokument exportiert werden kann, muss zwingend noch die Option „Für Leserichtung in PDF mit Tags verwenden“ in den Bedienfeldoptionen aktiviert werden.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/indesign-artikel-reihenfolge.png" alt="Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge"/></p>
+<p class="warning-block">Bevor das Dokument exportiert werden kann, muss zwingend noch die Option „Für Leserichtung in PDF mit Tags verwenden“ in den Bedienfeldoptionen aktiviert werden.<br><img src="https://accessible-pdf.info/content/uploads/indesign-artikel-reihenfolge.png" alt="Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge"/></p>
 
 ### Nachträgliche Anpassungen
 
@@ -64,7 +64,7 @@ Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte,
 
 Auch Formularfelder sind Objekte, die ebenfalls am besten innerhalb eines Textrahmens verankert werden. Beim PDF-Export als „Adobe PDF (Interaktiv)“ kann die Option „Struktur für Aktivierreihenfolge verwenden“ aktiviert werden und die Tab-Reihenfolge wird korrekt, gemäss der logischen Lesereihenfolge, übernommen.
 
-![Screenshot der Exportoptionen im interaktiven PDF-Format.](https://accessible-pdf.info/wp/wp-content/uploads/indesign_pdf_export_interaktiv.png)
+![Screenshot der Exportoptionen im interaktiven PDF-Format.](https://accessible-pdf.info/content/uploads/indesign_pdf_export_interaktiv.png)
 
 ## Zusätzliche Features mit MadeToTag
 
@@ -72,6 +72,6 @@ Das kostenpflichtige InDesign Plugin <a href="https://www.axaio.com/doku.php/de:
 
 Im zweiten Aufgabenschritt des Plugins lassen sich sämtliche Inhalte eines Artikels oder aller Artikel ein- und ausblenden. Dies hilft um noch fehlende Inhalte zu finden, welche noch in einen Artikel aufgenommen werden müssen. Umgekehrt können auch Objekte, die nicht *getaggt* werden sollen, besser identifiziert werden.
 
-![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](https://accessible-pdf.info/wp/wp-content/uploads/mtt_artikel.png)
+![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](https://accessible-pdf.info/content/uploads/mtt_artikel.png)
 
 Ähnlich wie in [„Semantik und logische Lesereihenfolge prüfen“](https://accessible-pdf.info/de/basics/semantik-und-logische-lesereihenfolge-pruefen/) gezeigt, kann mithilfe des Plugins eine Vorschau der Tags und deren Reihenfolge innerhalb von InDesign angezeigt werden.

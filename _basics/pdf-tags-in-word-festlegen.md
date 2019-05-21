@@ -45,7 +45,7 @@ Abhängig von deinen Word Einstellungen wird ein Bindestrich gefolgt von einem L
 
 Mit folgenden Schaltflächen kannst du das tun:
 
-![Listen Werkzeuge in Word.](https://accessible-pdf.info/wp/wp-content/uploads/word-list.png)
+![Listen Werkzeuge in Word.](https://accessible-pdf.info/content/uploads/word-list.png)
 
 1. Die erste Schaltfläche erstellt eine ungeordnete Liste mit Aufzählungszeichen,
 2. die zweite eine nummerierte Liste und
@@ -57,7 +57,7 @@ Wenn Daten sowie horizontal wie auch vertikal angeordnet sind, gehören sie in e
 
 Um eine Tabelle hinzuzufügen, kann im Menüpunkt „Einfügen“ auf „Tabelle“ geklickt werden. Das erscheinende Raster kann verwendet werden, um auszuwählen wie viele Spalten und Zeilen die Tabelle haben soll.
 
-![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.](https://accessible-pdf.info/wp/wp-content/uploads/word_tabelle.png)
+![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.](https://accessible-pdf.info/content/uploads/word_tabelle.png)
 
 Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
 

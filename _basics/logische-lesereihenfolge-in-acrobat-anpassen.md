@@ -32,7 +32,7 @@ PDF-*Tags* werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu 
 	- Wenn sich der kleine Pfeil der Linie ganz links befindet, wird der *Tag* beim Loslassen unterhalb und auf gleicher Ebene des darüber angezeigten *Tags*, verschoben.
 	- Wenn sich der kleine Pfeil der Linie weiter rechts befindet, wird der *Tag* beim Loslassen innerhalb des darüber angezeigten *Tags*, verschoben.
 
-<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/wp/wp-content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info//uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
 
 ## Sich im *Tag*baum zurechtfinden
 
