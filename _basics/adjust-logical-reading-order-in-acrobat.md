@@ -35,7 +35,9 @@ Software hint: In order to work with the tags, [Adobe Acrobat](https://acrobat.a
 
 <aside class="note-block" markdown="1">
 The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
-![Tag icon in Acrobat">](https://accessible-pdf.info/content/uploads/tag-icon.png)
+
+![Tag icon in Acrobat](https://accessible-pdf.info/content/uploads/tag-icon.png)
+
 If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.
 </aside>
 
