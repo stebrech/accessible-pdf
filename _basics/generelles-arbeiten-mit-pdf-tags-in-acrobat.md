@@ -18,7 +18,7 @@ Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tag
 - [Standardisierte *Tags* und *Tags* mit Rollenzuordnung](#rollenzuordnung)
 
 <aside class="note-block" markdown="1">
-Softwarehinweis: Um mit den *Tags*> arbeiten zu können, wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können *Tags* weder geprüft noch geändert werden.
+Softwarehinweis: Um mit den *Tags* arbeiten zu können, wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können *Tags* weder geprüft noch geändert werden.
 </aside>
 
 <aside class="note-block" markdown="1">
