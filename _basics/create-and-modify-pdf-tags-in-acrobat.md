@@ -25,7 +25,9 @@ The complete tagging of a PDF in Acrobat is only recommended if the authoring so
 
 More below you will learn how to add or adjust single tags in Acrobat.
 
-<aside class="note-block">Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you to make any adjustments to the tag structure. You’ll need <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.</aside>
+<aside class="note-block" markdown="1">
+Note: The free [Adobe Acrobat Reader](https://get.adobe.com/reader/) does not allow you to make any adjustments to the tag structure. You’ll need [Adobe Acrobat](https://acrobat.adobe.com/uk/en/acrobat.html) to do that.
+</aside>
 
 ## First Steps (PDF does not contain any tags) {#firstSteps}
 
@@ -37,9 +39,7 @@ First the document must be marked as “Tagged PDF”.
 4. Another click on the icon “Options” now shows the command “Document is Tagged PDF”. Click on this command.
 5. The entry “Tagged PDF” says now “Yes” within the “Document properties”.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 ### Semantics
 
@@ -53,7 +53,9 @@ According to the [Matterhorn Protocol](https://accessible-pdf.info/en/glossary/#
 
 In Acrobat, tags can be assigned automatically. The recognition of semantic tags has always been improved in Acrobat. Nevertheless, a computer program will never succeed 100% in recognizing any design logic. 
 
-<p class="warning-block">Therefore the automatic tagging requires a manual check and optimization of the tag tree.</p>
+<p class="warning-block" markdown="1">
+Therefore the automatic tagging requires a manual check and optimization of the tag tree.
+</p>
 
 ### Solution 1
 
@@ -74,9 +76,7 @@ The manual procedure is usually required to add single, missing tags to the exis
 3. Click on the newly created tag and select the text with the selection tool.
 4. Now open the options menu of the “Tags” navigation pane again and select “Create Tag from Selection”.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/AN-RyLPNNl4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/AN-RyLPNNl4" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 ### Solution 2
 
@@ -85,9 +85,7 @@ The manual procedure is usually required to add single, missing tags to the exis
 3. Open the options menu (small rectangular icon with two list items) of the navigation pane “Tags” and select “Create Tag from Selection”.
 4. In the displayed window you can select the correct tag and confirm with “OK”.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/b0XUfbRnMe0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/b0XUfbRnMe0" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 ### Solution 3
 
@@ -98,9 +96,7 @@ Another possibility is to use the “Reading Order” tool. The handling of this
 3. Use the new cursor to select the content that needs to be tagged. 
 4. In the window “Reading Order” you can select the button with the appropriate tag.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 3" src="https://www.youtube-nocookie.com/embed/vBK1jO5xi90" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: Assign single PDF tag in Acrobat – solution 3" src="https://www.youtube-nocookie.com/embed/vBK1jO5xi90" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 ## Change tag to another tag {#ChangeTag}
 
@@ -112,9 +108,7 @@ Since the possibilities offered by Word or InDesign are limited, it’s often ne
 2. Click once on the tag in the tags pane to select it.
 3. Click again on the selected tag to rename it manually. Attention, the tag must be spelled correctly, see “[Overview of the PDF tags](https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/)”.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
 ### Solution 2
 
@@ -122,6 +116,4 @@ Since the possibilities offered by Word or InDesign are limited, it’s often ne
 2. Right-click with the mouse on the tag you want to change and select “Properties” from the menu.
 3. The desired tag can be selected in the “Tag” tab and the “Type” dropdown field.
 
-<div>
-  <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
-</div>
+<iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>

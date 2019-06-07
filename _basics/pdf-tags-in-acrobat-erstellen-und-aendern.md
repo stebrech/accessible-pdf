@@ -25,7 +25,9 @@ Das vollständige *Taggen* eines PDFs in Acrobat ist nur empfohlen wenn die Auto
 
 Weiter unten erfährst du wie einzelne *Tags* in Acrobat hinzugefügt oder angepasst werden.
 
-<aside class="note-block">Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können <em>Tags</em> weder geprüft noch geändert werden.</aside>
+<aside class="note-block" markdown="1">
+Softwarehinweis: Um mit den *Tags* arbeiten zu können, wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können *Tags* weder geprüft noch geändert werden.
+</aside>
 
 ## Erste Schritte (PDF enthält keine *Tags*) {#ersteSchritte}
 
@@ -37,9 +39,16 @@ Zuerst muss das Dokument als „Tagged PDF“ markiert werden.
 4. Ein erneuter Klick auf die Optionen zeigt neu den Befehl „Dokument ist PDF (mit Tags)„. Klicke darauf.
 5. In den „Dokumenteigenschaften“ wird nun unter „Beschreibung“ der Eintrag „PDF mit Tags“ → „Ja“ angezeigt.
 
-<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside id="tags" class="note-block" markdown="1">
+Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.
+![Tag Icon in Acrobat](https://accessible-pdf.info/content/uploads/tag-icon.png)
+Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
+</aside>
 
-<aside id="options" class="note-block">Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.<br><img src="https://accessible-pdf.info/content/uploads/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" /></aside>
+<aside id="options" class="note-block" markdown="1">
+Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.
+![Menüicon der Tags Optionen in Acrobat](https://accessible-pdf.info/content/uploads/tags-options-icon.png)
+</aside>
 
 <iframe width="750" height="422" title="YouTube video tutorial: First steps to create a Tagged PDF in Adobe Acrobat" src="https://www.youtube-nocookie.com/embed/zlG1DKLW9h0?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
@@ -55,7 +64,9 @@ Gemäss [Matterhorn Protokoll](https://accessible-pdf.info/de/glossar/#matterhor
 
 In Acrobat können *Tags* automatisch zugewiesen werden. Die Erkennung semantischer Auszeichnungen wurde in Acrobat stets verbessert. Trotzdem wird es einem Computerprogramm nie zu 100 % gelingen, jegliche Gestaltungslogik zu erkennen.
 
-<p class="warning-block">Daher bedingt das automatische <em>Taggen</em>, dass zwingend eine manuelle Prüfung und Optimierung des <em>Tag</em>baums gemacht werden muss.</p>
+<p class="warning-block" markdown="1">
+Daher bedingt das automatische *Taggen*, dass zwingend eine manuelle Prüfung und Optimierung des *Tag*baums gemacht werden muss.
+</p>
 
 ### Lösungsweg 1
 
@@ -108,7 +119,9 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 2. Klicke den betroffenen *Tag* im Navigationsfenster „Tags“ einmal an um es auszuwählen.
 3. Klicke mit der Maus erneut auf das ausgewählte *Tag* um es manuell umzubenennen. 
 
-<p class="warning-block">Achtung: Der <em>Tag</em> muss in Englisch und korrekt geschrieben sein, siehe <a href="https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/">„Übersicht der PDF-<em>Tags</em>“</a></p>
+<p class="warning-block" markdown="1">
+Achtung: Der *Tag* muss in Englisch und korrekt geschrieben sein, siehe [„Übersicht der PDF-*Tags*“](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)
+</p>
 
 <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 1" src="https://www.youtube-nocookie.com/embed/dJUkjDv73JQ?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>
 
@@ -118,6 +131,8 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 2. Mache einen Rechtsklick auf den betroffenen *Tag* und wähle „Eigenschaften“ im Menü aus.
 3. Im Register „Tag“ und dem Dropdown-Feld „Typ“ kann der gewünschte *Tag* ausgewählt werden. 
 
-<aside class="note-block">Die Bezeichnung der <em>Tags</em> in diesem Menü sind ins Deutsche übersetzt aber in der Reihenfolge der englischen Originalbezeichnungen geblieben.</aside>
+<aside class="note-block" markdown="1">
+Die Bezeichnung der *Tags* in diesem Menü sind ins Deutsche übersetzt aber in der Reihenfolge der englischen Originalbezeichnungen geblieben.
+</aside>
 
 <iframe width="750" height="422" title="YouTube: Change a PDF tag in Acrobat – solution 2" src="https://www.youtube-nocookie.com/embed/DO5n0QjAHHM?hl=de" frameborder="0" allow="encrypted-media" allowfullscreen></iframe>

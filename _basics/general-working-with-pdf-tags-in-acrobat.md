@@ -23,9 +23,15 @@ Working with the so-called tag tree, which is shown in the navigation pane “Ta
 - [Navigate to the contents of the selected tag and highlight it](#findinPDF)
 - [Standardized tags and tags with role mapping](#rolemapping)
 
-<aside class="note-block">Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you to make any adjustments to the tag structure. You’ll need <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.</aside>
+<aside class="note-block" markdown="1">
+Note: The free [Adobe Acrobat Reader](https://get.adobe.com/reader/) does not allow you to make any adjustments to the tag structure. You’ll need [Adobe Acrobat](https://acrobat.adobe.com/uk/en/acrobat.html) to do that.
+</aside>
 
-<aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
+<aside class="note-block" markdown="1">
+The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
+![Tag icon in Acrobat](https://accessible-pdf.info/content/uploads/tag-icon.png)
+If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.
+</aside>
 
 ## Find tagged text in the tag tree {#findtag}
 
@@ -35,7 +41,10 @@ To quickly reach a desired position in the tag tree, use the following steps:
 2. Select the affected text passage with the selection tool.
 3. Open the options in the navigation pane “Tags” and select “Find Tag from Selection”.
 
-<aside class="note-block">The options of the navigation pane “Tags” can be opened at the top left on the small icon with the two list items.<br><img src="https://accessible-pdf.info/content/uploads/tags-options-icon.png" alt="Menu icon of the tags options in Acrobat" /></aside>
+<aside class="note-block" markdown="1">
+The options of the navigation pane “Tags” can be opened at the top left on the small icon with the two list items.
+![Menu icon of the tags options in Acrobat](https://accessible-pdf.info/content/uploads/tags-options-icon.png)
+</aside>
 
 ## Navigate to the contents of the selected tag and highlight it {#findinPDF}
 
@@ -52,7 +61,9 @@ When the navigation pane “Tags” is open, tags can be identified by the angle
 
 Fortunately, there is another possibility if the authoring software cannot directly assign the standardized tags. This way is called role mapping and means that a non-standardized tag is mapped to a standardized tag. For example, Adobe InDesign almost exclusively delivers non-standardized tags with role mapping in the exported PDF.
 
-<aside class="note-block">Since Adobe Acrobat DC 2017 there is a new option called “Apply Role Mapping to Tags” in the options of the navigation pane “Tags”. If this option is active, you will see the mapped tags instead of the name as they were actually used.</aside>
+<aside class="note-block" markdown="1">
+Since Adobe Acrobat DC 2017 there is a new option called “Apply Role Mapping to Tags” in the options of the navigation pane “Tags”. If this option is active, you will see the mapped tags instead of the name as they were actually used.
+</aside>
 
 To view all role mapping entries and adjust them if necessary, do the following:
 

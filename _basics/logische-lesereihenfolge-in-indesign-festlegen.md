@@ -24,7 +24,9 @@ categories: [ ]
 ---
 PDF-*Tags* werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In InDesign kann die Reihenfolge der *Tags* festgelegt werden, sodass beim erzeugten PDF die logische Lesereihenfolge bereits korrekt ist.
 
-<aside class="note-block">Was bedeutet <a href="https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge">logische Lesereihenfolge</a>? Erfahre mehr im Glossar.</aside>
+<aside class="note-block" markdown="1">
+Was bedeutet [logische Lesereihenfolge](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge)? Erfahre mehr im Glossar.
+</aside>
 
 ## Artikel Bedienfeld
 
@@ -34,7 +36,10 @@ Um die logische Lesereihenfolge bereits in InDesign zu bestimmen, wird das Bedie
 2. Falls noch kein Artikel existiert, kann direkt ein neuer Artikel mit dem ausgewählten Objekt erstellt werden. Klicke dazu auf das kleine Seitensymbol unten rechts im Bedienfeld. Danach wirst du aufgefordert dem Artikel einen Namen zu geben. Hier wird am besten ein passendes und beschreibendes Wort verwendet.
 3. Falls bereits ein Artikel existiert, kann es mit dem Plussymbol, unten rechts im Bedienfeld, einem Artikel hinzugefügt werden.
 
-<p class="warning-block">Bevor das Dokument exportiert werden kann, muss zwingend noch die Option „Für Leserichtung in PDF mit Tags verwenden“ in den Bedienfeldoptionen aktiviert werden.<br><img src="https://accessible-pdf.info/content/uploads/indesign-artikel-reihenfolge.png" alt="Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge"/></p>
+<p class="warning-block" markdown="1">
+Bevor das Dokument exportiert werden kann, muss zwingend noch die Option „Für Leserichtung in PDF mit Tags verwenden“ in den Bedienfeldoptionen aktiviert werden.
+![Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge](https://accessible-pdf.info/content/uploads/indesign-artikel-reihenfolge.png)
+</p>
 
 ### Nachträgliche Anpassungen
 
@@ -46,7 +51,9 @@ Wenn Textrahmen miteinander verkettet sind, fliesst der Text dynamisch in den n�
 
 Im Artikel Bedienfeld werden verkettete Textrahmen als ein Objekt behandelt. Fügt man also den ersten Textrahmen hinzu, sind alle verketten Textrahmen inklusive. Die Reihenfolge ist durch die Verkettung vorgegeben.
 
-<aside class="note-block">Mehr zu <a href="https://helpx.adobe.com/ch_de/indesign/using/threading-text.html">„Verketten von Textrahmen“</a> kannst du im offiziellen Onlinehandbuch nachlesen.</aside>
+<aside class="note-block" markdown="1">
+Mehr zu [„Verketten von Textrahmen“](https://helpx.adobe.com/ch_de/indesign/using/threading-text.html) kannst du im offiziellen Onlinehandbuch nachlesen.
+</aside>
 
 ### Verankerte Objekte
 
@@ -56,9 +63,13 @@ Um eine Grafik an einer bestimmten Stelle in der logischen Reihenfolge zu platzi
 
 Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte, kleine Quadrat geklickt. Mit geklickter Maustaste wird dann der Zeiger an die gewünschte Stelle innerhalb eines Textrahmens verschoben und die Taste losgelassen.
 
-<aside class="note-block">Mehr zu <a href="https://helpx.adobe.com/ch_de/indesign/using/anchored-objects.html">„Verankerte Objekte“</a> kannst du im offiziellen Onlinehandbuch nachlesen.</aside>
+<aside class="note-block" markdown="1">
+Mehr zu [„Verankerte Objekte“](https://helpx.adobe.com/ch_de/indesign/using/anchored-objects.html) kannst du im offiziellen Onlinehandbuch nachlesen.
+</aside>
 
-<aside class="note-block">Da Grafiken Nicht-Text-Inhalte sind, muss ein Alternativtext hinterlegt werden, sofern sie inhaltlich relevant sind. Falls sie nicht relevant sind, gehören sie nicht in einen Artikel. Für weitere Informationen, siehe auch <a href="https://accessible-pdf.info/de/glossar/#alt-text">Alt-Text</a> im Glossar oder <a href="https://accessible-pdf.info/de/basics/alt-texte-hinzufuegen/">„Alt-Texte hinzufügen“</a>.</aside>
+<aside class="note-block" markdown="1">
+Da Grafiken Nicht-Text-Inhalte sind, muss ein Alternativtext hinterlegt werden, sofern sie inhaltlich relevant sind. Falls sie nicht relevant sind, gehören sie nicht in einen Artikel. Für weitere Informationen, siehe auch [Alt-Text](https://accessible-pdf.info/de/glossar/#alt-text) im Glossar oder [„Alt-Texte hinzufügen“](https://accessible-pdf.info/de/basics/alt-texte-hinzufuegen/).
+</aside>
 
 ## Formularfelder und Tab-Reihenfolge
 
@@ -68,7 +79,7 @@ Auch Formularfelder sind Objekte, die ebenfalls am besten innerhalb eines Textra
 
 ## Zusätzliche Features mit MadeToTag
 
-Das kostenpflichtige InDesign Plugin <a href="https://www.axaio.com/doku.php/de:products:madetotag">MadeToTag</a> von Axaio kann bei der Arbeit mit dem Artikel Bedienfeld unterstützen. 
+Das kostenpflichtige InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) von Axaio kann bei der Arbeit mit dem Artikel Bedienfeld unterstützen. 
 
 Im zweiten Aufgabenschritt des Plugins lassen sich sämtliche Inhalte eines Artikels oder aller Artikel ein- und ausblenden. Dies hilft um noch fehlende Inhalte zu finden, welche noch in einen Artikel aufgenommen werden müssen. Umgekehrt können auch Objekte, die nicht *getaggt* werden sollen, besser identifiziert werden.
 

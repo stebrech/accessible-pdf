@@ -18,9 +18,13 @@ categories: [ ]
 ---
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In Acrobat, the order of the tags within the tag tree can be modified.
 
-<aside class="note-block">What does <a href="https://accessible-pdf.info/en/glossary/#logical-reading-order">logical reading order</a> mean? Find out more in the glossary.</aside>
+<aside class="note-block" markdown="1">
+What does [logical reading order](https://accessible-pdf.info/en/glossary/#logical-reading-order) mean? Find out more in the glossary.
+</aside>
 
-<aside class="note-block">Software hint: In order to work with the tags, <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> is required. With the free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>, tags can neither be checked nor changed.</aside>
+<aside class="note-block" markdown="1">
+Software hint: In order to work with the tags, [Adobe Acrobat](https://acrobat.adobe.com/uk/en/acrobat.html) is required. With the free [Adobe Acrobat Reader](https://get.adobe.com/reader/), tags can neither be checked nor changed.
+</aside>
 
 ## Move a tag in the tag tree {#move}
 
@@ -29,7 +33,11 @@ PDF tags are not only needed to give content a semantic meaning, but also to det
 	- If the small arrow of the line is on the far left, the tag will be moved below and on the same level as the tag displayed above.
 	- If the small arrow of the line is further to the right, the tag will be moved within the tag displayed above.
 
-<aside class="note-block">The navigation pane “Tags” can be opened by clicking on the icon with the name tag.<br><img src="https://accessible-pdf.info/content/uploads/tag-icon.png" alt="Tag icon in Acrobat"><br>If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.</aside>
+<aside class="note-block" markdown="1">
+The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
+![Tag icon in Acrobat">](https://accessible-pdf.info/content/uploads/tag-icon.png)
+If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.
+</aside>
 
 ## Navigating within the tag tree
 

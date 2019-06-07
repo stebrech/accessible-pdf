@@ -23,7 +23,9 @@ categories: [ ]
 ---
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In InDesign, the order of the tags can be defined so that the logical reading order is already correct for the generated PDF.
 
-<aside class="note-block">What does <a href="https://accessible-pdf.info/en/glossary/#logical-reading-order">logical reading order</a> mean? Find out more in the glossary.</aside>
+<aside class="note-block" markdown="1">
+What does [logical reading order](https://accessible-pdf.info/en/glossary/#logical-reading-order) mean? Find out more in the glossary.
+</aside>
 
 ## Articles panel
 
@@ -33,7 +35,10 @@ In order to define the logical reading order already in InDesign, the “Article
 2. If no articles exist yet, a new article can be created directly with the selected object. Click on the small page symbol in the bottom right corner of the panel. Then you will be asked to give the article a name. The best is to use one descriptive word.
 3. If an article already exists, it can be added to an article by clicking on the plus symbol in the bottom right corner of the panel.
 
-<p class="warning-block">Before the document can be exported, the option “Use for reading order in Tagged PDF” must be activated in the Articles panel options.<br><img src="https://accessible-pdf.info/content/uploads/indesign-articles-option.png" alt="Screenshot of panel options with reading order option enabled"/></p>
+<p class="warning-block" markdown="1">
+Before the document can be exported, the option “Use for reading order in Tagged PDF” must be activated in the Articles panel options.
+![Screenshot of panel options with reading order option enabled](https://accessible-pdf.info/content/uploads/indesign-articles-option.png)
+</p>
 
 ### Later adjustments
 
@@ -45,7 +50,9 @@ If text frames are linked together, the text flows dynamically from one frame to
 
 In the “Articles” panel, linked text frames are treated as one object. If you add the first text frame, all threading text are included and follow the defined order.
 
-<aside class="note-block">More about <a href="https://helpx.adobe.com/indesign/using/threading-text.html">threading text</a> you can read in Adobe’s online manual.</aside>
+<aside class="note-block" markdown="1">
+More about [threading text](https://helpx.adobe.com/indesign/using/threading-text.html) you can read in Adobe’s online manual.
+</aside>
 
 ### Anchored objects
 
@@ -55,9 +62,13 @@ In order to place an image at a certain position in the logical order, it usuall
 
 To anchor an object, click on the filled, small square in the frame at the top edge. Keep the mouse button pressed and move the pointer to the desired position within a text frame and release it.
 
-<aside class="note-block">More about <a href="https://helpx.adobe.com/indesign/using/anchored-objects.html">anchored objects</a> you can read in Adobe’s online manual.</aside>
+<aside class="note-block" markdown="1">
+More about [anchored objects](https://helpx.adobe.com/indesign/using/anchored-objects.html) you can read in Adobe’s online manual.
+</aside>
 
-<aside class="note-block">Since images are non-text content, an alternative text must be provided if they are relevant to the content. If they are not relevant, they do not belong in an article. For further information, see also <a href="https://accessible-pdf.info/en/glossary/#alt-text">alt text</a> in the glossary or <a href="https://accessible-pdf.info/en/basics/add-an-alt-text/">“Add an alt text”</a>.</aside>
+<aside class="note-block" markdown="1">
+Since images are non-text content, an alternative text must be provided if they are relevant to the content. If they are not relevant, they do not belong in an article. For further information, see also [alt text](https://accessible-pdf.info/en/glossary/#alt-text) in the glossary or [“Add an alt text”](https://accessible-pdf.info/en/basics/add-an-alt-text/).
+</aside>
 
 ## Form fields and tab order
 

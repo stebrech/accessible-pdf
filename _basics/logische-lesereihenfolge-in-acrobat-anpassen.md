@@ -21,9 +21,13 @@ categories: [ ]
 ---
 PDF-*Tags* werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In Acrobat kann die Reihenfolge der *Tags* im *Tag*baum angepasst werden.
 
-<aside class="note-block">Was bedeutet <a href="https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge">logische Lesereihenfolge</a>? Erfahre mehr im Glossar.</aside>
+<aside class="note-block" markdown="1">
+Was bedeutet [logische Lesereihenfolge](https://accessible-pdf.info/de/glossar/#logische-lesereihenfolge)? Erfahre mehr im Glossar.
+</aside>
 
-<aside class="note-block">Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können <em>Tags</em> weder geprüft noch geändert werden.</aside>
+<aside class="note-block" markdown="1">
+Softwarehinweis: Um mit den *Tags* arbeiten zu können, wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können *Tags* weder geprüft noch geändert werden.
+</aside>
 
 ## *Tag* in *Tag*baum verschieben {#verschieben}
 
@@ -32,7 +36,11 @@ PDF-*Tags* werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu 
 	- Wenn sich der kleine Pfeil der Linie ganz links befindet, wird der *Tag* beim Loslassen unterhalb und auf gleicher Ebene des darüber angezeigten *Tags*, verschoben.
 	- Wenn sich der kleine Pfeil der Linie weiter rechts befindet, wird der *Tag* beim Loslassen innerhalb des darüber angezeigten *Tags*, verschoben.
 
-<aside id="tags" class="note-block">Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.<br><img src="https://accessible-pdf.info//uploads/tag-icon.png" alt="Tag Icon in Acrobat"><br>Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.</aside>
+<aside id="tags" class="note-block" markdown="1">
+Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.
+![Tag Icon in Acrobat](https://accessible-pdf.info/uploads/tag-icon.png)
+Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
+</aside>
 
 ## Sich im *Tag*baum zurechtfinden
 
