@@ -1,6 +1,6 @@
 ---
 ID: 58058
-post_title: Successful Donation
+post_title: Donation Receipt
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
