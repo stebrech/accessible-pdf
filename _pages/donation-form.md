@@ -5,7 +5,7 @@ author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
 permalink: >
-  https://accessible-pdf.info/de/donation-form/
+  https://accessible-pdf.info/en/donation-form/
 published: true
 post_date: 2019-06-21 05:03:24
 tags: [ ]
