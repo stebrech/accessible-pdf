@@ -1,6 +1,6 @@
 ---
 ID: 58064
-post_title: Donation form
+post_title: Donation
 author: Stefan Brechbühl
 post_excerpt: ""
 layout: page
@@ -14,5 +14,3 @@ categories: [ ]
 <img src="//accessible-pdf.info/content/uploads/sticker_accessible-pdf-800x400.jpg" alt="accessible-pdf.info sticker on a laptop." width="800" height="400" class="alignnone size-Penguin800X400 wp-image-58065" />
 
 [give_form id="58043"]
-
-[give_donor_wall]
