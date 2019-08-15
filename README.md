@@ -5,6 +5,8 @@ This repository contains the content of [accessible-pdf.info](accessible-pdf.inf
 * [On accessible-pdf.info you learn how to help](https://accessible-pdf.info/en)
 * [Contributing guide](CONTRIBUTING.md)
 
+**Please do not use this repository for support requests.**
+
 ## Metadata header
 Any markdown file needs a bit of Metadata at the beginning of the document. This metadata is necessary to push the content to the database of the website. Right after the import, the [WPGHS plugin](https://github.com/mAAdhaTTah/wordpress-github-sync) will create a new git commit containing some additional and missing metadata.
 
@@ -38,7 +40,9 @@ The layout or better the post type can be
 * `pages` (any other kind of pages like the glossary)
 
 ### published
-`published` defines if the post will be published directly.
+`published` defines if the post will be published directly (`true`) or not (`false`). 
+
+New posts need to be set `false` because currently the `post_excerpt` and the language have to be configured in the WordPress Backend.
 
 ### post_excerpt
 The excerpt helps to quickly find out what the reader can except when reading the full article. Besides the category/archive page it will be shown on the search results page as well.
