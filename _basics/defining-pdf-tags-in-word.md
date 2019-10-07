@@ -3,14 +3,17 @@ ID: 3048
 post_title: Defining PDF tags in Word
 author: Stefan Brechbühl
 post_excerpt: >
-  If the available tools in Word are used correctly, the quality of the exported PDF document will be improved. This reduces the amount of post-processing of the PDF. 
+  One of the key structure elements are
+  nested multi-level headings. Such
+  structuring work can be achieved by
+  consistently using paragraph styles in
+  Word.
 layout: basics
 permalink: >
   https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
 published: true
 post_date: 2018-06-21 16:32:30
-tags:
-  - Microsoft Word
+tags: [ ]
 categories: [ ]
 ---
 Accessibility should be considered at the beginning of the document creation process and not after the PDF has been created already. To improve the output quality of a PDF document exported from Word, it’s important to use the tools in Word correctly. This creates an elementary tag structure and reduces the post-processing effort in the PDF.
