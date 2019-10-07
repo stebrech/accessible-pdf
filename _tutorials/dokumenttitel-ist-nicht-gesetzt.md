@@ -26,6 +26,8 @@ tags:
 categories:
   - '07. Dictionary [de]'
 ---
+## Problembeschreibung
+
 In den PDF-Dokumenteigenschaften kann definiert werden ob das Dokument mit dem Dateinamen oder dem Dokumenttitel angezeigt wird. Dieser Name erscheint dann in der Titelleiste von Acrobat (Reader). [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie) nutzt somit ebenfalls den Dokumenttitel.
 
 PDFs, welche aus Microsoft Word und Adobe InDesign hergestellt werden, zeigen den Dateinamen. [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua) gibt jedoch vor, dass der Dokumenttitel einzustellen ist. Wenn ein Dokumenttitel gesetzt und angezeigt wird, ist dies in der Regel viel aussagekräftiger als ein Dateiname.
@@ -45,11 +47,13 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 > 
 > **07-002** Das ViewerPreferences-Dictionary des Catalog-Dictionary enthält einen Schlüssel DisplayDocTitle mit dem Wert false. (→ [automatische Prüfung](https://accessible-pdf.info/de/glossar/#automatische-pruefung))
 
-## Manueller Lösungsweg in Acrobat
+## Automatischer Lösungsweg in InDesign (ab CC 2015)
 
-1. Das betroffene Dokument in Acrobat öffnen
-2. Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
-3. In das Register „Ansicht beim Öffnen“ wechseln und unter „Einblenden“ den Wert auf „Dokumenttitel“ wechseln
+Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Bereich mit dem Namen „Barrierefreiheitsoptionen“ im Register „Erweitert“ angezeigt. Darin kann der anzuzeigende Namen in „Dokumenttitel“ geändert werden.
+
+## Automatischer Lösungsweg in InDesign (MadeToTag)
+
+Mit der Verwendung des Plugins [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) wird der Dokumenttitel automatisch definiert.
 
 ## Automatischer Lösungsweg in Acrobat DC
 
@@ -59,10 +63,8 @@ Problem festgestellt bei der PDF-Konvertierung aus:
 
 Diese Korrektur ist ausserdem Bestandteil des Preflight-Profils „Strukturprobleme getaggter PDF-Dokumente beheben“.
 
-## Automatischer Lösungsweg in InDesign (ab CC 2015)
+## Manueller Lösungsweg in Acrobat
 
-Seit Adobe InDesign CC 2015 wird in den PDF-Export-Einstellungen ein neuer Bereich mit dem Namen „Barrierefreiheitsoptionen“ im Register „Erweitert“ angezeigt. Darin kann der anzuzeigende Namen in „Dokumenttitel“ geändert werden.
-
-## Automatischer Lösungsweg in InDesign (MadeToTag)
-
-Mit der Verwendung des Plugins [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) wird der Dokumenttitel automatisch definiert.
+1. Das betroffene Dokument in Acrobat öffnen
+2. Die Dokumenteigenschaften anzeigen (Datei → Eigenschaften)
+3. In das Register „Ansicht beim Öffnen“ wechseln und unter „Einblenden“ den Wert auf „Dokumenttitel“ wechseln

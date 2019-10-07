@@ -18,6 +18,8 @@ tags:
 categories:
   - 06. Metadata
 ---
+## Issue description
+
 In order for a PDF document to be technically accessible, the [PDF/UA](https://accessible-pdf.info/en/glossary/#pdfua) identifier (metadata) must be set.
 
 Issue detected in PDFs made from:

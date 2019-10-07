@@ -14,6 +14,8 @@ tags:
 categories:
   - 13. Grafiken
 ---
+## Problembeschreibung
+
 Bilder in Word-Dokumenten werden beim PDF-Export immer auf Block-Ebene ausgegeben. Dem `<Figure>` Tag werden keine zusätzliche Attribute mitgegeben, welche es als Block-Element kennzeichnen.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
@@ -40,7 +42,7 @@ Dazu kann das `<Figure>` Tag
 
 Zu beachten gilt, dass die Lesereihenfolge (Reihenfolge der Tags) danach immer noch korrekt ist.
 
-## Manueller Lösungsweg 2 in Acrobat
+## Manueller Lösungsweg in Acrobat
 
 Füge das „Placement“ Attribut dem `<Figure>` *Tag* hinzu um es in ein Block-Element umzuwandeln.
 

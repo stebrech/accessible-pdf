@@ -15,6 +15,8 @@ tags:
 categories:
   - 01. Real content tagged
 ---
+## Issue description
+
 When exporting a table from Word 2013, the lines of a table are set within `<Span>` tags. `<Span>` tags are not allowed inside a `<TR>` (table row) on the same level as the `<TD>` tags (table cell). In addition, table lines must be marked as artifacts and must not be tagged.
 
 Issue detected in PDFs made from:

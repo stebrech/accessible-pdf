@@ -22,6 +22,8 @@ tags:
 categories:
   - 16. Listen
 ---
+## Problembeschreibung
+
 Wenn undefinierte oder nummerierte Listen verwendet werden, sollen diese auch als Liste *getaggt* werden. Die Listen-*Tags* werden beim Export aus Microsoft Word oder Adobe InDesign automatisch vergeben, sofern die Listen korrekt erstellt wurden.
 
 Für Menschen, die auf [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie) angewiesen sind, helfen korrekt *getaggte* Listen dem Verständnis und verbessern die Navigationsmöglichkeiten.

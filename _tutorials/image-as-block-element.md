@@ -14,6 +14,8 @@ tags:
 categories:
   - 13. Graphics
 ---
+## Issue description
+
 Images in Word are always be at block level in exported PDFs. The `<Figure>` tag does not have any additional attributes that identify it as a block element.
 
 Issue detected in PDFs made from:
@@ -29,7 +31,7 @@ Issue detected in PDFs made from:
 
 Not part of the Matterhorn protocol.
 
-## 1st manual approach in Acrobat
+## Manual approach in Acrobat
 
 The fastest and easiest way is to change the `<Figure>` tag to an inline element.
 
@@ -40,7 +42,7 @@ To do so,
 
 Please check if the reading order (order of the tags) is still correct afterwards.
 
-## 2nd manual approach in Acrobat
+## Manual approach in Acrobat
 
 Add the “Placement” attribute to the `<Figure>` tag and force it to be a block element.
 

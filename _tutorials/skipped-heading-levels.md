@@ -15,6 +15,8 @@ tags:
 categories:
   - 14. Headings
 ---
+## Issue description
+
 A document is structured using headings with different hierarchy levels, see [“Structure with the help of multi-level headings”](https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/).
 
 To ensure that the structure made with headings can always be understood, the heading levels mustn’t be skipped. This means `<H1>` mustn’t be followed directly by `<H3>`. However, after a `<H3>` another `<H1>` can follow, because a new chapter begins for example.

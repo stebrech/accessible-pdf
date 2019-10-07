@@ -21,6 +21,8 @@ categories:
   - 01. Real content tagged
   - 09. Appropriate Tags
 ---
+## Issue description
+
 In InDesign CC version 13.0, there are serious problems with tagging anchored objects and the use of the “Article” panel as described in [“Defining logical reading order in InDesign”](https://accessible-pdf.info/en/basics/defining-logical-reading-order-in-indesign/).
 
 - Anchored images are marked as Artifact

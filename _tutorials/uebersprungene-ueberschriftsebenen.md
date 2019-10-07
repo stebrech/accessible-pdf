@@ -22,6 +22,8 @@ tags:
 categories:
   - 14. Überschriften
 ---
+## Problembeschreibung
+
 Ein Dokument wird mithilfe von Überschriften mit unterschiedlicher Hierarchiestufe gegliedert, siehe dazu [„Strukturieren mithilfe von hierarchischen Überschriften“](https://accessible-pdf.info/de/basics/strukturieren-mithilfe-von-hierarchischen-ueberschriften/).
 
 Damit die Struktur mittels Überschriften stets nachvollzogen werden kann, dürfen die Überschriftsebenen nicht übersprungen werden. Nach einer `<H1>` darf demnach nicht direkt eine `<H3>` folgen. Jedoch kann nach einer `<H3>` wieder eine `<H1>` folgen, da beispielsweise ein neues Kapitel beginnt.

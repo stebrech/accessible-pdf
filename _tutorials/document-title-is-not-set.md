@@ -22,6 +22,8 @@ tags:
 categories:
   - 07. Dictionary
 ---
+## Issue description
+
 In the document properties of the PDF you can define whether the document is displayed with the file name or the document title. This appears in the window title bar of Acrobat (Reader) as well as [AT](https://accessible-pdf.info/en/glossary/#assistive-technology) uses this kind of information.
 
 PDF created from Microsoft Word and Adobe InDesign show the file name by default. However, [PDF/UA](https://accessible-pdf.info/en/glossary/#pdfua) says the document title must be set. If the document title has been set it’s usually much more meaningful than the file name.
@@ -41,11 +43,13 @@ Issue detected in PDFs made from:
 > 
 > **07-002** ViewerPreferences dictionary of the Catalog dictionary contains DisplayDocTitle key with a value of false. (→ [automatic testing](https://accessible-pdf.info/en/glossary/#automatic-testing))
 
-## Manual approach in Acrobat
+## Automatic approach in InDesign (from CC 2015)
 
-1. Open the document in Acrobat
-2. Open the document properties (“File” → “Properties”)
-3. Switch to the tab “Initial view” and change the value for “Show” to “Document title”
+Since Adobe InDesign CC 2015, there is a new section called “Accessibility Options” within the “Advanced” tab in the PDF export settings. There you can change the setting to “Document Title”.
+
+## Automatic approach in InDesign (with MadeToTag)
+
+Using the [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag) plugin, the document title is defined automatically.
 
 ## Automatic approach in Acrobat DC
 
@@ -55,10 +59,8 @@ Issue detected in PDFs made from:
 
 This fix is also part of the preflight profile “Fix problems in PDF tagging structure”.
 
-## Automatic approach in InDesign (from CC 2015)
+## Manual approach in Acrobat
 
-Since Adobe InDesign CC 2015, there is a new section called “Accessibility Options” within the “Advanced” tab in the PDF export settings. There you can change the setting to “Document Title”.
-
-## Automatic approach in InDesign (with MadeToTag)
-
-Using the [MadeToTag](https://www.axaio.com/doku.php/en:products:madetotag) plugin, the document title is defined automatically.
+1. Open the document in Acrobat
+2. Open the document properties (“File” → “Properties”)
+3. Switch to the tab “Initial view” and change the value for “Show” to “Document title”

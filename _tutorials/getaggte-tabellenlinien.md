@@ -15,6 +15,8 @@ tags:
 categories:
   - 01. Getaggter realer Inhalt
 ---
+## Problembeschreibung
+
 Wird eine Tabelle aus Word 2013 exportiert, werden die Linien einer Tabelle innerhalb von `<Span>` Tags gesetzt. Ein `<Span>` Tag darf aber nicht innerhalb eines `<TR>` (Tabellenzeile) auf gleicher Ebene wie die `<TD>` Tags (Tabellenzelle) liegen. Zudem müssen Tabellenlinien als Artefakt ausgezeichnet sein und dürfen nicht getaggt werden.
 
 Problem festgestellt bei der PDF-Konvertierung aus:

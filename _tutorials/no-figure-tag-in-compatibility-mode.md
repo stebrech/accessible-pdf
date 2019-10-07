@@ -14,6 +14,8 @@ tags:
 categories:
   - 13. Graphics
 ---
+## Issue description
+
 An image is placed with the “In Line with Text” layout option into Word in “Compatibility Mode” (`.doc` file). After exporting as PDF the image won't be within a `<Figure>` tag as expected, but within an `<InlineShape>`, to which the role `<Sect>` is assigned.
 
 Issue detected in PDFs made from:

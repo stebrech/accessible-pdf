@@ -22,6 +22,8 @@ tags:
 categories:
   - 16. Lists
 ---
+## Issue description
+
 If an undefined or ordered list is used it needs to be tagged as list as well. The list tags will be automatically generated while exporting as PDF. However, you have to use the correct list tools in Microsoft Word or Adobe InDesign.
 
 Proper tagged lists are important for people who need to use [AT](https://accessible-pdf.info/en/glossary/#assistive-technology). It helps them to understand and navigate lists much better.

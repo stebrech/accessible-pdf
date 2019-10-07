@@ -14,6 +14,8 @@ tags:
 categories:
   - 01. Getaggter realer Inhalt
 ---
+## Problembeschreibung
+
 Ein aus Word konvertiertes PDF enthält als oberster Container das `<Part>` Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere `<Document>` Tag verwendet werden.
 
 Problem wurde festgestellt bei der PDF-Konvertierung aus:

@@ -22,6 +22,8 @@ categories:
   - 01. Getaggter realer Inhalt
   - 09. Geeignete Tags
 ---
+## Issue description
+
 In InDesign CC Version 13.0 bestehen erhebliche Probleme beim *Taggen* von verankerten Objekten und der Nutzung des „Artikel“ Bedienfelds wie es in [„Logische Lesereihenfolge in InDesign festlegen“](https://accessible-pdf.info/de/basics/logische-lesereihenfolge-in-indesign-festlegen/) beschrieben ist. 
 
 - Verankerte Grafiken werden als Artifact gekennzeichnet

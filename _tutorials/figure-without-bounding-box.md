@@ -18,6 +18,8 @@ tags:
 categories:
   - 13. Graphics
 ---
+## Issue description
+
 In PDFs exported from Word, the *Bounding Box* attributes of all existing images are missing, regardless of the layout option they were placed with.
 
 Issue detected in PDFs made from:

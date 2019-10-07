@@ -14,6 +14,8 @@ tags:
 categories:
   - 13. Grafiken
 ---
+## Problembeschreibung
+
 Ein Bild wird in Word im Kompatibilitätsmodus (.doc) eingefügt und mit der Layoutoption „Mit Text in Zeile“ platziert. Nach dem PDF-Export ist das Bild nicht wie erwartet innerhalb eines `<Figure>` *Tag*, sondern innerhalb eines `<InlineShape>`, welchem die Rolle `<Sect>` zugeordnet ist.
 
 Problem festgestellt bei der PDF-Konvertierung aus:

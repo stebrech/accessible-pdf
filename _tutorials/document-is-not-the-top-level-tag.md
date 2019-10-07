@@ -14,6 +14,8 @@ tags:
 categories:
   - 01. Real content tagged
 ---
+## Issue description
+
 A PDF converted from Word contains the `<Part>` element as its top container. However, the semantically more suitable `<Document>` tag should be used as root element.
 
 Issue detected in PDFs made from:
