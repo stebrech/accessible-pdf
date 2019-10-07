@@ -29,7 +29,7 @@ In addition to checking the automatically testable criteria, the [PDF Accessibil
 
 The semantics can be checked very well using the colored content blocks of the “Screenreader Preview”. In particular, the headings that are important for structuring can be perceived abstractly this way, see also [“Structure with the help of multi-level headings”](https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/).
 
-![Screenshot: On the left side the PDF is opened in Acrobat. On the right the same PDF is in the screenreader preview of PAC.](https://accessible-pdf.info/wp/wp-content/uploads/acrobat_and_pac-screenreader-preview.png)
+![Screenshot: On the left side the PDF is opened in Acrobat. On the right the same PDF is in the screenreader preview of PAC.](https://accessible-pdf.info/content/uploads/acrobat_and_pac-screenreader-preview.png)
 
 The logical reading order can be checked with the “Screenreader Preview” as well. For this purpose, the relevant PDF can be displayed on a larger screen on one side and the screenreader preview on the other side at the same time. Thus the visual appearance and the tags can be compared directly with each other and it’s easier to determine if something is not logical about the order.
 
