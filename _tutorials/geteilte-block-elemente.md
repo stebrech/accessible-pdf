@@ -9,6 +9,8 @@ tags:
 categories:
   - 01. Getaggter realer Inhalt
 ---
+## Problembeschreibung
+
 Word berücksichtigt beim Erstellen eines *getaggten* PDF und der *Tag*struktur die Seitenumbrüche. Dabei werden zusammenhängende Blöcke, die über zwei oder mehr Seiten laufen, aufgeteilt. Bei einfachen Absätzen mag das vertretbar sein, werden aber beispielsweise  Überschriften, Listen oder Tabellen getrennt, leidet die Semantik.
 
 Problem festgestellt bei der PDF-Konvertierung aus:

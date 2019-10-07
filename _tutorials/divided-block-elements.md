@@ -4,6 +4,8 @@ author: Stefan Brechbühl
 layout: tutorials
 published: false
 ---
+## Issue description
+
 Word takes page breaks into account when creating a tagged PDF and its tag structure. It splits blocks that span two or more pages. This may be acceptable for simple paragraphs, but if headings, lists or tables are separated, for example, semantics suffers.
 
 Issue detected in PDFs made from:
