@@ -17,8 +17,7 @@ permalink: >
   https://accessible-pdf.info/en/basics/defining-logical-reading-order-in-indesign/
 published: true
 post_date: 2019-04-30 04:51:18
-tags:
-  - Adobe InDesign
+tags: [ ]
 categories: [ ]
 ---
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In InDesign, the order of the tags can be defined so that the logical reading order is already correct for the generated PDF.
