@@ -14,8 +14,7 @@ permalink: >
   https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/
 published: true
 post_date: 2018-04-06 19:53:24
-tags:
-  - Adobe InDesign
+tags: [ ]
 categories: [ ]
 ---
 In InDesign you can define heading tags manually through the paragraph style settings. For tables, lists and footnotes you’ll automatically get the appropriate tags if you use the available tools correctly.
