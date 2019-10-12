@@ -13,13 +13,13 @@ post_excerpt: >
   Acrobat.
 layout: basics
 permalink: >
-  https://accessible-pdf.info/en/basics/add-an-alt-text/
+  http://accessible-pdf.test/en/basics/add-an-alt-text/
 published: true
 post_date: 2018-10-18 05:29:42
 tags: [ ]
 categories: [ ]
 ---
-An alt text (short for alternative text) describes a non-text element, like an image or a graphic. The invisible text can be read and displayed by software, especially [AT](https://accessible-pdf.info/en/glossary/#assistive-technology). In the glossary you can learn more about the meaning of an [alt text](https://accessible-pdf.info/en/glossary/#alt-text) and what it should look like.
+An alt text (short for alternative text) describes a non-text element, like an image or a graphic. The invisible text can be read and displayed by software, especially [AT](http://accessible-pdf.test/en/glossary/#assistive-technology). In the glossary you can learn more about the meaning of an [alt text](http://accessible-pdf.test/en/glossary/#alt-text) and what it should look like.
 
 In this post we’re looking how to add such alt texts in [Microsoft Word](#word), [Adobe InDesign](#indesign) and [Adobe Acrobat](#acrobat).
 
@@ -37,7 +37,7 @@ The possible ways to add an alt text in Word depend on which version you’re us
 
 The alternative texts are now delivered with the PDF export and do not have to be added again in Acrobat.
 
-The alt text is added to a `<Figure>` tag. Therefore the points in [“Defining PDF tags in Word”](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/) must be observed.
+The alt text is added to a `<Figure>` tag. Therefore the points in [“Defining PDF tags in Word”](http://accessible-pdf.test/en/basics/defining-pdf-tags-in-word/) must be observed.
 
 ## Add an alt text in Adobe InDesign {#indesign}
 
@@ -48,7 +48,7 @@ The alt text is added to a `<Figure>` tag. Therefore the points in [“Defining 
 
 Note: If multiple images need to be edited, you can leave the “Object Export Options” window open and click from one to another image. The contents of the “Object Export Options” window will change depending on which image is clicked.
 
-The alt text is added to a `<Figure>` tag. Therefore the points in [“Defining PDF tags in InDesign”](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/) must be observed.
+The alt text is added to a `<Figure>` tag. Therefore the points in [“Defining PDF tags in InDesign”](http://accessible-pdf.test/en/basics/defining-pdf-tags-in-indesign/) must be observed.
 
 ## Add an alt text in Adobe InDesign with MadeToTag
 
@@ -62,9 +62,9 @@ As it is generally the case for tagging documents, the process of adding alt tex
 
 The following solutions assume that the images have already been tagged. If you need more information about this, have a look at the following articles:
 
-- [Defining PDF tags in Word](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/)
-- [Defining PDF tags in InDesign](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/)
-- [Create and modify PDF tags in Acrobat](https://accessible-pdf.info/en/basics/create-and-modify-pdf-tags-in-acrobat/)
+- [Defining PDF tags in Word](http://accessible-pdf.test/en/basics/defining-pdf-tags-in-word/)
+- [Defining PDF tags in InDesign](http://accessible-pdf.test/en/basics/defining-pdf-tags-in-indesign/)
+- [Create and modify PDF tags in Acrobat](http://accessible-pdf.test/en/basics/create-and-modify-pdf-tags-in-acrobat/)
 
 ### Solution 1
 
