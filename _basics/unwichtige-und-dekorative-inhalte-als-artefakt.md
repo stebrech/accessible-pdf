@@ -17,9 +17,7 @@ permalink: >
   https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/
 published: true
 post_date: 2018-03-28 14:53:24
-tags:
-  - InDesign
-  - Word
+tags: [ ]
 categories: [ ]
 ---
 BenutzerInnen von [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie) sind nicht nur auf semantisch korrekte *Tags* angewiesen. Es ist auch wichtig dekorative, nicht relevante Objekte von der Ausgabe auszuschliessen. Dies wird erreicht indem solche unwichtige Elemente als Artefakt gekennzeichnet werden.
