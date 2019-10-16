@@ -10,7 +10,7 @@ post_excerpt: >
   um barrierefreie PDFs erstellen zu
   können.
 layout: page
-permalink: https://accessible-pdf.info/de/
+permalink: http://accessible-pdf.test/de/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
@@ -18,7 +18,7 @@ categories: [ ]
 ---
 Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
 
-<div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/content/uploads/homepage-teaser-apps.png" alt="Grafik: Pfeile zeigen von einem InDesign-, Word- und Acrobat-Dokument zu einem barrierefreien Dokument (Logo accessible-pdf.info). Zusätzlich zeigen Pfeile den Umweg von InDesign- und Word-Dokumenten über Acrobat." /></div>
+<div class="fullwidth-container" style="margin-top:2em;"><img src="http://accessible-pdf.test/content/uploads/homepage-teaser-apps.png" alt="Grafik: Pfeile zeigen von einem InDesign-, Word- und Acrobat-Dokument zu einem barrierefreien Dokument (Logo accessible-pdf.info). Zusätzlich zeigen Pfeile den Umweg von InDesign- und Word-Dokumenten über Acrobat." /></div>
 
 ## Unterstützte Software
 
@@ -34,18 +34,7 @@ Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität hab
 
 Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht. Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt.
 
-![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz und beiden Logos).](https://accessible-pdf.info/content/uploads/homepage-teaser-cc.png)
-
-### Wie kannst du helfen?
-
-Es gibt verschiedene Wege dieses Projekt zu unterstützen.
-
-- Fehlende Übersetzungen hinzufügen oder falsche Übersetzungen korrigieren
-- Beiträge ergänzen und korrigieren
-	- Problembeschreibung korrigieren oder ergänzen
-	- Versionshinweise ergänzen (Welche Versionen sind von beschriebenem Problem betroffen?)
-	- Lösungswege ergänzen oder korrigieren</li>
-- Neuen Beitrag (Grundlagen, Problemlösungen) erstellen</li>
+![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz und beiden Logos).](http://accessible-pdf.test/content/uploads/homepage-teaser-cc.png)
 
 Alle Hinweise und Änderungsvorschläge werden sehr geschätzt. Falls ein Änderungsvorschlag abgelehnt werden muss, wird ein Grund genannt.
 
@@ -64,7 +53,7 @@ Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftw
 
 Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
 
-![Grafik: Markdown Dokument ist über die Github Plattform in Sync mit der Website accessible-pdf.info.](https://accessible-pdf.info/content/uploads/homepage-teaser-sync.png)
+![Grafik: Markdown Dokument ist über die Github Plattform in Sync mit der Website accessible-pdf.info.](http://accessible-pdf.test/content/uploads/homepage-teaser-sync.png)
 
 **Um Änderungen einreichen zu können, benötigst du ein kostenloses Konto bei Github. Weitere Infos findest du unter [Regeln für die Mithilfe](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md#de).**
 
