@@ -2,11 +2,18 @@
 ID: 58240
 post_title: Hier mitwirken
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Du kannst dich engagieren und zur
+  Verbesserung von accessible-pdf.info
+  beitragen. Änderungen können via
+  Github beantragt werden. Damit können
+  die Inhalte direkt beeinflusst und die
+  Qualität gesteigert werden.
 layout: page
 permalink: >
-  https://accessible-pdf.info/?page_id=58240
-published: false
+  https://accessible-pdf.info/de/hier-mitwirken/
+published: true
+post_date: 2019-10-17 19:51:44
 tags: [ ]
 categories: [ ]
 ---
@@ -20,13 +27,13 @@ Um inhaltliche Änderungsvorschläge einfacher und schneller zu übernehmen, wir
 
 Um Änderungen oder Neuerungen erst abzuklären, bevor du deine wertvolle Zeit investierst, empfehle ich dir ein sogenanntes [Issue](https://github.com/pixelstrolch/accessible-pdf/issues) anzulegen. So können wir gemeinsam deine Idee „besprechen“.
 
-Die Auszeichnungssprache, in der die Beiträge geschrieben sind, ist Markdown. Wenn du noch keine Erfahrungen damit gemacht hast – keine Angst du wirst im Handumdrehen damit umgehen können. Mehr zur Syntax kannst du beispielsweise auf [markdown.de](https://markdown.de) oder im [Github Guide](https://guides.github.com/features/mastering-markdown/) nachlesen.
+Die Auszeichnungssprache, in der die Beiträge geschrieben sind, ist Markdown. Wenn du noch keine Erfahrungen damit gemacht hast – keine Angst, du wirst im Handumdrehen damit umgehen können. Mehr zur Syntax kannst du beispielsweise auf [markdown.de](https://markdown.de) oder im [Github Guide](https://guides.github.com/features/mastering-markdown/) nachlesen.
 
 **Weitere Infos zum Umgang mit Github findest du in den [Regeln für die Mithilfe](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md#regeln-für-die-mithilfe).** 
 
 ## Übersetzungen und Schreibfehler
 
-Fehler können immer und allen passieren, insbesondere in einer Fremdsprache. Findest du Fehler, wird niemand beleidigt sein wenn du ihn meldest. Im Gegenteil – dank deiner Korrektur wird dieser Ort professioneller.
+Fehler können immer und allen passieren, insbesondere in einer Fremdsprache. Findest du einen Fehler, wird niemand beleidigt sein wenn du ihn meldest. Im Gegenteil – dank deiner Korrektur wird dieser Ort professioneller.
 
 ## Bestehende Beiträge anpassen
 
