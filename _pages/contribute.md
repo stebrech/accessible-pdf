@@ -2,11 +2,17 @@
 ID: 58239
 post_title: Contribute
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  You can get involved and contribute to
+  improve accessible-pdf.info. Changes can
+  be requested via Github. This can
+  directly influence the content and
+  improve the quality.
 layout: page
 permalink: >
-  https://accessible-pdf.info/?page_id=58239
-published: false
+  https://accessible-pdf.info/en/contribute/
+published: true
+post_date: 2019-10-17 20:00:33
 tags: [ ]
 categories: [ ]
 ---
@@ -18,9 +24,9 @@ In order to make suggestions for changes easier and faster, this website is sync
 
 ![Markdown document is synchronized via the Github platform with the accessible-pdf.info website.](https://accessible-pdf.info/content/uploads/homepage-teaser-sync.png)
 
-If you want to clarify changes or additions before investing your precious time, I recommend you create an [Issue](https://github.com/pixelstrolch/accessible-pdf/issues). This way we can “discuss” your idea together.
+If you want to clarify changes or additions before investing your precious time, I recommend you create an [Issue]https://github.com/pixelstrolch/accessible-pdf/issues). This way we can “discuss” your idea together.
 
-The markup language in which the posts are written is Markdown. If you haven’t had any experience with it – don't worry you’ll be able to handle it in no time. You can read more about the syntax on [daringfireball.net](https://daringfireball.net/projects/markdown/) or in the [Github Guide](https://guides.github.com/features/mastering-markdown/) for example.
+The markup language, in which the posts are written, is Markdown. If you haven’t had any experience with it – don't worry you’ll be able to handle it in no time. You can read more about the syntax on [daringfireball.net](https://daringfireball.net/projects/markdown/) or in the [Github Guide](https://guides.github.com/features/mastering-markdown/) for example.
 
 **You can find more information on how to use Github in the [Contributors Guide] (https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
 
