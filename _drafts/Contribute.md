@@ -1,8 +1,14 @@
 ---
+ID: 58239
 post_title: Contribute
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: page
+permalink: >
+  https://accessible-pdf.info/?page_id=58239
 published: false
+tags: [ ]
+categories: [ ]
 ---
 Great you are interested to support this project! 🎉
 

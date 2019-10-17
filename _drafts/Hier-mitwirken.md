@@ -1,8 +1,14 @@
 ---
+ID: 58240
 post_title: Hier mitwirken
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: page
+permalink: >
+  https://accessible-pdf.info/?page_id=58240
 published: false
+tags: [ ]
+categories: [ ]
 ---
 Super interessierst du dich, dieses Projekt zu unterstützen! 🎉
 
