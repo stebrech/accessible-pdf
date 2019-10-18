@@ -10,7 +10,7 @@ post_excerpt: >
   um barrierefreie PDFs erstellen zu
   können.
 layout: page
-permalink: http://accessible-pdf.test/de/
+permalink: https://accessible-pdf.info/de/
 published: true
 post_date: 2017-12-31 14:25:47
 tags: [ ]
@@ -36,27 +36,4 @@ Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0]
 
 ![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz und beiden Logos).](http://accessible-pdf.test/content/uploads/homepage-teaser-cc.png)
 
-Alle Hinweise und Änderungsvorschläge werden sehr geschätzt. Falls ein Änderungsvorschlag abgelehnt werden muss, wird ein Grund genannt.
-
-### Markdown und Github
-
-Die Inhalte sind in Markdown geschrieben, [extern in Github verwaltet](https://github.com/pixelstrolch/accessible-pdf) und mit dieser Website synchronisiert.
-
-Markdown ist eine einfache Auszeichnungssprache, die auf gewöhnlichem Text basiert und mit Sonderzeichen ergänzt wird um das Dokument zu strukturieren. Diese Auszeichnungen ermöglichen es Inhalte einfach in HTML zu konvertieren. Hier ein paar Beiträge zum Thema, falls du noch mehr dazu erfahren möchtest:
-
-- [Markdown (Wikipedia)](https://de.wikipedia.org/wiki/Markdown)
-- [markdown.de](http://markdown.de/)
-- [Mastering Markdown (Github) [en]](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Syntax von John Gruber [en]](https://daringfireball.net/projects/markdown/syntax)
-
-Github ist eine Plattform, welche Kollaboration mit der Versionsverwaltungssoftware `git` vereint. Es ist eine der beliebtesten Websites um freie Software zur Verfügung zu stellen, so dass alle sich daran beteiligen können.
-
-Wie dieses Beispiel zeigt, kann es auch für Nicht-Software Projekte benutzt werden.
-
-![Grafik: Markdown Dokument ist über die Github Plattform in Sync mit der Website accessible-pdf.info.](http://accessible-pdf.test/content/uploads/homepage-teaser-sync.png)
-
-**Um Änderungen einreichen zu können, benötigst du ein kostenloses Konto bei Github. Weitere Infos findest du unter [Regeln für die Mithilfe](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md#de).**
-
-## Neuigkeiten
-
-Auf Twitter unter dem Benutzernamen [@PDFa11y](https://twitter.com/PDFa11y) werden Neuigkeiten zu dieser Website geschrieben.
+Alle Hinweise und Änderungsvorschläge werden sehr geschätzt. Falls ein Änderungsvorschlag abgelehnt werden muss, wird ein Grund genannt. Erfahre mehr wie du [hier mitwirken](https://accessible-pdf.info/de/hier-mitwirken/) kannst.
