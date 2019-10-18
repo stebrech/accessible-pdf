@@ -34,15 +34,4 @@ All contents of this website are published under the [Creative Commons License C
 
 ![accessible-pdf.info likes creative commons (symbolized with a heart and both logos).](https://accessible-pdf.info/content/uploads/homepage-teaser-cc.png)
 
-### How can you help?
-
-There are several ways to support this project.
-
-- Add missing translations or correct incorrect translations
-- Add and correct posts 
-	- Correct or complement the issue description of a troubleshooting post
-	- Amend the version info (Which versions are affected by the problem described?)
-	- Add or correct an approach of a problem
-- Make a new post (Basics, Troubleshooting)
-
 All comments and suggestions for changes are highly appreciated. If a change request has to be rejected, a reason will be given. Find out how you can [contribute](https://accessible-pdf.info/en/contribute/) here.
