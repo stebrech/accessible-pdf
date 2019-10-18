@@ -45,26 +45,4 @@ There are several ways to support this project.
 	- Add or correct an approach of a problem
 - Make a new post (Basics, Troubleshooting)
 
-All comments and suggestions for changes are highly appreciated. If a change request has to be rejected, a reason will be given.
-
-### Markdown and Github
-
-The content is written in Markdown, [external managed in Github](https://github.com/pixelstrolch/accessible-pdf) and synchronized with this website.
-
-Markdown is an easy markup language which is based on plain text. Additional characters structure the document and make it possible to convert the content into HTML. Here are a couple of posts about Markdown, if you want to learn more about it:
-
-- [Markdown (Wikipedia)](https://en.wikipedia.org/wiki/Markdown)
-- [Mastering Markdown (Github)](https://guides.github.com/features/mastering-markdown/)
-- [Markdown Syntax von John Gruber](https://daringfireball.net/projects/markdown/syntax)
-
-Github is platform which combines collaboration and the version control software `git`. It is one of the most popular websites to share open source software, so that everyone can contribute to it.
-
-Like our example proves, it can be used for non-software projects as well.
-
-![Markdown document is synchronized via the Github platform with the accessible-pdf.info website.](https://accessible-pdf.info/content/uploads/homepage-teaser-sync.png)
-
-**To submit changes, you need a free Github account. For more informations, see [Contributors Guide](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
-
-## Updates
-
-You'll get news about this website if you follow [@PDFa11y](https://twitter.com/PDFa11y) on Twitter.
+All comments and suggestions for changes are highly appreciated. If a change request has to be rejected, a reason will be given. Find out how you can [contribute](https://accessible-pdf.info/en/contribute/) here.
