@@ -16,24 +16,23 @@ post_date: 2017-12-31 14:25:47
 tags: [ ]
 categories: [ ]
 ---
-Sinn und Zweck dieser Website ist ein Nachschlagewerk um PDF/UA-Fehler beheben zu können. Die Anleitungen sollen allen Interessierten eine Hilfestellung sein um barrierefreie PDFs erstellen zu können.
+**Sinn und Zweck dieser Website ist es die [Grundlagen](https://accessible-pdf.info/de/basics/) der Herstellung von [barrierefreien PDF-Dokumenten](https://accessible-pdf.info/de/glossar/#barrierefrei) zu vermitteln. Zudem soll sie als Nachschlagewerk dienen um [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua)-Fehler beheben zu können.**
 
 <div class="fullwidth-container" style="margin-top:2em;"><img src="http://accessible-pdf.test/content/uploads/homepage-teaser-apps.png" alt="Grafik: Pfeile zeigen von einem InDesign-, Word- und Acrobat-Dokument zu einem barrierefreien Dokument (Logo accessible-pdf.info). Zusätzlich zeigen Pfeile den Umweg von InDesign- und Word-Dokumenten über Acrobat." /></div>
 
-## Unterstützte Software
+Ein häufig begangener Fehler ist es die Barrierefreiheit zu spät zu berücksichtigen. Dies trifft auch für das PDF-Format zu. Es ist bei weitem komplexer und aufwändiger sich erst nach der PDF-Erstellung damit zu beschäftigen.
 
-Momentan werden folgende Software-Produkte behandelt:
+Viel einfacher und wirtschaftlicher ist es in der Dokumententstehung die nötigen Gedanken zu machen und die Werkzeuge korrekt zu verwenden.
 
-- Adobe Acrobat
-- Adobe InDesign
-- Microsoft Word
+![Grafische Darstellung verschiedener Herangehensweisen zur Erstellung von barrierefreien PDFs. Empfohlen sind „Vorlagenherstellung“ und „Ad hoc ab Quelldok.“ da benutzerfreundlicher und realistischer. Gewarnt wird vor „Ad hoc ab PDF“ da technischer und aufwändiger.](https://accessible-pdf.info/content/uploads/homepage-teasers-workflow.png)
 
-Es ist möglich, dass die Liste im Laufe der Zeit erweitert wird. Priorität haben aber klar die bekanntesten und beliebtesten Programme.
+In den [Grundlagen](https://accessible-pdf.info/de/basics/) lernst du wie dies erreicht werden kann. 
+Die [Problemlösungen](https://accessible-pdf.info/de/tutorials/) helfen weitere Stolpersteine zu bewältigen, um am Ende ein [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua)-konformes Dokument zu erhalten.
 
 ## Freie Inhalte zur Bearbeitung
 
-Alle Inhalte dieser Website werden unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht. Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt.
+Alle Inhalte dieser Website werden frei unter der [Creative Commons Lizenz CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) veröffentlicht.
 
 ![accessible-pdf.info mag creative commons (symbolisiert mit einem Herz und beiden Logos).](http://accessible-pdf.test/content/uploads/homepage-teaser-cc.png)
 
-Alle Hinweise und Änderungsvorschläge werden sehr geschätzt. Falls ein Änderungsvorschlag abgelehnt werden muss, wird ein Grund genannt. Erfahre mehr wie du [hier mitwirken](https://accessible-pdf.info/de/hier-mitwirken/) kannst.
+Du bist herzlich dazu eingeladen zur Qualität der Inhalte beizutragen indem du sie aktiv korrigierst oder ergänzt. Alle Hinweise und Änderungsvorschläge werden sehr geschätzt. Erfahre mehr wie du [hier mitwirken](https://accessible-pdf.info/de/hier-mitwirken/) kannst.
