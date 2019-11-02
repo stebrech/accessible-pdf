@@ -59,7 +59,9 @@ This manual approach can only be used situationally. Depending on the layout or 
 
 ## Manual approach in Acrobat
 
-The strict post-processing of this issue in Acrobat is often disproportionate. If possible, the solutions described above are always to be preferred. Critical locations in the PDF and the tag tree must be found and corrected manually. 
+<div class="warning-block" markdown="1">
+The strict post-processing of this issue in Acrobat is often disproportionate. If possible, the solutions described above are always to be preferred. Critical locations in the PDF and the tag tree must be found and corrected manually.
+</div>
 
 If block elements are divided, the tag is repeated at the top level after the break. As an example of a list, several `<L>` tags exist. The following screenshots from Acrobat show how a list item itself is separated by a break.
 
@@ -71,4 +73,16 @@ If block elements are divided, the tag is repeated at the top level after the br
 2. Then the two remaining list elements `<LI>` (4 and 5) must be moved within the `<L>` tag of the first page.
 3. Finally the empty tags of the second page can be deleted.
 
-Analogous to this example, this procedure can be applied to other block elements, such as a tables as well. In Word, however, you can define that the first line of a table repeats itself on each page. Those repetitions are also tagged as header cells. The effort involved in such tables is questionable. It is better to ensure that there is no separation within a cell.
+Analogously to this example, other block elements can also be manually reassembled.
+
+### Split tables
+
+In a Word table, you may define that the first line repeats on each page. The cursor must be in the first line and the table option “Repeat as header row at the top of each page” must be selected.
+
+![Table option “Repeat as header row at the top of each page”. Screenshot from Word.](https://accessible-pdf.info/content/uploads/word-table-repeat-header.png)
+
+These repetitions are also tagged as header cells. The effort, which results from combining such single tables, is questionable. If the tables are understood individually, they can be left as such.
+
+It’s rather better to ensure that the tables are not separated within one cell. This can be achieved by **deactivating** the table option “Allow row to be broken across pages”.
+
+![Marked table option “Allow row to be broken across pages”. Screenshot from Word.](https://accessible-pdf.info/content/uploads/word-table-allow-broken-row.png)
