@@ -2,16 +2,27 @@
 ID: 58257
 post_title: Divided block elements
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Word takes page breaks into account when
+  creating a tagged PDF. It splits blocks
+  that span two or more pages. This may be
+  acceptable for simple paragraphs, but if
+  headings, lists or tables are separated,
+  for example, semantics suffers.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58257'
-published: false
-tags: [ ]
-categories: [ ]
+permalink: >
+  https://accessible-pdf.info/en/tutorials/divided-block-elements/
+published: true
+post_date: 2019-11-02 12:16:44
+tags:
+  - Manual testing
+  - Microsoft Word
+categories:
+  - 01. Real content tagged
 ---
 ## Issue description
 
-Word takes page breaks into account when creating a tagged PDF and its tag structure. It splits blocks that span two or more pages. This may be acceptable for simple paragraphs, but if headings, lists or tables are separated, for example, semantics suffers.
+Word takes page breaks into account when creating a tagged PDF. It splits blocks that span two or more pages. This may be acceptable for simple paragraphs, but if headings, lists or tables are separated, for example, semantics suffers.
 
 Issue detected in PDFs made from:
 
