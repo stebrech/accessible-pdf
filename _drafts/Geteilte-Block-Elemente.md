@@ -1,7 +1,10 @@
 ---
+ID: 58258
 post_title: Geteilte Block-Elemente
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58258'
 published: false
 tags:
   - Manuelle Prüfung

@@ -1,8 +1,13 @@
 ---
+ID: 58257
 post_title: Divided block elements
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58257'
 published: false
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
