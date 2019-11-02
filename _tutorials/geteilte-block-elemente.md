@@ -11,7 +11,7 @@ categories:
 ---
 ## Problembeschreibung
 
-Word berücksichtigt beim Erstellen eines *getaggten* PDF und der *Tag*struktur die Seitenumbrüche. Dabei werden zusammenhängende Blöcke, die über zwei oder mehr Seiten laufen, aufgeteilt. Bei einfachen Absätzen mag das vertretbar sein, werden aber beispielsweise  Überschriften, Listen oder Tabellen getrennt, leidet die Semantik.
+Word berücksichtigt beim Erstellen eines *getaggten* PDF und der *Tag*struktur die Seitenumbrüche. Dabei werden zusammenhängende Blöcke, die über zwei oder mehr Seiten laufen, aufgeteilt. Bei einfachen Absätzen mag das vertretbar sein, werden aber beispielsweise Überschriften, Listen oder Tabellen getrennt, leidet die Semantik.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
@@ -64,7 +64,9 @@ Dieser manuelle Lösungsweg kann nur situativ angewendet werden. Je nach Layout 
 
 ## Manueller Lösungsweg in Acrobat
 
-Die strikte Nachbearbeitung dieses Problems in Acrobat ist vielfach unverhältnismässig. Weiter oben beschriebene Lösungswege sind diesem wenn möglich immer vorzuziehen. Kritische Stellen müssen im PDF und dem *Tag*baum manuell gefunden und behoben werden. 
+<div class="warning-block" markdown="1">
+Die strikte Nachbearbeitung dieses Problems in Acrobat ist vielfach unverhältnismässig. Weiter oben beschriebene Lösungswege sind diesem wenn möglich immer vorzuziehen. Kritische Stellen müssen im PDF und dem *Tag*baum manuell gefunden und behoben werden.
+</div>
 
 Werden Block-Elemente geteilt, wiederholt sich nach dem Umbruch der *Tag* auf oberster Ebene. Am Beispiel einer Liste existieren mehrere `<L>`-*Tags*. Folgende Bildschirmfotos aus Acrobat zeigen wie auch noch ein Listenpunkt selbst durch einen Umbruch getrennt wird.
 
@@ -76,4 +78,16 @@ Werden Block-Elemente geteilt, wiederholt sich nach dem Umbruch der *Tag* auf ob
 2. Danach werden die beiden übrigen Listenelemente `<LI>` (4 und 5) innerhalb des `<L>`-*Tag* der ersten Seite verschoben.
 3. Zuletzt können die leeren *Tags* der zweiten Seite gelöscht werden.
 
-Analog diesem Beispiel kann dieses Vorgehen auch bei anderen Block-Elementen, wie beispielsweise einer Tabelle angewendet werden. In Word kann jedoch definiert werden, dass sich die erste Zeile einer Tabelle auf jeder Seite wiederholt. Dabei werden diese Wiederholungen auch als Überschriftenzellen *getaggt*. Der Aufwand, der bei solchen Tabellen entsteht, ist fragwürdig. Besser wird dafür gesorgt, dass nicht innerhalb einer Zelle getrennt wird.
+Analog diesem Beispiel können auch andere Block-Elemente manuell wieder zusammengebaut werden. 
+
+### Aufgeteilte Tabellen
+
+In einer Word-Tabelle kann definiert werden, dass sich die erste Zeile einer Tabelle auf jeder Seite wiederholt. Dabei muss sich der *Cursor* in der ersten Zeile befinden und die Tabellenoption „Gleiche Kopfzeile auf jeder Seite wiederholen“ ausgewählt werden.
+
+![Markierte Tabellenoption „Gleiche Kopfzeile auf jeder Seite wiederholen“. Bildschirmfoto aus Word.](https://accessible-pdf.info/content/uploads/word-tabelle-kopfzeile-wiederholen.png)
+
+Dabei werden diese Wiederholungen auch als Überschriftenzellen *getaggt*. Der Aufwand, der beim Vereinen von solchen einzelnen Tabellen entsteht, ist fragwürdig. Sofern die Tabellen einzeln verstanden werden, können diese auch so belassen werden.
+
+Lieber sollte dafür gesorgt werden, dass nicht innerhalb einer Zelle getrennt wird. Mit **Deaktivierung** der Tabellenoption „Seitenumbruch in der Zeile zulassen“ kann dies erreicht werden.
+
+![Markierte Tabellenoption „Seitenumbruch in der Zeile zulassen“. Bildschirmfoto aus Word.](https://accessible-pdf.info/content/uploads/word-tabelle-zeile-nicht-trennen.png)
