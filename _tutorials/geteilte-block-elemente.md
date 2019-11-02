@@ -2,10 +2,22 @@
 ID: 58258
 post_title: Geteilte Block-Elemente
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Word berücksichtigt beim Erstellen
+  eines getaggten PDF und der Tagstruktur
+  die Seitenumbrüche. Dabei werden
+  zusammenhängende Blöcke, die über
+  zwei oder mehr Seiten laufen,
+  aufgeteilt. Bei einfachen Absätzen mag
+  das vertretbar sein, werden aber
+  beispielsweise Überschriften, Listen
+  oder Tabellen getrennt, leidet die
+  Semantik.
 layout: tutorials
-permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58258'
-published: false
+permalink: >
+  https://accessible-pdf.info/de/tutorials/geteilte-block-elemente/
+published: true
+post_date: 2019-11-02 07:14:08
 tags:
   - Manuelle Prüfung
   - Word
@@ -14,7 +26,7 @@ categories:
 ---
 ## Problembeschreibung
 
-Word berücksichtigt beim Erstellen eines *getaggten* PDF und der *Tag*struktur die Seitenumbrüche. Dabei werden zusammenhängende Blöcke, die über zwei oder mehr Seiten laufen, aufgeteilt. Bei einfachen Absätzen mag das vertretbar sein, werden aber beispielsweise Überschriften, Listen oder Tabellen getrennt, leidet die Semantik.
+Word berücksichtigt beim Erstellen eines *getaggten* PDF die Seitenumbrüche. Dabei werden zusammenhängende Blöcke, die über zwei oder mehr Seiten laufen, aufgeteilt. Bei einfachen Absätzen mag das vertretbar sein, werden aber beispielsweise Überschriften, Listen oder Tabellen getrennt, leidet die Semantik.
 
 Problem festgestellt bei der PDF-Konvertierung aus:
 
