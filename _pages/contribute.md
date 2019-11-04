@@ -24,7 +24,7 @@ In order to make suggestions for changes easier and faster, this website is sync
 
 ![Markdown document is synchronized via the Github platform with the accessible-pdf.info website.](https://accessible-pdf.info/content/uploads/homepage-teaser-sync.png)
 
-If you want to clarify changes or additions before investing your precious time, I recommend you create an [Issue]https://github.com/pixelstrolch/accessible-pdf/issues). This way we can “discuss” your idea together.
+If you want to clarify changes or additions before investing your precious time, I recommend you create an [Issue](https://github.com/pixelstrolch/accessible-pdf/issues). This way we can “discuss” your idea together.
 
 The markup language, in which the posts are written, is Markdown. If you haven’t had any experience with it – don't worry you’ll be able to handle it in no time. You can read more about the syntax on [daringfireball.net](https://daringfireball.net/projects/markdown/) or in the [Github Guide](https://guides.github.com/features/mastering-markdown/) for example.
 
