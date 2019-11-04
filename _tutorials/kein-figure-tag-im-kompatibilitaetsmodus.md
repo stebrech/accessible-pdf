@@ -8,11 +8,11 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/kein-figure-tag-im-kompatibilitaetsmodus/
 published: true
 post_date: 2018-01-12 16:35:46
-tags:
-  - Manuelle Prüfung
-  - Word
+tags: [ ]
 categories:
   - 13. Grafiken
+  - Manuelle Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
