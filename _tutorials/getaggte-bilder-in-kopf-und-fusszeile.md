@@ -8,11 +8,11 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/getaggte-bilder-in-kopf-und-fusszeile/
 published: true
 post_date: 2018-01-12 16:21:50
-tags:
-  - Manuelle Prüfung
-  - Word
+tags: [ ]
 categories:
   - 01. Getaggter realer Inhalt
+  - Manuelle Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
