@@ -8,9 +8,7 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/document-ist-nicht-tag-auf-oberster-ebene/
 published: true
 post_date: 2018-01-05 16:24:27
-tags:
-  - Manuelle Prüfung
-  - Word
+tags: [ ]
 categories:
   - 01. Getaggter realer Inhalt
   - Manuelle Prüfung
