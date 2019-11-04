@@ -8,11 +8,11 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/bild-als-block-element/
 published: true
 post_date: 2018-01-12 16:19:17
-tags:
-  - Automatische Prüfung
-  - Word
+tags: [ ]
 categories:
   - 13. Grafiken
+  - Automatische Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
