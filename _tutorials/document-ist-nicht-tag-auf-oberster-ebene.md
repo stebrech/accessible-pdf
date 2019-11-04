@@ -13,6 +13,8 @@ tags:
   - Word
 categories:
   - 01. Getaggter realer Inhalt
+  - Manuelle Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
