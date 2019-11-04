@@ -8,12 +8,12 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/getaggte-tabellenlinien/
 published: true
 post_date: 2018-01-05 16:24:27
-tags:
-  - Automatische Prüfung
-  - Manuelle Prüfung
-  - Word
+tags: [ ]
 categories:
   - 01. Getaggter realer Inhalt
+  - Automatische Prüfung
+  - Manuelle Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
