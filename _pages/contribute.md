@@ -28,7 +28,7 @@ If you want to clarify changes or additions before investing your precious time,
 
 The markup language, in which the posts are written, is Markdown. If you haven’t had any experience with it – don't worry you’ll be able to handle it in no time. You can read more about the syntax on [daringfireball.net](https://daringfireball.net/projects/markdown/) or in the [Github Guide](https://guides.github.com/features/mastering-markdown/) for example.
 
-**You can find more information on how to use Github in the [Contributors Guide] (https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
+**You can find more information on how to use Github in the [Contributors Guide](https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md).**
 
 ## Translations and typos
 
