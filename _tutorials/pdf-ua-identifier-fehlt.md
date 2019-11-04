@@ -13,12 +13,11 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/pdf-ua-identifier-fehlt/
 published: true
 post_date: 2018-01-11 17:29:45
-tags:
-  - Automatische Prüfung
-  - InDesign
-  - Word
+tags: [ ]
 categories:
   - 06. Metadaten
+  - Allgemein
+  - Automatische Prüfung
 ---
 ## Problembeschreibung
 
