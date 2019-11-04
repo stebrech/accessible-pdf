@@ -11,20 +11,20 @@ post_excerpt: >
   festlegen“ beschrieben ist.
 layout: tutorials
 permalink: >
-  http://accessible-pdf.test/de/tutorials/verankerte-objekte-nicht-getaggt/
+  https://accessible-pdf.info/de/tutorials/verankerte-objekte-nicht-getaggt/
 published: true
 post_date: 2019-05-21 15:48:21
-tags:
-  - Automatische Prüfung
-  - InDesign
-  - Manuelle Prüfung
+tags: [ ]
 categories:
   - 01. Getaggter realer Inhalt
   - 09. Geeignete Tags
+  - Adobe InDesign
+  - Automatische Prüfung
+  - Manuelle Prüfung
 ---
 ## Issue description
 
-In InDesign CC Version 13.0 bestehen erhebliche Probleme beim *Taggen* von verankerten Objekten und der Nutzung des „Artikel“ Bedienfelds wie es in [„Logische Lesereihenfolge in InDesign festlegen“](http://accessible-pdf.test/de/basics/logische-lesereihenfolge-in-indesign-festlegen/) beschrieben ist. 
+In InDesign CC Version 13.0 bestehen erhebliche Probleme beim *Taggen* von verankerten Objekten und der Nutzung des „Artikel“ Bedienfelds wie es in [„Logische Lesereihenfolge in InDesign festlegen“](https://accessible-pdf.info/de/basics/logische-lesereihenfolge-in-indesign-festlegen/) beschrieben ist. 
 
 - Verankerte Grafiken werden als Artifact gekennzeichnet
 - Verankerte Formularfelder werden nicht innerhalb eines `<Form>` *getaggt*
@@ -42,11 +42,11 @@ Keine Warnung oder Fehlermeldung zu den als Artifact gekennzeichneten Grafiken!
 
 ### Prüfpunkte des Matterhorn Protokolls
  
-> **01-002** Realer Inhalt ist als Artefakt gekennzeichnet. (→ [manuelle Prüfung](http://accessible-pdf.test/de/glossar/#manuelle-pruefung))
+> **01-002** Realer Inhalt ist als Artefakt gekennzeichnet. (→ [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung))
 > 
-> **01-005** Inhalt ist weder als Artefakt gekennzeichnet noch als realer Inhalt getaggt. (→ [automatische Prüfung](http://accessible-pdf.test/de/glossar/#automatische-pruefung))
+> **01-005** Inhalt ist weder als Artefakt gekennzeichnet noch als realer Inhalt getaggt. (→ [automatische Prüfung](https://accessible-pdf.info/de/glossar/#automatische-pruefung))
 > 
-> **09-001** Die Anordnung der Tags entspricht nicht der logischen Lesereihenfolge. (→ [manuelle Prüfung](http://accessible-pdf.test/de/glossar/#manuelle-pruefung))
+> **09-001** Die Anordnung der Tags entspricht nicht der logischen Lesereihenfolge. (→ [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung))
 
 ## Automatischer Lösungsweg in InDesign
 
