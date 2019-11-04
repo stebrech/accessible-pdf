@@ -18,11 +18,11 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/geteilte-block-elemente/
 published: true
 post_date: 2019-11-02 07:14:08
-tags:
-  - Manuelle Prüfung
-  - Word
+tags: [ ]
 categories:
   - 01. Getaggter realer Inhalt
+  - Manuelle Prüfung
+  - Microsoft Word
 ---
 ## Problembeschreibung
 
