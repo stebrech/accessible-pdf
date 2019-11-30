@@ -11,12 +11,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/pdf-ua-identifier-is-missing/
 published: true
 post_date: 2018-04-27 16:19:40
-tags:
-  - Adobe InDesign
-  - Automatic testing
-  - Microsoft Word
-categories:
-  - 06. Metadata
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
