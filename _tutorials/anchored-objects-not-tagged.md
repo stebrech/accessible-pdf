@@ -14,12 +14,7 @@ permalink: >
 published: true
 post_date: 2019-05-21 15:48:21
 tags: [ ]
-categories:
-  - 01. Real content tagged
-  - 09. Appropriate Tags
-  - Adobe InDesign
-  - Automatic testing
-  - Manual testing
+categories: [ ]
 ---
 ## Issue description
 
