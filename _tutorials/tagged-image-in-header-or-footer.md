@@ -19,8 +19,7 @@ permalink: >
 published: true
 post_date: 2018-05-08 16:11:13
 tags: [ ]
-categories:
-  - 01. Real content tagged
+categories: [ ]
 ---
 ## Issue description
 
