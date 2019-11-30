@@ -14,11 +14,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/divided-block-elements/
 published: true
 post_date: 2019-11-02 12:16:44
-tags:
-  - Manual testing
-  - Microsoft Word
-categories:
-  - 01. Real content tagged
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
