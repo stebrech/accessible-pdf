@@ -8,11 +8,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/image-as-block-element/
 published: true
 post_date: 2018-04-19 15:36:04
-tags:
-  - Automatic testing
-  - Microsoft Word
-categories:
-  - 13. Graphics
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
