@@ -12,11 +12,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/figure-without-bounding-box/
 published: true
 post_date: 2018-05-17 05:33:07
-tags:
-  - Automatic testing
-  - Microsoft Word
-categories:
-  - 13. Graphics
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
