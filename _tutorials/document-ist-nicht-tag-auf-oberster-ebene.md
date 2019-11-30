@@ -9,10 +9,7 @@ permalink: >
 published: true
 post_date: 2018-01-05 16:24:27
 tags: [ ]
-categories:
-  - 01. Getaggter realer Inhalt
-  - Manuelle Prüfung
-  - Microsoft Word
+categories: [ ]
 ---
 ## Problembeschreibung
 
