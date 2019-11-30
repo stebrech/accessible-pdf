@@ -8,11 +8,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/no-figure-tag-in-compatibility-mode/
 published: true
 post_date: 2018-05-04 15:47:20
-tags:
-  - Manual testing
-  - Microsoft Word
-categories:
-  - 13. Graphics
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
