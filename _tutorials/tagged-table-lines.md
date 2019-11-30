@@ -8,12 +8,8 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/tagged-table-lines/
 published: true
 post_date: 2018-04-23 15:25:28
-tags:
-  - Automatic testing
-  - Manual testing
-  - Microsoft Word
-categories:
-  - 01. Real content tagged
+tags: [ ]
+categories: [ ]
 ---
 ## Issue description
 
