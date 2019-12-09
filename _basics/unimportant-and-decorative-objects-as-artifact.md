@@ -16,10 +16,6 @@ permalink: >
   https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/
 published: true
 post_date: 2018-04-10 16:22:53
-tags:
-  - Adobe InDesign
-  - Microsoft Word
-categories: [ ]
 ---
 Users who need to use [AT](https://accessible-pdf.info/en/glossary/#assistive-technology) are not only dependent on semantically correct tags. It’s also important to exclude decorative and irrelevant objects from the output. You can achieve this by marking such elements as artifacts.
 

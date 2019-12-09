@@ -15,8 +15,6 @@ permalink: >
   https://accessible-pdf.info/en/basics/create-and-modify-pdf-tags-in-acrobat/
 published: true
 post_date: 2018-04-03 19:12:45
-tags: [ ]
-categories: [ ]
 ---
 The complete tagging of a PDF in Acrobat is only recommended if the authoring software does not allow PDF export with tags (Tagged PDF) or if the source document is not available. For Word and InDesign the following tutorials are recommended:
 

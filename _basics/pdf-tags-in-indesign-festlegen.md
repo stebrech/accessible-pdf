@@ -16,8 +16,6 @@ permalink: >
   http://accessible-pdf.test/de/basics/pdf-tags-in-indesign-festlegen/
 published: true
 post_date: 2018-01-19 12:45:49
-tags: [ ]
-categories: [ ]
 ---
 In InDesign kannst du Überschriften-<em>Tags</em> manuell über die Einstellungen des Absatzformats definieren. Für Tabellen, Listen und Fussnoten wirst du die entsprechenden *Tags* automatisch erhalten, wenn die verfügbaren *Tools* korrekt verwendet wurden.
 

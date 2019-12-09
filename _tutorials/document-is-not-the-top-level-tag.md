@@ -8,11 +8,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/document-is-not-the-top-level-tag/
 published: true
 post_date: 2018-04-20 04:57:44
-tags:
-  - Manual testing
-  - Microsoft Word
-categories:
-  - 01. Real content tagged
 ---
 ## Issue description
 

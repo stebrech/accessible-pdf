@@ -16,8 +16,6 @@ permalink: >
   http://accessible-pdf.test/en/basics/add-an-alt-text/
 published: true
 post_date: 2018-10-18 05:29:42
-tags: [ ]
-categories: [ ]
 ---
 An alt text (short for alternative text) describes a non-text element, like an image or a graphic. The invisible text can be read and displayed by software, especially [AT](http://accessible-pdf.test/en/glossary/#assistive-technology). In the glossary you can learn more about the meaning of an [alt text](http://accessible-pdf.test/en/glossary/#alt-text) and what it should look like.
 

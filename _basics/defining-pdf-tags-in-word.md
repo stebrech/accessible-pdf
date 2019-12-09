@@ -13,8 +13,6 @@ permalink: >
   https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/
 published: true
 post_date: 2018-06-21 16:32:30
-tags: [ ]
-categories: [ ]
 ---
 Accessibility should be considered at the beginning of the document creation process and not after the PDF has been created already. To improve the output quality of a PDF document exported from Word, it’s important to use the tools in Word correctly. This creates an elementary tag structure and reduces the post-processing effort in the PDF.
 

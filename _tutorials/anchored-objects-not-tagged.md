@@ -13,8 +13,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/anchored-objects-not-tagged/
 published: true
 post_date: 2019-05-21 15:48:21
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

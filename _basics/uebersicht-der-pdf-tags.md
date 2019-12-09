@@ -12,8 +12,6 @@ permalink: >
   https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/
 published: true
 post_date: 2018-01-11 16:39:50
-tags: [ ]
-categories: [ ]
 ---
 Diese Zusammenstellung zeigt die wichtigsten Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
 

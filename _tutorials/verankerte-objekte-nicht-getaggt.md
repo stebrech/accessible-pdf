@@ -14,15 +14,8 @@ permalink: >
   http://accessible-pdf.test/de/tutorials/verankerte-objekte-nicht-getaggt/
 published: true
 post_date: 2019-05-21 15:48:21
-tags:
-  - Automatische Prüfung
-  - InDesign
-  - Manuelle Prüfung
-categories:
-  - 01. Getaggter realer Inhalt
-  - 09. Geeignete Tags
 ---
-## Issue description
+## Problembeschreibung
 
 In InDesign CC Version 13.0 bestehen erhebliche Probleme beim *Taggen* von verankerten Objekten und der Nutzung des „Artikel“ Bedienfelds wie es in [„Logische Lesereihenfolge in InDesign festlegen“](http://accessible-pdf.test/de/basics/logische-lesereihenfolge-in-indesign-festlegen/) beschrieben ist. 
 

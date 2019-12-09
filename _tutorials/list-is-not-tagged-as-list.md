@@ -15,8 +15,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/list-is-not-tagged-as-list/
 published: true
 post_date: 2018-02-18 20:43:59
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

@@ -13,8 +13,6 @@ permalink: >
   https://accessible-pdf.info/en/basics/adjust-logical-reading-order-in-acrobat/
 published: true
 post_date: 2019-02-12 20:21:36
-tags: [ ]
-categories: [ ]
 ---
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In Acrobat, the order of the tags within the tag tree can be modified.
 

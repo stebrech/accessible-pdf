@@ -12,8 +12,6 @@ permalink: >
   https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
 published: true
 post_date: 2018-02-16 16:23:12
-tags: [ ]
-categories: [ ]
 ---
 This overview shows the most important tags from the PDF 1.7 standard. The reference helps you to choose the correct and semantic tags.
 

@@ -8,8 +8,6 @@ permalink: >
   https://accessible-pdf.info/de/basics/generelles-arbeiten-mit-pdf-tags-in-acrobat/
 published: true
 post_date: 2019-01-25 05:57:32
-tags: [ ]
-categories: [ ]
 ---
 Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tags“ abgebildet ist, kann vor allem zu Beginn etwas unübersichtlich sein. Um dem entgegenzuwirken, werden in diesem Beitrag einige Arbeitstechniken erklärt.
 

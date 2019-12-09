@@ -17,8 +17,6 @@ permalink: >
   https://accessible-pdf.info/de/basics/alt-texte-hinzufuegen/
 published: true
 post_date: 2018-10-11 16:09:22
-tags: [ ]
-categories: [ ]
 ---
 Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ein Bild / eine Grafik. Der unsichtbare Text kann durch Software, insbesondere [AT](https://accessible-pdf.info/de/glossar/#assistive-technologie), ausgelesen und wiedergegeben werden. Im Glossar kannst du mehr darüber erfahren was ein [Alt-Text](https://accessible-pdf.info/de/glossar/#alt-text) ist und wie er aussehen sollte.
 

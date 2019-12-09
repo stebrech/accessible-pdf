@@ -12,8 +12,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/figure-without-bounding-box/
 published: true
 post_date: 2018-05-17 05:33:07
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

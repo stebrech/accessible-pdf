@@ -8,8 +8,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/heading-tags-instead-of-toci-within-toc/
 published: true
 post_date: 2018-04-23 05:06:03
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

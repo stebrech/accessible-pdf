@@ -8,8 +8,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/tagged-table-lines/
 published: true
 post_date: 2018-04-23 15:25:28
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

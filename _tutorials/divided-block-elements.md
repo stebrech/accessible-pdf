@@ -14,8 +14,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/divided-block-elements/
 published: true
 post_date: 2019-11-02 12:16:44
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

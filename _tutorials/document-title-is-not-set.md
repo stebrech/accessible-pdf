@@ -15,8 +15,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/document-title-is-not-set/
 published: true
 post_date: 2018-05-03 05:40:11
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

@@ -15,11 +15,6 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/liste-ist-nicht-als-liste-getaggt/
 published: true
 post_date: 2018-01-12 16:35:46
-tags: [ ]
-categories:
-  - 16. Listen
-  - Allgemein
-  - Manuelle Prüfung
 ---
 ## Problembeschreibung
 

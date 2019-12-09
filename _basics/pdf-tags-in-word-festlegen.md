@@ -9,9 +9,6 @@ permalink: >
   https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/
 published: true
 post_date: 2018-06-19 17:24:08
-tags:
-  - Word
-categories: [ ]
 ---
 Die Barrierefreiheit sollte bereits zu Beginn der Dokumentherstellung und nicht erst nach der PDF-Herstellung beachtetet werden. Um die Ausgabequalität eines aus Word exportierten PDF-Dokuments zu verbessern, ist es wichtig die verfügbaren Werkzeuge in Word korrekt zu verwenden. Damit erreicht man, dass eine elementare *Tag*struktur erzeugt und der Nachbearbeitungsaufwand im PDF reduziert wird.
 

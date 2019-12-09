@@ -8,8 +8,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/skipped-heading-levels/
 published: true
 post_date: 2018-06-25 15:25:12
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

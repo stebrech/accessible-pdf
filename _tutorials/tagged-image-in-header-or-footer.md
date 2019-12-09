@@ -18,8 +18,6 @@ permalink: >
   https://accessible-pdf.info/en/tutorials/tagged-image-in-header-or-footer/
 published: true
 post_date: 2018-05-08 16:11:13
-tags: [ ]
-categories: [ ]
 ---
 ## Issue description
 

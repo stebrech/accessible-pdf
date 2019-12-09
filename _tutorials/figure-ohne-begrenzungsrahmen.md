@@ -8,11 +8,6 @@ permalink: >
   https://accessible-pdf.info/de/tutorials/figure-ohne-begrenzungsrahmen/
 published: true
 post_date: 2018-01-12 16:21:50
-tags: [ ]
-categories:
-  - 13. Grafiken
-  - Automatische Prüfung
-  - Microsoft Word
 ---
 ## Problembeschreibung
 
