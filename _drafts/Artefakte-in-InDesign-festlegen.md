@@ -1,8 +1,13 @@
 ---
+ID: 58369
 post_title: Artefakte in InDesign festlegen
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58369'
 published: false
+tags: [ ]
+categories: [ ]
 ---
 Nutzerinnen und Nutzer von [assistierender Technologie (AT)](https://accessible-pdf.info/de/glossar/#assistive-technologie) sind nicht nur auf semantisch korrekte *Tags* angewiesen. Es ist auch wichtig dekorative, nicht relevante Objekte von der Ausgabe auszuschliessen. Dies wird erreicht indem solche unwichtige Elemente als Artefakt gekennzeichnet werden.
 
