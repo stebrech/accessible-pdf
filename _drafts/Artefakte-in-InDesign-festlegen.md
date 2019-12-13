@@ -2,19 +2,10 @@
 ID: 58369
 post_title: Artefakte in InDesign festlegen
 author: Stefan Brechbühl
-post_excerpt: >
-  Dekorative und seitenbezogene
-  Informationen müssen als Artefakt
-  gekennzeichnet werden damit sie von
-  assistierender Technologie ignoriert
-  werden. Artefakte können bereits in
-  InDesign definiert und ins PDF
-  übertragen werden.
+post_excerpt: ""
 layout: basics
-permalink: >
-  https://accessible-pdf.info/de/basics/artefakte-in-indesign-festlegen/
-published: true
-post_date: 2019-12-13 21:32:42
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58369'
+published: false
 tags: [ ]
 categories: [ ]
 ---

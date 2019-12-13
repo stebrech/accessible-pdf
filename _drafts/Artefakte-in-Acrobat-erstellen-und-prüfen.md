@@ -4,20 +4,10 @@ post_title: >
   Artefakte in Acrobat erstellen und
   prüfen
 author: Stefan Brechbühl
-post_excerpt: >
-  Dekorative und seitenbezogene
-  Informationen müssen als Artefakt
-  gekennzeichnet werden damit sie von
-  assistierender Technologie ignoriert
-  werden. Können Artefakte nicht bereits
-  im Herstellungsprogramm definiert
-  werden, muss dies in Acrobat manuell
-  nachgeholt werden.
+post_excerpt: ""
 layout: basics
-permalink: >
-  https://accessible-pdf.info/de/basics/artefakte-in-acrobat-erstellen-und-pruefen/
-published: true
-post_date: 2019-12-13 21:28:48
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58368'
+published: false
 tags: [ ]
 categories: [ ]
 ---
