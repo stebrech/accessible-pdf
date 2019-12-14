@@ -50,4 +50,4 @@ Dekorative Objekte können mit „Objekt“ → „Objektexportoptionen“ als A
 
 ### Dekorative Artefakte mit dem Plugin MadeToTag
 
-Wer das InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) besitzt, kann sich Kennzeichnung über die Objektexportoptionen sparen. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
+Wer das InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/de:products:madetotag) besitzt, kann sich die Kennzeichnung über die Objektexportoptionen sparen. Alle Objekte, welche ausserhalb eines Artikels sind, werden automatisch als Artefakt markiert.
