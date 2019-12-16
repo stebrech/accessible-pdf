@@ -1,8 +1,15 @@
 ---
-post_title: Falsche Ebenenreihenfolge lässt Inhalte verschwinden
+ID: 58375
+post_title: >
+  Falsche Ebenenreihenfolge lässt Inhalte
+  verschwinden
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58375'
 published: false
+tags: [ ]
+categories: [ ]
 ---
 ## Problembeschreibung
 
