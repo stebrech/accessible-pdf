@@ -52,6 +52,6 @@ In älteren Versionen besteht diese Möglichkeit leider nicht. Wie dies in Acrob
 
 ### Plugin axesPDF for Word
 
-Abhilfe schafft hier aber das Plugin [axesPDF for Word](https://www.axes4.com/axespdf-for-word-ueberblick.html) schaffen. Damit lassen sich, wie dies in neueren Word-Version nativ möglich ist, auch in älteren Versionen Objekte als Artefakte festlegen.
+Abhilfe kann hier aber das Plugin [axesPDF for Word](https://www.axes4.com/axespdf-for-word-ueberblick.html) schaffen. Damit lassen sich, wie dies in neueren Word-Version nativ möglich ist, auch in älteren Versionen Objekte als Artefakte festlegen.
 
 ![axesPDF Rollenzuordnung mit ausgewählter Option „Artefakt“, welches auf ein Bild angewendet wurde. Bildschirmfoto des Plugins.](https://accessible-pdf.info/content/uploads/axespdf-artefakt.png)
