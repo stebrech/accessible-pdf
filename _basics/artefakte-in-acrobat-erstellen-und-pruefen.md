@@ -84,5 +84,5 @@ Falls bereits *getaggte* Inhalte als Artefakte gekennzeichnet werden, verschwind
 ![Das Navigationsfenster „Inhalt“ mit einem gekennzeichneten Artifact Container. Bildschirmfoto in Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-artifact.png)
 
 <p class="warning-block" markdown="1">
-Im Navigationsfenster „Inhalt“ liegt das Element, das sich an oberster Stelle befindet, auf der untersten Ebene. Die Reihenfolge dieser Auflistung und die Darstellungsebene ist daher umgekehrt. In diesem Zusammenhang kann folgendes Problem auftreten: „[Falsche Ebenenreihenfolge: Inhalt verschwindet hinter anderem Element](https://accessible-pdf.info/de/falsche-ebenenreihenfolge-inhalt-verschwindet-hinter-anderem-element)“
+Im Navigationsfenster „Inhalt“ liegt das Element, das sich an oberster Stelle befindet, auf der untersten Ebene. Die Reihenfolge dieser Auflistung und die Darstellungsebene ist daher umgekehrt. In diesem Zusammenhang kann folgendes Problem auftreten: „[Falsche Ebenenreihenfolge lässt Inhalte verschwinden](https://accessible-pdf.info/de/falsche-ebenenreihenfolge-laesst-inhalte-verschwinden)“
 </p>

@@ -1,5 +1,5 @@
 ---
-post_title: Falsche Ebenenreihenfolge: Inhalt verschwindet hinter anderem Element
+post_title: Falsche Ebenenreihenfolge lässt Inhalte verschwinden
 author: Stefan Brechbühl
 layout: tutorials
 published: false
