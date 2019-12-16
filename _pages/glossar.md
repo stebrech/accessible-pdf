@@ -21,7 +21,13 @@ Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ei
 
 Der Alt-Text sollte so kurz und prägnant wie möglich sein und beschreiben was auf dem Bild sichtbar ist. Er soll keine zusätzlichen Informationen enthalten, welche auch visuell nicht erkannt würden, z.B. der Name des Fotografen oder Namen von abgebildeten Personen und Sachen, die mithilfe des Kontexts auch visuell nicht erkannt würden. Dies ist der grosse Unterschied zu einer sichtbaren Bildunterschrift / einer Bildbeschreibung, welche zusätzliche Informationen übermitteln kann.
 
-Nicht jedes Bild und jede Grafik benötigt einen Alt-Text. Eine wertvolle Entscheidungshilfe bietet WAI (Web Accessibility Initiative) mit „[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)“ und den [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/) (nur in Englisch). Der wesentliche Unterschied von HTML und PDF ist die Handhabung von dekorativen Bildern (z.B. Hintergrundbilder, Linien und weiteren dekorativen Formen). Diese werden in PDF als Artefakt gekennzeichnet, siehe auch „[Unwichtige und dekorative Inhalte als Artefakt](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/)“. Während die dekorativen Bilder keinen Alt-Text benötigen, sollen die funktionalen Bilder die Funktion / das Ziel erklären und nicht dessen Bildinhalt. Hierzu zählen insbesondere verlinkte Bilder.
+Nicht jedes Bild und jede Grafik benötigt einen Alt-Text. Eine wertvolle Entscheidungshilfe bietet WAI (Web Accessibility Initiative) mit „[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)“ und den [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/) (nur in Englisch). Der wesentliche Unterschied von HTML und PDF ist die Handhabung von dekorativen Bildern (z.B. Hintergrundbilder, Linien und weiteren dekorativen Formen). Diese werden in PDF als Artefakt gekennzeichnet, siehe auch:
+
+- [Artefakte in InDesign festlegen](https://accessible-pdf.info/de/basics/artefakte-in-indesign-festlegen/)
+- [Artefakte in Word festlegen](https://accessible-pdf.info/de/basics/artefakte-in-word-festlegen/)
+- [Artefakte in Acrobat erstellen und prüfen](https://accessible-pdf.info/de/basics/artefakte-in-acrobat-erstellen-und-pruefen/)
+
+Während die dekorativen Bilder keinen Alt-Text benötigen, sollen die funktionalen Bilder die Funktion / das Ziel erklären und nicht dessen Bildinhalt. Hierzu zählen insbesondere verlinkte Bilder.
 
 ## Alternativtext {#alternativtext}
 
