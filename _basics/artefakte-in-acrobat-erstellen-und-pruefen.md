@@ -57,7 +57,7 @@ Bei dieser Anleitung ist die Ausgangslage ein vollständig *getaggtes* Dokument.
 1. Öffne das Navigationsfenster „Tags“ 
 2. Suche dir den dekorativen Inhalt innerhalb der Tags, siehe dazu auch „[Getaggter Text im Tagbaum finden](https://accessible-pdf.info/de/basics/generelles-arbeiten-mit-pdf-tags-in-acrobat/#tagfinden)“ innerhalb von „[Generelles Arbeiten mit PDF-Tags in Acrobat](https://accessible-pdf.info/de/basics/generelles-arbeiten-mit-pdf-tags-in-acrobat/)“
 3. Mache einen Rechtsklick auf den Inhalt (mit dem kleinen Kistensymbol) und wähle „*Tag* in aussertextliches Element ändern“. ![Kontextmenü mit ausgewählter Option „Tag in aussertextliches Element ändern“. Bildschirmfoto aus Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-tag-in-aussertextliches-element-aendern.png)
-3. Der öffnende Dialog erlaubt dir noch die Art des Artefakt und dessen Seitenposition näher zu beschreiben. Seitenzahlen ![](https://accessible-pdf.info/content/uploads/acrobat-artefakt-optionen.png)
+3. Der öffnende Dialog erlaubt dir noch die Art des Artefakt und dessen Seitenposition näher zu beschreiben. ![In den Artifact Optionen kann zwischen den Typen „Seite“, „Paginierung“ und „Layout“ unterschieden werden. Zusätzlich stehen vier Optionsfelder der Positionen zur Verfügung: Links, Oben, Rechts und Unten. Bildschirmfoto aus Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-artefakt-optionen.png)
 4. Falls dieses Artefakt alleine innerhalb eines *Tags* platziert war, sollte das leere Tag noch gelöscht werden.
 
 <aside id="tags" class="note-block" markdown="1">
