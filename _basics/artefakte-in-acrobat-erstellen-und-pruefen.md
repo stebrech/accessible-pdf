@@ -48,7 +48,7 @@ In Acrobat können Artefakte entweder [im *Tagbaum*](#tagbaum) oder mit [dem Les
 Softwarehinweis: Um mit *Tags* und Artefakten arbeiten zu können, wird der kostenpflichtige [Adobe Acrobat](https://acrobat.adobe.com/ch/de/acrobat.html) benötigt. Mit dem kostenlosen [Adobe Acrobat Reader](https://get.adobe.com/de/reader/) können diese weder geprüft noch geändert werden.
 </aside>
 
-### Artefakt in Navigationsfenster *Tags* erstellen {#tagbaum}
+## Artefakt in Navigationsfenster *Tags* erstellen {#tagbaum}
 
 <aside id="tags" class="note-block" markdown="1">
 Bei dieser Anleitung ist die Ausgangslage ein vollständig *getaggtes* Dokument.
@@ -66,7 +66,7 @@ Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit d
 Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
 </aside>
 
-### Artefakt mit Leserichtung-Werkzeug erstellen {#leserichtung}
+## Artefakt mit Leserichtung-Werkzeug erstellen {#leserichtung}
 
 Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger präzise arbeiten und nicht genau sehen wo was passiert.
 
@@ -77,7 +77,7 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 
 ![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.](https://accessible-pdf.info/content/uploads/acrobat_artifact2.gif)
 
-### Artefakte in Navigationsfenster „Inhalt“ prüfen {#inhalt}
+## Artefakte in Navigationsfenster „Inhalt“ prüfen {#inhalt}
 
 Falls bereits *getaggte* Inhalte als Artefakte gekennzeichnet werden, verschwinden sie im „Tagbaum“. Artefakte sind jedoch im Navigationsfenster „Inhalt“ weiterhin vorhanden. Erkennbar sind sie durch die Kennzeichnung: „Container <Artifact> …“.
 
