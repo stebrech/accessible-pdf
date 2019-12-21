@@ -2,10 +2,18 @@
 ID: 58379
 post_title: Create and check artifacts in Acrobat
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Decorative and page-related information
+  must be marked as an artifact to be
+  ignored by assistive technology. If
+  artifacts cannot already be defined in
+  the manufacturing program, this must be
+  done manually in Acrobat.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=58379'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/create-and-check-artifacts-in-acrobat/
+published: true
+post_date: 2019-12-21 12:57:42
 tags: [ ]
 categories: [ ]
 ---
@@ -30,7 +38,7 @@ The most efficient way is to determine the artifacts already in the creation pro
 - [Defining Artifacts in InDesign](https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/)
 - [Defining Artifacts in Word](https://accessible-pdf.info/en/basics/defining-artifacts-in-word/)
 
-In Acrobat, artifacts can be defined either in the [tag tree](#tagTree) or with [Reading Order tool](#readingOrder). The contents marked as artifacts can be checked for each page in the navigation pane [“Contents”](#contents).
+In Acrobat, artifacts can be defined either in the [tag tree](#tagTree) or with “[Reading Order](#readingOrder)” tool. The contents marked as artifacts can be checked for each page in the navigation pane “[Content](#content)”.
 
 <aside class="note-block" markdown="1">
 Note: The free [Adobe Acrobat Reader](https://get.adobe.com/reader/) does not allow you to make any adjustments to the tag structure neither to edit the artifacts. You’ll need [Adobe Acrobat](https://acrobat.adobe.com/uk/en/acrobat.html) to do that.
@@ -45,7 +53,7 @@ For this tutorial, the initial situation is a completely tagged document.
 1. Open the navigation pane “Tags” 
 2. Find the decorative content within the tags, see also “[Find tagged text in the tag tree](https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/#findtag)” within “[General working with PDF tags in Acrobat](https://accessible-pdf.info/en/basics/general-working-with-pdf-tags-in-acrobat/)”.
 3. Right-click on the content (with the small box icon) and select “Change Tag to Artifact”. ![Context menu with selected option “Change tag to Artifact”. Screenshot from Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-change-tag-to-artifact.png)
-3. The opening dialog allows you to describe the type of artifact and its page position in more detail. Seitenzahlen ![In the Artifact options you can choose between the types “Page”, “Pagination” and “Layout”. In addition, there are four option fields for the positions: Left, Top, Right and Bottom. Screenshot from Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-artifcat-options.png)
+3. The opening dialog allows you to describe the type of artifact and its page position in more detail. ![In the Artifact options you can choose between the types “Page”, “Pagination” and “Layout”. In addition, there are four option fields for the positions: Left, Top, Right and Bottom. Screenshot from Acrobat.](https://accessible-pdf.info/content/uploads/acrobat-artifcat-options.png)
 4. If this artifact was placed alone within a tag, the empty tag should be deleted.
 
 <aside class="note-block" markdown="1">
