@@ -15,6 +15,8 @@ permalink: >
   https://accessible-pdf.info/en/basics/structure-with-the-help-of-multi-level-headings/
 published: true
 post_date: 2018-05-25 14:28:41
+tags: [ ]
+categories: [ ]
 ---
 One of the main tools for structuring documents is the use of headings. On a visual level, headlines are usually marked with a larger font size or a bolder font style.
 
