@@ -1,7 +1,7 @@
 ---
 ID: 58375
 post_title: >
-  Falsche Ebenenreihenfolge lässt Inhalte
+  Falsche Anzeigereihenfolge lässt Inhalte
   verschwinden
 author: Stefan Brechbühl
 post_excerpt: >
@@ -23,7 +23,7 @@ categories: [ ]
 ---
 ## Problembeschreibung
 
-Im Zusammenhang mit dem manuellen Kennzeichnen von *Tags* und Artefakten innerhalb von Acrobat kann es passieren, dass Inhalte plötzlich nicht mehr sichtbar sind. Es scheint als wäre etwas gelöscht worden. In Wahrheit gab es aber eine Verschiebung der Ebenen wo sich die Elemente befinden. Die entsprechenden Inhalte wurde also nicht gelöscht sondern verstecken sich hinter einem anderen Objekt, beispielsweise einer farbigen Fläche.
+Im Zusammenhang mit dem manuellen Kennzeichnen von *Tags* und Artefakten innerhalb von Acrobat kann es passieren, dass Inhalte plötzlich nicht mehr sichtbar sind. Es scheint als wäre etwas gelöscht worden. In Wahrheit gab es aber eine Verschiebung der Anzeigereihenfolge. Die entsprechenden Inhalte wurden also nicht gelöscht, sondern verstecken sich hinter einem anderen Objekt, beispielsweise einer farbigen Fläche.
 
 ### PAC 3 Fehlermeldung
 
@@ -37,4 +37,4 @@ Ist kein PDF/UA-Fehler, daher trifft auch kein Prüfpunkt zu.
 
 Im Navigationsfenster „Inhalt“ liegt das Element, das sich an oberster Stelle befindet, auf der untersten Ebene. Die Reihenfolge dieser Auflistung und die Darstellungsebene ist daher umgekehrt.
 
-Um Inhalte, die sich hinter einem anderen Objekt (z.B. einer Fläche) verstecken, wieder sichtbar zu machen, muss die Ebene mit den unsichtbaren Inhalten weiter nach unten verschoben werden. Die Lösung funktioniert natürlich auch umgekehrt indem das Objekt, welches Inhalte verdeckt, weiter nach oben verschoben wird.
+Um Inhalte, die sich hinter einem anderen Objekt (z.B. einer Fläche) verstecken, wieder sichtbar zu machen, muss der Eintrag, welcher die unsichtbaren Inhalten enthält, weiter nach unten verschoben werden. Die Lösung funktioniert natürlich auch umgekehrt indem das Objekt, welches Inhalte verdeckt, weiter nach oben verschoben wird.
