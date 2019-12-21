@@ -1,7 +1,10 @@
 ---
+ID: 58379
 post_title: Create and check artifacts in Acrobat
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58379'
 published: false
 tags: [ ]
 categories: [ ]

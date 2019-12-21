@@ -1,7 +1,10 @@
 ---
+ID: 58380
 post_title: Defining artifacts in InDesign
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58380'
 published: false
 tags: [ ]
 categories: [ ]

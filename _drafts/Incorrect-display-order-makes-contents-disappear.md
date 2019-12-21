@@ -1,7 +1,12 @@
 ---
-post_title: Incorrect display order makes contents disappear
+ID: 58382
+post_title: >
+  Incorrect display order makes contents
+  disappear
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: tutorials
+permalink: 'https://accessible-pdf.info/?post_type=tutorials&p=58382'
 published: false
 tags: [ ]
 categories: [ ]

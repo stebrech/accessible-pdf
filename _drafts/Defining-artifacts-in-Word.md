@@ -1,7 +1,10 @@
 ---
+ID: 58381
 post_title: Defining artifacts in Word
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: basics
+permalink: 'https://accessible-pdf.info/?post_type=basics&p=58381'
 published: false
 tags: [ ]
 categories: [ ]
