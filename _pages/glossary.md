@@ -35,7 +35,13 @@ An alt text (short for alternative text) describes a non-text element, like an i
 
 The alt text should be as short and concise as possible and describe what is visible on the picture. It should not contain any additional information that would not be visually recognised, e.g. the name of the photographer or names of visible persons and things that would not be clearly recognised by the context. This is the big difference to a visible caption / a picture description, which can transmit additional information.
 
-Not every picture/graphic needs an alt text. WAI (Web Accessibility Initiative) offers a valuable decision support with “[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)” and the [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/). The main difference between HTML and PDF is the handling of decorative images (e.g. background images, lines and other decorative shapes). In PDF those are marked as artifacts, see also “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”. While decorative images do not need any alt text, functional images should explain the function / the goal and not its image content. This includes linked images in particular.
+Not every picture/graphic needs an alt text. WAI (Web Accessibility Initiative) offers a valuable decision support with “[An alt Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/)” and the [Web Accessibility Tutorials](https://www.w3.org/WAI/tutorials/images/). The main difference between HTML and PDF is the handling of decorative images (e.g. background images, lines and other decorative shapes). In PDF those are marked as artifacts, see also: 
+
+- [Defining artifacts in InDesign](https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/)
+- [Defining artifacts in Word](https://accessible-pdf.info/en/basics/defining-artifacts-in-word/)
+- [Create and check artifacts in Acrobat](https://accessible-pdf.info/en/basics/create-and-check-artifacts-in-acrobat/)
+
+While decorative images do not need any alt text, functional images should explain the function / the goal and not its image content. This includes linked images in particular.
 
 ## alternative text {#alternative-text}
 
@@ -107,9 +113,21 @@ see [tags](#tags)
 
 If your PDF contains tags – also called Tagged PDF – one big and important step of machine readability and thus accessibility has been done. However, the mere existence is not enough. The PDF tags must also reflect the semantics of the document. This means, for example, that a heading is not only visually recognisable as such by a larger font, but also by machine, by a heading tag.
 
-[PDF/UA](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) specifies that all elements of a document must either be tagged or marked as artifacts. You can find more about artifacts in “[Unimportant and decorative objects as artifact](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/)”.
+[PDF/UA](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) specifies that all elements of a document must either be tagged or marked as artifacts. 
 
-The possible PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)”. Some of the available PDF tags are very similar to the HTML tags.
+To learn more about tagging a document, the following posts are recommended:
+
+- [Defining PDF tags in InDesign](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-indesign/)
+- [Defining PDF tags in Word](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/)
+- [Create and modify PDF tags in Acrobat](https://accessible-pdf.info/en/basics/create-and-modify-pdf-tags-in-acrobat/)
+
+The available PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/en/basics/overview-of-pdf-tags/)”.
+
+To learn more about artifacts, the following posts are recommended:
+
+- [Defining artifacts in InDesign](https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/)
+- [Defining artifacts in Word](https://accessible-pdf.info/en/basics/defining-artifacts-in-word/)
+- [Create and check artifacts in Acrobat](https://accessible-pdf.info/en/basics/create-and-check-artifacts-in-acrobat/)
 
 ## WCAG {#wcag}
 
