@@ -25,7 +25,7 @@ One of the key structure elements are nested multi-level headings, see also [“
 2. open the last section called “Export Tagging”;
 3. and choose the appropriate tag in the last dropdown field, labeled as “PDF” → “Tag”.
 
-You’re able to assign any heading tag to a paragraph style. There is also the possibility to select “Artifact” if the text has not relevant information, read more about this in [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/").
+You’re able to assign any heading tag to a paragraph style. There is also the possibility to select “Artifact” if the text has not relevant information, read more about this in “[Defining artifacts in InDesign”](https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/)”.
 
 ### Set all tags at once
 
