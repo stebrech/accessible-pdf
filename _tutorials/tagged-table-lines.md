@@ -32,4 +32,4 @@ Issue detected in PDFs made from:
 1. The path element must be marked as Artifact. Right-click on the path element inside the navigation pane “Tags” and choose “Change Tag to Artifact…”.
 2. Delete the empty `<Span>` tag afterwards.
 
-See also [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/).
+See also “[Create and check artifacts in Acrobat](https://accessible-pdf.info/en/basics/create-and-check-artifacts-in-acrobat/)”.
