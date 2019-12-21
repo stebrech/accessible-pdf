@@ -2,10 +2,17 @@
 ID: 58380
 post_title: Defining artifacts in InDesign
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Decorative and page-related information
+  must be marked as an artifact to be
+  ignored by assistive technology.
+  Artifacts can already be defined in
+  InDesign and converted to PDF.
 layout: basics
-permalink: 'https://accessible-pdf.info/?post_type=basics&p=58380'
-published: false
+permalink: >
+  https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/
+published: true
+post_date: 2019-12-21 12:50:42
 tags: [ ]
 categories: [ ]
 ---
