@@ -31,7 +31,11 @@ The semantics can be checked very well using the colored content blocks of the �
 
 The logical reading order can be checked with the “Screenreader Preview” as well. For this purpose, the relevant PDF can be displayed on a larger screen on one side and the screenreader preview on the other side at the same time. Thus the visual appearance and the tags can be compared directly with each other and it’s easier to determine if something is not logical about the order.
 
-What also can be detected by this type of testing are tagged but irrelevant content, or the opposite, relevant content marked as artifact. See also [“Unimportant and decorative objects as artifact”](https://accessible-pdf.info/en/basics/unimportant-and-decorative-objects-as-artifact/).
+What also can be detected by this type of testing are tagged but irrelevant content, or the opposite, relevant content marked as artifact. See also: 
+
+- [Defining artifacts in InDesign](https://accessible-pdf.info/en/basics/defining-artifacts-in-indesign/)
+- [Defining artifacts in Word](https://accessible-pdf.info/en/basics/defining-artifacts-in-word/)
+- [Create and check artifacts in Acrobat](https://accessible-pdf.info/en/basics/create-and-check-artifacts-in-acrobat)
 
 ###  Logical Structure
 
