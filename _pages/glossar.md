@@ -125,9 +125,21 @@ siehe *[Tags](#tags)*
 
 Wird ein *Tagged PDF* hergestellt, also ein PDF das *Tags* enthält, legt man den Grundstein der Maschinenlesbarkeit und somit der Barrierefreiheit. Das alleinige Vorhandensein reicht jedoch nicht. Die PDF-*Tags* müssen auch die Semantik des Dokuments wiedergeben. Damit ist gemeint, dass beispielsweise eine Überschrift nicht nur visuell, anhand einer grösseren Schrift, sondern auch maschinell, anhand eines Überschriften-*Tags*, als solche erkennbar ist.
 
-[PDF/UA](#pdf-ua) gibt vor, dass sämtliche Elemente eines Dokuments entweder *getaggt* oder als Artefakt markiert werden müssen. Mehr zu Artefakten findest du in „[Unwichtige und dekorative Inhalte als Artefakt](https://accessible-pdf.info/de/basics/unwichtige-und-dekorative-inhalte-als-artefakt/)“.
+[PDF/UA](#pdf-ua) gibt vor, dass sämtliche Elemente eines Dokuments entweder *getaggt* oder als Artefakt markiert werden müssen. 
 
-Die möglichen *PDF-Tags* (nach dem PDF 1.7 Standard) findest du in der „[Übersicht der PDF-*Tags*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)“. Die verfügbaren PDF-*Tags* sind den HTML-Tags teilweise sehr ähnlich.
+Um mehr über das *Taggen* eines Dokuments zu erfahren, werden die folgenden Beiträge empfohlen:
+
+- [PDF-Tags in InDesign festlegen](https://accessible-pdf.info/de/basics/pdf-tags-in-indesign-festlegen/)
+- [PDF-Tags in Word festlegen](https://accessible-pdf.info/de/basics/pdf-tags-in-word-festlegen/)
+- [PDF-Tags in Acrobat erstellen und ändern](https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-erstellen-und-aendern/)
+
+Die möglichen *PDF-Tags* (nach dem PDF 1.7 Standard) findest du in der „[Übersicht der PDF-*Tags*](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/)“.
+
+Um mehr über Artefakte zu erfahren, werden die folgenden Beiträge empfohlen:
+
+- [Artefakte in InDesign festlegen](https://accessible-pdf.info/de/basics/artefakte-in-indesign-festlegen/)
+- [Artefakte in Word festlegen](https://accessible-pdf.info/de/basics/artefakte-in-word-festlegen/)
+- [Artefakte in Acrobat erstellen und prüfen](https://accessible-pdf.info/de/basics/artefakte-in-acrobat-erstellen-und-pruefen/)
 
 ## WCAG {#wcag}
 
