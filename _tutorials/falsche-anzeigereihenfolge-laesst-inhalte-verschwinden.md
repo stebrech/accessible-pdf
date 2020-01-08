@@ -4,10 +4,22 @@ post_title: >
   Falsche Anzeigereihenfolge lässt
   Inhalte verschwinden
 author: Stefan Brechbühl
-post_excerpt: ""
+post_excerpt: >
+  Im Zusammenhang mit dem manuellen
+  Kennzeichnen von Tags und Artefakten
+  innerhalb von Acrobat kann es passieren,
+  dass Inhalte plötzlich nicht mehr
+  sichtbar sind. Es scheint als wäre
+  etwas gelöscht worden. In Wahrheit gab
+  es aber eine Verschiebung der
+  Anzeigereihenfolge. Die entsprechenden
+  Inhalte wurden also nicht gelöscht,
+  sondern verstecken sich hinter einem
+  anderen Objekt, beispielsweise einer
+  farbigen Fläche.
 layout: tutorials
 permalink: >
-  https://accessible-pdf.info/tutorials/falsche-anzeigereihenfolge-laesst-inhalte-verschwinden/
+  https://accessible-pdf.info/de/tutorials/falsche-anzeigereihenfolge-laesst-inhalte-verschwinden/
 published: true
 post_date: 2019-12-16 06:32:24
 tags: [ ]
