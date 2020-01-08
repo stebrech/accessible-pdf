@@ -121,7 +121,7 @@ To learn more about tagging a document, the following posts are recommended:
 - [Defining PDF tags in Word](https://accessible-pdf.info/en/basics/defining-pdf-tags-in-word/)
 - [Create and modify PDF tags in Acrobat](https://accessible-pdf.info/en/basics/create-and-modify-pdf-tags-in-acrobat/)
 
-The available PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of PDF tags](https://accessible-pdf.info/en/basics/overview-of-pdf-tags/)”.
+The available PDF tags (according to the PDF 1.7 standard) can be found in the “[Overview of the PDF tags](https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/)”.
 
 To learn more about artifacts, the following posts are recommended:
 
