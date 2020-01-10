@@ -153,4 +153,3 @@ Wir verwenden die WordPress-Erweiterung **[Jetpack](https://jetpack.com/)**, die
 ## 10. Schlussbestimmungen {#schlussbestimmungen}
 
 Wir können diese Datenschutzerklärung jederzeit anpassen und ergänzen. Wir werden über solche Anpassungen und Ergänzungen in geeigneter Form informieren, insbesondere durch Veröffentlichung der jeweils aktuellen Datenschutzerklärung auf unserer Website.
- No newline at end of file
