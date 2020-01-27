@@ -15,84 +15,89 @@ post_date: 2018-02-16 16:23:12
 tags: [ ]
 categories: [ ]
 ---
-This overview shows the most important tags from the PDF 1.7 standard. The reference helps you to choose the correct and semantic tags.
+The tags listed below correspond to the [ISO standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). In 2018 the newer standard PDF 2.0 has been published. In this standard, some of the tags described here have been removed and new ones have been added. Since the standard is not yet widely used and a revision of the PDF/UA standard is still open, this overview still corresponds to PDF 1.7.
 
-The following tags descriptions are from the [official Adobe support page](https://helpx.adobe.com/acrobat/using/editing-document-structure-content-tags.html). Personal notes are in *italic*.
+Not included in the overview are the PDF tags
 
-## Container
+- `NonStruct` (Grouping element)
+- `Private` (Grouping element)
+- `H` (Block-level structure element)
+- `BibEntry` (Inline-level structure element)
+- `Ruby`, `RB`, `RT`, `RP`, `Warichu`, `WT`, `WP` (Inline-level structure element)
 
-Container elements are the highest level of element and provide hierarchical grouping for other block-level elements.
+because they are not recommended or not relevant for use.
 
-| Tag | Description | 
-|:-- |:-- |
-| `<Document>` | The root element of a document’s tag tree. |
-| `<Part>` | A large division of a document; may group smaller units of content together, such as division elements, article elements, or section elements. |
-| `<Div>` | (Division) A generic block-level element or group of block-level elements. |
-| `<Art>` | (Article) A self-contained body of text considered to be a single narrative. |
-| `<Sect>` | (Section) A general container element type, comparable to Division (DIV Class=“Sect”) in HTML, which is usually a component of a part element or an article element. |
+It is obvious that grouping elements basically contain block elements and block elements basically contain inline elements. The standard does not always clearly specify which constellations are possible. The illustrative elements can function as block or inline elements.
 
-## Heading and paragraph elements
+<div class="warning-block" markdown="1">
+The third and fourth columns of the overview show semantically meaningful combinations. Although the standard allows other constellations, they are not considered semantically meaningful. However, no guarantee is given for completeness.
+</div>
 
-| Tag | Description |
-|:-- :-- |
-| `<P>` | Generic paragraph |
-| `<H1>` to `<H6>` | Headings from level 1 to 6 |
-| `<H>` | Heading as the first child of any higher-level division. <br>*It's usually easier to structure the document with the help of the `<H1>` to `<H6>` tags. I don't recommend to use `<H>`.* |
+<aside class="note-block" markdown="1">
+Practical examples and further informations can be found in the document ["Tagged PDF Best Practice Guide: Syntax"](https://www.pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/) of the PDF Association.
+</aside>
 
-## Label and list elements
+## Grouping elements {#groupingElements}
 
-Label and list elements are block-level elements used for structuring lists.
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `Document` | Represents a complete document | – | [Grouping elements](#groupingElements), [Block-level structure elements](#blockElements) |
+| `Part` | Division of a larger document into smaller, associated parts | `Document` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-level structure elements](#blockElements) |
+| `Art` | Parts of content which together are conclusive, i.e. an article or part of a document | `Document`, `Part`, `Sect`, `Div`, `BlockQuote` | `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-level structure elements](#blockElements) |
+| `Sect` | Grouped related content parts, for example several paragraphs, which can be combined into a group | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-level structure elements](#blockElements) |
+| `Div` | Generic group element without semantic meaning | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-level structure elements](#blockElements) |
+| `BlockQuote` | One or more paragraphs that originate from another author, in other words, that have been quoted | `Document`, `Part`, `Art`, `Sect`, `Div` | `Art`, `Sect`, `Div`, `Caption`, [Block-level structure elements](#blockElements) |
+| `Caption` | A caption to describe for example a picture or a table | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Table`, `L` | `Sect`, `Div`, `BlockQuote`, [Block-level structure elements](#blockElements) |
+| `TOC` | Container for table of contents entries. Can be used either as a flat hierarchy (all contained `TOCI` on one level) or as a complex hierarchy (`TOC` within a `TOCI` as a subgroup). Can be contained multiple times in a document, since it can also be used for image or table directories. | `Document`, `Part`, `Art`, `Sect`, `Div`| `TOCI` |
+| `TOCI` | Entry within a table of contents (`TOC`). | `TOC` | `TOC`, `P`, `Lbl`, `Reference` |
+| `Index` | Container for a subject index |`Document`, `Part`, `Art`, `Sect`, `Div` | `L` |
 
-| Tag | Description |
-|:--|:-- |
-| `<L>` | (List) Any sequence of items of similar meaning or other relevance; immediate child elements should be list item elements. |
-| `<LI>` | (List item) Any one member of a list; may have a label element (optional) and a list body element (required) as a child. |
-| `<Lbl>` | (Label) A bullet, name, or number that identifies and distinguishes an element from others in the same list. |
-| `<LBody>` | (List item body) The descriptive content of a list item. |
+## Block-level structure elements {#blockElements}
 
-## Special text elements
+### Paragraph elements
 
-Special text elements identify text that isn’t used as a generic paragraph `<P>`.
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `P` | Ordinary paragraph | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOCI` | [Inline-level structure elements](#inlineElements) |
+| `H1`, `H2`, `H3`, `H4`, `H5`, `H6` | Hierarchical headings on levels 1 to 6 | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | [Inline-level structure elements](#inlineElements) |
 
-| Tag | Description |
-|:-- |:-- |
-| `<BlockQuote>` | One or more paragraphs of text attributed to someone other than the author of the immediate surrounding text. |
-| `<Caption>` | A brief portion of text that describes a table or a figure. |
-| `<Index>` | A sequence of entries that contain identifying text and reference elements that point out the occurrence of the text in the main body of the document. |
-| `<TOC>` | (Table of contents) An element that contains a structured list of items and labels identifying those items; has its own discrete hierarchy. |
-| `<TOCI>` | (Table of contents item) An item contained in a list associated with a table of contents element. |
+### List elements
 
-## Table elements
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `L` | List container; groups together all list elements that belong together | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
+| `LI` | Container of a list entry; can contain an `L` to create multi-level lists | `L` | `Lbl`, `LBody`, `L` |
+| `Lbl` | Comes from the term “label” and represents the numbering or bullet character within a list. <p class="warning-block" markdown="1" >It’s not actually a block-level structure element and can also be used in other elements such as `TOCI` or `Caption`.</p> | `LI` | – |
+| `LBody` | Contains the contents of a list entry | `LI` | [Inline-level structure elements](#inlineElements) |
 
-Table elements are special elements for structuring tables.
+### Tabellenelemente
 
-| Tag | Description |
-|:-- | :-- |
-| `<Table>` | A two-dimensional arrangement of data or text cells that contains table row elements as child elements and may have a caption element as its first or last child element. |
-| `<TR>` | (Table row) One row of headings or data in a table; may contain table header cell elements and table data cell elements. |
-| `<TD>` | (Table data cell) A table cell that contains nonheader data. |
-| `<TH>` | (Table header cell) A table cell that contains header text or data describing one or more rows or columns of a table. |
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `Table` | Table container; combines all related table elements | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`  | `TR`, `Caption`, `THead`, `TBody`, `TFoot` |
+| `TR` | Groups a table row | `Table`, `THead`, `TBody`, `TFoot` | `TH`, `TD` |
+| `TH` | Table heading cell; describes the meaning either at horizontal (line) or vertical (column) level | `TR` | [Inline-level structure elements](#inlineElements) |
+| `TD` | Ordinary table data cells | `TR` | [Inline-level structure elements](#inlineElements) |
+| THead | A group of table rows (`TR`) to mark them as table header; can be used optionally | `Table` | `TR` |
+| TBody | A group of table rows (`TR`) to mark them as table content; can be used optionally | `Table` | `TR` |
+| TFoot | A group of table rows (`TR`) to mark them as table footer; can be used optionally | `Table` | `TR` |
 
-## Inline-level elements
+## Inline-level structure elements {#inlineElements}
 
-Inline-level elements identify a span of text that has specific formatting or behavior. They are differentiated from block-level elements. Inline-level elements may be contained in or contain block-level elements.
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `Span` | Generic container without semantic meaning; is used, among other things, for visual markups, language changes or for adding ActualText (e.g. for ignoring hyphens) | `P`, `H1`–`H6`, `LBody`, `TD`, `Quote`, `Note` | – |
+| `Quote` | Used like `BlockQuote` for quoted content; however, `Quote` is used at line level | `P`, `H1`–`H6`, `LBody`, `TD` | `Span` |
+| `Note` | Footnote or endnote text (not the reference character in the body text). The footer/end-note character within `Note` and `Reference` will be placed in a `Lbl`. | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl`, `P`, `Span` |
+| `Reference` | Refers to another place in the document, e.g. footnote or directory entry | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl` |
+| `Code` | Marking of programming language | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Link` | Link to a web page or to a place within the document | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Annot` | Annotations that are not a link or a widget (form field), like comments and videos. | `P`, `H1`–`H6`, `LBody`, `TD` | – |
 
-| Tag | Description |
-|:-- |:-- |
-| `<BibEntry>` | (Bibliography entry) A description of where some cited information may be found. |
-| `<Quote>` | An inline portion of text that is attributed to someone other than the author of the text surrounding it; different from a block quote, which is a whole paragraph or multiple paragraphs, as opposed to inline text. |
-| `<Span>` | Any inline segment of text; commonly used to delimit text that is associated with a set of styling properties. |
+## Illustration elements {#illustrationElements}
 
-## Special inline-level elements
-
-Similar to inline-level elements, special inline-level elements describe an inline portion of text that has special formatting or behavior.
-
-| Tag | Description |
-|:-- |:-- |
-| `<Code>` | Computer program text embedded within a document. |
-| `<Figure>` | A graphic or graphic representation associated with text. |
-| `<Form>` | A PDF form annotation that can be or has been filled out. |
-| `<Formula>` | A mathematical formula. |
-| `<Link>` | A hyperlink that is embedded within a document. The target can be in the same document, in another PDF document, or on a website. |
-| `<Note>` | Explanatory text or documentation, such as a footnote or endnote, that is referred to in the main body of text. |
-| `<Reference>` | A citation to text or data that is found elsewhere in the document. |
+| PDF tag | Semantic meaning | Possible and semantically meaningful parent elements | Possible and semantically meaningful child elements |
+|:--|:--|:--|:--|
+| `Figure` | Photo or graphic | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `LBody`, `TD` | – |
+| `Formula` | Mathematical formula | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Form` | Form element | `Document`, `Part`, `Art`, `Sect`, `Div`, `P`, `TD` | – |
