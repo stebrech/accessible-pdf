@@ -30,7 +30,7 @@ da sie für die Verwendung nicht empfohlen oder nicht relevant sind.
 Es liegt nahe, dass gruppierende Elemente grundsätzlich Block-Elemente und Block-Elemente grundsätzlich Inline-Elemente enthalten. Der Standard gibt nicht immer klar vor, welche Konstellationen möglich sind. Die illustrierende Elemente können als Block- oder Inline-Elemente fungieren.
 
 <div class="warning-block" markdown="1">
-In der dritten und vierten Spalte der Übersicht werden semantisch sinnvolle Kombinationen aufgezeigt. Zwar lässt der Standard noch weitere Konstellationen zu, sie werden aber eben nicht als sinnvoll erachtet. Auf Vollständigkeit wird jedoch keine Gewähr gegeben.
+In der dritten und vierten Spalte der Übersicht werden semantisch sinnvolle Kombinationen aufgezeigt. Zwar lässt der Standard noch weitere Konstellationen zu, sie werden aber nicht als semantisch sinnvoll erachtet. Auf Vollständigkeit wird jedoch keine Gewähr gegeben.
 </div>
 
 <aside class="note-block" markdown="1">
@@ -67,7 +67,7 @@ Praktische Anwendungsbeispiele und Informationen bietet das Dokument [“Tagged 
 |:--|:--|:--|:--|
 | `L` | Listencontainer; fasst alle zusammengehörigen Listenelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
 | `LI` | Container eines Listeneintrags; Kann ein `L` enthalten um mehrstufige Listen zu erstellen | `L` | `Lbl`, `LBody`, `L` |
-| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen <p class="warning-block" markdown="1">Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption`</p> | `LI` | – |
+| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen <p class="warning-block" markdown="1">Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption` verwendet werden.</p> | `LI` | – |
 | `LBody` | Enthält den Inhalt eines Listeneintrags | `LI` | [Inline-Elemente](#inlineElemente) |
 
 ### Tabellenelemente
@@ -82,19 +82,19 @@ Praktische Anwendungsbeispiele und Informationen bietet das Dokument [“Tagged 
 | TBody | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
 | TFoot | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
 
-## Inline-Elemente
+## Inline-Elemente {#inlineElemente}
 
 | PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
 |:--|:--|:--|:--|
 | `Span` | Generischer Container ohne semantische Bedeutung; wird unter anderem für visuelle Auszeichnungen, Sprachenwechsel oder zum Hinzufügen von ActualText (z.B. zum Ignorieren von Trennstrichen) verwendet | `P`, `H1`–`H6`, `LBody`, `TD`, `Quote`, `Note` | – |
 | `Quote` | Wird wie `BlockQuote` für zitierte Inhalte verwendet; `Quote` wird jedoch auf Zeilenebene verwendet | `P`, `H1`–`H6`, `LBody`, `TD` | `Span` |
-| `Note` | Fuss- oder Endnotentext; das Fussnotenzeichen wird innerhalb eines `Lbl` platziert, gleich wie das `Reference`-Zeichen im Text | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl`, `P`, `Span` |
+| `Note` | Fuss- oder Endnotentext (nicht das Referenzzeichen im Fliesstext). Das Fuss-/Endnotenzeichen wird innerhalb von `Note` und `Reference` in einem  `Lbl` platziert. | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl`, `P`, `Span` |
 | `Reference` | Referenziert auf eine andere Stelle im Dokument, z.B. Fussnote oder Verzeichniseintrag | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl` |
 | `Code` | Auszeichnung von Programmiersprache | `P`, `H1`–`H6`, `LBody`, `TD` | – |
 | `Link` | Link auf eine Webseite oder auf eine Stelle im Dokument | `P`, `H1`–`H6`, `LBody`, `TD` | – |
-| `Annot` |  | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Annot` | Anmerkungen (Annotations) die keine Verknüpfung oder Widget (Formularfeld) sind, wie Kommentaren und Videos. | `P`, `H1`–`H6`, `LBody`, `TD` | – |
 
-## Illustrative Elemente
+## Illustrative Elemente {#illustrativeElemente}
 
 | PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
 |:--|:--|:--|:--|
