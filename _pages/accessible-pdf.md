@@ -14,7 +14,7 @@ post_date: 2017-12-31 14:25:47
 tags: [ ]
 categories: [ ]
 ---
-**The purpose of this website is to convey the [basics](https://accessible-pdf.info/en/basics/) of the production of [accessible PDF](https://accessible-pdf.info/en/glossary/#accessible) documents. In addition, it’s meant to be a reference work to fix [PDF/UA](https://accessible-pdf.info/de/glossar/#pdf-ua) errors.**
+**The purpose of this website is to convey the [basics](https://accessible-pdf.info/en/basics/) of the production of [accessible PDF](https://accessible-pdf.info/en/glossary/#accessible) documents. In addition, it’s meant to be a reference work to fix [PDF/UA](https://accessible-pdf.info/en/glossary/#pdfua) errors.**
 
 <div class="fullwidth-container" style="margin-top:2em;"><img src="https://accessible-pdf.info/content/uploads/homepage-teaser-apps.png" alt="Graphic: Arrows point from an InDesign, Word and Acrobat document to a accessible document (Logo of accessible-pdf.info). In addition, arrows show the detour of InDesign and Word documents via Acrobat." /></div>
 
