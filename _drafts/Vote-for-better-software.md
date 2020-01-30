@@ -1,7 +1,11 @@
 ---
+ID: 58402
 post_title: Vote for better software
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: page
+permalink: >
+  https://accessible-pdf.info/?page_id=58402
 published: false
 tags: [ ]
 categories: [ ]

@@ -1,7 +1,11 @@
 ---
+ID: 58401
 post_title: Stimme für bessere Software
 author: Stefan Brechbühl
+post_excerpt: ""
 layout: page
+permalink: >
+  https://accessible-pdf.info/?page_id=58401
 published: false
 tags: [ ]
 categories: [ ]
