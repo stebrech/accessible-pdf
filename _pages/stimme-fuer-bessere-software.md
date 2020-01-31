@@ -17,7 +17,7 @@ post_date: 2020-01-30 17:01:44
 tags: [ ]
 categories: [ ]
 ---
-Adobe und Microsoft verfügen beide über UserVoice Seiten, die es erlauben Software Bugs und gewünschte Features mitzuteilen. So können wir Probleme, die mit der Herstellung von barrierefreien PDFs bestehen melden. 
+Adobe und Microsoft verfügen beide über UserVoice Seiten, die es erlauben Software Bugs und gewünschte Features mitzuteilen. So können wir Probleme, die mit der Herstellung von barrierefreien PDFs bestehen, melden. 
 
 Leider erhalten diese Anfragen nicht immer die Aufmerksamkeit, die sie eigentlich benötigen. Hilf darum mit diese Anfragen zu pushen und vote für sie.
 
