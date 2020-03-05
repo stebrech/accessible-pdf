@@ -27,7 +27,7 @@ Unfortunately, those requests do not always receive the attention they actually 
 - [Path elements as Artifact](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/37405573-path-elements-as-artifact)
 - [Preflight to include Accessibility check](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/34811761-preflight-to-include-accessibility-check)
 - [Selecting 'No language' from styles advanced options really exports the tag to EN in PDF](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37089385-selecting-no-language-from-styles-advanced-optio)
-- ~~[Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item)~~ → Fixed in InDesign CC 2020
+- <del datetime="2020-03-05T17:09:29+00:00" markdown="1">[Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item)</del> → Fixed in CC 2020
 
 ## Word {#word}
 
