@@ -25,10 +25,10 @@ Leider erhalten diese Anfragen nicht immer die Aufmerksamkeit, die sie eigentlic
 
 - [Improve tables for tagged pdf and accessibility](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/39571414-improve-tables-for-tagged-pdf-and-accessibility)
 - [CC2020: Alternate text for hyperlinks](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/38972206-cc2020-alternate-text-for-hyperlinks)
-- [Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item)
 - [Path elements as Artifact](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/37405573-path-elements-as-artifact)
 - [Preflight to include Accessibility check](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/34811761-preflight-to-include-accessibility-check)
 - [Selecting 'No language' from styles advanced options really exports the tag to EN in PDF](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37089385-selecting-no-language-from-styles-advanced-optio)
+- ~~[Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item)~~ → Korrigiert in InDesign CC 2020
 
 ## Word {#word}
 
