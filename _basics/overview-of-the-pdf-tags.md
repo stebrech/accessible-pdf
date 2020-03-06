@@ -12,6 +12,8 @@ permalink: >
   https://accessible-pdf.info/en/basics/overview-of-the-pdf-tags/
 published: true
 post_date: 2018-02-16 16:23:12
+tags: [ ]
+categories: [ ]
 ---
 The tags listed below correspond to the [ISO standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). In 2018 the newer standard PDF 2.0 has been published. In this standard, some of the tags described here have been removed and new ones have been added. Since the standard is not yet widely used and a revision of the PDF/UA standard is still open, this overview still corresponds to PDF 1.7.
 
@@ -65,7 +67,7 @@ Practical examples and further informations can be found in the document ["Tagge
 |:--|:--|:--|:--|
 | `L` | List container; groups together all list elements that belong together | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
 | `LI` | Container of a list entry; can contain an `L` to create multi-level lists | `L` | `Lbl`, `LBody`, `L` |
-| `Lbl` | Comes from the term “label” and represents the numbering or bullet character within a list. <p class="warning-block" markdown="1" >It’s not actually a block-level structure element and can also be used in other elements such as `TOCI` or `Caption`.</p> | `LI` | – |
+| `Lbl` | Comes from the term “label” and represents the numbering or bullet character within a list. *It’s not actually a block-level structure element and can also be used in other elements such as `TOCI` or `Caption`.* | `LI` | – |
 | `LBody` | Contains the contents of a list entry | `LI` | [Inline-level structure elements](#inlineElements) |
 
 ### Tabellenelemente
@@ -76,9 +78,9 @@ Practical examples and further informations can be found in the document ["Tagge
 | `TR` | Groups a table row | `Table`, `THead`, `TBody`, `TFoot` | `TH`, `TD` |
 | `TH` | Table heading cell; describes the meaning either at horizontal (line) or vertical (column) level | `TR` | [Inline-level structure elements](#inlineElements) |
 | `TD` | Ordinary table data cells | `TR` | [Inline-level structure elements](#inlineElements) |
-| THead | A group of table rows (`TR`) to mark them as table header; can be used optionally | `Table` | `TR` |
-| TBody | A group of table rows (`TR`) to mark them as table content; can be used optionally | `Table` | `TR` |
-| TFoot | A group of table rows (`TR`) to mark them as table footer; can be used optionally | `Table` | `TR` |
+| `THead` | A group of table rows (`TR`) to mark them as table header; can be used optionally | `Table` | `TR` |
+| `TBody` | A group of table rows (`TR`) to mark them as table content; can be used optionally | `Table` | `TR` |
+| `TFoot` | A group of table rows (`TR`) to mark them as table footer; can be used optionally | `Table` | `TR` |
 
 ## Inline-level structure elements {#inlineElements}
 
