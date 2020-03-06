@@ -13,84 +13,89 @@ permalink: >
 published: true
 post_date: 2018-01-11 16:39:50
 ---
-Diese Zusammenstellung zeigt die wichtigsten Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
+Die unten aufgeführten *Tags* entsprechen dem [ISO Standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). Im Jahr 2018 ist der neuere Standard PDF 2.0 erschienen. Darin sind einige der hier beschriebenen *Tags* weggefallen und neue hinzugekommen. Da der Standard aber noch zu wenig verbreitet ist und eine Überarbeitung des PDF/UA-Standards noch offen ist, entspricht diese Übersicht noch PDF 1.7.
 
-Die Beschreibungen der Tags stammen von dem schon etwas älteren Handbuch „[Erstellen von barrierefreien PDF-Dokumenten mit Adobe Acrobat](https://www.adobe.com/de/accessibility/products/acrobat/pdfs/BRO_HowTo_PDFs_Barrierefrei_DE_2005_09_abReader7.pdf)“. Persönliche Notizen sind in *kursiv* geschrieben.
+In der Übersicht nicht enthalten, sind die PDF-*Tags*
 
-## Container
+- `NonStruct` (Gruppierendes Element)
+- `Private` (Gruppierendes Element)
+- `H` (Block-Element)
+- `BibEntry` (Inline-Element)
+- `Ruby`, `RB`, `RT`, `RP`, `Warichu`, `WT`, `WP` (Inline-Element)
 
-Behälterelemente bilden die höchste Ebene von Elementen und erlauben die hierarchische Gruppierung von weiteren Elementen auf Blockebene
+da sie für die Verwendung nicht empfohlen oder nicht relevant sind.
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<Document>` | Dokument | Stammelement des Tag-Baums eines Dokuments |
-| `<Part>` | Teil | grobe Einteilung eines Dokuments; kann kleinere Inhaltseinheiten wie Kapitel- oder Abschnittselemente enthalten |
-| `<Div>` | Kapitel (engl. division) | generisches Element auf Blockebene oder eine Gruppe solcher Elemente |
-| `<Art>` | Artikel | inhaltlich in sich abgeschlossener Textkörper |
-| `<Sect>` | Abschnitt (engl. section) | allgemeines Behälterelement; in der Regel ein Teil- oder Artikelelement |
+Es liegt nahe, dass gruppierende Elemente grundsätzlich Block-Elemente und Block-Elemente grundsätzlich Inline-Elemente enthalten. Der Standard gibt nicht immer klar vor, welche Konstellationen möglich sind. Die illustrierende Elemente können als Block- oder Inline-Elemente fungieren.
 
-## Überschriften und Absätze
+<div class="warning-block" markdown="1">
+In der dritten und vierten Spalte der Übersicht werden semantisch sinnvolle Kombinationen aufgezeigt. Zwar lässt der Standard noch weitere Konstellationen zu, sie werden aber nicht als semantisch sinnvoll erachtet. Auf Vollständigkeit wird jedoch keine Gewähr gegeben.
+</div>
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<P>` | Absatz (engl. Paragraph) | Gewöhnlicher Absatz |
-| `<H1>` bis `<H6>` | Überschriften (engl. Heading) | Überschriften mit Hierarchiestufe 1 bis 6. |
-| `<H>` | Überschrift | Überschrift muss einer übergeordneten Einteilung untergeordnet sein. <br>*Da es mit den `<H1>` bis `<H6>` Tags in aller Regel einfacher ist eine Struktur aufzubauen, empfehle ich diesen Tag nicht zu verwenden.* |
+<aside class="note-block" markdown="1">
+Praktische Anwendungsbeispiele und Informationen bietet das Dokument [“Tagged PDF Best Practice Guide: Syntax”](https://www.pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/) der PDF Association.
+</aside>
 
-## Beschriftungs- und Listenelemente
+## Gruppierende Elemente {#gruppierendeElemente}
 
-Beschriftungs- und Listenelemente sind Elemente auf Blockebene, die zur Strukturierung von Listen dienen.
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `Document` | Bildet ein komplettes Dokument ab | – | [Gruppierende Elemente](#gruppierendeElemente), [Block-Elemente](#blockElemente) |
+| `Part` | Teilung eines grösseren Dokuments in kleinere, zusammengehörende Teile | `Document` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-Elemente](#blockElemente) |
+| `Art` | Inhaltsteile, die zusammen abschliessend sind, also ein Artikel oder ein Teil eines Dokuments | `Document`, `Part`, `Sect`, `Div`, `BlockQuote` | `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-Elemente](#blockElemente) |
+| `Sect` | Gruppierte zusammenhängende Inhaltsteile, beispielsweise mehrere Absätze, die zu einer Gruppe zusammengefasst werden können | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-Elemente](#blockElemente) |
+| `Div` | Generisches Gruppenelement ohne semantische Bedeutung | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-Elemente](#blockElemente) |
+| `BlockQuote` | Ein oder mehrere Absätze, die von einer anderen Autorin / einem anderen Autoren stammt, also zitiert wurde | `Document`, `Part`, `Art`, `Sect`, `Div` | `Art`, `Sect`, `Div`, `Caption`, [Block-Elemente](#blockElemente) |
+| `Caption` | Eine Beschriftung um beispielsweise ein Bild oder eine Tabelle zu beschreiben | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Table`, `L` | `Sect`, `Div`, `BlockQuote`, [Block-Elemente](#blockElemente) |
+| `TOC` | Container für Inhaltsverzeichniseinträge. Kann entweder als flache (alle enthaltene `TOCI` auf einer Ebene) oder komplexe Hierarchie (`TOC` innerhalb eines `TOCI` als Untergruppe) angewendet werden. Kann mehrfach in einem Dokument enthalten sein, da es auch für Bilder- oder Tabellenverzeichnisse verwendet werden kann. Englisch abgekürzt für *Table of contents* | `Document`, `Part`, `Art`, `Sect`, `Div`| `TOCI` |
+| `TOCI` | Eintrag innerhalb eines Inhaltsverzeichnisses (`TOC`). Englisch abgekürzt für *Table of contents item* | `TOC` | `TOC`, `P`, `Lbl`, `Reference` |
+| `Index` | Container für ein Stichwortverzeichnis |`Document`, `Part`, `Art`, `Sect`, `Div` | `L` |
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<L>` | Liste | Folge von Einträgen ähnlicher Bedeutung oder Relevanz; die unmittelbar untergeordneten Elemente müssen Listeneinträge sein |
-| `<LI>` | Listeneintrag (engl. list item) | einzelnes Element einer Liste; ihm kann ein Beschriftungselement (optional) und muss ein Listenkörperelement (obligatorisch) untergeordnet sein |
-| `<Lbl>` | Beschriftung (engl. label) | Aufzählungszeichen, ein Name oder eine Nummer, die einen Eintrag kennzeichnet und von anderen Einträgen in derselben Liste unterscheidet |
-| `<LBody>` | Listenkörper (engl. list body) | eigentlicher Inhalt eines einzelnen Listeneintrags |
+## Block-Elemente {#blockElemente}
 
-## Sondertextelemente
+### Absatzelemente
 
-Sondertextelemente identifizieren Text, der keinen generischen Absatz bildet.
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `P` | Gewöhnlicher Absatz; Englisch abgekürzt für *Paragraph* | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOCI` | [Inline-Elemente](#inlineElemente) |
+| `H1`, `H2`, `H3`, `H4`, `H5`, `H6` | Hierarchische Überschriften der Ebene 1 bis 6; H ist die englisch Abkürzung für *Heading* | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | [Inline-Elemente](#inlineElemente) |
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<BlockQuote>` | Blockzitat | Absatz, der von einem anderen Verfasser stammt als der umgebende Haupttext |
-| `<Caption>` | Bildunterschrift | kurzer Text, der eine Tabelle oder Abbildung beschreibt. |
-| `<Index>` | Index | Folge von Einträgen, die aus einem Stichwort und Referenzelementen bestehen, die auf das Vorkommen des Stichworts im Hauptkörper des Dokuments verweisen |
-| `<TOC>` | Inhaltsverzeichnis (engl. table of contents)             | Element, das eine strukturierte Liste von Einträgen enthält; besitzt eine eigene Hierarchie |
-| `<TOCI>` | Inhaltsverzeichniseintrag (engl. table of contents item) | Eintrag in einer Liste, die einem Inhaltsverzeichniselement zugeordnet ist |
+### Listenelemente
 
-## Tabellenelemente
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `L` | Listencontainer; fasst alle zusammengehörigen Listenelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
+| `LI` | Container eines Listeneintrags; Kann ein `L` enthalten um mehrstufige Listen zu erstellen | `L` | `Lbl`, `LBody`, `L` |
+| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen <p class="warning-block" markdown="1">Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption` verwendet werden.</p> | `LI` | – |
+| `LBody` | Enthält den Inhalt eines Listeneintrags | `LI` | [Inline-Elemente](#inlineElemente) |
 
-Tabellenelemente sind besondere Elemente zur Strukturierung von Tabellen.
+### Tabellenelemente
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<Table>` | Tabelle | zweidimensionale Anordnung von Daten- und Textzellen, die sich aus untergeordneten Tabellenzeilenelementen zusammensetzt und ein Bildunterschriftselement als erstes oder letztes untergeordnetes Element enthalten kann |
-| `<TR>` | Tabellenzeile (engl. table row) | Zeile mit Überschriften oder Daten in einer Tabelle; kann Tabellenüberschrifts- und Tabellendatenzellenelemente enthalten |
-| `<TD>` | Tabellendatenzelle | Tabellenzelle, die Daten enthält, die nicht als Überschrift fungieren |
-| `<TH>` | Tabellenüberschriftszelle (engl. table header) | Tabellenzelle, die Überschriftstext oder -daten enthält, die eine oder mehrere Zeilen oder Spalten der Tabelle beschreiben |
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `Table` | Tabellencontainer; fasst alle zusammengehörigen Tabellennelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`  | `TR`, `Caption`, `THead`, `TBody`, `TFoot` |
+| `TR` | Fasst eine Tabellenzeile zusammen; englische abgekürzt für “table row” | `Table`, `THead`, `TBody`, `TFoot` | `TH`, `TD` |
+| `TH` | Tabellenüberschriftszelle; beschreiben die Bedeutung entweder auf horizontaler (Zeile) oder auf vertikaler (Spalte) Ebene | `TR` | [Inline-Elemente](#inlineElemente) |
+| `TD` | Gewöhnliche Tabellendatenzellen | `TR` | [Inline-Elemente](#inlineElemente) |
+| THead | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenkopf zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+| TBody | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+| TFoot | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
 
-## Elemente auf Zeilenebene
+## Inline-Elemente {#inlineElemente}
 
-Elemente auf Zeilenebene kennzeichnen Textteile, die ein bestimmtes Format oder Verhalten aufweisen. Sie unterscheiden sich von den Elementen auf Blockebene und können in diesen enthalten sein sowie selbst Elemente auf Blockebene enthalten. Es gibt die folgenden Standardelemente auf Zeilenebene.
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `Span` | Generischer Container ohne semantische Bedeutung; wird unter anderem für visuelle Auszeichnungen, Sprachenwechsel oder zum Hinzufügen von ActualText (z.B. zum Ignorieren von Trennstrichen) verwendet | `P`, `H1`–`H6`, `LBody`, `TD`, `Quote`, `Note` | – |
+| `Quote` | Wird wie `BlockQuote` für zitierte Inhalte verwendet; `Quote` wird jedoch auf Zeilenebene verwendet | `P`, `H1`–`H6`, `LBody`, `TD` | `Span` |
+| `Note` | Fuss- oder Endnotentext (nicht das Referenzzeichen im Fliesstext). Das Fuss-/Endnotenzeichen wird innerhalb von `Note` und `Reference` in einem  `Lbl` platziert. | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl`, `P`, `Span` |
+| `Reference` | Referenziert auf eine andere Stelle im Dokument, z.B. Fussnote oder Verzeichniseintrag | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl` |
+| `Code` | Auszeichnung von Programmiersprache | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Link` | Link auf eine Webseite oder auf eine Stelle im Dokument | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Annot` | Anmerkungen (Annotations) die keine Verknüpfung oder Widget (Formularfeld) sind, wie Kommentaren und Videos. | `P`, `H1`–`H6`, `LBody`, `TD` | – |
 
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<BibEntry>` | Quellenverzeichniseintrag (engl. bibliography entry) | Quellenangabe für ein Zitat |
-| `<Quote>` | Zitat | Textsegment, das von einem anderen Verfasser stammt als der umgebende Text; unterscheidet sich vom Blockzitat, bei dem es sich um einen ganzen Absatz oder mehrere Absätze und nicht um einen Teil eines Satzes handelt |
-| `<Span>` | Span | beliebiges Textsegment; kennzeichnet in der Regel Text, dem bestimmte Formateigenschaften zugeordnet sind |
+## Illustrative Elemente {#illustrativeElemente}
 
-## Sonderelemente auf Zeilenebene
-
-Ähnlich wie Elemente auf Zeilenebene beschreiben Sonderelemente auf Zeilenebene Textsegmente, die ein bestimmtes Format oder Verhalten aufweisen.
-
-| Tag | Übersetzung | Beschreibung |
-|:-- |:-- |:-- |
-| `<Code>` | Code | Computerprogrammtext, der in das Dokument eingebettet ist |
-| `<Figure>` | Abbildung | Grafik oder grafische Darstellung, die mit dem Text zusammenhängt |
-| `<Form>` | Formular | PDF-Formular, das ausgefüllt werden kann |
-| `<Formula>` | Formel | mathematische Funktion |
-| `<Link>` | Verknüpfung | Hypertext-Verknüpfung, die in das Dokument eingebettet und einer Anmerkung zugeordnet ist, die zu einer anderen Stelle in demselben Dokument oder in einem anderen Dokument oder zu einer Website führt |
-| `<Note>` | Anmerkung | Zusatztext oder Dokumentation, z.B. eine Fuß- oder Endnote, auf die im Haupttext verwiesen wird |
-| `<Reference>` | Verweis | Verweis auf Text oder Daten an anderer Stelle im Dokument |
+| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
+|:--|:--|:--|:--|
+| `Figure` | Foto oder Grafik | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `LBody`, `TD` | – |
+| `Formula` | Mathematische Formel | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `H1`–`H6`, `LBody`, `TD` | – |
+| `Form` | Formularelement | `Document`, `Part`, `Art`, `Sect`, `Div`, `P`, `TD` | – |
