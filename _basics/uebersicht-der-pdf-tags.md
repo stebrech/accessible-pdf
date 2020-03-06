@@ -12,6 +12,8 @@ permalink: >
   https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/
 published: true
 post_date: 2018-01-11 16:39:50
+tags: [ ]
+categories: [ ]
 ---
 Die unten aufgeführten *Tags* entsprechen dem [ISO Standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). Im Jahr 2018 ist der neuere Standard PDF 2.0 erschienen. Darin sind einige der hier beschriebenen *Tags* weggefallen und neue hinzugekommen. Da der Standard aber noch zu wenig verbreitet ist und eine Überarbeitung des PDF/UA-Standards noch offen ist, entspricht diese Übersicht noch PDF 1.7.
 
@@ -65,7 +67,7 @@ Praktische Anwendungsbeispiele und Informationen bietet das Dokument [“Tagged 
 |:--|:--|:--|:--|
 | `L` | Listencontainer; fasst alle zusammengehörigen Listenelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
 | `LI` | Container eines Listeneintrags; Kann ein `L` enthalten um mehrstufige Listen zu erstellen | `L` | `Lbl`, `LBody`, `L` |
-| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen <p class="warning-block" markdown="1">Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption` verwendet werden.</p> | `LI` | – |
+| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen. *Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption` verwendet werden.* | `LI` | – |
 | `LBody` | Enthält den Inhalt eines Listeneintrags | `LI` | [Inline-Elemente](#inlineElemente) |
 
 ### Tabellenelemente
@@ -76,9 +78,9 @@ Praktische Anwendungsbeispiele und Informationen bietet das Dokument [“Tagged 
 | `TR` | Fasst eine Tabellenzeile zusammen; englische abgekürzt für “table row” | `Table`, `THead`, `TBody`, `TFoot` | `TH`, `TD` |
 | `TH` | Tabellenüberschriftszelle; beschreiben die Bedeutung entweder auf horizontaler (Zeile) oder auf vertikaler (Spalte) Ebene | `TR` | [Inline-Elemente](#inlineElemente) |
 | `TD` | Gewöhnliche Tabellendatenzellen | `TR` | [Inline-Elemente](#inlineElemente) |
-| THead | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenkopf zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
-| TBody | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
-| TFoot | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+| `THead` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenkopf zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+| `TBody` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+| `TFoot` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
 
 ## Inline-Elemente {#inlineElemente}
 
