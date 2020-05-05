@@ -14,10 +14,7 @@ categories: [ ]
 I use a lot of my spare time to maintain this website and to write posts for it. 
 I love doing it and want to help others to create better documents.
 
-The recommendations of the referenced products on this site are not paid advertisement. It’s just an independent and honest recommendation.
-However, I have to pay the bills for hosting and domain. 
-
-You might help me with that and [become a sponsor on Github](https://github.com/sponsors/pixelstrolch). The available tiers are:
+You might wanna support me with that and [become a sponsor on Github](https://github.com/sponsors/pixelstrolch). The available tiers are:
 
 - ☕️ **Coffee time!** [$2 a month] 
 You’ll receive a **sponsor badge** and **show your appreciation**.
@@ -29,8 +26,3 @@ Same as tier above. I will send you **a sticker** with the logo of the website. 
 Same as tier above. **Your name will be displayed on this website**
 
 **[Become a sponsor now](https://github.com/sponsors/pixelstrolch).** Thank you so much 💚
-
-You might want to send a one-time donation. 
-Therefore you can use the form below.
-
-[give_form id="58043"]

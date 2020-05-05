@@ -17,9 +17,7 @@ categories: [ ]
 ---
 Ich nutze einen grossen Teil meiner Freizeit um diese Website zu unterhalten und dafür Beiträge zu schreiben. Ich mache dies sehr gern und möchte anderen helfen bessere Dokumente zu erstellen.
 
-Die Empfehlungen zu Produkten, die ich auf dieser Website mache, sind keine bezahlte Werbung. Es ist lediglich meine unabhängige und ehrliche  Empfehlung. Trotzdem muss ich die Rechnungen für Hosting und Domain bezahlen.
-
-Du möchtest mir vielleicht dabei helfen und [ein Sponsor auf Github](https://github.com/sponsors/pixelstrolch) werden. Die verfügbaren Stufen sind:
+Du möchtest mir vielleicht dabei unterstützen und [ein Sponsor via Github](https://github.com/sponsors/pixelstrolch) werden. Die verfügbaren Stufen sind:
 
 - ☕️ **Coffee time!** [$2 a month] 
 Du erhältst einen **Sponsor Badge** und **zeigst deine Wertschätzung**.
@@ -30,8 +28,4 @@ Gleich wie obere Stufe. Ich werde dir **einen Sticker,** welches das Logo der We
 - 🏅 **Hello Gold sponsor!** [$16 a month] 
 Gleich wie obere Stufe. **Dein Name wird auf der Website erwähnt.**
 
-**[Werde jetzt ein Sponsor](https://github.com/sponsors/pixelstrolch).** Ich danke dir vielmals 💚
-
-Vielleicht möchtest du eine einmalige Spende senden. Benutze dafür bitte unten stehendes Formular.
-
-[give_form id="58114"]
+**[Werde jetzt Sponsor](https://github.com/sponsors/pixelstrolch).** 💚 Dank!
