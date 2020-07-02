@@ -47,7 +47,7 @@ Alternatively, texts can also be marked as artifacts using a paragraph style set
 Decorative objects can be marked as artifacts by clicking “Object” → “Object Export Options“. In the window, switch to the tab “Tagged PDF” and select “Apply Tag: Artefact”.
 
 <p class="note-block" markdown="1">
-Any graphical shapes and strokes that do not contain alternative text are automatically marked as artifacts. For such elements, it is therefore not necessary to use the object export options.
+Any graphical shapes and strokes **that do not contain alternative text** are automatically marked as artifacts. For such elements, it is therefore not necessary to use the object export options.
 </p>
 
 ### Decorative artifacts using the MadeToTag plugin
