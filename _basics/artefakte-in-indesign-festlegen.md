@@ -46,7 +46,11 @@ Alternativ können Texte auch mittels einem dafür eingerichteten Absatzformat a
 
 ## Dekorative Artefakte in InDesign
 
-Dekorative Objekte können mit „Objekt“ → „Objektexportoptionen“ als Artefakt gekennzeichnet werden. Wechsle dazu im Fenster auf den Tab „PDF mit *Tags*“ und wähle „*Tag* anwenden: Aussertextliches Element“.
+Dekorative Objekte können mit „Objekt“ → „Objektexportoptionen“ als Artefakt gekennzeichnet werden. Wechsle dazu im Fenster auf den Tab „PDF mit *Tags*“ und wähle „*Tag* anwenden: Aussertextliches Element“. 
+
+<p class="note-block" markdown="1">
+Grafische Formen und Linien, die **keinen Alternativtext** enthalten, werden automatisch als Artefakt gekennzeichnet. Für solche Elemente ist somit die Verwendung der Objektexportoptionen nicht nötig.
+</p>
 
 ### Dekorative Artefakte mit dem Plugin MadeToTag
 
