@@ -28,7 +28,8 @@ Leider erhalten diese Anfragen nicht immer die Aufmerksamkeit, die sie eigentlic
 - [Path elements as Artifact](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/37405573-path-elements-as-artifact)
 - [Preflight to include Accessibility check](https://indesign.uservoice.com/forums/601021-adobe-indesign-feature-requests/suggestions/34811761-preflight-to-include-accessibility-check)
 - [Selecting 'No language' from styles advanced options really exports the tag to EN in PDF](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37089385-selecting-no-language-from-styles-advanced-optio)
-- <del datetime="2020-03-05T17:05:27+00:00" markdown="1">[Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item)</del> → Korrigiert in CC 2020
+- [Exporting accessible PDF – wrong BoundingBox](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/41129551-exporting-accessible-pdf-wrong-boundingbox) 
+- [Do not tag numbered headings as a list item](https://indesign.uservoice.com/forums/601180-adobe-indesign-bugs/suggestions/37702669-do-not-tag-numbered-headings-as-a-list-item) → Korrigiert in CC 2020
 
 ## Word {#word}
 
