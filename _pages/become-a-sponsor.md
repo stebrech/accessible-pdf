@@ -2,7 +2,7 @@
 ID: 58064
 post_title: Become a sponsor
 author: Stefan Brechbühl
-post_excerpt: With a small donation you help to motivate me to spend even more time for this free content. Furthermore you can help me with my expenses.
+post_excerpt: ""
 layout: page
 permalink: >
   https://accessible-pdf.info/en/become-a-sponsor/
@@ -19,4 +19,6 @@ I have set up [Github Sponsors](https://github.com/sponsors/pixelstrolch) for th
 - 🙌 **High five** [$2 a month] 
 - 🚀 **Pro donation** [$5 a month] 
 
-**[Become a sponsor now](https://github.com/sponsors/pixelstrolch) or make a one-time donation. Thank you so much 💚**
+**[Become a sponsor now](https://github.com/sponsors/pixelstrolch) or make a [one-time donation](https://www.paypal.com/paypalme/pixelstrolch).**
+
+**Thank you so much 💚**
