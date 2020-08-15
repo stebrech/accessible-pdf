@@ -2,12 +2,7 @@
 ID: 58116
 post_title: Werde Sponsor
 author: Stefan Brechbühl
-post_excerpt: >
-  Ich nutze einen grossen Teil meiner
-  Freizeit um diese Website zu unterhalten
-  und dafür Beiträge zu schreiben. Ich
-  mache dies sehr gern und möchte anderen
-  helfen bessere Dokumente zu erstellen.
+post_excerpt: Mit einer kleinen Spende hilfst du mich zu motivieren um noch mehr Zeit für diese freien Inhalte zu investieren. Zudem kannst du mir bei meinen Auslagen ein wenig unter die Arme greifen.
 layout: page
 permalink: https://accessible-pdf.info/de/spende/
 published: true
@@ -15,17 +10,12 @@ post_date: 2019-08-19 15:55:41
 tags: [ ]
 categories: [ ]
 ---
-Ich nutze einen grossen Teil meiner Freizeit um diese Website zu unterhalten und dafür Beiträge zu schreiben. Ich mache dies sehr gern und möchte anderen helfen bessere Dokumente zu erstellen.
+Mit einer kleinen Spende hilfst du mich zu motivieren um noch mehr Zeit für diese freien Inhalte zu investieren. Zudem kannst du mir bei meinen Auslagen ein wenig unter die Arme greifen.
 
-Du möchtest mir vielleicht dabei unterstützen und [ein Sponsor via Github](https://github.com/sponsors/pixelstrolch) werden. Die verfügbaren Stufen sind:
+Ich habe dafür [Github Sponsors](https://github.com/sponsors/pixelstrolch) eingerichtet. Die möglichen Optionen sind:
 
-- ☕️ **Coffee time!** [$2 a month] 
-Du erhältst einen **Sponsor Badge** und **zeigst deine Wertschätzung**.
-- 🙌 **You’re awesome!** [$4 a month] 
-Gleich wie obere Stufe. Zusätzlich **hilfst du mir die Rechnungen** für Webhosting und Domain **zu bezahlen**.
-- 🚀 **You absolutely rock!** [$8 a month] 
-Gleich wie obere Stufe. Ich werde dir **einen Sticker,** welches das Logo der Website enthält, senden. **Nur Rockstars wie du erhalten einen.**
-- 🏅 **Hello Gold sponsor!** [$16 a month] 
-Gleich wie obere Stufe. **Dein Name wird auf der Website erwähnt.**
+- 👍 **Thumbs up** [$1 pro Monat] 
+- 🙌 **High five** [$2 pro Monat] 
+- 🚀 **Pro donation** [$5 pro Monat] 
 
-**[Werde jetzt Sponsor](https://github.com/sponsors/pixelstrolch).** 💚 Dank!
+**[Werde jetzt Sponsor](https://github.com/sponsors/pixelstrolch) oder sende mir eine einmalige Spende 💚 Dank!**
