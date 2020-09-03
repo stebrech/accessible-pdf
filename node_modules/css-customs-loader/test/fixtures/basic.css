@@ -1,0 +1,7 @@
+:root {
+  --primary-color: lightblue;
+}
+
+@custom-media --narrow-window (max-width: 30em);
+
+@custom-selector :--title h1;
