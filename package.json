@@ -1,52 +1,46 @@
 {
   "name": "accessible-pdf",
-  "private": false,
-  "description": "Reference guide to solve PDF/UA issues. The tutorials will help you create accessible PDF documents.",
-  "version": "2.0.0",
+  "description": "",
+  "version": "1.0.0",
   "author": "Stefan Brechbühl",
-  "license": "Creative Commons Attribution 4.0 International License",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.19.45",
-    "gatsby-awesome-pagination": "^0.3.5",
-    "gatsby-image": "^2.3.4",
-    "gatsby-plugin-css-customs": "^0.4.0",
-    "gatsby-plugin-manifest": "^2.3.6",
-    "gatsby-plugin-offline": "^3.1.4",
-    "gatsby-plugin-postcss": "^2.2.2",
-    "gatsby-plugin-react-helmet": "^3.2.1",
-    "gatsby-plugin-sharp": "^2.5.6",
-    "gatsby-plugin-styled-components": "^3.2.3",
-    "gatsby-remark-images": "^3.2.4",
-    "gatsby-source-filesystem": "^2.2.4",
-    "gatsby-transformer-remark": "^2.7.3",
-    "gatsby-transformer-sharp": "^2.4.6",
-    "gatsby-transformer-yaml": "^2.3.3",
+    "@mdx-js/mdx": "^1.1.5",
+    "@mdx-js/react": "^1.1.5",
+    "gatsby": "^2.24.73",
+    "gatsby-image": "^2.4.21",
+    "gatsby-plugin-manifest": "^2.4.34",
+    "gatsby-plugin-mdx": "^1.0.0",
+    "gatsby-plugin-offline": "^2.2.4",
+    "gatsby-plugin-react-helmet": "^3.3.14",
+    "gatsby-plugin-sharp": "^2.6.40",
+    "gatsby-source-filesystem": "^2.3.34",
+    "gatsby-transformer-sharp": "^2.5.17",
     "prop-types": "^15.7.2",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^5.1.0"
-  },
-  "devDependencies": {
-    "prettier": "2.0.4"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1"
   },
   "keywords": [
-    "pdf, a11y, accessibility, accessible, documents, tutorials"
+    "accessible",
+    "pdf",
+    "a11y",
+    "documents"
   ],
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "develop": "rm -rf .cache/caches/gatsby-plugin-mdx && gatsby develop",
     "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/pixelstrolch/accessible-pdf"
-  },
-  "bugs": {
-    "url": "https://github.com/pixelstrolch/accessible-pdf/issues"
   }
 }

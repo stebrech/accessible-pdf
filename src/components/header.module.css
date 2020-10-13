@@ -1,9 +1,10 @@
 .masthead {
   padding: 1rem;
   font-size: 84%;
-  font-family: var(--highlight-font);
+  font-family: var(--primary-font);
   text-align: center;
   background-color: white;
+  border-bottom: 1px solid var(--main-bg-dark);
 }
 
 .site_logo {
@@ -24,7 +25,7 @@
   font-size: 140%;
 }
 
-@media screen and (--viewport-narrow-min) {
+@media screen and (min-width:40rem) {
   .masthead {
     display: flex;
     padding: 2rem;
@@ -33,7 +34,7 @@
 
   .masthead_info a {
     display: grid;
-    grid-template-columns: 7rem auto;
+    grid-template-columns: 3rem auto;
     gap: 0 1rem;
     align-items: center;
   }

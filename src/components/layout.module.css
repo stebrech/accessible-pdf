@@ -1,16 +1,16 @@
 html {
-  font-size: 112.5%; /* 1rem = 18px */
-  scroll-behavior: smooth;
+    font-size: 112.5%; /* 1rem = 18px */
+    scroll-behavior: smooth;
 }
-
+  
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
+    html {
+        scroll-behavior: auto;
+    }
 }
 
 body {
-  background: var(--main-bg-light);
+  background: var(--main-bg-medium);
   box-sizing: border-box;
   color: #000;
   font-family: var(--primary-font);
@@ -18,8 +18,19 @@ body {
   text-align: left;
 }
 
+.site_content {
+  background: #fff;
+  margin: 0 auto;
+  max-width: var(--content-w-regular);
+  padding: 2rem;
+}
+
+.site_main {
+  max-width: var(--content-w-narrow);
+}
+
 p {
-  padding-bottom: 1.6rem;
+  margin-top: 1rem;
 }
 
 h1,
@@ -31,4 +42,26 @@ h6 {
   letter-spacing: -0.0415625em;
   font-weight: 700;
   line-height: 1.15;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 2rem;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 1rem 0 0 2rem;
+}
+
+li {
+  margin: .5rem 0 0;
+}
+
+ol li {
+  padding-left: 1rem;
 }

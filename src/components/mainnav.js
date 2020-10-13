@@ -3,15 +3,16 @@ import { Link } from "gatsby"
 
 import style from "./mainnav.module.css"
 
-const MainNav = ({ menuLinks }) => {
+const MainNav = () => {
+
   return (
     <nav className={style.navigation}>
       <ul>
-        {menuLinks.map(props => (
-          <li key={props.name}>
-            <Link to={props.link}>{props.name}</Link>
-          </li>
-        ))}
+        <li>
+          <Link activeClassName="active" to={`/`}>
+            Home
+          </Link>
+        </li>
       </ul>
     </nav>
   )

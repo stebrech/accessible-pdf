@@ -1,105 +1,56 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
+const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: `Accessible PDF`,
-    titleTemplate: ``,
-    author: {
-      name: `Stefan Brechbühl`,
-      summary: ``,
-    },
-    description: `An opinionated starter for Gatsby`,
-    url: `https://accessible-pdf.info`,
-    logo: `/logo_accessiblePDF_green.png`,
-    twitter: `PDFa11y`,
-    menuLinks: [
-      {
-        name: `Home`,
-        link: `/`,
-      },
-      {
-        name: `Articles`,
-        link: `/articles`,
-      },
-      {
-        name: `About`,
-        link: `/about`,
-      },
-      {
-        name: `Events`,
-        link: `/events`,
-      },
-    ],
+    title: 'Accessible PDF',
+    description: 'Tutorials how to create PDF/UA compliant documents.',
+    author: 'Stefan Brechbühl',
   },
   plugins: [
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-postcss`,
-    `gatsby-plugin-css-customs`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+      },
+    },
+    'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/content/images/`,
+        path: `${__dirname}/src/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `events`,
-        path: `${__dirname}/content/events/`,
-      },
-    },
-    {
-      resolve: `gatsby-transformer-yaml`,
-      options: {
-        typeName: `Event`, // a fixed string
-      },
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `articles`,
-        path: `${__dirname}/content/articles/`,
-      },
+        path: `${__dirname}/articles`
+      }
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 1080,
-              quality: 100,
-            },
-          },
-        ],
-      },
-    },
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Accessible PDF`,
-        short_name: `The Project`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#12b886`,
-        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
-        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
-        display: `standalone`,
-        icon: `static/logo_accessiblePDF_green.png`, // This path is relative to the root of the site.
+        name: 'gatsby-default-mdx-basic',
+        short_name: 'starter',
+        start_url: '/',
+        background_color: '#663399',
+        theme_color: '#663399',
+        display: 'minimal-ui',
+        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.app/offline
+    // 'gatsby-plugin-offline',
   ],
 }
