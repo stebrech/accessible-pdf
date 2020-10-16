@@ -31,6 +31,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
+            frontmatter {
+              template
+            }
           }
         }
       }
@@ -46,15 +49,24 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // you'll call `createPage` for each result
   posts.forEach(({ node }, index) => {
-    createPage({
-      // This is the slug you created before
-      // (or `node.frontmatter.slug`)
-      path: node.fields.slug,
-      // This component will wrap our MDX content
-      component: path.resolve(`./src/components/articles.js`),
-      // You can use the values in this context in
-      // our page layout component
-      context: { id: node.id },
-    })
+    if (node.frontmatter.template === 'basics') {
+      createPage({
+        // This is the slug you created before
+        // (or `node.frontmatter.slug`)
+        path: `/basics${node.fields.slug}`,
+        // This component will wrap our MDX content
+        component: path.resolve(`./src/templates/basics.js`),
+        // You can use the values in this context in
+        // our page layout component
+        context: { id: node.id },
+      })
+    }
+    else {
+      createPage({
+        path: `/tutorials${node.fields.slug}`,
+        component: path.resolve(`./src/templates/tutorials.js`),
+        context: { id: node.id },
+      })
+    }
   })
 }

@@ -3,10 +3,10 @@ import { graphql } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { Link } from "gatsby"
-import Layout from "./layout"
-import { note, warning } from "./ui"
+import Layout from "../components/layout"
+import { note, warning } from "../components/ui"
 
-import style from "./articles.module.css"
+import style from "./basics.module.css"
 
 const shortcodes = { Link, note, warning } // Provide common components here
 
@@ -16,12 +16,13 @@ export default function PageTemplate({ data: { mdx } }) {
         <div>
             <h1>{mdx.frontmatter.title}</h1>
             <p className={style.article_metadata}>
+              <span className={style.article_category}>Tutorials</span><br/>
               <span className={style.article_author}>written by {mdx.frontmatter.author}</span><br/>
-              <span className={style.article_author}>last updated on {mdx.frontmatter.date}</span>
+              <span className={style.article_date}>last updated on {mdx.frontmatter.date}</span>
             </p>
             <p className={style.article_lead}>{mdx.frontmatter.description}</p>
             <MDXProvider components={shortcodes}>
-            <MDXRenderer>{mdx.body}</MDXRenderer>
+              <MDXRenderer>{mdx.body}</MDXRenderer>
             </MDXProvider>
         </div>
     </Layout>
@@ -29,15 +30,19 @@ export default function PageTemplate({ data: { mdx } }) {
 }
 
 export const pageQuery = graphql`
-  query PostQuery($id: String) {
+  query TutorialsQuery($id: String) {
     mdx(id: { eq: $id }) {
       id
       body
+      fields {
+        slug
+      }
       frontmatter {
         title
         description
         author
         date
+        lang
       }
     }
   }
