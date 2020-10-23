@@ -1,42 +1,12 @@
 :root {
   /* Fonts */
   --primary-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --highlight-font: "Recursive", sans-serif;
 
-  /* Colours */
-  --rich-black: hsl(210, 50%, 1%);
-
-  --mod-light: 95%;
-  --mod-medium: 40%;
-  --mod-dark: 35%;
-  --main-bg-light: hsl(162, 82%, var(--mod-light));
-  --main-bg-medium: hsl(162, 82%, var(--mod-medium));
-  --main-bg-dark: hsl(162, 82%, var(--mod-dark));
-
-  /* Open Colors */
-
-    /* Gray */
-    --oc-gray-0: #f8f9fa;
-    --oc-gray-0-rgb: 248, 249, 250;
-    --oc-gray-1: #f1f3f5;
-    --oc-gray-1-rgb: 241, 243, 245;
-    --oc-gray-2: #e9ecef;
-    --oc-gray-2-rgb: 233, 236, 239;
-    --oc-gray-3: #dee2e6;
-    --oc-gray-3-rgb: 222, 226, 230;
-    --oc-gray-4: #ced4da;
-    --oc-gray-4-rgb: 206, 212, 218;
-    --oc-gray-5: #adb5bd;
-    --oc-gray-5-rgb: 173, 181, 189;
-    --oc-gray-6: #868e96;
-    --oc-gray-6-rgb: 134, 142, 150;
-    --oc-gray-7: #495057;
-    --oc-gray-7-rgb: 73, 80, 87;
-    --oc-gray-8: #343a40;
-    --oc-gray-8-rgb: 52, 58, 64;
-    --oc-gray-9: #212529;
-    --oc-gray-9-rgb: 33, 37, 41;
-
+  /* Colors */
+  --primary-color: #12b886;
+  --primary-color-dark: #099268;
+  --secondary-color: #e6144a;
+  --text-color: #212529;
 
   /* Sizes and widths */
   --content-w-wide: 80rem;
