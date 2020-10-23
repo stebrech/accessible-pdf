@@ -4,7 +4,7 @@ import style from "./footer.module.css"
 
 const Footer = ({ siteTitle }) => (
   <footer className={style.colophon}>
-    © {new Date().getFullYear()} {siteTitle}
+    Creative Commons Attribution 4.0 International License
   </footer>
 )
 

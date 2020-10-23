@@ -22,7 +22,7 @@
     text-decoration: underline;
   }
   
-  @media screen and (max-width:40rem) {
+  @media screen and (max-width:60rem) {
     .navigation::before,
     .navigation::after {
       display: block;
@@ -33,7 +33,7 @@
     }
   }
   
-  @media screen and (min-width:40rem) {
+  @media screen and (min-width:60rem) {
     .navigation {
       display: flex;
       align-items: center;
