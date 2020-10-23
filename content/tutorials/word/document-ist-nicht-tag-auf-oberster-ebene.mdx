@@ -1,0 +1,28 @@
+---
+title: <code>Document</code> ist nicht Tag auf oberster Ebene
+slug: /tutorials/word/document-is-not-the-top-level-tag
+lang: de-CH
+template: tutorials
+author: Stefan Brechbühl
+date: 2019-12-09
+description: Ein aus Word konvertiertes PDF enthält als oberster Container das &lt;Part&gt; Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere &lt;Document&gt; Tag verwendet werden.
+---
+## Problembeschreibung
+
+Ein aus Word konvertiertes PDF enthält als oberster Container das `<Part>` Element. Für die oberste Strukturebene sollte jedoch das semantisch geeignetere `<Document>` Tag verwendet werden.
+
+Problem wurde festgestellt bei der PDF-Konvertierung aus:
+
+- Microsoft Word 2013 für Windows
+
+### PAC 3 Warnung
+
+> Strukturelement „Part“ als Basiselement verwendet
+
+### Prüfpunkt des Matterhorn Protokolls
+
+> **01-006** Der Strukturtyp und Attribute eines Strukturelementes sind nicht semantisch geeignet für das Strukturelement. Alle Strukturelemente müssen in Betracht gezogen werden. (→ [manuelle Prüfung](https://accessible-pdf.info/de/glossar/#manuelle-pruefung))
+
+## Manueller Lösungsweg in Acrobat
+
+Der oberste `<Part>` *Tag* muss in den `<Document>` *Tag* geändert werden, siehe dazu [„PDF-Tags in Acrobat ändern“](https://accessible-pdf.info/de/basics/pdf-tags-in-acrobat-aendern/).

@@ -1,6 +1,0 @@
-Reihenfolge aus Artikel-Panel wird nicht übernommen
-
-Pfade aus InDesign nicht als Artefakt
-
-Ersatztext aus InDesign
-
