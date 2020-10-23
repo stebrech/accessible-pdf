@@ -15,6 +15,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       node,
       value: `${value}`,
     })
+    createNodeField({
+      name: `collection`,
+      node,
+      value: getNode(node.parent).sourceInstanceName
+    });
   }
 }
 
@@ -30,8 +35,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             id
             fields {
               slug
+              collection
             }
             frontmatter {
+              slug
               template
             }
           }
@@ -48,25 +55,37 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const posts = result.data.allMdx.edges
 
   // you'll call `createPage` for each result
-  posts.forEach(({ node }, index) => {
+  posts.forEach(({ node }) => {
+
     if (node.frontmatter.template === 'basics') {
       createPage({
-        // This is the slug you created before
-        // (or `node.frontmatter.slug`)
-        path: `/basics${node.fields.slug}`,
-        // This component will wrap our MDX content
+        path: `/${node.frontmatter.slug}`,
         component: path.resolve(`./src/templates/basics.js`),
-        // You can use the values in this context in
-        // our page layout component
-        context: { id: node.id },
+        context: { 
+          id: node.id,
+          slug: node.frontmatter.slug,
+          lang: node.frontmatter.lang,
+        },
       })
     }
-    else {
+
+    else if (node.frontmatter.template === 'tutorials') {
       createPage({
         path: `/tutorials${node.fields.slug}`,
         component: path.resolve(`./src/templates/tutorials.js`),
         context: { id: node.id },
       })
     }
+
+    else {
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/glossary.js`),
+        context: { id: node.id },
+      })
+    }
   })
 }
+
+
+

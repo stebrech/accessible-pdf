@@ -7,13 +7,54 @@ module.exports = {
     author: 'Stefan Brechbühl',
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-anchor-links`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: `gatsby-plugin-mdx`,
+      resolve: `gatsby-transformer-remark`,
       options: {
-        defaultLayouts: { default: path.resolve('./src/components/layout.js') },
+        plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+          },
+        ],
       },
     },
-    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      gatsbyRemarkPlugins: [
+        {
+          resolve: `gatsby-remark-autolink-headers`,
+        },
+        {
+          resolve: `gatsby-remark-images`,
+          options: {
+            maxWidth: 960,
+            quality: 90,
+            linkImagesToOriginal: false,
+          }
+        }
+      ],
+    },
+    {
+      resolve: `gatsby-plugin-intl`,
+      options: {
+        path: `${__dirname}/src/intl`,
+        languages: [`en`, `de-CH`],
+        defaultLanguage: `en`,
+        redirect: false,
+      },
+    },
+    // {
+    //   resolve: 'gatsby-plugin-i18n',
+    //   options: {        
+    //     langKeyDefault: 'en',
+    //     useLangKeyLayout: true,
+    //     pagesPaths: [ "/content/basics/", '/content/tutorials' ]
+    //   }
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -42,8 +83,13 @@ module.exports = {
         path: `${__dirname}/content/tutorials`
       }
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `glossary`,
+        path: `${__dirname}/content/glossary`
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
