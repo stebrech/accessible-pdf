@@ -129,6 +129,7 @@ code, kbd, tt, var {
 /* HR */
 
 hr {
+    border: none;
     border-top: 3px dotted var(--primary-color-6);
     margin-top: 3rem;
 }
