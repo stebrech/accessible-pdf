@@ -35,7 +35,12 @@
 }
 
 .mainnav a:hover {
+  color: var(--secondary-color);
   text-decoration: underline;
+}
+
+.mainnav a:focus {
+  color: var(--secondary-color);
 }
 
 .mainnav .lang a {

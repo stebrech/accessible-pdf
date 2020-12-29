@@ -93,9 +93,10 @@ a:hover {
     outline: 2px solid var(--secondary-color);
 }
 
-#primary a:focus {
+a:focus {
     background-color: #fff;
     color: var(--secondary-color);
+    text-decoration: none;
 }
 
 *:focus:not(:focus-visible) {
