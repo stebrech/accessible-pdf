@@ -1,0 +1,31 @@
+.footernav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.footernav .menuitem {
+  list-style-type: none;
+  margin: 0 .5rem 1rem 0;
+}
+
+.footernav .menuitem a {
+  background: #fff;
+  border-bottom: 3px solid var(--primary-color-9);
+  color: var(--primary-color-9);
+  display: block;
+  padding: .5rem;
+  text-decoration: none;
+}
+
+.footernav .menuitem a:hover {
+  border-bottom-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.footernav .menuitem a:focus {
+  border-bottom-color: transparent;
+  color: var(--secondary-color);
+}

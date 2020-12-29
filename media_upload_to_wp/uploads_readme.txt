@@ -1,1 +1,0 @@
-Contributors can use this folder to upload their media files. After approval and optimisation, the file will be uploaded to WP.

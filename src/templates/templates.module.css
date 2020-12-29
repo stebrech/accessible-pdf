@@ -1,0 +1,147 @@
+/* Article */
+
+article.basics,
+article.tutorials {
+    background: #fff;
+    box-shadow: 0.5rem 0.5rem 0 var(--primary-color-8);
+    order: 2;
+    margin-top: 1rem;
+}
+
+article.basics .maincontent,
+article.tutorials .maincontent {
+    padding: 0.8rem 1rem 1rem;
+}
+
+@media screen and (min-width: 60rem) {
+    article.basics,
+    article.tutorials {
+        margin-top: 0;
+        width: 40rem;
+    }
+
+    article.basics .maincontent,
+    article.tutorials .maincontent {
+        padding: 1.8rem 2rem 2rem;
+    }
+}
+@media screen and (min-width: 60rem) {
+    article.default {
+        font-size: 1.25rem;
+    }
+}
+
+.article_title {
+    color: var(--primary-color-9);
+}
+
+article.default .article_title {
+    color: var(--text-color);
+}
+
+@media screen and (min-width: 60rem) {
+    article.default .article_title {
+        font-size: 3.5rem;
+    }
+}
+
+.article_metadata {
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.article_metadata + p {
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin: 1.5rem 0
+}
+
+article.default .article_title + p {
+    color: var(--text-color);
+    font-size: 1.25rem;
+    line-height: 1.3;
+    margin-top: 1rem;
+}
+
+@media screen and (min-width: 60rem) {
+    article.default .article_title + p {
+        font-size: 1.5rem;
+    }    
+}
+
+article.basics a,
+article.tutorials a {
+    color: var(--secondary-color);
+}
+
+
+/* Media */
+
+.default img {
+    border-bottom: 0.5rem solid var(--primary-color-8);
+}
+
+
+/* Sidebar */
+
+@media screen and (min-width: 40rem) {
+    .flex_nav {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 60rem) {
+    .sidebar {
+        padding-right: 0.5rem;
+        width: 20rem;
+    }
+
+    .flex_nav {
+        display: block;
+    }
+}
+
+.sidebar_title {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 60rem) {
+    .sidebar_title {
+        margin-top: 2.25rem;
+    }
+}
+
+.sidebar_nav_subtitle {
+    font-size: 1rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.sidebar_nav_list {
+    font-size: .8rem;
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar_nav_listitem {
+    margin: 0;
+}
+
+.sidebar_nav_listitem a {
+    background: #fff;
+    border-bottom: 3px solid var(--primary-color-6);
+    color: var(--primary-color-9);
+    display: block;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.sidebar_nav_listitem a:focus,
+.sidebar_nav_listitem a:hover,
+.sidebar_nav_listitem a.active {
+    border-bottom-color: var(--secondary-color);
+    color: var(--secondary-color);
+}

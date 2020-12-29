@@ -1,0 +1,46 @@
+html {
+    background: var(--primary-color-8);
+    scroll-behavior: smooth;
+}
+  
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+@media screen and (min-width: 40rem) {
+  html {
+    font-size: 112.5%; /* 1rem = 18px */
+  }
+}
+
+body {
+  background: var(--primary-color-6);
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: var(--primary-font);
+  letter-spacing: -0.015em;
+  text-align: left;
+}
+
+.site_main {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto 2rem;
+  padding: 0 1rem;
+  max-width: var(--content-w-regular );
+}
+
+@media screen and (min-width: 60rem) {
+  .site_main {
+    flex-direction: row;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .site_main {
+    padding: 0;
+  }
+}
