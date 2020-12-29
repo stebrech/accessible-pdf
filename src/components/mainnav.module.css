@@ -1,53 +1,58 @@
-.navigation ul {
+.mainnav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  padding: 0;
+}
+  
+.mainnav .menuitem {
+  margin: 0 0.5rem;
+  list-style-type: none;
+}
+
+.mainnav .menuitem a {
+  color: var(--primary-color-9);
+  font-size: 1.25rem;
+}
+
+.mainnav .lang {
+  list-style-type: none;
+  margin: 0;
+}
+
+.mainnav .lang:first-of-type {
+  margin-left: 0.5rem;
+}
+
+.mainnav a {
+  display: block;
+  line-height: 2;
+  margin-left: 3px;
+  padding: 0 0.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.mainnav a:hover {
+  text-decoration: underline;
+}
+
+.mainnav .lang a {
+  background: var(--color-gray-bright);
+  padding: 0.25rem 0.5rem;
+}
+  
+@media screen and (min-width:60rem) {
+  .mainnav {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 1rem;
-    padding: 0;
+    align-items: center;
+    justify-content: flex-end;
   }
-  
-  .navigation li {
-    margin: 0 0.5rem;
-    list-style-type: none;
+
+  .mainnav ul {
+    margin: 0;
+    justify-content: flex-end;
   }
-  
-  .navigation a {
-    display: block;
-    line-height: 2;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  .navigation a:hover {
-    text-decoration: underline;
-  }
-  
-  @media screen and (max-width:60rem) {
-    .navigation::before,
-    .navigation::after {
-      display: block;
-      width: 1rem;
-      margin: 1rem auto;
-      content: "";
-      border-bottom: 1px solid currentColor;
-    }
-  }
-  
-  @media screen and (min-width:60rem) {
-    .navigation {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-    }
-  
-    .navigation ul {
-      margin: 0;
-      justify-content: flex-end;
-    }
-  
-    .navigation li {
-      margin-right: 0;
-      margin-left: 2rem;
-    }
-  }
+}
   

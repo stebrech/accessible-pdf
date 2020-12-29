@@ -1,27 +1,27 @@
 const path = require("path")
+// const { createFilePath } = require("gatsby-source-filesystem")
 
-const { createFilePath } = require("gatsby-source-filesystem")
-exports.onCreateNode = ({ node, actions, getNode }) => {
-  const { createNodeField } = actions
-  // you only want to operate on `Mdx` nodes. If you had content from a
-  // remote CMS you could also check to see if the parent node was a
-  // `File` node here
-  if (node.internal.type === "Mdx") {
-    const value = createFilePath({ node, getNode })
-    createNodeField({
-      // Name of the field you are adding
-      name: "slug",
-      // Individual MDX node
-      node,
-      value: `${value}`,
-    })
-    createNodeField({
-      name: `collection`,
-      node,
-      value: getNode(node.parent).sourceInstanceName
-    });
-  }
-}
+// exports.onCreateNode = ({ node, actions, getNode }) => {
+//   const { createNodeField } = actions
+
+//   if (node.internal.type === `Mdx`) {
+//     const value = createFilePath({ node, getNode })
+//     createNodeField({
+//       name: `slug`,
+//       node,
+//       value,
+//     })
+
+//     const parent = getNode(node.parent)
+//     let collection = parent.sourceInstanceName
+//     createNodeField({
+//       node,
+//       name: "collection",
+//       value: collection,
+//     })
+//   }
+// }
+
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
   // Destructure the createPage function from the actions object
@@ -34,8 +34,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           node {
             id
             fields {
-              slug
-              collection
+              locale
             }
             frontmatter {
               slug
@@ -59,33 +58,35 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
     if (node.frontmatter.template === 'basics') {
       createPage({
-        path: `/${node.frontmatter.slug}`,
+        path: node.frontmatter.slug,
         component: path.resolve(`./src/templates/basics.js`),
         context: { 
-          id: node.id,
           slug: node.frontmatter.slug,
-          lang: node.frontmatter.lang,
+          locale: node.fields.locale 
         },
       })
     }
 
     else if (node.frontmatter.template === 'tutorials') {
       createPage({
-        path: `/tutorials${node.fields.slug}`,
+        path: node.frontmatter.slug,
         component: path.resolve(`./src/templates/tutorials.js`),
-        context: { id: node.id },
+        context: { 
+          slug: node.frontmatter.slug,
+          locale: node.fields.locale 
+        },
       })
     }
 
     else {
       createPage({
-        path: node.fields.slug,
-        component: path.resolve(`./src/templates/glossary.js`),
-        context: { id: node.id },
+        path: node.frontmatter.slug,
+        component: path.resolve(`./src/templates/default.js`),
+        context: { 
+          slug: node.frontmatter.slug,
+          locale: node.fields.locale 
+        },
       })
     }
   })
 }
-
-
-
