@@ -10,7 +10,7 @@ const BasicsNavigation = () => {
 
     return (
     <>
-        <h2 className={style.sidebar_title}>Basics Articles</h2>
+        <h2 className={style.sidebar_title}>{intl.formatMessage({ id: "subnav.basics.title" })}</h2>
 
         <div className={style.flex_nav}>   
             <nav className={style.sidebar_nav}>
