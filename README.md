@@ -15,7 +15,7 @@ Besides the usual formatting options with markdown, the following components are
 
 ## Metadata header
 
-Any MDX file needs a bit of essetial metadata at the beginning of the document:
+Any MDX file needs a bit of essential metadata at the beginning of the document:
 
 ```
 ---
