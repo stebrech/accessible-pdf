@@ -79,6 +79,7 @@ article.tutorials a {
 
 .default img {
     border-bottom: 0.5rem solid var(--primary-color-8);
+    box-sizing: content-box;
 }
 
 
