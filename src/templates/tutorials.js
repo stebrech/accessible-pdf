@@ -30,7 +30,7 @@ export default function PageTemplate({ data: { mdx } }) {
 
 				<article className={style.tutorials}>
 					<div className={style.maincontent}>
-						<h1 id="article-title" className={style.article_title}>{mdx.frontmatter.title}</h1>
+						<h1 className={style.article_title}>{mdx.frontmatter.title}</h1>
 						<p className={style.article_metadata}>
 							<span className={style.article_author}>
 								{intl.formatMessage({ id: "article.meta.author" })} {mdx.frontmatter.author}
