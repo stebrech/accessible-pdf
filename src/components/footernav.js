@@ -22,7 +22,7 @@ const FooterNav = () => {
           </LocalizedLink>
         </li>
         <li className={style.menuitem}>
-          <a href="https://github.com/pixelstrolch/accessible-pdf/blob/master/CONTRIBUTING.md">
+          <a href="https://github.com/pixelstrolch/accessible-pdf/blob/public/CONTRIBUTING.md">
             {intl.formatMessage({ id: "menuLink.contributorsGuide" })}
           </a>
         </li>
