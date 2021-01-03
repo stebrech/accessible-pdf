@@ -80,7 +80,7 @@ const BasicsNavigation = () => {
                 <h3 className={style.sidebar_nav_subtitle}>{intl.formatMessage({ id: "subnav.basics.acrobat.title" })}</h3>
                 <ul className={style.sidebar_nav_list}>
                     <li className={style.sidebar_nav_listitem}>
-                        <LocalizedLink activeClassName={`active`} to={`/basics/general/general-working-with-pdf-tags-in-acrobat/#article-title`}>
+                        <LocalizedLink activeClassName={`active`} to={`/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#article-title`}>
                             {intl.formatMessage({ id: "subnav.basics.acrobat.post-general" })}
                         </LocalizedLink>
                     </li>
