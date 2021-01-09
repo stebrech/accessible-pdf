@@ -1,25 +1,25 @@
 .coffee {
-    align-items: center;
-    background: var(--color-gray-bright);
-    display: grid;
-    gap: 0 1rem;
-    grid-template-columns: 2rem auto;
-    margin-top: 1rem;
-    padding: 1.8rem 1rem 2rem;
+  align-items: center;
+  background: var(--color-gray-bright);
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: 2rem auto;
+  margin-top: 1rem;
+  padding: 1.8rem 1rem 2rem;
 }
 
 @media screen and (min-width: 60rem) {
-    .coffee {
-        margin-top: 0;
-        padding: 1.8rem 2rem 2rem;
-    }
+  .coffee {
+    margin-top: 0;
+    padding: 1.8rem 2rem 2rem;
+  }
 }
 
 .coffee p {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .logoBmc {
-    grid-row: span 2;
-    max-width: 2rem;
+  grid-row: span 2;
+  max-width: 2rem;
 }
