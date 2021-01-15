@@ -1,5 +1,5 @@
 # Redirects from what the browser requests to what we serve
-accessible-pdf.netlify.app/*                                            accessible-pdf.info/:splat
+https://accessible-pdf.netlify.app/*                                    https://accessible-pdf.info/:splat
 /de/basics-category/acrobat/                                            /de/basics/acrobat/general-working-with-pdf-tags-in-acrobat
 /de/basics-category/allgemein/                                          /de/basics/general/structure-with-the-help-of-multi-level-headings
 /de/basics-category/indesign/                                           /de/basics/indesign/defining-pdf-tags-in-indesign
