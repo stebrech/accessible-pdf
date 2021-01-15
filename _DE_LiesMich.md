@@ -32,6 +32,10 @@ description: Eine kurze Beschreibung. Es ist gewöhnlich identisch mit dem Lead 
 
 Ich schätze deine Hilfe und Vorschläge zur Verbesserung der Website sehr. Bitte schaue dir dazu die [CONTRIBUTING.md](CONTRIBUTING.md#de) an.
 
+### Beginner
+
+Wenn du noch keine Erfahrungen mit Git und dem Mitwirken auf Github hast – kein Problem. Es existiert ein nützliches Repository wo du das lernen kannst: [first-contributions](https://github.com/firstcontributions/first-contributions)
+
 ## Lizenz
 
 Die Website-Inhalte sind lizensiert unter der [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).

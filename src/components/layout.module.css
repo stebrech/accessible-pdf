@@ -1,12 +1,12 @@
 html {
-    background: var(--primary-color-8);
-    scroll-behavior: smooth;
+  background: var(--primary-color-8);
+  scroll-behavior: smooth;
 }
   
 @media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 @media screen and (min-width: 40rem) {

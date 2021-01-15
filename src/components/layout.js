@@ -13,41 +13,41 @@ import "../styles/general.css"
 import style from './layout.module.css'
 
 const Layout = ({ children }) => {
-	const intl = useIntl()
+  const intl = useIntl()
 
-	return(
-		<StaticQuery
-			query={graphql`
-				query SiteTitleQuery {
-					site {
-						siteMetadata {
-							title
-							description
-						}
-					}
-				}
-			`}
-			render={data => (
-				<>
-					<a className="skip-link screen-reader-text" href="#primary">
-						{intl.formatMessage({ id: "skip.content" })}
-					</a>
-					<Header
-						siteTitle={data.site.siteMetadata.title}
-						siteDescription={data.site.siteMetadata.description}
-					/>
-					<main id="primary" className={style.site_main}>
-						{children}
-					</main>
-					<Footer siteTitle={data.site.siteMetadata.title} />
-				</>
-			)}
-		/>
-	)
+  return(
+    <StaticQuery
+      query={graphql`
+        query SiteTitleQuery {
+          site {
+            siteMetadata {
+              title
+              description
+            }
+          }
+        }
+      `}
+      render={data => (
+        <>
+          <a className="skip-link screen-reader-text" href="#primary">
+            {intl.formatMessage({ id: "skip.content" })}
+          </a>
+          <Header
+            siteTitle={data.site.siteMetadata.title}
+            siteDescription={data.site.siteMetadata.description}
+          />
+          <main id="primary" className={style.site_main}>
+            {children}
+          </main>
+          <Footer siteTitle={data.site.siteMetadata.title} />
+        </>
+      )}
+    />
+  )
 }
 
 Layout.propTypes = {
-	children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

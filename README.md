@@ -32,6 +32,10 @@ description: A short description. It is usually the same as the lead of the post
 
 I appreciate your help and suggestions how to improve the site. Please have a look at the [CONTRIBUTING.md](CONTRIBUTING.md)
 
+### Beginners
+
+If you have no experience with Git and contributing on Github – no problem. There is a useful repository you can learn that: [first-contributions](https://github.com/firstcontributions/first-contributions)
+
 ## License
 
 The content of this site is licensed under the [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
