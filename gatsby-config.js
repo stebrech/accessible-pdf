@@ -105,7 +105,7 @@ module.exports = {
         background_color: '#f1f3f5',
         theme_color: '#087f5b',
         display: 'minimal-ui',
-        icon: 'static/images/logo_accessiblePDF.png', // This path is relative to the root of the site.
+        icon: 'static/images/logo_accessiblePDF_square.png', // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
