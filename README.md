@@ -2,7 +2,14 @@
 
 This is the repository of the website [accessible-pdf.info](https://accessible-pdf.info). The site is built with the React based framework [Gatsby](https://www.gatsbyjs.com/), hosted and deployed with [Github](https://github.com/) and [Netlify](https://www.netlify.com/).
 
-## Markdown content
+## Install locally
+
+1. Clone this repository to your local machine
+2. Navigate to the folder and run `npm install`
+3. Run the command `gatsby develop`
+4. If you’re finished, stop your development server (with `Ctrl + C` on your command line)
+
+## Markdown content
 
 It’s content is written in Markdown, a lightweight markup language. Actually, there are [MDX](https://mdxjs.com/) files that allow JSX within Markdown.
 

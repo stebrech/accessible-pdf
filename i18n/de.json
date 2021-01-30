@@ -51,5 +51,8 @@
   "article.meta.updated": "zuletzt aktualisiert am",
   "article.meta.category": "PDF/UA Fehlerbedingung(en):",
   "coffee.question": "Hat dir diese Anleitung geholfen?",
-  "coffee.link": "Du könntest mir einen Kaffee spendieren"
+  "coffee.link": "Du könntest mir einen Kaffee spendieren",
+  "error.title": "Seite nicht gefunden",
+  "error.description": "Oh nein, irgendetwas ist schief gegangen. Die aufgerufene Seite scheint nicht zu existieren. Vielleicht wurde sie gelöscht oder verschoben.",
+  "error.dog": "Traurig aussehnder Hund trägt eine Jeansjacke."
 }
