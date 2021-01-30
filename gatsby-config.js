@@ -103,13 +103,11 @@ module.exports = {
         short_name: 'PDFa11y',
         start_url: '/',
         background_color: '#f1f3f5',
-        theme_color: '#087f5b',
+        theme_color: '#099268',
         display: 'minimal-ui',
-        icon: 'static/images/logo_accessiblePDF_square.png', // This path is relative to the root of the site.
+        icon: 'static/images/logo_accessiblePDF_square.png',
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
