@@ -44,7 +44,6 @@ export default function PageTemplate({ data: { mdx } }) {
                   {intl.formatMessage({ id: "article.meta.updated" })} <FormattedDate value={mdx.frontmatter.date}/>
                 </span>
               </p>
-              <p className={style.article_lead}>{mdx.frontmatter.description}</p>
               <MDXProvider components={shortcodes}>
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider>
