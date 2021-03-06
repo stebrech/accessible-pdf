@@ -4,7 +4,7 @@ slug: /basics/general/overview-of-the-pdf-tags
 lang: de-CH
 template: basics
 author: Stefan Brechbühl
-date: 2020-12-07
+date: 2021-03-05
 description: Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
 ---
 
@@ -24,75 +24,588 @@ da sie für die Verwendung nicht empfohlen oder nicht relevant sind.
 
 Es liegt nahe, dass gruppierende Elemente grundsätzlich Block-Elemente und Block-Elemente grundsätzlich Inline-Elemente enthalten. Der Standard gibt nicht immer klar vor, welche Konstellationen möglich sind. Die illustrierende Elemente können als Block- oder Inline-Elemente fungieren.
 
-<WarningMessage>
-In der dritten und vierten Spalte der Übersicht werden semantisch sinnvolle Kombinationen aufgezeigt. Zwar lässt der Standard noch weitere Konstellationen zu, sie werden aber nicht als semantisch sinnvoll erachtet. Auf Vollständigkeit wird jedoch keine Gewähr gegeben.
-</WarningMessage>
-
 <NoteMessage>
 Praktische Anwendungsbeispiele und Informationen bietet das Dokument <a href="https://www.pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/">“Tagged PDF Best Practice Guide: Syntax”</a> der PDF Association.
 </NoteMessage>
 
+```toc
+# This code block gets replaced with the TOC
+from-heading: 2
+to-heading: 4
+```
+
 ## Gruppierende Elemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `Document` | Bildet ein komplettes Dokument ab | – | [Gruppierende Elemente](#gruppierende-elemente), [Block-Elemente](#block-elemente) |
-| `Part` | Teilung eines grösseren Dokuments in kleinere, zusammengehörende Teile | `Document` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-Elemente](#block-elemente) |
-| `Art` | Inhaltsteile, die zusammen abschliessend sind, also ein Artikel oder ein Teil eines Dokuments | `Document`, `Part`, `Sect`, `Div`, `BlockQuote` | `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-Elemente](#block-elemente) |
-| `Sect` | Gruppierte zusammenhängende Inhaltsteile, beispielsweise mehrere Absätze, die zu einer Gruppe zusammengefasst werden können | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`,  [Block-Elemente](#block-elemente) |
-| `Div` | Generisches Gruppenelement ohne semantische Bedeutung | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOC`, `Index`, [Block-Elemente](#block-elemente) |
-| `BlockQuote` | Ein oder mehrere Absätze, die von einer anderen Autorin / einem anderen Autoren stammt, also zitiert wurde | `Document`, `Part`, `Art`, `Sect`, `Div` | `Art`, `Sect`, `Div`, `Caption`, [Block-Elemente](#block-elemente) |
-| `Caption` | Eine Beschriftung um beispielsweise ein Bild oder eine Tabelle zu beschreiben | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Table`, `L` | `Sect`, `Div`, `BlockQuote`, [Block-Elemente](#block-elemente) |
-| `TOC` | Container für Inhaltsverzeichniseinträge. Kann entweder als flache (alle enthaltene `TOCI` auf einer Ebene) oder komplexe Hierarchie (`TOC` innerhalb eines `TOCI` als Untergruppe) angewendet werden. Kann mehrfach in einem Dokument enthalten sein, da es auch für Bilder- oder Tabellenverzeichnisse verwendet werden kann. Englisch abgekürzt für *Table of contents* | `Document`, `Part`, `Art`, `Sect`, `Div`| `TOCI` |
-| `TOCI` | Eintrag innerhalb eines Inhaltsverzeichnisses (`TOC`). Englisch abgekürzt für *Table of contents item* | `TOC` | `TOC`, `P`, `Lbl`, `Reference` |
-| `Index` | Container für ein Stichwortverzeichnis |`Document`, `Part`, `Art`, `Sect`, `Div` | `L` |
+### `Document`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Bildet ein komplettes Dokument ab</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td>–</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#gruppierende-elemente">Gruppierende Elemente</a>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `Part`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Teilung eines grösseren Dokuments in kleinere, zusammengehörende Teile</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Caption</code>, <code>TOC</code>, <code>Index</code>, <a href="##block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+
+### `Art` 
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Inhaltsteile, die zusammen abschliessend sind, also ein Artikel oder ein Teil eines Dokuments</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Caption</code>, <code>TOC</code>, <code>Index</code>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `Sect`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Gruppierte zusammenhängende Inhaltsteile, beispielsweise mehrere Absätze, die zu einer Gruppe zusammengefasst werden können</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Caption</code>, <code>TOC</code>, <code>Index</code>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `Div`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Generisches Gruppenelement ohne semantische Bedeutung</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Caption</code>, <code>TOC</code>, <code>Index</code>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `BlockQuote`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Ein oder mehrere Absätze, die von einer anderen Autorin / einem anderen Autoren stammt, also zitiert wurde</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>Caption</code>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `Caption`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Eine Beschriftung um beispielsweise ein Bild oder eine Tabelle zu beschreiben</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Table</code>, <code>L</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <a href="#block-elemente">Block-Elemente</a></td>
+    </tr>
+</table>
+
+### `TOC`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Container für Inhaltsverzeichniseinträge. Kann entweder als flache (alle enthaltene</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>TOCI</code> auf einer Ebene) oder komplexe Hierarchie (<code>TOC</code> innerhalb eines <code>TOCI</code> als Untergruppe) angewendet werden. Kann mehrfach in einem Dokument enthalten sein, da es auch für Bilder- oder Tabellenverzeichnisse verwendet werden kann. Englisch abgekürzt für „Table of contents“</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>| <code>TOCI</code></td>
+    </tr>
+</table>
+
+### `TOCI`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Eintrag innerhalb eines Inhaltsverzeichnisses (<code>TOC</code>). Englisch abgekürzt für „Table of contents item“</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>TOC</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TOC</code>, <code>P</code>, <code>Lbl</code>, <code>Reference</code></td>
+    </tr>
+</table>
+
+### `Index`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Container für ein Stichwortverzeichnis</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>L</code></td>
+    </tr>
+</table>
 
 ## Block-Elemente
 
 ### Absatzelemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `P` | Gewöhnlicher Absatz; Englisch abgekürzt für *Paragraph* | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Caption`, `TOCI` | [Inline-Elemente](#inline-elemente) |
-| `H1`, `H2`, `H3`, `H4`, `H5`, `H6` | Hierarchische Überschriften der Ebene 1 bis 6; H ist die englisch Abkürzung für *Heading* | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote` | [Inline-Elemente](#inline-elemente) |
+#### `P`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Gewöhnlicher Absatz; Englisch abgekürzt für „Paragraph“</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Caption</code>, <code>TOCI</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#inline-elemente">Inline-Elemente</a></td>
+    </tr>
+</table>
+
+#### `H1`, `H2`, `H3`, `H4`, `H5`, `H6`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Hierarchische Überschriften der Ebene 1 bis 6; H ist die englisch Abkürzung für „Heading“</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#inline-elemente">Inline-Elemente</a></td>
+    </tr>
+</table>
 
 ### Listenelemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `L` | Listencontainer; fasst alle zusammengehörigen Listenelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `Index` | `LI`, `Caption` |
-| `LI` | Container eines Listeneintrags; Kann ein `L` enthalten um mehrstufige Listen zu erstellen | `L` | `Lbl`, `LBody`, `L` |
-| `Lbl` | Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen. *Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. `TOCI` oder `Caption` verwendet werden.* | `LI` | – |
-| `LBody` | Enthält den Inhalt eines Listeneintrags | `LI` | [Inline-Elemente](#inline-elemente) |
+#### `L`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Listencontainer; fasst alle zusammengehörigen Listenelemente zusammen</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>Index</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>LI</code>, <code>Caption</code></td>
+    </tr>
+</table>
+
+#### `LI`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Container eines Listeneintrags; Kann ein <code>L</code> enthalten um mehrstufige Listen zu erstellen</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>L</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Lbl</code>, <code>LBody</code>, <code>L</code></td>
+    </tr>
+</table>
+
+#### `Lbl`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Kommt vom englischen Begriff „Label“ und steht innerhalb einer Liste für die Nummerierung oder das Aufzählungszeichen. <em>Ist eigentlich kein Blockelement und kann auch in anderen Elementen wie z.B. <code>TOCI</code> oder <code>Caption</code> verwendet werden.</em></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>LI</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+#### `LBody`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Enthält den Inhalt eines Listeneintrags</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>LI</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#inline-elemente">Inline-Elemente</a></td>
+    </tr>
+</table>
 
 ### Tabellenelemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `Table` | Tabellencontainer; fasst alle zusammengehörigen Tabellennelemente zusammen | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`  | `TR`, `Caption`, `THead`, `TBody`, `TFoot` |
-| `TR` | Fasst eine Tabellenzeile zusammen; englische abgekürzt für “table row” | `Table`, `THead`, `TBody`, `TFoot` | `TH`, `TD` |
-| `TH` | Tabellenüberschriftszelle; beschreiben die Bedeutung entweder auf horizontaler (Zeile) oder auf vertikaler (Spalte) Ebene | `TR` | [Inline-Elemente](#inline-elemente) |
-| `TD` | Gewöhnliche Tabellendatenzellen | `TR` | [Inline-Elemente](#inline-elemente) |
-| `THead` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenkopf zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
-| `TBody` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
-| `TFoot` | Eine Gruppe Tabellenzeilen (`TR`) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden | `Table` | `TR` |
+#### `Table`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Tabellencontainer; fasst alle zusammengehörigen Tabellennelemente zusammen</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TR</code>, <code>Caption</code>, <code>THead</code>, <code>TBody</code>, <code>TFoot</code></td>
+    </tr>
+</table>
+
+#### `TR`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Fasst eine Tabellenzeile zusammen; englische abgekürzt für “table row”</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Table</code>, <code>THead</code>, <code>TBody</code>, <code>TFoot</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TH</code>, <code>TD</code></td>
+    </tr>
+</table>
+
+#### `TH`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Tabellenüberschriftszelle; beschreiben die Bedeutung entweder auf horizontaler (Zeile) oder auf vertikaler (Spalte) Ebene</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>TR</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#inline-elemente">Inline-Elemente</a></td>
+    </tr>
+</table>
+
+#### `TD`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Gewöhnliche Tabellendatenzellen</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>TR</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><a href="#inline-elemente">Inline-Elemente</a></td>
+    </tr>
+</table>
+
+#### `THead`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Eine Gruppe Tabellenzeilen (<code>TR</code>) um sie als Tabellenkopf zu kennzeichnen; kann optional angewendet werden</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Table</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TR</code></td>
+    </tr>
+</table>
+
+#### `TBody`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Eine Gruppe Tabellenzeilen (<code>TR</code>) um sie als Tabelleninhalt zu kennzeichnen; kann optional angewendet werden</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Table</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TR</code></td>
+    </tr>
+</table>
+
+#### `TFoot`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Eine Gruppe Tabellenzeilen (<code>TR</code>) um sie als Tabellenfusszeile (Ergebniszeile) zu kennzeichnen; kann optional angewendet werden</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Table</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>TR</code></td>
+    </tr>
+</table>
 
 ## Inline-Elemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `Span` | Generischer Container ohne semantische Bedeutung; wird unter anderem für visuelle Auszeichnungen, Sprachenwechsel oder zum Hinzufügen von ActualText (z.B. zum Ignorieren von Trennstrichen) verwendet | `P`, `H1`–`H6`, `LBody`, `TD`, `Quote`, `Note` | – |
-| `Quote` | Wird wie `BlockQuote` für zitierte Inhalte verwendet; `Quote` wird jedoch auf Zeilenebene verwendet | `P`, `H1`–`H6`, `LBody`, `TD` | `Span` |
-| `Note` | Fuss- oder Endnotentext (nicht das Referenzzeichen im Fliesstext). Das Fuss-/Endnotenzeichen wird innerhalb von `Note` und `Reference` in einem  `Lbl` platziert. | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl`, `P`, `Span` |
-| `Reference` | Referenziert auf eine andere Stelle im Dokument, z.B. Fussnote oder Verzeichniseintrag | `P`, `H1`–`H6`, `LBody`, `TD` | `Lbl` |
-| `Code` | Auszeichnung von Programmiersprache | `P`, `H1`–`H6`, `LBody`, `TD` | – |
-| `Link` | Link auf eine Webseite oder auf eine Stelle im Dokument | `P`, `H1`–`H6`, `LBody`, `TD` | – |
-| `Annot` | Anmerkungen (Annotations) die keine Verknüpfung oder Widget (Formularfeld) sind, wie Kommentaren und Videos. | `P`, `H1`–`H6`, `LBody`, `TD` | – |
+### `Span`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Generischer Container ohne semantische Bedeutung; wird unter anderem für visuelle Auszeichnungen, Sprachenwechsel oder zum Hinzufügen von ActualText (z.B. zum Ignorieren von Trennstrichen) verwendet</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code>, <code>Quote</code>, <code>Note</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+### `Quote`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Wird wie <code>BlockQuote</code> für zitierte Inhalte verwendet; <code>Quote</code> wird jedoch auf Zeilenebene verwendet</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Span</code></td>
+    </tr>
+</table>
+
+### `Note`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Fuss- oder Endnotentext (nicht das Referenzzeichen im Fliesstext). Das Fuss-/Endnotenzeichen wird innerhalb von <code>Note</code> und <code>Reference</code> in einem  <code>Lbl</code> platziert.</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Lbl</code>, <code>P</code>, <code>Span</code></td>
+    </tr>
+</table>
+
+### `Reference`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Referenziert auf eine andere Stelle im Dokument, z.B. Fussnote oder Verzeichniseintrag</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td><code>Lbl</code></td>
+    </tr>
+</table>
+
+### `Code`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Auszeichnung von Programmiersprache</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+### `Link`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Link auf eine Webseite oder auf eine Stelle im Dokument</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+### `Annot`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Anmerkungen (Annotations) die keine Verknüpfung oder Widget (Formularfeld) sind, wie Kommentaren und Videos.</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
 
 ## Illustrative Elemente
 
-| PDF *Tag* | Semantische Bedeutung | Mögliche und semantisch sinnvolle Elternelemente | Mögliche und semantisch sinnvolle Kindelemente |
-|:--|:--|:--|:--|
-| `Figure` | Foto oder Grafik | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `LBody`, `TD` | – |
-| `Formula` | Mathematische Formel | `Document`, `Part`, `Art`, `Sect`, `Div`, `BlockQuote`, `P`, `H1`–`H6`, `LBody`, `TD` | – |
-| `Form` | Formularelement | `Document`, `Part`, `Art`, `Sect`, `Div`, `P`, `TD` | – |
+### `Figure`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Foto oder Grafik</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>P</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+### `Formula`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Mathematische Formel</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>BlockQuote</code>, <code>P</code>, <code>H1</code>–<code>H6</code>, <code>LBody</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
+
+### `Form`
+
+<table>
+    <tr>
+      <th class="w30">Semantische Bedeutung</th>
+      <td>Formularelement</td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Elternelemente</th>
+      <td><code>Document</code>, <code>Part</code>, <code>Art</code>, <code>Sect</code>, <code>Div</code>, <code>P</code>, <code>TD</code></td>
+    </tr>
+    <tr>
+      <th class="w30">Mögliche und semantisch sinnvolle Kindelemente</th>
+      <td>–</td>
+    </tr>
+</table>
