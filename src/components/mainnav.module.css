@@ -5,7 +5,7 @@
   margin: 1rem;
   padding: 0;
 }
-  
+
 .mainnav .menuitem {
   margin: 0 0.5rem;
   list-style-type: none;
@@ -47,8 +47,8 @@
   background: var(--color-gray-bright);
   padding: 0.25rem 0.5rem;
 }
-  
-@media screen and (min-width:60rem) {
+
+@media screen and (min-width: 60rem) {
   .mainnav {
     display: flex;
     align-items: center;
@@ -60,4 +60,3 @@
     justify-content: flex-end;
   }
 }
-  

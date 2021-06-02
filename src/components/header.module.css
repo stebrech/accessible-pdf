@@ -27,7 +27,7 @@
   font-size: 1.25rem;
 }
 
-@media screen and (min-width:60rem) {
+@media screen and (min-width: 60rem) {
   .masthead {
     text-align: left;
   }
@@ -55,7 +55,7 @@
   }
 }
 
-@media screen and (min-width:80rem) {
+@media screen and (min-width: 80rem) {
   .masthead {
     padding: 2rem 1rem;
   }

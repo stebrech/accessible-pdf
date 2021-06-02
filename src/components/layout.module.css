@@ -2,7 +2,7 @@ html {
   background: var(--primary-color-8);
   scroll-behavior: smooth;
 }
-  
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -29,7 +29,7 @@ body {
   flex-direction: column;
   margin: 1rem auto 2rem;
   padding: 0 1rem;
-  max-width: var(--content-w-regular );
+  max-width: var(--content-w-regular);
 }
 
 @media screen and (min-width: 60rem) {

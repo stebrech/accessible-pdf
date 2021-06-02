@@ -8,7 +8,6 @@ p {
   margin-top: 1rem;
 }
 
-
 /* Headings */
 
 h1,
@@ -51,7 +50,6 @@ h6 {
   font-weight: normal;
 }
 
-
 /* Lists */
 
 ul,
@@ -61,7 +59,7 @@ ol {
 }
 
 li {
-  margin: .5rem 0 0;
+  margin: 0.5rem 0 0;
 }
 
 li ul,
@@ -120,29 +118,28 @@ a:focus {
   outline: none;
 }
 
-
 /* Blockquote */
 
 blockquote {
   border-left: 5px solid var(--color-gray);
   background: var(--color-gray-bright);
   margin-top: 1rem;
-  padding: .5rem .5rem .5rem .75rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
 }
 
 blockquote > p {
   margin-top: 0;
 }
 
-
 /* Code */
 
-code, kbd, tt, var {
-  background: var(--color-gray-bright);
+code,
+kbd,
+tt,
+var {
   font-family: Consolas, Monaco, "Andale Mono", "DejaVu Sans Mono", monospace;
   font-size: .9em;
 }
-
 
 /* HR */
 
@@ -152,7 +149,6 @@ hr {
   margin-top: 3rem;
 }
 
-
 /* TOC */
 
 .toc + ul p,
@@ -160,21 +156,19 @@ hr {
   margin-top: 0;
 }
 
-
 /* Messages */
 
 .note {
   background: #e7f5ff;
   border-left: 5px solid #228be6;
-  padding: .5rem .5rem .5rem .75rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
 }
 
 .warning {
   background: #fff9db;
   border-left: 5px solid #fab005;
-  padding: .5rem .5rem .5rem .75rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.75rem;
 }
-
 
 /* Glossary TOC */
 
@@ -189,5 +183,6 @@ hr {
   background: #fff;
   display: inline-block;
   margin: 1rem 1rem 0 0;
-  padding: 0 .25rem;
+  padding: 0 0.25rem;
 }
+
