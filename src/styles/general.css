@@ -92,11 +92,11 @@ th, td {
 /* Links */
 
 a {
-  color: var(--text-color);
+  color: var(--color-text);
 }
 
 a:hover {
-  color: var(--text-color);
+  color: var(--color-text);
 }
 
 #primary a:hover {

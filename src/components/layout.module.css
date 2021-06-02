@@ -18,7 +18,7 @@ html {
 body {
   background: var(--primary-color-6);
   box-sizing: border-box;
-  color: var(--text-color);
+  color: var(--color-text);
   font-family: var(--primary-font);
   letter-spacing: -0.015em;
   text-align: left;

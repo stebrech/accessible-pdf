@@ -8,8 +8,11 @@
   --primary-color-8: #099268;
   --primary-color-9: #087f5b;
   --secondary-color: #c92a2a;
-  --text-color: #212529;
+  --color-text: #212529;
   --color-gray: #adb5bd;
+  --color-gray-r: 173;
+  --color-gray-g: 181;
+  --color-gray-b: 189;
   --color-gray-bright: #f1f3f5;
 
   /* Sizes and widths */
