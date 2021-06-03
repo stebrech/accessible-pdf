@@ -71,24 +71,6 @@ ol li {
   padding-left: 1rem;
 }
 
-/* Table */
-
-table {
-  border-collapse: collapse;
-  margin-top: 1rem;
-}
-
-th, td {
-  border-top: 1px solid var(--color-gray);
-  border-bottom: 1px solid var(--color-gray);
-  vertical-align: top;
-}
-
-.w30 {
-  width: 30%;
-}
-
-
 /* Links */
 
 a {
@@ -138,7 +120,7 @@ kbd,
 tt,
 var {
   font-family: Consolas, Monaco, "Andale Mono", "DejaVu Sans Mono", monospace;
-  font-size: .9em;
+  font-size: 0.9em;
 }
 
 /* HR */
@@ -186,3 +168,65 @@ hr {
   padding: 0 0.25rem;
 }
 
+/* Tables */
+
+table {
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th {
+  border-bottom: 2px solid var(--color-text);
+  font-weight: bold;
+}
+
+td {
+  border-bottom: 1px solid var(--color-gray);
+}
+
+th,
+td {
+  padding: 0.25em 1em 0.25em 0;
+  vertical-align: top;
+}
+
+.pdfTags table {
+  width: 60em;
+}
+
+.pdfTags td:nth-child(1) {
+  width: 5em;
+}
+.pdfTags td:nth-child(2) {
+  width: 15em;
+}
+
+.pdfTags td:nth-child(3) {
+  width: 20em;
+}
+
+.pdfTags td:nth-child(4) {
+  width: 20em;
+}
+
+.tableResponsive {
+  background-image: linear-gradient(to right, white, white), linear-gradient(to right, white, white),
+    linear-gradient(
+      to right,
+      rgba(var(--color-gray-r), var(--color-gray-g), var(--color-gray-b), 0.2),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(
+      to left,
+      rgba(var(--color-gray-r), var(--color-gray-g), var(--color-gray-b), 0.2),
+      rgba(255, 255, 255, 0)
+    );
+  /* Shadows */
+  /* Shadow covers */
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 20px 100%, 20px 100%, 20px 100%, 20px 100%;
+  background-attachment: local, local, scroll, scroll;
+  overflow: auto;
+}
