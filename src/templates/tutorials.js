@@ -24,9 +24,6 @@ export default function PageTemplate({ data: { mdx } }) {
         lang={mdx.frontmatter.lang}
       />
       <Layout>
-        <aside className={style.sidebar}>
-          <TutorialsNavigation/>
-        </aside>
 
         <article className={style.tutorials}>
           <div className={style.maincontent}>
@@ -48,6 +45,11 @@ export default function PageTemplate({ data: { mdx } }) {
           </div>
           <Coffee/>
         </article>
+
+        <aside className={style.sidebar}>
+          <TutorialsNavigation/>
+        </aside>
+
       </Layout>
     </>
   )

@@ -2,13 +2,13 @@
   background: var(--primary-color-8);
   border-top: 0.5rem solid var(--primary-color-9);
   color: #000;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   margin-top: auto;
-  padding: 1rem;
   width: 100%;
 }
 
 .footer_container {
   margin: 0 auto;
+  padding: 2rem 1rem 1rem;
   max-width: var(--content-w-wide);
 }

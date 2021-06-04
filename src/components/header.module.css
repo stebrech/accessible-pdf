@@ -1,11 +1,12 @@
 .masthead {
   background-color: white;
   border-bottom: 0.5rem solid var(--primary-color-8);
-  padding: 1rem;
   text-align: center;
 }
 
 .header_container {
+  padding: 1rem;
+  margin: 0 auto;
   max-width: var(--content-w-wide);
 }
 
@@ -35,7 +36,6 @@
   .header_container {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
   }
 
   .masthead_info a {
@@ -56,7 +56,7 @@
 }
 
 @media screen and (min-width: 80rem) {
-  .masthead {
+  .header_container {
     padding: 2rem 1rem;
   }
 }

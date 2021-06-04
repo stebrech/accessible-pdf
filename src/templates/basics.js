@@ -25,14 +25,6 @@ export default function PageTemplate({ data: { mdx } }) {
       />
       <Layout>
         <>
-          <a className="skip-link screen-reader-text" href="#article-title">
-            {intl.formatMessage({ id: "skip.article" })}
-          </a>
-
-          <aside className={style.sidebar}>
-            <BasicsNavigation/>
-          </aside>
-
           <article className={style.basics}>
             <div className={style.maincontent}>
               <h1 className={style.article_title}>{mdx.frontmatter.title}</h1>
@@ -50,6 +42,10 @@ export default function PageTemplate({ data: { mdx } }) {
             </div>
             <Coffee/>
           </article>
+
+          <aside className={style.sidebar}>
+            <BasicsNavigation/>
+          </aside>
         </>
       </Layout>
     </>

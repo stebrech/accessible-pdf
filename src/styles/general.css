@@ -29,24 +29,24 @@ h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2em;
   font-weight: normal;
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: bold;
 }
 
 h4,
 h5,
 h6 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
   font-weight: normal;
 }
 
@@ -55,20 +55,37 @@ h6 {
 ul,
 ol {
   padding: 0;
-  margin: 1rem 0 0 2rem;
+  margin: 1rem 0 0 0;
 }
 
-li {
-  margin: 0.5rem 0 0;
+ul {
+  list-style: none outside;
+}
+
+ul > li {
+  margin: 0.5rem 0 0 2em;
+}
+
+ol > li {
+  margin: 0.5rem 0 0 2em;
+  padding-left: 0.25em;
 }
 
 li ul,
 li ol {
-  margin-left: 1rem;
+  margin: 0.5rem 0 0 0.5em;
 }
 
-ol li {
-  padding-left: 1rem;
+li ul > li {
+  margin-left: 1em;
+}
+
+li ol {
+  list-style-type: lower-latin;
+}
+
+li ol > li {
+  margin-left: 0.5em;
 }
 
 /* Links */
@@ -79,11 +96,6 @@ a {
 
 a:hover {
   color: var(--color-text);
-}
-
-#primary a:hover {
-  background-color: #fff;
-  color: var(--secondary-color);
 }
 
 *:focus {
@@ -168,10 +180,15 @@ hr {
   padding: 0 0.25rem;
 }
 
+.glossary-toc + ul li::before {
+  content: none;
+}
+
 /* Tables */
 
 table {
   border-collapse: collapse;
+  font-size: 1rem;
   margin-top: 1rem;
 }
 
@@ -191,22 +208,22 @@ td {
 }
 
 .pdfTags table {
-  width: 60em;
+  width: 54em;
 }
 
 .pdfTags td:nth-child(1) {
   width: 5em;
 }
 .pdfTags td:nth-child(2) {
-  width: 15em;
+  width: 19em;
 }
 
 .pdfTags td:nth-child(3) {
-  width: 20em;
+  width: 15em;
 }
 
 .pdfTags td:nth-child(4) {
-  width: 20em;
+  width: 15em;
 }
 
 .tableResponsive {
@@ -229,4 +246,10 @@ td {
   background-size: 20px 100%, 20px 100%, 20px 100%, 20px 100%;
   background-attachment: local, local, scroll, scroll;
   overflow: auto;
+}
+
+/* Embeds */
+
+.gatsby-resp-iframe-wrapper {
+  margin-top: 1rem;
 }
