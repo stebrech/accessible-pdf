@@ -1,3 +1,5 @@
+[Zur deutschen Übersetzung](https://github.com/pixelstrolch/accessible-pdf/blob/public/_DE_Mithelfen.md) (Link to the German translation)
+
 # Contributors Guide
 
 Please read and understand the contribution guide before writing an issue or pull request.
