@@ -1,5 +1,6 @@
 .container {
   font-size: 1.25rem;
+  grid-column: 1 / span 4;
 }
 
 @media screen and (min-width: 60rem) {

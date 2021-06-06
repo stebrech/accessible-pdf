@@ -8,7 +8,7 @@
 
 .footernav .menuitem {
   list-style-type: none;
-  margin: 0 .5rem 1rem 0;
+  margin: 0 0.5rem 1rem 0;
 }
 
 .footernav .menuitem a {
@@ -16,7 +16,7 @@
   border-bottom: 3px solid var(--primary-color-9);
   color: var(--primary-color-9);
   display: block;
-  padding: .5rem;
+  padding: 0.5rem;
   text-decoration: none;
 }
 
