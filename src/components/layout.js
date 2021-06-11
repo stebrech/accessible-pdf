@@ -6,11 +6,7 @@ import { useIntl } from "react-intl"
 import Header from './header'
 import Footer from './footer'
 
-import "../styles/reset.css"
-import "../styles/accessibility.css"
-import "../styles/global.module.css"
-import "../styles/general.css"
-import style from './layout.module.css'
+import * as style from './layout.module.css'
 
 const Layout = ({ children }) => {
   const intl = useIntl()

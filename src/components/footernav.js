@@ -2,7 +2,7 @@ import React from "react"
 import { LocalizedLink } from "gatsby-theme-i18n"
 import { useIntl } from "react-intl"
 
-import style from "./footernav.module.css"
+import * as style from "./footernav.module.css"
 
 const FooterNav = () => {
 

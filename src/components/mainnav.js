@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { LocalizedLink } from "gatsby-theme-i18n"
 import { useIntl } from "react-intl"
 
-import style from "./mainnav.module.css"
+import * as style from "./mainnav.module.css"
 
 const MainNav = () => {
 

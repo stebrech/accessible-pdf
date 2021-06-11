@@ -4,8 +4,8 @@ import Img from "gatsby-image"
 import { useIntl } from "react-intl"
 
 import Layout from '../components/layout'
-import SEO from '../components/seo'
-import style from './404.module.css'
+import Seo from '../components/seo'
+import * as style from './404.module.css'
 
 const NotFoundPage = ({ data }) => {
 
@@ -13,11 +13,11 @@ const NotFoundPage = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={intl.formatMessage({ id: "error.title" })} />
+      <Seo title={intl.formatMessage({ id: "error.title" })} />
 
       <div className={style.container}>
         <h1 className={style.title}>{intl.formatMessage({ id: "error.title" })}</h1>
-        <p className={style.description}>{intl.formatMessage({ id: "error.description" })}</p>
+        <p>{intl.formatMessage({ id: "error.description" })}</p>
         <Img className={style.dog} fluid={data.dogImage.childImageSharp.fluid} alt={intl.formatMessage({ id: "error.dog" })} />
       </div>
     </Layout>
