@@ -166,22 +166,20 @@ hr {
 
 /* Glossary TOC */
 
-.glossary-toc + ul,
-.glossary-toc > ul {
+.glossary-toc ul {
   list-style: none;
   margin: 0;
 }
 
-.glossary-toc + ul li,
-.glossary-toc > ul li {
+.glossary-toc li {
   background: #fff;
   display: inline-block;
   margin: 1rem 1rem 0 0;
   padding: 0 0.25rem;
 }
 
-.glossary-toc + ul li::before {
-  content: none;
+.glossary-toc li::before {
+  content: none !important;
 }
 
 /* Tables */
