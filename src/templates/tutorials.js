@@ -10,7 +10,7 @@ import Seo from "../components/seo"
 import { NoteMessage, WarningMessage } from "../components/shortcodes"
 
 import TutorialsNavigation from "./tutorials.navigation"
-import * as style from "../components/layout.module.css"
+import * as style from "./templates.module.css"
 
 const shortcodes = { Link, NoteMessage, WarningMessage } // Provide common components here
 

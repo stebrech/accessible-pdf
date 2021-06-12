@@ -8,7 +8,7 @@ import { NoteMessage, WarningMessage } from "../components/shortcodes"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
-import * as style from "../components/layout.module.css"
+import * as style from "./templates.module.css"
 
 const shortcodes = { Link, AnchorLink, NoteMessage, WarningMessage } // Provide common components here
 

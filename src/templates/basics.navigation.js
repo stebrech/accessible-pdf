@@ -2,7 +2,7 @@ import React from "react"
 import { LocalizedLink } from "gatsby-theme-i18n"
 import { useIntl } from "react-intl"
 
-import * as style from "../components/layout.module.css"
+import * as style from "./templates.module.css"
 
 const BasicsNavigation = () => {
 
