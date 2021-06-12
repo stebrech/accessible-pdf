@@ -24,7 +24,15 @@ In order to transfer this structure information, at the end of this post informa
 
 One of the most important structure elements are multi-level headings, see also [“Structure with the help of multi-level headings”](/basics/general/structure-with-the-help-of-multi-level-headings/). Such structuring can be achieved by consciously using paragraph styles in Word. If used correctly, headings are automatically exported to the PDF with the appropriate tag.
 
-<iframe width="750" height="468" src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en" title="YouTube video tutorial: Defining PDF tags in Word" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe
+  width="750"
+  height="468"
+  src="https://www.youtube-nocookie.com/embed/ahD5WYjfuLE?controls=0&hl=en"
+  title="YouTube video tutorial: Defining PDF tags in Word"
+  frameborder="0"
+  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 Word already provides a large styles catalog, including “Heading 1“ to “Heading 9”. Currently, in PDF there are only `<H1>` to `<H6>` numbered heading tags available. Therefore, the paragraph styles “Heading 7” to “Heading 9” are mapped with a general paragraph tag (`<P>`).
 
@@ -34,12 +42,12 @@ If you want you can use your own paragraph styles and give them the appropriate 
 2. Hover over the style you want to change and click on the appearing dropdown menu.
 3. Click on modify style.
 4. Go to the paragraph settings with the help of the dropdown menu on the bottom left.
-5. The second general option is called the outline level. This level will be used to generate the PDF heading tag: 
-	- Body Text = `<P>`
-	- Level 1 = `<H1>`
-	- Level 2 = `<H2>`
-	- Level 3 = `<H3>`
-	- and so on
+5. The second general option is called the outline level. This level will be used to generate the PDF heading tag:
+   - Body Text = `<P>`
+   - Level 1 = `<H1>`
+   - Level 2 = `<H2>`
+   - Level 3 = `<H3>`
+   - and so on
 
 ![Paragraph format settings with the Outline level option highlighted. Screenshot of Word.](word-outline-level.png)
 
@@ -58,14 +66,15 @@ You can do this with the following buttons:
 Under the third button for creating a multi-level list hides the possibility to define your own list style. Click on “Define New List Style”. This can be used to define the bullets / numbering and their indentations. In addition, each level can be **associated with a paragraph style.**
 
 <NoteMessage>
-Depending on your Word settings, a hyphen followed by a space is automatically converted to a correct list. However, you should not rely on it and consciously format a list.
+  Depending on your Word settings, a hyphen followed by a space is automatically converted to a
+  correct list. However, you should not rely on it and consciously format a list.
 </NoteMessage>
 
-The automatically generated list tags are: 
+The automatically generated list tags are:
 
 - `<L>` = container of the whole list block
-	- `<LI>` = container of a list entry
-		- `<LBody>` = contents of a list entry
+  - `<LI>` = container of a list entry
+    - `<LBody>` = contents of a list entry
 
 PDF actually provides the tag `<Lbl>` for the bullet / the numbering digit. Word does not do this yet and integrates it into `<LBody>` as well. The automatic output is therefore not correct but useable. The use of `<Lbl>` is not mandatory by default.
 
@@ -79,7 +88,7 @@ To add a table, click on “Table” in the menu item “Insert”. The appearin
 
 If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
 
-A correct table always contains header cells which are assigned to other cells. The correct tool to add such header cells are the table style options. There are the options 
+A correct table always contains header cells which are assigned to other cells. The correct tool to add such header cells are the table style options. There are the options
 
 - Header Row
 - First Column
@@ -90,9 +99,7 @@ A correct table always contains header cells which are assigned to other cells. 
 
 Unfortunately, up to and including version 2016, these options only affect the visual formatting, but not the PDF output. In the 365 version, the header cells are automatically tagged correctly. However, these `<TH>` tags lack the Scope attribute, which indicates whether it’s a header cell for the column or row.
 
-<NoteMessage>
-A tutorial to add the Scope attribute is still open.
-</NoteMessage>
+<NoteMessage>A tutorial to add the Scope attribute is still open.</NoteMessage>
 
 In earlier Word versions there is a way to have the first line automatically marked with `<TH>` tags. For this
 
@@ -116,7 +123,12 @@ The menu tab “References“ contains the commands for adding footnotes and end
 The use of the correct commands, however, ensures that the notes are tagged within a `Note` tag too. Unfortunately the output from Word still isn’t accessible. So far all notes of a page are placed within a single `Note` tag instead of each separately. Also, the `Note` tag is listed after the paragraph where the first footnote reference appears. This can lead to a footnote being placed before the corresponding footnote reference. Although PDF 1.7 does not specify exactly where a footnote should be placed, this does not represent an understandable and logical order.
 
 <NoteMessage>
-To be more precise, Word does not place the footnotes within a <code>Note</code> tag, but within a non-standard <code>Footnote</code>. However, Word automatically adds a role mapping entry, which refers <code>Footnote</code> to the standard compliant <code>Note</code> tag. Learn more in <Link to="/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#standardized-tags-and-tags-with-role-mapping">“General working with PDF tags in Acrobat”</Link>
+  To be more precise, Word does not place the footnotes within a <code>Note</code> tag, but within a
+  non-standard <code>Footnote</code>. However, Word automatically adds a role mapping entry, which
+  refers <code>Footnote</code> to the standard compliant <code>Note</code> tag. Learn more in{" "}
+  <Link to="/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#standardized-tags-and-tags-with-role-mapping">
+    “General working with PDF tags in Acrobat”
+  </Link>
 </NoteMessage>
 
 Furthermore, the footnote reference number isn’t automatically tagged within a `Reference` tag.
@@ -131,7 +143,7 @@ In order to create the desired tags during PDF export, the following must be obs
 
 ### Word for Windows
 
-1. Select “File” → “Export“ → “Create PDF/XPS” 
+1. Select “File” → “Export“ → “Create PDF/XPS”
 2. Click on “Options”
 3. Activate the option “Document structure tags for accessibility” if it’s not already activated
 
