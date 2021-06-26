@@ -192,7 +192,7 @@ article.tutorials a {
 
 .sidebar_nav_listitem a:focus,
 .sidebar_nav_listitem a:hover,
-.sidebar_nav_listitem a.active {
+.sidebar_nav_listitem [aria-current="page"] {
   border-bottom-color: var(--secondary-color);
   color: var(--secondary-color) !important;
 }
