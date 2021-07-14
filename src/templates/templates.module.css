@@ -116,6 +116,33 @@ article.tutorials a {
   box-sizing: content-box;
 }
 
+/* Github Link */
+
+.githubAside {
+  align-items: center;
+  display: grid;
+  gap: 0 1rem;
+  grid-template-columns: 2rem auto;
+  margin-top: 1rem;
+  padding: 1.8rem 1rem 2rem;
+}
+
+@media screen and (min-width: 60rem) {
+  .githubAside {
+    margin-top: 0;
+    padding: 1.8rem 2rem 2rem;
+  }
+}
+
+.coffee p {
+  margin-top: 0;
+}
+
+.logoBmc {
+  grid-row: span 2;
+  max-width: 2rem;
+}
+
 /* Sidebar */
 
 .sidebar {

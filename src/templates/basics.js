@@ -40,7 +40,15 @@ export default function PageTemplate({ data: { mdx } }) {
                 <MDXRenderer>{mdx.body}</MDXRenderer>
               </MDXProvider>
             </div>
-            <Coffee/>
+            <div>
+              <aside className={style.githubAside}>
+                <img src="/images/github-logo.svg" className={style.githubIcon} alt={intl.formatMessage({ id: "github.icon" })} />
+                <Link className={style.githubLink} to={`https://github.com/pixelstrolch/accessible-pdf/blob/public/content/basics/${mdx.parent.relativePath}`}>
+                  {intl.formatMessage({ id: "github.edit" })}
+                </Link>
+              </aside>
+              <Coffee/>
+            </div>
           </article>
 
           <aside className={style.sidebar}>
@@ -70,6 +78,11 @@ export const pageQuery = graphql`
         lang
       }
       body
+      parent {
+        ... on File {
+          relativePath
+        }
+      }
     }
   }
 `
