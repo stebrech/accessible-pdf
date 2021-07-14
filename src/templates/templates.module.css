@@ -134,15 +134,6 @@ article.tutorials a {
   }
 }
 
-.coffee p {
-  margin-top: 0;
-}
-
-.logoBmc {
-  grid-row: span 2;
-  max-width: 2rem;
-}
-
 /* Sidebar */
 
 .sidebar {
