@@ -58,5 +58,6 @@
   "error.description": "Oh nein, irgendetwas ist schief gegangen. Die aufgerufene Seite scheint nicht zu existieren. Vielleicht wurde sie gelöscht oder verschoben.",
   "error.dog": "Traurig aussehnder Hund trägt eine Jeansjacke.",
   "github.icon": "Github Logo",
-  "github.edit": "Diesen Beitrag verbessern"
+  "github.edit": "Diesen Beitrag verbessern",
+  "sw.outdated": "Diese Webapp wurde aktualisiert. Willst du neu laden um die neuste Version zu sehen?"
 }

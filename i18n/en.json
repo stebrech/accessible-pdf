@@ -58,5 +58,6 @@
   "error.description": "Oh no, something went wrong. The requested page doesn't seem to exist. Maybe it has been deleted or moved.",
   "error.dog": "Sad looking dog wears a jeans jacket.",
   "github.icon": "Github Logo",
-  "github.edit": "Improve this post"
+  "github.edit": "Improve this post",
+  "sw.outdated": "This web app has been updated. Reload to display the latest version?"
 }
