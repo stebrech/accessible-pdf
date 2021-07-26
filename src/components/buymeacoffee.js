@@ -1,7 +1,7 @@
 import React from "react"
 import { useIntl } from "react-intl"
 
-import style from "./buymeacoffee.module.css"
+import * as style from "./buymeacoffee.module.css"
 
 const Coffee = () => {
   
@@ -14,7 +14,7 @@ const Coffee = () => {
         {intl.formatMessage({ id: "coffee.question" })}
       </p>
       <p>
-        <a href="https://www.buymeacoffee.com/pixelstrolch" className={style.link}>
+        <a href="https://www.buymeacoffee.com/pixelstrolch">
           {intl.formatMessage({ id: "coffee.link" })}
         </a>
       </p>

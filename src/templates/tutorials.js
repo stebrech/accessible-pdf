@@ -4,13 +4,13 @@ import { MDXProvider } from "@mdx-js/react"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import { useIntl, FormattedDate } from "react-intl"
 
-import SEO from "../components/seo"
-import Layout from "../components/layout"
 import Coffee from "../components/buymeacoffee"
+import Layout from "../components/layout"
+import Seo from "../components/seo"
 import { NoteMessage, WarningMessage } from "../components/shortcodes"
 
-import style from "./templates.module.css"
 import TutorialsNavigation from "./tutorials.navigation"
+import * as style from "./templates.module.css"
 
 const shortcodes = { Link, NoteMessage, WarningMessage } // Provide common components here
 
@@ -18,27 +18,24 @@ export default function PageTemplate({ data: { mdx } }) {
   const intl = useIntl()
   return (
     <>
-      <SEO 
+      <Seo 
         title={mdx.frontmatter.title}
         description={mdx.frontmatter.description}
         lang={mdx.frontmatter.lang}
       />
       <Layout>
-        <aside className={style.sidebar}>
-          <TutorialsNavigation/>
-        </aside>
 
         <article className={style.tutorials}>
           <div className={style.maincontent}>
             <h1 className={style.article_title}>{mdx.frontmatter.title}</h1>
             <p className={style.article_metadata}>
-              <span className={style.article_author}>
+              <span>
                 {intl.formatMessage({ id: "article.meta.author" })} {mdx.frontmatter.author}
               </span><br/>
-              <span className={style.article_author}>
+              <span>
                 {intl.formatMessage({ id: "article.meta.updated" })} <FormattedDate value={mdx.frontmatter.date}/>
               </span><br/>
-              <span className={style.article_matterhorn}>
+              <span>
                 {intl.formatMessage({ id: "article.meta.category" })} {mdx.frontmatter.category}
               </span>
             </p>
@@ -46,8 +43,21 @@ export default function PageTemplate({ data: { mdx } }) {
               <MDXRenderer>{mdx.body}</MDXRenderer>
             </MDXProvider>
           </div>
-          <Coffee/>
+          <div>
+            <aside className={style.githubAside}>
+              <img src="/images/github-logo.svg" alt={intl.formatMessage({ id: "github.icon" })} />
+              <Link to={`https://github.com/pixelstrolch/accessible-pdf/blob/public/content/tutorials/${mdx.parent.relativePath}`}>
+                {intl.formatMessage({ id: "github.edit" })}
+              </Link>
+            </aside>
+            <Coffee/>
+          </div>
         </article>
+
+        <aside className={style.sidebar}>
+          <TutorialsNavigation/>
+        </aside>
+
       </Layout>
     </>
   )
@@ -72,6 +82,11 @@ export const pageQuery = graphql`
         category
       }
       body
+      parent {
+        ... on File {
+          relativePath
+        }
+      }
     }
   }
 `

@@ -81,7 +81,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     else {
       createPage({
         path: node.frontmatter.slug,
-        component: path.resolve(`./src/templates/default.js`),
+        component: path.resolve(`./src/templates/post.js`),
         context: { 
           slug: node.frontmatter.slug,
           locale: node.fields.locale 

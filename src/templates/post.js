@@ -5,23 +5,23 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 import { NoteMessage, WarningMessage } from "../components/shortcodes"
 
-import SEO from "../components/seo"
 import Layout from "../components/layout"
+import Seo from "../components/seo"
 
-import style from "./templates.module.css"
+import * as style from "./templates.module.css"
 
 const shortcodes = { Link, AnchorLink, NoteMessage, WarningMessage } // Provide common components here
 
 export default function PageTemplate({ data: { mdx } }) {
   return (
   <>
-    <SEO 
+    <Seo 
       title={mdx.frontmatter.title}
       description={mdx.frontmatter.description}
       lang={mdx.frontmatter.lang}
     />
     <Layout>
-      <article className={style.default}>
+      <article className={style.post}>
         <h1 className={style.article_title}>{mdx.frontmatter.title}</h1>
         <MDXProvider components={shortcodes}>
           <MDXRenderer>{mdx.body}</MDXRenderer>

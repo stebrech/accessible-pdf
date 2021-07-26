@@ -6,11 +6,12 @@ module.exports = {
     siteUrl: 'https://accessible-pdf.info'
   },
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     `gatsby-remark-images`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-anchor-links`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-netlify`,

@@ -23,7 +23,7 @@ There is no warning or error for this issue.
 
 No clear failure condition which applies to this error!
 
-***
+---
 
 ## Automatic approach with axesPDF for Word
 
@@ -41,7 +41,8 @@ hold a block together and start only on the next page or in the next column.
 ![Screenshot from Word with paragraph settings open and the “Line and Page Breaks” tab active. The two options “Keep lines together” and “Page break before” are marked.](word-paragraph-page-break.png)
 
 <WarningMessage>
-This manual approach can only be used situationally. Depending on the layout or large, cross-page block elements, this method does not help.
+  This manual approach can only be used situationally. Depending on the layout or large, cross-page
+  block elements, this method does not help.
 </WarningMessage>
 
 ## Manual approach in Word
@@ -59,20 +60,23 @@ Possible breaks that can prevent a block from being separated:
 ![Screenshot of Word with active “Layout” register and expanded “Breaks” command. The possible wrapping types are marked.](word-breaks.png)
 
 <WarningMessage>
-This manual approach can only be used situationally. Depending on the layout or large, cross-page block elements, this method does not help.
+  This manual approach can only be used situationally. Depending on the layout or large, cross-page
+  block elements, this method does not help.
 </WarningMessage>
 
 ## Manual approach in Acrobat
 
 <WarningMessage>
-The strict post-processing of this issue in Acrobat is often disproportionate. If possible, the solutions described above are always to be preferred. Critical locations in the PDF and the tag tree must be found and corrected manually.
+  The strict post-processing of this issue in Acrobat is often disproportionate. If possible, the
+  solutions described above are always to be preferred. Critical locations in the PDF and the tag
+  tree must be found and corrected manually.
 </WarningMessage>
 
 If block elements are divided, the tag is repeated at the top level after the break. As an example of a list, several `<L>` tags exist. The following screenshots from Acrobat show how a list item itself is separated by a break.
 
 ![Screenshot in Acrobat: First page with three visible list items. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](acrobat-liste-geteilt-1.png)
 
-![Screenshot in Acrobat: Second page with three visible list items, the first of which is the continuation of the last of the first page. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](acrobat-liste-geteilt-2.png) 
+![Screenshot in Acrobat: Second page with three visible list items, the first of which is the continuation of the last of the first page. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](acrobat-liste-geteilt-2.png)
 
 1. First, the contents of `<LBody>` of the first `<LI>` on the second page (3-2) must be moved to `<LBody>` of the last `<LI>` of the first page (3-1). The correct order must be maintained.
 2. Then the two remaining list elements `<LI>` (4 and 5) must be moved within the `<L>` tag of the first page.

@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import { LocalizedLink } from "gatsby-theme-i18n"
 import { useIntl } from "react-intl"
 
-import style from "./mainnav.module.css"
+import * as style from "./mainnav.module.css"
 
 const MainNav = () => {
 
@@ -13,12 +13,12 @@ const MainNav = () => {
     <nav className={style.mainnav}>
       <ul>
         <li className={style.menuitem}>
-          <LocalizedLink activeClassName="active" to={`/basics/general/structure-with-the-help-of-multi-level-headings/`}>
+          <LocalizedLink activeClassName="active" to={`/basics/`}>
             {intl.formatMessage({ id: "menuLink.basics" })}
           </LocalizedLink>
         </li>
         <li className={style.menuitem}>
-          <LocalizedLink activeClassName="active" to={`/tutorials/general/document-title-is-not-set/`}>
+          <LocalizedLink activeClassName="active" to={`/tutorials/`}>
             {intl.formatMessage({ id: "menuLink.tutorials" })}
           </LocalizedLink>
         </li>

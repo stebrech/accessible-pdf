@@ -2,7 +2,7 @@ import React from "react"
 import { LocalizedLink } from "gatsby-theme-i18n"
 import { useIntl } from "react-intl"
 
-import style from "./templates.module.css"
+import * as style from "./templates.module.css"
 
 const TutorialsNavigation = () => {
 
@@ -12,8 +12,7 @@ const TutorialsNavigation = () => {
   <>
     <h2 className={style.sidebar_title}>{intl.formatMessage({ id: "subnav.tutorials.title" })}</h2>
 
-    <div className={style.flex_nav}>
-      <nav className={style.sidebar_nav}>
+      <nav>
         <h3 className={style.sidebar_nav_subtitle}>{intl.formatMessage({ id: "subnav.tutorials.general.title" })}</h3>
         <ul className={style.sidebar_nav_list}>
           <li className={style.sidebar_nav_listitem}>
@@ -44,7 +43,7 @@ const TutorialsNavigation = () => {
         </ul>
       </nav>
 
-      <nav className={style.sidebar_nav}>
+      <nav>
         <h3 className={style.sidebar_nav_subtitle}>{intl.formatMessage({ id: "subnav.tutorials.indesign.title" })}</h3>
         <ul className={style.sidebar_nav_list}>
           <li className={style.sidebar_nav_listitem}>
@@ -55,7 +54,7 @@ const TutorialsNavigation = () => {
         </ul>
       </nav>
 
-      <nav className={style.sidebar_nav}>
+      <nav>
         <h3 className={style.sidebar_nav_subtitle}>{intl.formatMessage({ id: "subnav.tutorials.word.title" })}</h3>
         <ul className={style.sidebar_nav_list}>
         <li className={style.sidebar_nav_listitem}>
@@ -100,7 +99,6 @@ const TutorialsNavigation = () => {
           </li>
         </ul>
       </nav>
-    </div>
   </>
   )
 }
