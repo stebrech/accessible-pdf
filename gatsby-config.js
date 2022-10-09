@@ -90,12 +90,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-matomo',
+      resolve: `gatsby-plugin-plausible`,
       options: {
-        siteId: '2',
-        matomoUrl: 'https://stats.pixelstrol.ch',
-        siteUrl: 'https://accessible-pdf.info'
-      }
+        domain: `accessible-pdf.info`,
+      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
