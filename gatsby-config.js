@@ -14,7 +14,6 @@ module.exports = {
     `gatsby-plugin-anchor-links`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
