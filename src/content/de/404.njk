@@ -2,10 +2,14 @@
 layout: page.njk
 ---
 <div id="errorpage">
-	<h1 class="title">{{ i18n.error.title.de }}</h1>
-	<p>{{ i18n.error.description.de }}</p>
-	<div class="dog">
-		{% image "src/assets/img/dog.jpg",
-		i18n.error.dog.de %}
+	<div class="col">
+		<h1 class="title">{{ i18n.error.title.de }}</h1>
+		<p>{{ i18n.error.description.de }}</p>
+	</div>
+	<div class="col">
+		<div class="dog">
+			{% image "src/assets/img/dog.jpg",
+			i18n.error.dog.de %}
+		</div>
 	</div>
 </div>
