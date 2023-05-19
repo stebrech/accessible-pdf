@@ -1,0 +1,40 @@
+<h2 class="sidebar_title">{{ i18n.subnavTitles.tutorials[page.lang] }}</h2>
+
+<nav aria-label="{{ i18n.subnavTitles.general[page.lang] }}">
+	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.general[page.lang] }}</h3>
+	<ul class="sidebar_nav_list">
+		{%- for post in collections.tutorials_general | sortByTitle %}
+			{%- if post.data.lang == page.lang -%}
+				<li class="sidebar_nav_listitem">
+					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
+				</li>
+			{%- endif -%}
+		{%- endfor %}
+	</ul>
+</nav>
+
+<nav aria-label="{{ i18n.subnavTitles.indesign[page.lang] }}">
+	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.indesign[page.lang] }}</h3>
+	<ul class="sidebar_nav_list">
+		{%- for post in collections.tutorials_indesign | sortByTitle %}
+			{%- if post.data.lang == page.lang -%}
+				<li class="sidebar_nav_listitem">
+					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
+				</li>
+			{%- endif -%}
+		{%- endfor %}
+	</ul>
+</nav>
+
+<nav aria-label="{{ i18n.subnavTitles.word[page.lang] }}">
+	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.word[page.lang] }}</h3>
+	<ul class="sidebar_nav_list">
+		{%- for post in collections.tutorials_word | sortByTitle %}
+			{%- if post.data.lang == page.lang -%}
+				<li class="sidebar_nav_listitem">
+					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
+				</li>
+			{%- endif -%}
+		{%- endfor %}
+	</ul>
+</nav>

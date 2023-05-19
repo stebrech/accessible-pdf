@@ -1,0 +1,21 @@
+<footer class="footer">
+	<div class="footer_container">
+		<nav class="footernav">
+			<ul>
+				{%- for link in collections.footerMenu %}
+					{%- if link.data.lang == page.lang %}
+					<li class="menuitem{% if link.url == page.url %} active{% endif %}">
+						<a href="{{ link.url }}">{{ link.data.title }}</a>
+					</li>
+					{%- endif %}
+				{%- endfor %}
+				<li class="menuitem">
+					<a href="{{ i18n.github.contributorsGuide[page.lang] }}">
+						{{ i18n.github.contributorsGuideText[page.lang] }}
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div>Creative Commons Attribution 4.0 International License</div>
+	</div>
+</footer>

@@ -15,20 +15,18 @@ It’s content is written in Markdown, a lightweight markup language. Actually, 
 
 If Markdown is new to you, I recommend [Markdown Guide](https://www.markdownguide.org/), a good reference guide.
 
-Besides the usual formatting options with markdown, the following components are available:
+Besides the usual formatting options with markdown, the following HTML markup is used for formatting infoboxes:
 
-- `<NoteMessage>` 
-- `<WarningMessage>`
+- `<p class="note"></p>`
+- `<p class="warning"></p>`
 
 ## Metadata header
 
-Any MDX file needs a bit of essential metadata at the beginning of the document:
+Any markdown file needs a bit of essential metadata at the beginning of the document:
 
 ```
 ---
 title: name of the post
-slug: domain path without the language code
-lang: language code
 author: names of all authors
 date: date in ISO 8601 
 description: A short description. It is usually the same as the lead of the post. This description will be used for SEO.
