@@ -2,14 +2,12 @@
 layout: page.njk
 ---
 <div id="errorpage">
-  <div class="col">
-    <h1 class="title">{{ i18n.error.title.en }}</h1>
-    <p>{{ i18n.error.description.en }}</p>
-  </div>
-  <div class="col">
-    <div class="dog">
-      {% image "src/assets/img/dog.jpg",
-      i18n.error.dog.en %}
-    </div>
-  </div>
+	<div class="info">
+		<h1 class="title">{{ i18n.error.title.en }}</h1>
+		<p>{{ i18n.error.description.en }}</p>
+	</div>
+	<div class="image">
+		{% image "src/assets/img/dog.jpg",
+		i18n.error.dog.en %}
+	</div>
 </div>

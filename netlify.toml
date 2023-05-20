@@ -1,20 +1,32 @@
 # tell netlify about your build script and output directory
 
 [build]
-  command = "yarn build"
-  publish = "public"
+	command = "yarn build"
+	publish = "public"
 
 # redirect to german or english landing pages
 
 [[redirects]]
-  from = "/"
-  to = "/de"
-  status = 302
-  force= true
-  conditions = {Language = ["de"]}
+	from = "/"
+	to = "/de"
+	status = 302
+	force= true
+	conditions = {Language = ["de"]}
 
 [[redirects]]
-  from = "/"
-  to = "/en"
-  status = 302
-  force = true
+	from = "/"
+	to = "/en"
+	status = 302
+	force = true
+
+# redirect to localized error page
+
+[[redirects]]
+	from = "/en/*"
+	to = "/en/404.html"
+	status = 404
+
+[[redirects]]
+	from = "/de/*"
+	to = "/de/404.html"
+	status = 404

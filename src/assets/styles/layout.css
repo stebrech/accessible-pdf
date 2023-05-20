@@ -478,15 +478,10 @@ article.tutorials a {
 /* Error Page */
 
 #errorpage {
-	display: grid;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	font-size: 1.25rem;
-	grid-column: 1 / span 4;
-}
-
-@media screen and (min-width: 80rem) {
-	#errorpage {
-		grid-template-columns: 3fr 2fr;
-	}
 }
 
 @media screen and (min-width: 60rem) {
@@ -495,17 +490,13 @@ article.tutorials a {
 	}
 }
 
-#errorpage .col:last-child {
-	align-self: self-end;
-}
-
-#errorpage .dog {
+#errorpage .image {
 	bottom: -2.5rem;
 	position: relative;
 	margin: auto;
-	max-width: 30rem;
+	max-width: 40rem;
 }
 
-#errorpage .dog img {
-	border-bottom-color: var(--primary-color-9);
+#errorpage .image img {
+	border-bottom-color: transparent;
 }
