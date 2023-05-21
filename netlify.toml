@@ -9,14 +9,14 @@
 [[redirects]]
 	from = "/"
 	to = "/de"
-	status = 302
+	status = 301
 	force= true
 	conditions = {Language = ["de"]}
 
 [[redirects]]
-	from = "/"
-	to = "/en"
-	status = 302
+	from = "/*"
+	to = "/en/:splat"
+	status = 301
 	force = true
 
 # redirect to localized error page
