@@ -11,210 +11,245 @@
 	from = "/basics/"
 	to = "/en/basics/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/"
 	to = "/en/tutorials/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/glossary/"
 	to = "/en/glossary/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/general/structure-with-the-help-of-multi-level-headings/"
 	to = "/en/basics/general/structure-with-the-help-of-multi-level-headings/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/general/document-title-is-not-set/"
 	to = "/en/tutorials/general/document-title-is-not-set/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/imprint/"
 	to = "/en/imprint/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/privacy/"
 	to = "/en/privacy/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/indesign/defining-pdf-tags-in-indesign/"
 	to = "/en/basics/indesign/defining-pdf-tags-in-indesign/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/word/defining-pdf-tags-in-word/"
 	to = "/en/basics/word/defining-pdf-tags-in-word/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/general/check-semantics-and-logical-reading-order/"
 	to = "/en/basics/general/check-semantics-and-logical-reading-order/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/general/overview-of-the-pdf-tags/"
 	to = "/en/basics/general/overview-of-the-pdf-tags/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/indesign/defining-logical-reading-order-in-indesign/"
 	to = "/en/basics/indesign/defining-logical-reading-order-in-indesign/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/indesign/add-an-alt-text-in-indesign/"
 	to = "/en/basics/indesign/add-an-alt-text-in-indesign/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/indesign/defining-artifacts-in-indesign/"
 	to = "/en/basics/indesign/defining-artifacts-in-indesign/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/word/add-an-alt-text-in-word/"
 	to = "/en/basics/word/add-an-alt-text-in-word/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/word/defining-artifacts-in-word/"
 	to = "/en/basics/word/defining-artifacts-in-word/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/acrobat/general-working-with-pdf-tags-in-acrobat/"
 	to = "/en/basics/acrobat/general-working-with-pdf-tags-in-acrobat/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/acrobat/create-and-modify-pdf-tags-in-acrobat/"
 	to = "/en/basics/acrobat/create-and-modify-pdf-tags-in-acrobat/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/acrobat/adjust-logical-reading-order-in-acrobat/"
 	to = "/en/basics/acrobat/adjust-logical-reading-order-in-acrobat/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/acrobat/add-an-alt-text-in-acrobat/"
 	to = "/en/basics/acrobat/add-an-alt-text-in-acrobat/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/acrobat/create-and-check-artifacts-in-acrobat/"
 	to = "/en/basics/acrobat/create-and-check-artifacts-in-acrobat/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/general/incorrect-display-order-makes-contents-disappear/"
 	to = "/en/tutorials/general/incorrect-display-order-makes-contents-disappear/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/general/list-is-not-tagged-as-list/"
 	to = "/en/tutorials/general/list-is-not-tagged-as-list/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/general/pdf-ua-identifier-is-missing/"
 	to = "/en/tutorials/general/pdf-ua-identifier-is-missing/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/general/skipped-heading-levels/"
 	to = "/en/tutorials/general/skipped-heading-levels/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/indesign/anchored-objects-not-tagged/"
 	to = "/en/tutorials/indesign/anchored-objects-not-tagged/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/divided-block-elements/"
 	to = "/en/tutorials/word/divided-block-elements/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/document-is-not-the-top-level-tag/"
 	to = "/en/tutorials/word/document-is-not-the-top-level-tag/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/figure-without-bounding-box/"
 	to = "/en/tutorials/word/figure-without-bounding-box/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/heading-tags-instead-of-toci-within-toc/"
 	to = "/en/tutorials/word/heading-tags-instead-of-toci-within-toc/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/image-as-block-element/"
 	to = "/en/tutorials/word/image-as-block-element/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/no-figure-tag-in-compatibility-mode/"
 	to = "/en/tutorials/word/no-figure-tag-in-compatibility-mode/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/tagged-image-in-header-or-footer/"
 	to = "/en/tutorials/word/tagged-image-in-header-or-footer/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/tutorials/word/tagged-table-lines/"
 	to = "/en/tutorials/word/tagged-table-lines/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 [[redirects]]
 	from = "/basics/general/add-an-alt-text/"
 	to = "/en/basics/general/add-an-alt-text/"
 	status = 301
+	force = true
 	conditions = {Language = ["en"]}
 
 
@@ -224,7 +259,7 @@
 	from = "/"
 	to = "/de"
 	status = 301
-	force= true
+	force = true
 	conditions = {Language = ["de"]}
 
 [[redirects]]
