@@ -1,7 +1,7 @@
 {
 	"name": "accessible-pdf",
 	"description": "",
-	"version": "2.0.0",
+	"version": "3.0.0",
 	"author": "Stefan Brechbühl",
 	"dependencies": {
 		"@11ty/eleventy": "^2.0.1",
