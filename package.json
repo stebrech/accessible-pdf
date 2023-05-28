@@ -1,62 +1,38 @@
 {
-  "name": "accessible-pdf",
-  "description": "",
-  "version": "1.0.0",
-  "author": "Stefan Brechbühl",
-  "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "gatsby": "^3.7.1",
-    "gatsby-image": "^3.7.1",
-    "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-catch-links": "^3.14.0",
-    "gatsby-plugin-image": "^1.7.1",
-    "gatsby-plugin-manifest": "^3.7.1",
-    "gatsby-plugin-mdx": "^2.7.1",
-    "gatsby-plugin-offline": "^4.7.1",
-    "gatsby-plugin-plausible": "^0.0.7",
-    "gatsby-plugin-react-helmet": "^4.7.1",
-    "gatsby-plugin-sharp": "^3.7.1",
-    "gatsby-plugin-sitemap": "^4.3.1",
-    "gatsby-remark-autolink-headers": "^4.4.1",
-    "gatsby-remark-images": "^5.4.1",
-    "gatsby-remark-responsive-iframe": "^4.4.1",
-    "gatsby-remark-table-of-contents": "^1.0.0",
-    "gatsby-source-filesystem": "^3.7.1",
-    "gatsby-theme-i18n": "^2.0.0",
-    "gatsby-theme-i18n-react-intl": "^2.0.0",
-    "gatsby-transformer-sharp": "^3.7.1",
-    "intl": "^1.2.5",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-intl": "^5.20.2",
-    "remark-autolink-headings": "^6.0.1"
-  },
-  "keywords": [
-    "accessible",
-    "pdf",
-    "a11y",
-    "documents"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@pixelstrolch/prettier-config": "^1.0.0",
-    "prettier": "^2.3.1"
-  },
-  "prettier": "@pixelstrolch/prettier-config",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pixelstrolch/accessible-pdf"
-  }
+	"name": "accessible-pdf",
+	"description": "",
+	"version": "3.0.0",
+	"author": "Stefan Brechbühl",
+	"dependencies": {
+		"@11ty/eleventy": "^2.0.1",
+		"@11ty/eleventy-img": "^3.1.0",
+		"@11ty/eleventy-plugin-rss": "^1.2.0",
+		"dotenv": "^16.0.3",
+		"eleventy-plugin-toc": "^1.1.5",
+		"luxon": "^3.3.0",
+		"markdown-it": "^13.0.1",
+		"markdown-it-anchor": "^8.6.7",
+		"markdown-it-eleventy-img": "^0.10.1"
+	},
+	"keywords": [
+		"accessible",
+		"pdf",
+		"a11y",
+		"documents"
+	],
+	"license": "MIT",
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy",
+		"debug": "DEBUG=* npx @11ty/eleventy"
+	},
+	"devDependencies": {
+		"@stebrech/prettier-config": "^1.0.0",
+		"prettier": "^2.8.8"
+	},
+	"prettier": "@stebrech/prettier-config",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stebrech/accessible-pdf"
+	}
 }

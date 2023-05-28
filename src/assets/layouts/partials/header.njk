@@ -1,0 +1,43 @@
+<header id="site-header" class="masthead" role="banner">
+	<div class="header_container">
+		<nav class="mainnav" aria-label="main">
+			<div class="home">
+				<a href="/{{[page.lang]}}">
+					<img
+						src="/assets/img/logo_accessiblePDF.svg"
+						width="40"
+						height="100"
+						alt="{{ i18n.site.title[page.lang] }}"
+						class="site_logo"
+					/>
+					<div class="site_title">{{ i18n.site.title[page.lang] }}</div>
+					<div class="site_description">{{ i18n.site.description[page.lang] }}</div>
+				</a>
+			</div>
+			<div class="menucontainer">
+				<ul id="mainmenu">
+				{%- for link in collections.mainMenu | sortByMenuOrder %}
+					{%- if link.data.lang == page.lang %}
+					<li class="menuitem"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.data.title }}</a></li>
+					{%- endif %}
+				{%- endfor %}
+				</ul>
+				<ul id="lang-switcher">
+					<li class="lang-switch current">
+						<a href="{{ page.url }}" lang="{{ page.lang }}" hreflang="{{ page.lang }}">
+							{{ page.lang | upper }}
+						</a>
+					</li>
+
+					{% for link in page.url | locale_links %}
+					<li class="lang-switch">
+						<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+							{{ link.lang | upper }}
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>

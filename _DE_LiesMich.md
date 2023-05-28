@@ -15,20 +15,18 @@ Der Inhalt ist in Markdown geschrieben, einer leichtgewichtigen Auszeichnungsspr
 
 Wenn Markdown neu für dich ist, empfehle ich [Markdown Guide](https://www.markdownguide.org/), ein gutes Nachschlagewerk.
 
-Neben den üblichen Formatierungsmöglichkeiten mit Markdown gibt es die folgenden Komponenten:
+Neben den Standard-Formatierungsmöglichkeiten mit Markdown werden folgende HTML-Auszeichnungen für die Formatierung von Infoboxen verwendet:
 
-- `<NoteMessage>` 
-- `<WarningMessage>`
+- `<p class="note"></p>`
+- `<p class="warning"></p>`
 
 ## Metadaten im Kopfbereich
 
-Jede MDX-Datei benötigt zu Beginn ein paar Metadaten:
+Jede Markdown-Datei benötigt zu Beginn ein paar Metadaten:
 
 ```
 ---
 title: Name des Beitrags
-slug: Domainpfad ohne den Sprachenkürzel
-lang: Sprachenkürzel
 author: Namen aller Autoren
 date: Datum nach ISO 8601
 description: Eine kurze Beschreibung. Es ist gewöhnlich identisch mit dem Lead des Beitrags. Diese Beschreibung wird für SEO-Zwecken benötigt.
@@ -47,4 +45,4 @@ Wenn du noch keine Erfahrungen mit Git und dem Mitwirken auf Github hast – kei
 
 Die Website-Inhalte sind lizensiert unter der [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) 
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)

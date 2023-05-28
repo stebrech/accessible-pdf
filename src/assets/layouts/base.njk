@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="{{ page.lang }}" dir="{{ dir }}">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{{ title }} | accessible-pdf.info</title>
+		<meta name="description" content="{{ description or metadata.description }}">
+
+		{#- Atom and JSON feeds included by default #}
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+
+		{#- Stylesheets #}
+		<link rel="stylesheet" href="/assets/styles/reset.css">
+		<link rel="stylesheet" href="/assets/styles/accessibility.css">
+		<link rel="stylesheet" href="/assets/styles/elements.css">
+		<link rel="stylesheet" href="/assets/styles/layout.css">
+
+		{#- Favicons #}
+		<link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
+		<link rel="icon" href="/logo_accessiblePDF.svg" type="image/svg+xml">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png"><!-- 180×180 -->
+
+		{#- Manifest #}
+		<link rel="manifest" href="/manifest.webmanifest">
+
+		{#- Open Graph #}
+		<meta property="og:title" content={{ title }} />
+		<meta property="og:description" content={{ description }} />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:creator" content={{ author }} />
+		<meta name="twitter:title" content={{ title }} />
+		<meta name="twitter:description" content={{ description }} />
+
+		{#- Love for 11ty #}
+		<meta name="generator" content="{{ eleventy.generator }}">
+
+	</head>
+	<body>
+		<a href="#primary" class="skip-link screen-reader-text">{{ i18n.site.skipToContent[page.lang] }}</a>
+
+		{% include "partials/header.njk" %}
+
+		<main id="primary" class="site_main">
+			{{ content | safe }}
+		</main>
+
+		{% include "partials/footer.njk" %}
+	</body>
+</html>

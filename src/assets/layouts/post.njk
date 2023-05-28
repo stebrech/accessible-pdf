@@ -1,0 +1,32 @@
+---
+layout: base.njk
+---
+<article class="basics">
+	<div class="maincontent">
+		<h1 class="article_title">{{ title }}</h1>
+		<p class="article_metadata">
+			<span>
+				{{ i18n.article.meta.author[page.lang] }}
+				{{ author }}
+			</span>
+			<br/>
+			<span>
+				{{ i18n.article.meta.updated[page.lang] }}
+				{{ date | localizedDate(page.lang, dateFormat) }}
+			</span>
+		</p>
+		{{ content | safe }}
+	</div>
+	<div>
+		{% include "partials/github.njk" %}
+		{% include "partials/coffee.njk" %}
+	</div>
+</article>
+
+<aside class="sidebar">
+	{% if tags.includes("basics") %}
+		{% include "partials/sidebar_basics.njk" %}
+	{% elseif tags.includes("tutorials") %}
+		{% include "partials/sidebar_tutorials.njk" %}
+	{% endif %}
+</aside>
