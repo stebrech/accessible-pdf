@@ -73,20 +73,6 @@ module.exports = {
 			de: "Du könntest mir einen Kaffee spendieren",
 		},
 	},
-	error: {
-		title: {
-			en: "Page not found",
-			de: "Seite nicht gefunden",
-		},
-		description: {
-			en: "Oh no, something went wrong. The requested page doesn't seem to exist. Maybe it has been deleted or moved.",
-			de: "Oh nein, irgendetwas ist schief gegangen. Die aufgerufene Seite scheint nicht zu existieren. Vielleicht wurde sie gelöscht oder verschoben.",
-		},
-		dog: {
-			en: "Sad looking dog wears a jeans jacket.",
-			de: "Traurig aussehnder Hund trägt eine Jeansjacke.",
-		},
-	},
 	github: {
 		icon: {
 			en: "Github Logo",

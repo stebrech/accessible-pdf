@@ -1,13 +1,15 @@
 ---
 layout: page.njk
+title: Page not found
 ---
 <div id="errorpage">
 	<div class="info">
-		<h1 class="title">{{ i18n.error.title.en }}</h1>
-		<p>{{ i18n.error.description.en }}</p>
+		<p>
+			Oh no, something went wrong. <br/>
+			The requested page doesn't seem to exist. Maybe it has been deleted or moved.
+		</p>
 	</div>
 	<div class="image">
-		{% image "src/assets/img/dog.jpg",
-		i18n.error.dog.en %}
+		{% image "src/assets/img/dog.jpg", "Sad looking dog wears a jeans jacket." %}
 	</div>
 </div>
