@@ -82,7 +82,7 @@ Ein PDF ist barrierefrei wenn es mit dem Standard [PDF/UA](#pdfua) kompatibel is
 
 Die wichtigsten Grundlagen sind erreicht, wenn
 
-- das Dokument mit [semantischen PDF-Tags](https://accessible-pdf.info/de/basics/uebersicht-der-pdf-tags/) versehen ist, welche die logische Dokumentstruktur und Lesereihenfolge erzeugen;
+- das Dokument mit [semantischen PDF-Tags](https://accessible-pdf.info/de/basics/general/overview-of-the-pdf-tags) versehen ist, welche die logische Dokumentstruktur und Lesereihenfolge erzeugen;
 - inhaltlich nicht relevante Objekte als Artefakt markiert sind (z.B. dekorative Elemente, wiederholende Kopf- und Fusszeilen);
 - Texte des Dokuments grundsätzlich als Text und nicht als Bild vorhanden sind (OCR Scannen);
 - Alternativtexte verwendet werden um Nicht-Text-Elemente (Bilder und Grafiken) zu beschreiben;

@@ -21,11 +21,8 @@ Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tag
 
 <p class="note">
 Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.
-
- <img src="/assets/img/tag-icon.png" alt="Tag Icon in Acrobat" />
-
+{% image "src/assets/img/tag-icon.png", "Tag Icon in Acrobat" %}
 Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
-
 </p>
 
 ## _Getaggter_ Text im *Tag*baum finden
@@ -38,8 +35,7 @@ Um schnell zu einer gewünschten Postion im *Tag*baum zu gelangen, kann wie folg
 
 <p class="note">
 Die Optionen des Navigationsfenster „Tags“ können oben links unter dem kleinen Symbol mit den zwei Listenpunkten aufgerufen werden.
-
- <img src="/assets/img/tags-options-icon.png" alt="Menüicon der Tags Optionen in Acrobat" />
+{% image "src/assets/img/tags-options-icon.png", "Menüicon der Tags Optionen in Acrobat" %}
 </p>
 
 ## Zum Inhalt von ausgewähltem _Tag_ navigieren und markieren

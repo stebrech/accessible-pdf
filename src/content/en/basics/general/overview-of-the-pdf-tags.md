@@ -8,7 +8,7 @@ description: This overview shows the most important tags from the PDF 1.7 standa
 
 This overview shows the most important tags from the PDF 1.7 standard. The reference helps you to choose the correct and semantic tags.
 
-The tags listed below correspond to the [ISO standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). In 2018 the newer standard PDF 2.0 has been published. In this standard, some of the tags described here have been removed and new ones have been added. Since the standard is not yet widely used and a revision of the PDF/UA standard is still open, this overview still corresponds to PDF 1.7.
+The tags listed below correspond to the [ISO standard PDF 1.7](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/PDF32000_2008.pdf). In 2018 the newer standard PDF 2.0 has been published. In this standard, some of the tags described here have been removed and new ones have been added. Since the standard is not yet widely used and a revision of the PDF/UA standard is still open, this overview still corresponds to PDF 1.7.
 
 Not included in the overview are the PDF tags
 

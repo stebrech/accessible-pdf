@@ -29,11 +29,8 @@ PDF-_Tags_ werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu 
 
 <p class="note">
 Das Navigationsfenster „Tags“ lässt sich öffnen indem auf das Symbol mit dem Namensschild geklickt wird.
-
- <img src="/assets/img/tag-icon.png" alt="Tag Icon in Acrobat" />
-
+{% image "src/assets/img/tag-icon.png", "Tag Icon in Acrobat" %}
 Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
-
 </p>
 
 ## Sich im *Tag*baum zurechtfinden

@@ -8,7 +8,7 @@ description: Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standa
 
 Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
 
-Die unten aufgeführten _Tags_ entsprechen dem [ISO Standard PDF 1.7](https://www.adobe.com/content/dam/acom/en/devnet/pdf/pdfs/PDF32000_2008.pdf). Im Jahr 2018 ist der neuere Standard PDF 2.0 erschienen. Darin sind einige der hier beschriebenen _Tags_ weggefallen und neue hinzugekommen. Da der Standard aber noch zu wenig verbreitet ist und eine Überarbeitung des PDF/UA-Standards noch offen ist, entspricht diese Übersicht noch PDF 1.7.
+Die unten aufgeführten _Tags_ entsprechen dem [ISO Standard PDF 1.7](https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/PDF32000_2008.pdf). Im Jahr 2018 ist der neuere Standard PDF 2.0 erschienen. Darin sind einige der hier beschriebenen _Tags_ weggefallen und neue hinzugekommen. Da der Standard aber noch zu wenig verbreitet ist und eine Überarbeitung des PDF/UA-Standards noch offen ist, entspricht diese Übersicht noch PDF 1.7.
 
 In der Übersicht nicht enthalten, sind die PDF-_Tags_
 
