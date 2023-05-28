@@ -1,19 +1,17 @@
 # Accessible PDF
 
-Dies ist das Repository der Website [accessible-pdf.info](https://accessible-pdf.info/de). Die Website wurde mit dem React-basierten Framework [Gatsby](https://www.gatsbyjs.com/) erstellt, gehostet und bereitgestellt mit [Github](https://github.com/) und [Netlify](https://www.netlify.com/). 
+Dies ist das Repository der Website [accessible-pdf.info](https://accessible-pdf.info/de). Die Website wurde mit dem statischen Site Generator [11ty](https://www.11ty.dev/) erstellt, gehostet und bereitgestellt mit [Github](https://github.com/) und [Netlify](https://www.netlify.com/).
 
 ## Lokale Installation
 
 1. Klone dieses Repository auf deinen Computer
-2. Navigiere in den neuen Ordner und führe `npm install` aus
-3. Gib den Befehl `gatsby develop` ein
+2. Navigiere in den neuen Ordner und führe `yarn install` aus
+3. Gib den Befehl `yarn start` ein
 4. Wenn du fertig bist, stoppe den Entwicklungsserver (mit `Ctrl + C` in deiner Kommandozeile)
 
 ## Markdown Inhalte
 
-Der Inhalt ist in Markdown geschrieben, einer leichtgewichtigen Auszeichnungssprache. Eigentlich sind es [MDX](https://mdxjs.com/)-Dateien, die JSX innerhalb von Markdown ermöglichen.
-
-Wenn Markdown neu für dich ist, empfehle ich [Markdown Guide](https://www.markdownguide.org/), ein gutes Nachschlagewerk.
+Der Inhalt ist in Markdown geschrieben, einer leichtgewichtigen Auszeichnungssprache. Wenn Markdown neu für dich ist, empfehle ich [Markdown Guide](https://www.markdownguide.org/), ein gutes Nachschlagewerk.
 
 Neben den Standard-Formatierungsmöglichkeiten mit Markdown werden folgende HTML-Auszeichnungen für die Formatierung von Infoboxen verwendet:
 
@@ -26,7 +24,7 @@ Jede Markdown-Datei benötigt zu Beginn ein paar Metadaten:
 
 ```
 ---
-title: Name des Beitrags
+title: Name des Artikels
 author: Namen aller Autoren
 date: Datum nach ISO 8601
 description: Eine kurze Beschreibung. Es ist gewöhnlich identisch mit dem Lead des Beitrags. Diese Beschreibung wird für SEO-Zwecken benötigt.
