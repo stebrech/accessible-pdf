@@ -1,10 +1,11 @@
 ---
 title: Imprint
 layout: page.njk
-tags: footerMenu
+tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2018-01-02
 description: Stefan Brechbühl is responsable for this website. It is independent and not connected to a company or organisation.
+sitemapPriority: 0.4
 ---
 
 Stefan Brechbühl  

@@ -1,10 +1,11 @@
 ---
 title: Datenschutz
 layout: page.njk
-tags: footerMenu
+tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2020-01-10
 description: Mit dieser Datenschutzerklärung informieren wir über die Bearbeitung von Personendaten im Zusammenhang mit unserer accessible-pdf.info-Website und unserem sonstigen Online-Angebot.
+sitemapPriority: 0.4
 ---
 
 Mit dieser Datenschutzerklärung informieren wir über die Bearbeitung von Personendaten im Zusammenhang mit unserer **accessible-pdf.info-Website** und unserem sonstigen Online-Angebot.

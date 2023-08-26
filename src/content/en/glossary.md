@@ -1,7 +1,7 @@
 ---
 title: Glossary
 layout: page_toc.njk
-tags: mainMenu
+tags: [mainMenu, pageInSitemap]
 order: 3
 author: Stefan Brechbühl
 date: 2020-12-06

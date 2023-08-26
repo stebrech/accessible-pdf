@@ -1,7 +1,9 @@
 ---
 title: Barrierefreies PDF
 layout: page.njk
+tags: pageInSitemap
 author: Stefan Brechbühl
+date: 2023-08-26
 description: Barrierefreies PDF ist ein Nachschlagewerk um barrierefreie und PDF/UA konforme Dokumente zu erstellen.
 ---
 
