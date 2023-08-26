@@ -11,6 +11,7 @@ module.exports = function (eleventyConfig) {
 		"./src/assets/styles": "/assets/styles",
 		"./src/assets/favicons": "/",
 		"./src/assets/manifest": "/",
+		"./src/assets/robots.txt": "/",
 	});
 
 	// Run Eleventy when these files change:
