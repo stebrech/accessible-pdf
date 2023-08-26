@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title }} | accessible-pdf.info</title>
-		<meta name="description" content="{{ description or metadata.description }}">
+		<meta name="description" content="{{ description or i18n.description[page.lang] }}">
 
 		{#- Atom and JSON feeds included by default #}
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ metadata.title }}">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ i18n.title[page.lang] }}">
+		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ i18n.title[page.lang] }}">
 
 		{#- Stylesheets #}
 		<link rel="stylesheet" href="/assets/styles/reset.css">

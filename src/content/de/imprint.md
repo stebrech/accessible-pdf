@@ -1,10 +1,11 @@
 ---
 title: Impressum
 layout: page.njk
-tags: footerMenu
+tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2018-01-02
 description: Für diese Website ist Stefan Brechbühl verantwortlich. Sie ist unabhängig von einer Firma oder einer Organisation.
+sitemapPriority: 0.4
 ---
 
 Stefan Brechbühl  

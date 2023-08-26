@@ -1,7 +1,9 @@
 ---
 title: Accessible PDF
 layout: page.njk
+tags: pageInSitemap
 author: Stefan Brechbühl
+date: 2023-08-26
 description: Accessible PDF is a reference guide to create accessible and PDF/UA compliant documents.
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: Privacy
 layout: page.njk
-tags: footerMenu
+tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2019-08-29
 description: With this privacy policy we inform you about the processing of personal data in connection with our accessible-pdf.info website and our other online services.
+sitemapPriority: 0.4
 ---
 
 With this privacy policy we inform you about the processing of personal data in connection with our **accessible-pdf.info website** and our other online services.
