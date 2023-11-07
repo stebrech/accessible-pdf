@@ -1,7 +1,7 @@
 module.exports = {
 	site: {
 		title: {
-			en: "Acessible PDF",
+			en: "Accessible PDF",
 			de: "Barrierefreies PDF",
 		},
 		url: {
