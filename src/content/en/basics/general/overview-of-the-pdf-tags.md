@@ -75,7 +75,7 @@ It is obvious that grouping elements basically contain block elements and block 
 
 </div>
 
-### Tabellenelemente
+### Table elements
 
 <div class="pdfTags tableResponsive">
 
