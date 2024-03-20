@@ -36,6 +36,17 @@
 		{#- Love for 11ty #}
 		<meta name="generator" content="{{ eleventy.generator }}">
 
+		{#- Remove former service worker #}
+		<script>
+			if ('serviceWorker' in navigator) {
+				navigator.serviceWorker.getRegistrations().then(function(registrations) {
+					for (let registration of registrations) {
+						registration.unregister();
+					}
+				});
+			}
+		</script>
+
 	</head>
 	<body>
 		<a href="#primary" class="skip-link screen-reader-text">{{ i18n.site.skipToContent[page.lang] }}</a>
