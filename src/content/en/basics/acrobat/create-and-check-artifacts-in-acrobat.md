@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2020-12-06
 description: Decorative and unimportant information must be marked as artifact so that it can be ignored by assistive technology (AT). If artefacts cannot be defined in the authoring software, this must be done manually in Acrobat.
+order: 5
 ---
 
 Decorative and unimportant information must be marked as artifact so that it can be ignored by [assistive technology (AT)](/glossary/#assistive-technology). If artefacts cannot be defined in the authoring software, this must be done manually in Acrobat.

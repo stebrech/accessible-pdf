@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In Acrobat, the order of the tags within the tag tree can be modified.
+order: 3
 ---
 
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In Acrobat, the order of the tags within the tag tree can be modified.

@@ -4,6 +4,7 @@ layout: post.njk
 date: 2019-12-21
 author: Stefan Brechbühl
 description: In InDesign you can define heading tags manually through the paragraph style settings. For tables, lists and footnotes you’ll automatically get the appropriate tags if you use the available tools correctly.
+order: 1
 ---
 
 In InDesign you can define heading tags manually through the paragraph style settings. For tables, lists and footnotes you’ll automatically get the appropriate tags if you use the available tools correctly.

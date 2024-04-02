@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: The complete tagging of a PDF in Acrobat is only recommended if the authoring software does not allow PDF export with tags (Tagged PDF) or if the source document is not available. More below you will learn how to add or adjust single tags in Acrobat.
+order: 2
 ---
 
 The complete tagging of a PDF in Acrobat is only recommended if the authoring software does not allow PDF export with tags (Tagged PDF) or if the source document is not available. For Word and InDesign the following tutorials are recommended:

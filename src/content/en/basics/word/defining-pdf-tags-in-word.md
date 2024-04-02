@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: To improve the output quality of a PDF document exported from Word, it’s important to use the tools in Word correctly. This creates an elementary tag structure and reduces the post-processing effort in the PDF.
+order: 1
 ---
 
 To improve the output quality of a PDF document exported from Word, it’s important to use the tools in Word correctly. This creates an elementary tag structure and reduces the post-processing effort in the PDF.

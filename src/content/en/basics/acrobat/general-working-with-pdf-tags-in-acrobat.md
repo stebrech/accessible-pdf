@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: Working with the so-called tag tree, which is shown in the navigation pane “Tags”, can be a bit confusing, especially at the beginning. To counteract this, some techniques are explained in this article.
+order: 1
 ---
 
 Working with the so-called tag tree, which is shown in the navigation pane “Tags”, can be a bit confusing, especially at the beginning. To counteract this, some techniques are explained in this article.

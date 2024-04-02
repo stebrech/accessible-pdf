@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.
+order: 3
 ---
 
 Diese Zusammenstellung zeigt alle verfügbaren Tags nach dem Standard PDF 1.7. Sie hilft als Nachschlagewerk um semantisch korrekte Tags zu vergeben.

@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: One of the main tools for structuring documents is the use of headings. On a visual level, headings are usually marked with larger font sizes or bolder font styles. However, the visual appearance on its own is not enough.
+order: 1
 ---
 
 One of the main tools for structuring documents is the use of headings. On a visual level, headings are usually marked with a larger font size or a bolder font style. However, the visual appearance on its own is not enough.

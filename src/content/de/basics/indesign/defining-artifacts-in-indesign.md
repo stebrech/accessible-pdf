@@ -4,6 +4,7 @@ layout: post.njk
 author: Stefan Brechbühl
 date: 2020-12-09
 description: Dekorative und unwichtige Informationen müssen als Artefakt gekennzeichnet werden damit sie von assistiver Technologie (AT) ignoriert werden. Der effizienteste Weg ist es Artefakte bereits in InDesign zu bestimmen und beim PDF-Export mitzugeben.
+order: 4
 ---
 
 Dekorative und unwichtige Informationen müssen als Artefakt gekennzeichnet werden damit sie von [assistiver Technologie (AT)](/de/glossary/#assistive-technologie) ignoriert werden. Der effizienteste Weg ist es Artefakte bereits in InDesign zu bestimmen und beim PDF-Export mitzugeben.
