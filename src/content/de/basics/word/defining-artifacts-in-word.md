@@ -1,6 +1,6 @@
 ---
 title: Artefakte in Word festlegen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-09
 description: Dekorative und unwichtige Informationen müssen als Artefakt gekennzeichnet werden damit sie von assistiver Technologie (AT) ignoriert werden. Der effizienteste Weg ist es Artefakte bereits in Word zu bestimmen und beim PDF-Export mitzugeben.

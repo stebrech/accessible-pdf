@@ -1,6 +1,6 @@
 ---
 title: Semantik und logische Lesereihenfolge prüfen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: Die Semantik und die logische Lesereihenfolge kann in Adobe Acrobat anhand des *Tag*baums überprüft werden. Dies ist aber nicht sehr komfortabel und übersichtlich, weshalb hier noch weitere Möglichkeiten aufgezeigt werden.

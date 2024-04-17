@@ -1,6 +1,6 @@
 ---
 title: Alt-Texte in InDesign hinzufügen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2021-06-08
 description: Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ein Foto oder eine Grafik. In dieser Anleitung schauen wir uns an, wie ein Alt-Text in Word hinzugefügt wird.

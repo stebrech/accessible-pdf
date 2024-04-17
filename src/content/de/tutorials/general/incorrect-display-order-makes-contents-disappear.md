@@ -1,6 +1,6 @@
 ---
 title: Falsche Anzeigereihenfolge lässt Inhalte verschwinden
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-01-08
 category: –

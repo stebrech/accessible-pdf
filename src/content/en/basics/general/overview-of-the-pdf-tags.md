@@ -1,6 +1,6 @@
 ---
 title: Overview of the PDF tags
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: This overview shows the most important tags from the PDF 1.7 standard. The reference helps you to choose the correct and semantic tags.

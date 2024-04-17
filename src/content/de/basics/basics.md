@@ -1,6 +1,6 @@
 ---
 title: Grundlagen
-layout: post.njk
+layout: layouts/post.njk
 tags: mainMenu
 order: 1
 author: Stefan Brechbühl

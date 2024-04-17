@@ -1,6 +1,6 @@
 ---
 title: MadeToTag – Optimierungen in sieben Schritten
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2024-04-02
 description: Mit dem InDesign-Plugin MadeToTag kann in sieben geführten Schritten ein barrierefreies, PDF/UA-konformes PDF erstellt werden. Mühsame Nachbesserungen nach dem PDF-Export können dabei minimiert bis vollständig eliminiert werden.

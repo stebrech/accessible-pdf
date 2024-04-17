@@ -51,12 +51,12 @@
 	<body>
 		<a href="#primary" class="skip-link screen-reader-text">{{ i18n.site.skipToContent[page.lang] }}</a>
 
-		{% include "partials/header.njk" %}
+		{% include "../includes/header.njk" %}
 
 		<main id="primary" class="site_main">
 			{{ content | safe }}
 		</main>
 
-		{% include "partials/footer.njk" %}
+		{% include "../includes/footer.njk" %}
 	</body>
 </html>

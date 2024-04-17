@@ -1,6 +1,6 @@
 ---
 title: PDF-Tags in InDesign festlegen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: In InDesign kannst du Überschriften-Tags manuell über die Einstellungen des Absatzformats definieren. Für Tabellen, Listen und Fussnoten wirst du die entsprechenden Tags automatisch erhalten, wenn die verfügbaren Tools korrekt verwendet wurden.

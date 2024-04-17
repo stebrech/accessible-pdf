@@ -1,7 +1,8 @@
 ---
-layout: base.njk
+layout: layouts/base.njk
 ---
 <article class="post">
 	<h1 class="article_title">{{ title }}</h1>
+	{{ content | toc | safe }}
 	{{ content | safe }}
 </article>

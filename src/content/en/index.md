@@ -1,6 +1,6 @@
 ---
 title: Accessible PDF
-layout: page.njk
+layout: layouts/page.njk
 tags: pageInSitemap
 author: Stefan Brechbühl
 date: 2023-08-26

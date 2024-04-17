@@ -1,6 +1,6 @@
 ---
 title: Strukturieren mithilfe von hierarchischen Überschriften
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: Eines der Hauptwerkzeuge um Dokumente zu strukturieren, ist die Verwendung von Überschriften. Auf visueller Ebene werden Überschriften meist mit grösserer Schriftgrösse oder fetterem Schriftschnitt kenntlich gemacht. Die visuelle Erscheinung alleine reicht jedoch nicht aus.

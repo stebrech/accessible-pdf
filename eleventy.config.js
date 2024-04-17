@@ -50,7 +50,7 @@ module.exports = function (eleventyConfig) {
 
 		dir: {
 			input: "src/content", // default: "."
-			includes: "../assets/layouts", // default: "_includes"
+			includes: "../_templates", // default: "_includes"
 			data: "../_data", // default: "_data"
 			output: "public", // default: "_site
 		},

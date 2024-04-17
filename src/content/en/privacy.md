@@ -1,6 +1,6 @@
 ---
 title: Privacy
-layout: page.njk
+layout: layouts/page.njk
 tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2019-08-29

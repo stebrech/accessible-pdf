@@ -1,6 +1,6 @@
 ---
 title: Getaggte Tabellenlinien
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2019-12-21
 category: 01. Getaggter realer Inhalt

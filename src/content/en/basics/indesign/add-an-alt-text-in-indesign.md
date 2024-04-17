@@ -1,6 +1,6 @@
 ---
 title: Add an alt text in InDesign
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2021-06-08
 description: An alt text (short for alternative text) describes a non-text element, such as a photo or graphic. In this tutorial, we’ll look how to add an alt text in InDesign.

@@ -1,6 +1,6 @@
 ---
 title: Defining artifacts in InDesign
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-09
 description: Decorative and unimportant information must be marked as artifact so that it can be ignored by assistive technology (AT). The most efficient way is to determine artefacts already in InDesign and include them in the PDF export.
