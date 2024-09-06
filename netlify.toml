@@ -1,8 +1,8 @@
 # tell netlify about your build script and output directory
 
 [build]
-	command = "yarn build"
-	publish = "public"
+	command = "npm run build"
+	publish = "_site"
 
 
 # redirect former English urls without lang prefix
