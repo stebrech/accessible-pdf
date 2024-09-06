@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./src/assets/img/svg": "/assets/img",
 		"./src/assets/styles": "/assets/styles",
+		"./src/assets/js": "/assets/js",
 		"./src/assets/favicons": "/",
 		"./src/assets/manifest": "/",
 		"./src/assets/robots.txt": "/robots.txt",
