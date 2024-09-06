@@ -37,6 +37,7 @@ Those who create documents from Adobe’s desktop publishing program InDesign wi
 - [Defining logical reading order in InDesign](/en/basics/indesign/defining-logical-reading-order-in-indesign)
 - [Add an alt text in InDesign](/en/basics/indesign/add-an-alt-text-in-indesign)
 - [Defining artifacts in InDesign](/en/basics/indesign/defining-artifacts-in-indesign)
+- [MadeToTag - Optimizations in seven steps](/en/basics/indesign/mtt-optimizations-in-seven-steps)
 
 ## Word specific tutorials
 
