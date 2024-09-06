@@ -52,7 +52,7 @@ module.exports = function (eleventyConfig) {
 			input: "src/content", // default: "."
 			includes: "../_templates", // default: "_includes"
 			data: "../_data", // default: "_data"
-			output: "public", // default: "_site
+			output: "_site", // default: "_site
 		},
 	};
 };
