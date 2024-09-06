@@ -27,7 +27,7 @@ Die sieben Schritte werden im Folgenden erläutert:
 4. [Dokument Metadaten bearbeiten](#schritt-4-dokument-metadaten-bearbeiten)
 5. [Sprache](#schritt-5-sprache)
 6. [Tabellenstruktur](#schritt-6-tabellenstruktur)
-7. [PDF exportieren](#abschluss-pdf-exportieren)
+7. [PDF exportieren](#schritt-7-abschluss-pdf-exportieren)
 
 ## Schritt 1: Export-Tags zuweisen
 
