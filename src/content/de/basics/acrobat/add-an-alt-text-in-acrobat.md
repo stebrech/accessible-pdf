@@ -1,9 +1,10 @@
 ---
 title: Alt-Texte in Acrobat hinzufügen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2021-06-09
 description: Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ein Foto oder eine Grafik. In dieser Anleitung schauen wir uns an, wie ein Alt-Text in Acrobat hinzugefügt wird.
+order: 4
 ---
 
 Ein Alt-Text (kurz für Alternativtext) beschreibt ein Nicht-Textelement, wie ein Foto oder eine Grafik. Der unsichtbare Text kann durch Software, insbesondere [assistive Technologie (AT)](/de/glossary/#assistive-technologie), ausgelesen und wiedergegeben werden.

@@ -1,6 +1,6 @@
 ---
 title: Grundlagen
-layout: post.njk
+layout: layouts/post.njk
 tags: mainMenu
 order: 1
 author: Stefan Brechbühl
@@ -37,6 +37,7 @@ Wer Dokumente aus dem Desktop-Publishing Programm InDesign von Adobe erstellt, f
 - [Logische Lesereihenfolge in InDesign festlegen](/de/basics/indesign/defining-logical-reading-order-in-indesign)
 - [Alt-Texte in InDesign hinzufügen](/de/basics/indesign/add-an-alt-text-in-indesign)
 - [Artefakte in InDesign festlegen](/de/basics/indesign/defining-artifacts-in-indesign)
+- [MadeToTag – Optimierungen in sieben Schritten](/de/basics/indesign/mtt-optimizations-in-seven-steps/)
 
 ## Word spezifische Anleitungen
 

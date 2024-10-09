@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy({
 		"./src/assets/img/svg": "/assets/img",
 		"./src/assets/styles": "/assets/styles",
+		"./src/assets/js": "/assets/js",
 		"./src/assets/favicons": "/",
 		"./src/assets/manifest": "/",
 		"./src/assets/robots.txt": "/robots.txt",
@@ -50,9 +51,9 @@ module.exports = function (eleventyConfig) {
 
 		dir: {
 			input: "src/content", // default: "."
-			includes: "../assets/layouts", // default: "_includes"
+			includes: "../_templates", // default: "_includes"
 			data: "../_data", // default: "_data"
-			output: "public", // default: "_site
+			output: "_site", // default: "_site
 		},
 	};
 };

@@ -1,9 +1,10 @@
 ---
 title: Artefakte in Acrobat erstellen und prüfen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-06
 description: Dekorative und unwichtige Informationen müssen als Artefakt gekennzeichnet werden damit sie von assistiver Technologie (AT) ignoriert werden. Können Artefakte nicht bereits im Herstellungsprogramm definiert werden, muss dies in Acrobat manuell nachgeholt werden.
+order: 5
 ---
 
 Dekorative und unwichtige Informationen müssen als Artefakt gekennzeichnet werden damit sie von [assistiver Technologie (AT)](/de/glossary/#assistive-technologie) ignoriert werden. Können Artefakte nicht bereits im Herstellungsprogramm definiert werden, muss dies in Acrobat manuell nachgeholt werden.

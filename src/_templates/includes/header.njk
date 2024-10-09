@@ -16,11 +16,13 @@
 			</div>
 			<div class="menucontainer">
 				<ul id="mainmenu">
-				{%- for link in collections.mainMenu | sortByMenuOrder %}
-					{%- if link.data.lang == page.lang %}
-					<li class="menuitem"><a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.data.title }}</a></li>
-					{%- endif %}
-				{%- endfor %}
+					{%- for link in collections.mainMenu | sortByOrder %}
+						{%- if link.data.lang == page.lang %}
+							<li class="menuitem">
+								<a href="{{ link.url }}"{% if link.url == page.url %} aria-current="page"{% endif %}>{{ link.data.title }}</a>
+							</li>
+						{%- endif %}
+					{%- endfor %}
 				</ul>
 				<ul id="lang-switcher">
 					<li class="lang-switch current">
@@ -30,13 +32,16 @@
 					</li>
 
 					{% for link in page.url | locale_links %}
-					<li class="lang-switch">
-						<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
-							{{ link.lang | upper }}
-						</a>
-					</li>
+						<li class="lang-switch">
+							<a href="{{ link.url }}" lang="{{ link.lang }}" hreflang="{{ link.lang }}">
+								{{ link.lang | upper }}
+							</a>
+						</li>
 					{% endfor %}
 				</ul>
+				<button id="search-icon" aria-label="{{i18n.site.search[page.lang]}}">
+					{% image "src/assets/img/svg/search.svg", "" %}
+				</button>
 			</div>
 		</nav>
 	</div>

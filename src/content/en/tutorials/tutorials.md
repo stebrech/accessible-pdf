@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting
-layout: post.njk
+layout: layouts/post.njk
 tags: mainMenu
 order: 2
 author: Stefan Brechbühl

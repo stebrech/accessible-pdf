@@ -1,9 +1,10 @@
 ---
 title: PDF-Tags in Word festlegen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-09
 description: Um die Ausgabequalität eines aus Word exportierten PDF-Dokuments zu verbessern, ist es wichtig die verfügbaren Werkzeuge in Word korrekt zu verwenden. Damit erreicht man, dass eine elementare Tagstruktur erzeugt und der Nachbearbeitungsaufwand im PDF reduziert wird.
+order: 1
 ---
 
 Um die Ausgabequalität eines aus Word exportierten PDF-Dokuments zu verbessern, ist es wichtig die verfügbaren Werkzeuge in Word korrekt zu verwenden. Damit erreicht man, dass eine elementare *Tag*struktur erzeugt und der Nachbearbeitungsaufwand im PDF reduziert wird.

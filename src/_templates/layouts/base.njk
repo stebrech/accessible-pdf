@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="/assets/styles/accessibility.css">
 		<link rel="stylesheet" href="/assets/styles/elements.css">
 		<link rel="stylesheet" href="/assets/styles/layout.css">
+		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 
 		{#- Favicons #}
 		<link rel="icon" href="/favicon.ico" sizes="any"><!-- 32×32 -->
@@ -36,6 +37,14 @@
 		{#- Love for 11ty #}
 		<meta name="generator" content="{{ eleventy.generator }}">
 
+		{#- Pagefind script #}
+		<script src="/assets/js/search.js" defer></script>
+		<script src="/pagefind/pagefind-ui.js" defer></script>
+		<script>
+			window.addEventListener('DOMContentLoaded', (event) => {
+				new PagefindUI({ element: "#search", showSubResults: true });
+			});
+		</script>
 		{#- Remove former service worker #}
 		<script>
 			if ('serviceWorker' in navigator) {
@@ -51,12 +60,18 @@
 	<body>
 		<a href="#primary" class="skip-link screen-reader-text">{{ i18n.site.skipToContent[page.lang] }}</a>
 
-		{% include "partials/header.njk" %}
+		{% include "../includes/header.njk" %}
 
-		<main id="primary" class="site_main">
+		<main id="primary" class="site_main base_grid">
+			<div id="search-container" class="base_grid screen-reader-text" aria-hidden="true">
+				<div id="search"></div>
+				<div id="search-close-container">
+					<button id="search-close" aria-label="Schliessen">Suche schliessen</button>
+				</div>
+			</div>
 			{{ content | safe }}
 		</main>
 
-		{% include "partials/footer.njk" %}
+		{% include "../includes/footer.njk" %}
 	</body>
 </html>

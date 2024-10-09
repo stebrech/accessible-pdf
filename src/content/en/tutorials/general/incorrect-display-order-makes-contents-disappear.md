@@ -1,6 +1,6 @@
 ---
 title: Incorrect display order makes contents disappear
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-01-09
 category: –

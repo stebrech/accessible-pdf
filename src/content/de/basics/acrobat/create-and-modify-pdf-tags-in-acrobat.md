@@ -1,9 +1,10 @@
 ---
 title: PDF-Tags in Acrobat erstellen und ändern
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: Das vollständige Taggen eines PDFs in Acrobat ist nur empfohlen wenn die Autorensoftware keinen PDF-Export mit Tags (Tagged PDF) erlaubt oder das Quelldokument nicht vorhanden ist. Für Word und InDesign werden folgende Anleitungen empfohlen.
+order: 2
 ---
 
 Das vollständige _Taggen_ eines PDFs in Acrobat ist nur empfohlen wenn die Autorensoftware keinen PDF-Export mit _Tags_ _(Tagged PDF)_ erlaubt oder das Quelldokument nicht vorhanden ist. Für Word und InDesign werden folgende Anleitungen empfohlen:

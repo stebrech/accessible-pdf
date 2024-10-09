@@ -1,9 +1,10 @@
 ---
 title: Logische Lesereihenfolge in InDesign festlegen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: PDF-Tags werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In InDesign kann die Reihenfolge der Tags festgelegt werden, sodass beim erzeugten PDF die logische Lesereihenfolge bereits korrekt ist.
+order: 2
 ---
 
 PDF-_Tags_ werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In InDesign kann die Reihenfolge der _Tags_ festgelegt werden, sodass beim erzeugten PDF die logische Lesereihenfolge bereits korrekt ist.

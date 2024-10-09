@@ -1,6 +1,6 @@
 ---
 title: Glossary
-layout: page_toc.njk
+layout: layouts/page_toc.njk
 tags: [mainMenu, pageInSitemap]
 order: 3
 author: Stefan Brechbühl

@@ -1,7 +1,7 @@
 ---
-layout: base.njk
+layout: layouts/base.njk
 ---
-<article class="basics">
+<article class="basics" data-pagefind-body>
 	<div class="maincontent">
 		<h1 class="article_title">{{ title }}</h1>
 		<p class="article_metadata">
@@ -18,15 +18,15 @@ layout: base.njk
 		{{ content | safe }}
 	</div>
 	<div>
-		{% include "partials/github.njk" %}
-		{% include "partials/coffee.njk" %}
+		{% include "../includes/github.njk" %}
+		{% include "../includes/coffee.njk" %}
 	</div>
 </article>
 
 <aside class="sidebar">
 	{% if tags.includes("basics") %}
-		{% include "partials/sidebar_basics.njk" %}
+		{% include "../includes/sidebar_basics.njk" %}
 	{% elseif tags.includes("tutorials") %}
-		{% include "partials/sidebar_tutorials.njk" %}
+		{% include "../includes/sidebar_tutorials.njk" %}
 	{% endif %}
 </aside>

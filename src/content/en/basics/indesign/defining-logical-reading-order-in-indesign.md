@@ -1,9 +1,10 @@
 ---
 title: Defining logical reading order in InDesign
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In InDesign, the order of the tags can be defined so that the logical reading order is already correct for the generated PDF.
+order: 2
 ---
 
 PDF tags are not only needed to give content a semantic meaning, but also to determine the logical reading order. In InDesign, the order of the tags can be defined so that the logical reading order is already correct for the generated PDF.
@@ -76,6 +77,6 @@ The paid InDesign plugin [MadeToTag](https://www.axaio.com/doku.php/en:products:
 
 In the second task step of the plugin, all contents of an article or all articles can be shown or hidden. This helps to find missing content which has to be added to an article. On the other hand, objects that should not be tagged can be better identified as well.
 
-![Screenshot of the second task within the MadeToTag plugin.](src/assets/img/mtt-article.png)
+![Screenshot of the second task within the MadeToTag plugin.](src/assets/img/mtt_article.png)
 
 Similar to what is described in [“Check semantics and logical reading order”](/basics/general/check-semantics-and-logical-reading-order/), the plugin can be used to preview tags and their order within InDesign.

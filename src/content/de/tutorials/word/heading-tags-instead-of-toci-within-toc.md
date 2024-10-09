@@ -1,6 +1,6 @@
 ---
 title: Überschriften-Tags anstatt TOCI innerhalb von TOC
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 category: 01. Getaggter realer Inhalt

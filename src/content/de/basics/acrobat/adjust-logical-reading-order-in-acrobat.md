@@ -1,9 +1,10 @@
 ---
 title: Logische Lesereihenfolge in Acrobat anpassen
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: PDF-Tags werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In Acrobat kann die Reihenfolge der Tags im Tagbaum angepasst werden.
+order: 3
 ---
 
 PDF-_Tags_ werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu geben, sondern auch auch um die logische Lesereihenfolge festzulegen. In Acrobat kann die Reihenfolge der _Tags_ im *Tag*baum angepasst werden.

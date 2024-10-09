@@ -1,6 +1,6 @@
 ---
 title: Problemlösungen
-layout: post.njk
+layout: layouts/post.njk
 tags: mainMenu
 order: 2
 author: Stefan Brechbühl
@@ -30,11 +30,11 @@ Wer Dokumente aus dem Desktop-Publishing Programm InDesign von Adobe erstellt, f
 
 Wer Dokumente aus dem Textverarbeitungsprogramm Word von Microsoft erstellt, findet hier Problembeschreibungen und Lösungswege dafür.
 
-- [Geteilte Block-Elemente](/de/tutorials/word/divided-block-elements)
+- [Bild als Block-Element](/de/tutorials/word/image-as-block-element)
 - [Document ist nicht Tag auf oberster Ebene](/de/tutorials/word/document-is-not-the-top-level-tag)
 - [Figure ohne Begrenzungsrahmen](/de/tutorials/word/figure-without-bounding-box)
-- [Überschriften-Tags anstatt TOCI innerhalb von TOC](/de/tutorials/word/heading-tags-instead-of-toci-within-toc)
-- [Bild als Block-Element](/de/tutorials/word/image-as-block-element)
-- [Kein Figure Tag im Kompatibilitätsmodus](/de/tutorials/word/no-figure-tag-in-compatibility-mode)
 - [Getaggte Bilder in Kopf- und Fusszeile](/de/tutorials/word/tagged-image-in-header-or-footer)
 - [Getaggte Tabellenlinien](/de/tutorials/word/tagged-table-lines)
+- [Geteilte Block-Elemente](/de/tutorials/word/divided-block-elements)
+- [Kein Figure Tag im Kompatibilitätsmodus](/de/tutorials/word/no-figure-tag-in-compatibility-mode)
+- [Überschriften-Tags anstatt TOCI innerhalb von TOC](/de/tutorials/word/heading-tags-instead-of-toci-within-toc)

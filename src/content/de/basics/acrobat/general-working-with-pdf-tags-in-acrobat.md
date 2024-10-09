@@ -1,9 +1,10 @@
 ---
 title: Generelles Arbeiten mit PDF-Tags in Acrobat
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2019-12-09
 description: Das Arbeiten mit dem sogenannten Tagbaum, welcher im Navigationsfenster „Tags“ abgebildet ist, kann vor allem zu Beginn etwas unübersichtlich sein. Um dem entgegenzuwirken, werden in diesem Beitrag einige Arbeitstechniken erklärt.
+order: 1
 ---
 
 Das Arbeiten mit dem sogenannten *Tag*baum, welcher im Navigationsfenster „Tags“ abgebildet ist, kann vor allem zu Beginn etwas unübersichtlich sein. Um dem entgegenzuwirken, werden in diesem Beitrag einige Arbeitstechniken erklärt.

@@ -1,6 +1,6 @@
 ---
 title: Datenschutz
-layout: page.njk
+layout: layouts/page.njk
 tags: [footerMenu, pageInSitemap]
 author: Stefan Brechbühl
 date: 2020-01-10

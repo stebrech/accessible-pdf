@@ -20,6 +20,10 @@ module.exports = {
 			en: "Change language:",
 			de: "Sprache wechseln:",
 		},
+		search: {
+			en: "Search",
+			de: "Suche",
+		},
 	},
 	subnavTitles: {
 		basics: {

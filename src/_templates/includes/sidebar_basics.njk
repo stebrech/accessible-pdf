@@ -3,7 +3,7 @@
 <nav aria-label="{{ i18n.subnavTitles.general[page.lang] }}">
 	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.general[page.lang] }}</h3>
 	<ul class="sidebar_nav_list">
-		{%- for post in collections.basics_general | sortByTitle %}
+		{%- for post in collections.basics_general | sortByOrder %}
 			{%- if post.data.lang == page.lang -%}
 				<li class="sidebar_nav_listitem">
 					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
@@ -16,7 +16,7 @@
 <nav aria-label="{{ i18n.subnavTitles.indesign[page.lang] }}">
 	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.indesign[page.lang] }}</h3>
 	<ul class="sidebar_nav_list">
-		{%- for post in collections.basics_indesign | sortByTitle %}
+		{%- for post in collections.basics_indesign | sortByOrder %}
 			{%- if post.data.lang == page.lang -%}
 				<li class="sidebar_nav_listitem">
 					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
@@ -29,7 +29,7 @@
 <nav aria-label="{{ i18n.subnavTitles.word[page.lang] }}">
 	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.word[page.lang] }}</h3>
 	<ul class="sidebar_nav_list">
-		{%- for post in collections.basics_word | sortByTitle %}
+		{%- for post in collections.basics_word | sortByOrder %}
 			{%- if post.data.lang == page.lang -%}
 				<li class="sidebar_nav_listitem">
 					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>
@@ -42,7 +42,7 @@
 <nav aria-label="{{ i18n.subnavTitles.acrobat[page.lang] }}">
 	<h3 class="sidebar_nav_subtitle">{{ i18n.subnavTitles.acrobat[page.lang] }}</h3>
 	<ul class="sidebar_nav_list">
-		{%- for post in collections.basics_acrobat | sortByTitle %}
+		{%- for post in collections.basics_acrobat | sortByOrder %}
 			{%- if post.data.lang == page.lang -%}
 				<li class="sidebar_nav_listitem">
 					<a href="{{ post.url | url }}" class="sidebar_nav_link {% if post.url == page.url %}active{% endif %}">{{ post.data.title }}</a>

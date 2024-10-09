@@ -4,7 +4,7 @@ module.exports = (eleventyConfig) => {
 	eleventyConfig.addFilter("localizedDate", (dateObj, lang, format) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { locale: lang || "en" }).toFormat(
-			format || "LLLL dd yyyy"
+			format || "LLLL dd yyyy",
 		);
 	});
 
@@ -17,7 +17,12 @@ module.exports = (eleventyConfig) => {
 		return values.slice().sort((a, b) => a.data.title.localeCompare(b.data.title));
 	});
 
-	eleventyConfig.addFilter("sortByMenuOrder", (values) => {
-		return values.slice().sort((a, b) => a.data.order - b.data.order);
+	eleventyConfig.addFilter("sortByOrder", (values) => {
+		return values.slice().sort((a, b) => {
+			if (a.data.order && b.data.order) {
+				return a.data.order - b.data.order;
+			}
+			return 0;
+		});
 	});
 };

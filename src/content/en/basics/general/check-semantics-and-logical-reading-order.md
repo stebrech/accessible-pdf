@@ -1,9 +1,10 @@
 ---
 title: Check semantics and logical reading order
-layout: post.njk
+layout: layouts/post.njk
 author: Stefan Brechbühl
 date: 2020-12-07
 description: The semantics and the logical reading order can be checked in Adobe Acrobat using the tag tree. However, this might not be very comfortable and clear, which is why further possibilities are shown here.
+order: 2
 ---
 
 The semantics and the [logical reading order](/glossary/#logical-reading-order) can be checked in Adobe Acrobat using the tag tree. However, this might not be very comfortable and clear, which is why further possibilities are shown here.
