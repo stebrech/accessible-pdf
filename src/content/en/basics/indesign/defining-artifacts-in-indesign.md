@@ -16,9 +16,9 @@ Decorative and unimportant information must be marked as artifact so that it can
 
 ## Page-related artifacts in InDesign
 
-Page numbers, running titles, etc. are automatically marked as artifacts by InDesign during export if they have been placed on a master page.
+Page numbers, running titles, etc. are automatically marked as artifacts by InDesign during export if they have been placed on a parent page.
 
-This also means that relevant content must not appear on a master page. For example, if the title only exists on a master page, it won’t be output.
+This also means that relevant content must not appear on a parent page. For example, if the title only exists on a parent page, it won’t be output.
 
 Alternatively, texts can also be marked as artifacts using a paragraph style set up for this purpose. To do this, select “Artifact” in “Export Tagging” in the paragraph style options, see also [“Defining PDF tags in InDesign”](/basics/indesign/defining-pdf-tags-in-indesign/).
 
