@@ -1,7 +1,7 @@
-const markdownItAnchor = require("markdown-it-anchor");
-const pluginTOC = require("eleventy-plugin-toc");
+import markdownItAnchor from "markdown-it-anchor";
+import pluginTOC from "eleventy-plugin-toc";
 
-module.exports = function (eleventyConfig) {
+export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginTOC, {
 		ul: true,
 		wrapperClass: "glossary-toc",

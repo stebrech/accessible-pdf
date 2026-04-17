@@ -1,9 +1,9 @@
-const path = require("path");
-const eleventyImage = require("@11ty/eleventy-img");
-const markdownIt = require("markdown-it");
-const markdownItEleventyImg = require("markdown-it-eleventy-img");
+import path from "path";
+import eleventyImage from "@11ty/eleventy-img";
+import markdownIt from "markdown-it";
+import markdownItEleventyImg from "markdown-it-eleventy-img";
 
-module.exports = (eleventyConfig) => {
+export default async function(eleventyConfig) {
 	const defaultImageWidths = [1210, 1044, 800, 400];
 	const defaultImageFormats = ["webp", "auto"];
 	const defaultImageSizes = "100vw";

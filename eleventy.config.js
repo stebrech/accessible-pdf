@@ -1,10 +1,10 @@
-const { EleventyI18nPlugin, EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginFilters = require("./eleventy.config.filters.js");
-const pluginImages = require("./eleventy.config.images.js");
-const pluginMarkdown = require("./eleventy.config.markdown.js");
+import { EleventyI18nPlugin, EleventyHtmlBasePlugin } from "@11ty/eleventy";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginFilters from "./eleventy.config.filters.js";
+import pluginImages from "./eleventy.config.images.js";
+import pluginMarkdown from "./eleventy.config.markdown.js";
 
-module.exports = function (eleventyConfig) {
+export default async function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
 		"./src/assets/img/svg": "/assets/img",

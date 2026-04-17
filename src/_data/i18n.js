@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	site: {
 		title: {
 			en: "Accessible PDF",

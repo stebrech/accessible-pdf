@@ -1,6 +1,6 @@
-const { DateTime } = require("luxon");
+import { DateTime } from "luxon";
 
-module.exports = (eleventyConfig) => {
+export default async function(eleventyConfig) {
 	eleventyConfig.addFilter("localizedDate", (dateObj, lang, format) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
 		return DateTime.fromJSDate(dateObj, { locale: lang || "en" }).toFormat(
