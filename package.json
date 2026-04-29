@@ -8,7 +8,6 @@
 		"@11ty/eleventy": "^3.1.5",
 		"@11ty/eleventy-img": "^6.0.4",
 		"@11ty/eleventy-plugin-rss": "^3.0.0",
-		"dotenv": "^17.2.3",
 		"eleventy-plugin-toc": "^1.1.5",
 		"markdown-it-anchor": "^9.1.0",
 		"markdown-it-eleventy-img": "^0.10.2"
