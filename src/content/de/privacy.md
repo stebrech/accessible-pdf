@@ -18,9 +18,9 @@ Unser Online-Angebot unterliegt dem schweizerischen Datenschutzrecht sowie allen
 
 Verantwortung für das Online-Angebot:
 
-**Stefan Brechbühl**  
-Unter Tannen 6  
-4246 Wahlen  
+**Stefan Brechbühl**
+Unter Tannen 6
+4246 Wahlen
 Schweiz
 
 [mail@accessible-pdf.info](mailto:mail@accessible-pdf.info)

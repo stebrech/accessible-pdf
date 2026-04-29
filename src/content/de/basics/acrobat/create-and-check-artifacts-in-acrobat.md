@@ -22,7 +22,7 @@ Der effizienteste Weg ist jedoch die Artefakte bereits im Erstellungsprogramm zu
 In Acrobat können Artefakte entweder [im _Tagbaum_](#artefakt-in-navigationsfenster-tags-erstellen) oder mit [dem Leserichtung-Werkzeug](#artefakt-mit-leserichtung-werkzeug-erstellen) definiert werden. Welche Inhalte als Artefakte gekennzeichnet wurden, können im [Navigationsfenster „Inhalt“ je Seite geprüft](#artefakte-in-navigationsfenster-inhalt-prüfen) werden.
 
 <p class="note">
-  Softwarehinweis: Um mit <em>Tags</em> und Artefakten arbeiten zu können, wird der kostenpflichtige 
+  Softwarehinweis: Um mit <em>Tags</em> und Artefakten arbeiten zu können, wird der kostenpflichtige
   <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem
   kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können diese weder
   geprüft noch geändert werden.
@@ -32,8 +32,8 @@ In Acrobat können Artefakte entweder [im _Tagbaum_](#artefakt-in-navigationsfen
 
 Bei dieser Anleitung ist die Ausgangslage ein vollständig _getaggtes_ Dokument.
 
-1. Öffne das Navigationsfenster „Tags“.  
-   Es lässt sich öffnen indem auf das Symbol mit dem Namensschild klickst.  
+1. Öffne das Navigationsfenster „Tags“.
+   Es lässt sich öffnen indem auf das Symbol mit dem Namensschild klickst.
    ![Tag Icon in Acrobat](src/assets/img/tag-icon.png)
    Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
 2. Suche dir den dekorativen Inhalt innerhalb der Tags, siehe dazu auch „[Getaggter Text im Tagbaum finden](/de/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#getaggter-text-im-tagbaum-finden)“ innerhalb von „[Generelles Arbeiten mit PDF-Tags in Acrobat](/de/basics/acrobat/general-working-with-pdf-tags-in-acrobat/)“

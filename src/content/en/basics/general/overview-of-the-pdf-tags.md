@@ -24,10 +24,10 @@ because they are not recommended or not relevant for use.
 It is obvious that grouping elements basically contain block elements and block elements basically contain inline elements. The standard does not always clearly specify which constellations are possible. The illustrative elements can function as block or inline elements.
 
 <p class="note">
-  Practical examples and further informations can be found in the document 
+  Practical examples and further informations can be found in the document
   <a href="https://www.pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/">
     “Tagged PDF Best Practice Guide: Syntax”
-  </a> 
+  </a>
   of the PDF Association.
 </p>
 

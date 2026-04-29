@@ -23,7 +23,7 @@ In Acrobat, artifacts can be defined either in the [tag tree](#create-artifact-i
 
 <p class="note">
   Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you
-  to make any adjustments to the tag structure neither to edit the artifacts. You’ll need 
+  to make any adjustments to the tag structure neither to edit the artifacts. You’ll need
   <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.
 </p>
 
@@ -32,7 +32,7 @@ In Acrobat, artifacts can be defined either in the [tag tree](#create-artifact-i
 For this tutorial, the initial situation is a completely tagged document.
 
 1. Open the navigation pane “Tags”
-   The navigation pane “Tags” can be opened by clicking on the icon with the name tag.  
+   The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
    ![Tag icon in Acrobat](src/assets/img/tag-icon.png)
    If it is not yet listed in the left bar, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation Pane” and the Navigation Pane will be displayed.
 2. Find the decorative content within the tags, see also “[Find tagged text in the tag tree](/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#find-tagged-text-in-the-tag-tree)” within “[General working with PDF tags in Acrobat](/basics/acrobat/general-working-with-pdf-tags-in-acrobat/)”.

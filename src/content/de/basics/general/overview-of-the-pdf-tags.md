@@ -24,10 +24,10 @@ da sie für die Verwendung nicht empfohlen oder nicht relevant sind.
 Es liegt nahe, dass gruppierende Elemente grundsätzlich Block-Elemente und Block-Elemente grundsätzlich Inline-Elemente enthalten. Der Standard gibt nicht immer klar vor, welche Konstellationen möglich sind. Die illustrierende Elemente können als Block- oder Inline-Elemente fungieren.
 
 <p class="note">
-  Praktische Anwendungsbeispiele und Informationen bietet das Dokument 
+  Praktische Anwendungsbeispiele und Informationen bietet das Dokument
   <a href="https://www.pdfa.org/resource/tagged-pdf-best-practice-guide-syntax/">
     “Tagged PDF Best Practice Guide: Syntax”
-  </a> 
+  </a>
   der PDF Association.
 </p>
 

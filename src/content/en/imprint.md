@@ -8,9 +8,9 @@ description: Stefan Brechbühl is responsable for this website. It is independen
 sitemapPriority: 0.4
 ---
 
-Stefan Brechbühl  
-Unter Tannen 6  
-4246 Wahlen  
+Stefan Brechbühl
+Unter Tannen 6
+4246 Wahlen
 Switzerland
 
 Stefan Brechbühl is responsable for this website. It is independent and not connected to a company or organisation.
@@ -19,5 +19,5 @@ The content can have been created by several persons and is licensed under [CC B
 
 ## Contact
 
-E-Mail: [mail@accessible-pdf.info](mailto:mail@accessible-pdf.info)  
+E-Mail: [mail@accessible-pdf.info](mailto:mail@accessible-pdf.info)
 Twitter: [@PDFa11y](https://twitter.com/PDFa11y)

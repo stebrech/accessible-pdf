@@ -40,7 +40,7 @@ If text frames are linked together, the text flows dynamically from one frame to
 In the “Articles” panel, linked text frames are treated as one object. If you add the first text frame, all threading text are included and follow the defined order.
 
 <p class="note">
-  More about <a href="https://helpx.adobe.com/indesign/using/threading-text.html">threading text</a> 
+  More about <a href="https://helpx.adobe.com/indesign/using/threading-text.html">threading text</a>
   you can read in Adobe’s online manual.
 </p>
 
@@ -53,7 +53,7 @@ In order to place an image at a certain position in the logical order, it usuall
 To anchor an object, click on the filled, small square in the frame at the top edge. Keep the mouse button pressed and move the pointer to the desired position within a text frame and release it.
 
 <p class="note">
-  More about 
+  More about
   <a href="https://helpx.adobe.com/indesign/using/anchored-objects.html">anchored objects</a> you
   can read in Adobe’s online manual.
 </p>
@@ -61,7 +61,7 @@ To anchor an object, click on the filled, small square in the frame at the top e
 <p class="note">
   Since images are non-text content, an alternative text must be provided if they are relevant to
   the content. If they are not relevant, they do not belong in an article. For further information,
-  see also <Link to="/glossary/#alt-text">alt text</Link> in the glossary or 
+  see also <Link to="/glossary/#alt-text">alt text</Link> in the glossary or
   <Link to="/basics/general/add-an-alt-text/">“Add an alt text”</Link>.
 </p>
 

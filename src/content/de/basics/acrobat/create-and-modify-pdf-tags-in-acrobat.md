@@ -15,7 +15,7 @@ Das vollständige _Taggen_ eines PDFs in Acrobat ist nur empfohlen wenn die Auto
 Weiter unten erfährst du wie einzelne _Tags_ in Acrobat hinzugefügt oder angepasst werden.
 
 <p class="note">
-  Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige 
+  Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige
   <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem
   kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können *Tags*
   weder geprüft noch geändert werden.
@@ -145,7 +145,7 @@ Da die Möglichkeiten, welche Word oder InDesign anbieten, beschränkt sind, ist
 3. Klicke mit der Maus erneut auf das ausgewählte _Tag_ um es manuell umzubenennen.
 
 <p class="warning">
-  Achtung: Der <em>Tag</em> muss in Englisch und korrekt geschrieben sein, siehe 
+  Achtung: Der <em>Tag</em> muss in Englisch und korrekt geschrieben sein, siehe
   <Link to="/de/basics/general/overview-of-the-pdf-tags/">
     „Übersicht der PDF-<em>Tags</em>“
   </Link>

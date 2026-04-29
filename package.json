@@ -10,8 +10,6 @@
 		"@11ty/eleventy-plugin-rss": "^3.0.0",
 		"dotenv": "^17.2.3",
 		"eleventy-plugin-toc": "^1.1.5",
-		"luxon": "^3.3.0",
-		"markdown-it": "^14.1.0",
 		"markdown-it-anchor": "^9.1.0",
 		"markdown-it-eleventy-img": "^0.10.2"
 	},
@@ -26,10 +24,6 @@
 		"dev": "npx @11ty/eleventy --serve",
 		"build": "npx @11ty/eleventy && npx -y pagefind --site _site",
 		"debug": "DEBUG=* npx @11ty/eleventy"
-	},
-	"devDependencies": {
-		"@stebrech/prettier-config": "^1.0.0",
-		"prettier": "^3.2.5"
 	},
 	"prettier": "@stebrech/prettier-config",
 	"repository": {

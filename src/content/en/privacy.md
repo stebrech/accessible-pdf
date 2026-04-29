@@ -18,9 +18,9 @@ Our online offer is governed by Swiss data protection law as well as possibly ap
 
 Responsible for the online offer:
 
-**Stefan Brechbühl**  
-Unter Tannen 6  
-4246 Wahlen  
+**Stefan Brechbühl**
+Unter Tannen 6
+4246 Wahlen
 Switzerland
 
 [mail@accessible-pdf.info](mailto:mail@accessible-pdf.info)

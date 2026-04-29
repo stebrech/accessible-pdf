@@ -16,7 +16,7 @@ More below you will learn how to add or adjust single tags in Acrobat.
 
 <p class="note">
   Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you
-  to make any adjustments to the tag structure. You’ll need 
+  to make any adjustments to the tag structure. You’ll need
   <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.
 </p>
 

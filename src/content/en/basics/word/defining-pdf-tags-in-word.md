@@ -128,7 +128,7 @@ The use of the correct commands, however, ensures that the notes are tagged with
 <p class="note">
   To be more precise, Word does not place the footnotes within a <code>Note</code> tag, but within a
   non-standard <code>Footnote</code>. However, Word automatically adds a role mapping entry, which
-  refers <code>Footnote</code> to the standard compliant <code>Note</code> tag. Learn more in 
+  refers <code>Footnote</code> to the standard compliant <code>Note</code> tag. Learn more in
   <Link to="/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#standardized-tags-and-tags-with-role-mapping">
     “General working with PDF tags in Acrobat”
   </Link>

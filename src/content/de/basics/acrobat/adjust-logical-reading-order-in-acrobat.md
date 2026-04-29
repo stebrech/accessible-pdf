@@ -15,9 +15,9 @@ PDF-_Tags_ werden nicht nur benötigt um Inhalten eine semantische Bedeutung zu 
 </p>
 
 <p class="note">
-  Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige 
+  Softwarehinweis: Um mit den <em>Tags</em> arbeiten zu können, wird der kostenpflichtige
   <a href="https://acrobat.adobe.com/ch/de/acrobat.html">Adobe Acrobat</a> benötigt. Mit dem
-  kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können 
+  kostenlosen <a href="https://get.adobe.com/de/reader/">Adobe Acrobat Reader</a> können
   <em>Tags</em> weder geprüft noch geändert werden.
 </p>
 

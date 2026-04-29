@@ -15,7 +15,7 @@ Working with the so-called tag tree, which is shown in the navigation pane “Ta
 
 <p class="note">
   Note: The free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a> does not allow you
-  to make any adjustments to the tag structure. You’ll need 
+  to make any adjustments to the tag structure. You’ll need
   <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> to do that.
 </p>
 

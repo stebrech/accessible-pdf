@@ -40,10 +40,10 @@ Wenn Textrahmen miteinander verkettet sind, fliesst der Text dynamisch in den n�
 Im Artikel Bedienfeld werden verkettete Textrahmen als ein Objekt behandelt. Fügt man also den ersten Textrahmen hinzu, sind alle verketten Textrahmen inklusive. Die Reihenfolge ist durch die Verkettung vorgegeben.
 
 <p class="note">
-  Mehr zu 
+  Mehr zu
   <a href="https://helpx.adobe.com/ch_de/indesign/using/threading-text.html">
     „Verketten von Textrahmen“
-  </a> 
+  </a>
   kannst du im offiziellen Onlinehandbuch nachlesen.
 </p>
 
@@ -56,10 +56,10 @@ Um eine Grafik an einer bestimmten Stelle in der logischen Reihenfolge zu platzi
 Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte, kleine Quadrat geklickt. Mit geklickter Maustaste wird dann der Zeiger an die gewünschte Stelle innerhalb eines Textrahmens verschoben und die Taste losgelassen.
 
 <p class="note">
-  Mehr zu 
+  Mehr zu
   <a href="https://helpx.adobe.com/ch_de/indesign/using/anchored-objects.html">
     „Verankerte Objekte“
-  </a> 
+  </a>
   kannst du im offiziellen Onlinehandbuch nachlesen.
 </p>
 

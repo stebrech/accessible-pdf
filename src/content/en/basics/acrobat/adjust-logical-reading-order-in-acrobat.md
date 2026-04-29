@@ -15,7 +15,7 @@ PDF tags are not only needed to give content a semantic meaning, but also to det
 </p>
 
 <p class="note">
-  Software hint: In order to work with the tags, 
+  Software hint: In order to work with the tags,
   <a href="https://acrobat.adobe.com/uk/en/acrobat.html">Adobe Acrobat</a> is required. With the
   free <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>, tags can neither be checked
   nor changed.

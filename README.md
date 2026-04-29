@@ -26,7 +26,7 @@ Any markdown file needs a bit of essential metadata at the beginning of the docu
 ---
 title: name of the article
 author: names of all authors
-date: date in ISO 8601 
+date: date in ISO 8601
 description: A short description. It is usually the same as the lead of the post. This description will be used for SEO.
 ---
 ```

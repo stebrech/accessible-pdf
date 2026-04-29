@@ -37,7 +37,8 @@ html {
 
 @media screen and (min-width: 40rem) {
 	html {
-		font-size: 112.5%; /* 1rem = 18px */
+		font-size: 112.5%;
+		/* 1rem = 18px */
 	}
 }
 
@@ -118,11 +119,11 @@ ul {
 	list-style: none outside;
 }
 
-ul > li {
+ul>li {
 	margin: 0.5rem 0 0 2em;
 }
 
-ol > li {
+ol>li {
 	margin: 0.5rem 0 0 2em;
 	padding-left: 0.25em;
 }
@@ -132,7 +133,7 @@ li ol {
 	margin: 0.5rem 0 0 0.5em;
 }
 
-li ul > li {
+li ul>li {
 	margin-left: 1em;
 }
 
@@ -140,7 +141,7 @@ li ol {
 	list-style-type: lower-latin;
 }
 
-li ol > li {
+li ol>li {
 	margin-left: 0.5em;
 }
 
@@ -169,7 +170,7 @@ a:focus {
 	outline: none;
 }
 
-*:hover > .header-anchor,
+*:hover>.header-anchor,
 .header-anchor:focus {
 	opacity: 1;
 }
@@ -189,7 +190,7 @@ blockquote {
 	padding: 0.5rem 0.5rem 0.5rem 0.75rem;
 }
 
-blockquote > p {
+blockquote>p {
 	margin-top: 0;
 }
 
@@ -215,8 +216,8 @@ hr {
 
 /* TOC */
 
-.toc + ul p,
-.toc + ul ul {
+.toc+ul p,
+.toc+ul ul {
 	margin-top: 0;
 }
 
@@ -282,6 +283,7 @@ td {
 .pdfTags td:nth-child(1) {
 	width: 5em;
 }
+
 .pdfTags td:nth-child(2) {
 	width: 19em;
 }
@@ -296,16 +298,12 @@ td {
 
 .tableResponsive {
 	background-image: linear-gradient(to right, white, white), linear-gradient(to right, white, white),
-		linear-gradient(
-			to right,
+		linear-gradient(to right,
 			rgba(var(--color-gray-r), var(--color-gray-g), var(--color-gray-b), 0.2),
-			rgba(255, 255, 255, 0)
-		),
-		linear-gradient(
-			to left,
+			rgba(255, 255, 255, 0)),
+		linear-gradient(to left,
 			rgba(var(--color-gray-r), var(--color-gray-g), var(--color-gray-b), 0.2),
-			rgba(255, 255, 255, 0)
-		);
+			rgba(255, 255, 255, 0));
 	/* Shadows */
 	/* Shadow covers */
 	background-position:
