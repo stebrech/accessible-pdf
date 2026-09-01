@@ -11,10 +11,10 @@
 		<link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ i18n.title[page.lang] }}">
 
 		{#- Stylesheets #}
-		<link rel="stylesheet" href="/assets/styles/reset.css">
-		<link rel="stylesheet" href="/assets/styles/accessibility.css">
-		<link rel="stylesheet" href="/assets/styles/elements.css">
-		<link rel="stylesheet" href="/assets/styles/layout.css">
+		<link rel="stylesheet" href="/styles/reset.css">
+		<link rel="stylesheet" href="/styles/accessibility.css">
+		<link rel="stylesheet" href="/styles/elements.css">
+		<link rel="stylesheet" href="/styles/layout.css">
 		<link rel="stylesheet" href="/pagefind/pagefind-ui.css">
 
 		{#- Favicons #}
@@ -38,13 +38,17 @@
 		<meta name="generator" content="{{ eleventy.generator }}">
 
 		{#- Pagefind script #}
-		<script src="/assets/js/search.js" defer></script>
+		<script src="/js/search.js" defer></script>
 		<script src="/pagefind/pagefind-ui.js" defer></script>
 		<script>
 			window.addEventListener('DOMContentLoaded', (event) => {
 				new PagefindUI({ element: "#search", showSubResults: true });
 			});
 		</script>
+
+		{#- Add the heading-anchors web component to the JavaScript bundle #}
+		<script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
+
 		{#- Remove former service worker #}
 		<script>
 			if ('serviceWorker' in navigator) {

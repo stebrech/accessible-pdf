@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 650" style="enable-background:new 0 0 500 650;" xml:space="preserve">
+<svg version="1.1" id="logo" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 500 650" style="enable-background:new 0 0 500 650;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#0CA678;}
+	.st0{fill:#12b886;}
 	.st1{fill:url(#SVGID_1_);}
 	.st2{enable-background:new    ;}
 	.st3{fill:#F2F2F2;}
@@ -13,7 +14,7 @@
 	<g id="Logo">
 		<path class="st0" d="M450,650H50c-27.6,0-50-22.4-50-50l0,0V50C0,22.4,22.4,0,50,0h250l200,200v400C500,627.6,477.6,650,450,650
 			L450,650z"/>
-		
+
 			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="337.7922" y1="576.2929" x2="641.7922" y2="340.2928" gradientTransform="matrix(1 0 0 1 0 -428)">
 			<stop  offset="0" style="stop-color:#FFFFFF"/>
 			<stop  offset="1" style="stop-color:#B3B3B3"/>

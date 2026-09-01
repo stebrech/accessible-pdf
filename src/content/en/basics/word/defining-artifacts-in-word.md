@@ -24,7 +24,7 @@ This also means that relevant content must not be placed in the header or footer
 
 In newer 365 versions of Microsoft Word, images can be marked as decorative. This will cause the selected image to be marked as an artifact during PDF export.
 
-![Checkbox “Mark as decorative”. Screenshot from Word](src/assets/img/word-mark-as-decorative.png)
+![Checkbox “Mark as decorative”. Screenshot from Word](../../../assets/word-mark-as-decorative.png)
 
 In older versions this option unfortunately does not exist. You can read how this is done in Acrobat in “[Create and check artifacts in Acrobat](/basics/acrobat/create-and-check-artifacts-in-acrobat/)”.
 
@@ -32,4 +32,4 @@ In older versions this option unfortunately does not exist. You can read how thi
 
 However, the plugin [axesPDF for Word](https://www.axes4.com/axespdf-for-word-overview.html) can help here. It allows you to define objects as artifacts in older versions as well, as it is natively possible in newer Word versions.
 
-![axesPDF role mapping dropdown with the option “Artifact” selected. Screenshot of the Word Add-In.](https://www.axes4.com/files/axes4/aP4W/aP4W_Role-Mapping_Artifact.png)
+![axesPDF role mapping dropdown with the option “Artifact” selected. Screenshot of the Word Add-In.](../../../assets/axespdf-artefakt.png)

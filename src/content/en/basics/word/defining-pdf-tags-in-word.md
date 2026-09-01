@@ -52,7 +52,7 @@ If you want you can use your own paragraph styles and give them the appropriate 
    - Level 3 = `<H3>`
    - and so on
 
-![Paragraph format settings with the Outline level option highlighted. Screenshot of Word.](src/assets/img/word-outline-level.png)
+![Paragraph format settings with the Outline level option highlighted. Screenshot of Word.](../../../assets/word-outline-level.png)
 
 ## Lists
 
@@ -60,7 +60,7 @@ Lists are another important structuring element. It allows you to list several t
 
 You can do this with the following buttons:
 
-![List tools in Word.](src/assets/img/word-list.png)
+![List tools in Word.](../../../assets/word-list.png)
 
 1. The first button creates an unordered list,
 2. the second an ordered list and
@@ -87,7 +87,7 @@ When data is arranged both horizontally and vertically, it belongs into a table.
 
 To add a table, click on “Table” in the menu item “Insert”. The appearing pattern can be used to choose how many columns and rows the table should have.
 
-![Add a table in Word. Screenshot](src/assets/img/word_table.png)
+![Add a table in Word. Screenshot](../../../assets/word_table.png)
 
 If your cursor is placed somewhere in the table, you’ll see two additional menu tabs. There you have the possibilities to configure your table.
 
@@ -98,7 +98,7 @@ A correct table always contains header cells which are assigned to other cells. 
 - Total Row
 - Last Column
 
-![Table style options in Word. The options “Header Row”, “First Column”, “Total Row” and “Last Column” are markded.](src/assets/img/word-table-style-options.png)
+![Table style options in Word. The options “Header Row”, “First Column”, “Total Row” and “Last Column” are markded.](../../../assets/word-table-style-options.png)
 
 Unfortunately, up to and including version 2016, these options only affect the visual formatting, but not the PDF output. In the 365 version, the header cells are automatically tagged correctly. However, these `<TH>` tags lack the Scope attribute, which indicates whether it’s a header cell for the column or row.
 
@@ -121,7 +121,7 @@ A table shouldn’t be misused as a layout grid as well. If you need multiple co
 
 The menu tab “References“ contains the commands for adding footnotes and endnotes. The correct command for adding a footnote ensures that the footnote and its reference are dynamic and always on the same page.
 
-![Add a footnote or an endnote. Word screenshot.](src/assets/img/word-foot-end-notes.png)
+![Add a footnote or an endnote. Word screenshot.](../../../assets/word-foot-end-notes.png)
 
 The use of the correct commands, however, ensures that the notes are tagged within a `Note` tag too. Unfortunately the output from Word still isn’t accessible. So far all notes of a page are placed within a single `Note` tag instead of each separately. Also, the `Note` tag is listed after the paragraph where the first footnote reference appears. This can lead to a footnote being placed before the corresponding footnote reference. Although PDF 1.7 does not specify exactly where a footnote should be placed, this does not represent an understandable and logical order.
 

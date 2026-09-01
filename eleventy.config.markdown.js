@@ -1,4 +1,3 @@
-import markdownItAnchor from "markdown-it-anchor";
 import pluginTOC from "eleventy-plugin-toc";
 
 export default async function (eleventyConfig) {
@@ -7,17 +6,4 @@ export default async function (eleventyConfig) {
 		wrapperClass: "glossary-toc",
 	});
 
-	// Customize Markdown library settings:
-	eleventyConfig.amendLibrary("md", (mdLib) => {
-		mdLib.use(markdownItAnchor, {
-			permalink: markdownItAnchor.permalink.ariaHidden({
-				placement: "after",
-				class: "header-anchor",
-				symbol: "#",
-				ariaHidden: false,
-			}),
-			level: [1, 2, 3, 4],
-			slugify: eleventyConfig.getFilter("slugify"),
-		});
-	});
 };

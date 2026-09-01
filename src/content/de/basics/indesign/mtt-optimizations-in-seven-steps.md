@@ -17,7 +17,7 @@ Nach der Installation des Plugins erhält InDesign eine zusätzliche Registerkar
 2. Der mittlere Bereich ist dynamisch. Hier wird der eigentliche Aufgabenschritt erledigt.
 3. Der untere Teil der Registerkarte enthält Scripte, welche die barrierefreie Ausgabe unterstützen.
 
-![Die drei Bereiche der MadeToTag Registerkarte sind farblich gekennzeichnet. Screensho.](src/assets/img/mtt_overview.png)
+![Die drei Bereiche der MadeToTag Registerkarte sind farblich gekennzeichnet. Screensho.](../../../assets/mtt_overview.png)
 
 Die sieben Schritte werden im Folgenden erläutert:
 
@@ -41,7 +41,7 @@ In InDesign können lediglich die Überschriften-*Tags* (`H` und `H1-H6`) und da
 
 Ein wertvolles Kontroll-Werkzeug ist die Checkbox `Export-Tags farblich hervorheben`. Damit werden alle Inhalte, die einen Export-Tag enthalten, farblich hervorgehoben. Nun können fehlende sowie falsch zugeordnete Tags ganz einfach identifiziert werden.
 
-![Ein Ausschnitt eines Beispieldokuments mit eingeschalteter Option «Export-Tags farblich hervorheben». Screenshot.](src/assets/img/mtt_export-tags-preview.png)
+![Ein Ausschnitt eines Beispieldokuments mit eingeschalteter Option «Export-Tags farblich hervorheben». Screenshot.](../../../assets/mtt_export-tags-preview.png)
 
 ## Schritt 2: Inhalte in Artikeln strukturieren
 
@@ -51,11 +51,11 @@ Ob man alle Inhalte richtig und vollständig in Artikel verpackt hat, ist mit In
 
 Inhalte, die sich im aktuell ausgewählten Artikel befinden, können ein- und ausgeblendet werden. Der Button `in keinem Artikel` blendet alles aus, was irgendeinem Artikel zugewiesen wurde. So kann geprüft werden, ob nichts vergessen wurde.
 
-![Die verfügbaren Button in Schritt 2. Screenshot.](src/assets/img/mtt_artikel.png)
+![Die verfügbaren Button in Schritt 2. Screenshot.](../../../assets/mtt_artikel.png)
 
 Für die Prüfung der korrekten Reihenfolge enthält MadeToTag noch eine Alternative zur Artikel-Registerkarte. Das Plugin kann eine Vorschau generieren, womit sich die angewendeten Export-*Tags* und deren Reihenfolge prüfen lassen.
 
-![Eine farbig gekennzeichnete Vorschau der Dokumentstruktur. Screenshot.](src/assets/img/mtt_preview.png)
+![Eine farbig gekennzeichnete Vorschau der Dokumentstruktur. Screenshot.](../../../assets/mtt_preview.png)
 
 ## Schritt 3: Alternativer Text
 
@@ -77,7 +77,7 @@ MadeToTag zeigt dir die Primärsprache an. Dies ist die Sprache, welche am meist
 
 Mithilfe der Checkbox `Sprachen farblich hervorheben` kann eine effiziente, visuelle Prüfung vorgenommen werden.
 
-![Ein Ausschnitt eines Beispieldokuments mit den farblichen Kennzeichnungen der verschiednenen Sprachen. Screenshot.](src/assets/img/mtt_sprachen.png)
+![Ein Ausschnitt eines Beispieldokuments mit den farblichen Kennzeichnungen der verschiednenen Sprachen. Screenshot.](../../../assets/mtt_sprachen.png)
 
 ## Schritt 6: Tabellenstruktur
 
@@ -89,7 +89,7 @@ Nebst der PDF/UA-konformen Tabellenausgabe, bietet das Plugin drei weitere Struk
 - **Smart-Headers:** Mit diesem zusätzlichen Tool können besonders komplexe Tabellenstrukturen korrekt umgesetzt werden;
 - **Layout-Tabellen:** Werden Tabellen zu Layoutzwecken «missbraucht», kann mit dieser Option die Ausgabe als Tabelle verhindert werden.
 
-![Tabelle, die mithilfe von Smart-Headers strukturiert wurde. Screenshot.](src/assets/img/mtt_tabellen.png)
+![Tabelle, die mithilfe von Smart-Headers strukturiert wurde. Screenshot.](../../../assets/mtt_tabellen.png)
 
 ## Schritt 7 (Abschluss): PDF exportieren
 

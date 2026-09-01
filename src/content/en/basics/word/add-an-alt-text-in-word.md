@@ -17,7 +17,7 @@ In the glossary you can learn more about what an [alt text](/glossary/#alt-text)
 2. Select “Edit Alt Text”
 3. In the area “Alt text” you can now describe the image in one or two sentences
 
-![Screenshot of the right-click menu and the “Alt Text” area.](src/assets/img/alttext_word365_en.png)
+![Screenshot of the right-click menu and the “Alt Text” area.](../../../assets/alttext_word365_en.png)
 
 ## Add an alt text in Microsoft Word 2016 or 2013
 

@@ -33,11 +33,11 @@ For this tutorial, the initial situation is a completely tagged document.
 
 1. Open the navigation pane “Tags”
    The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
-   ![Tag icon in Acrobat](src/assets/img/tag-icon.png)
+   ![Tag icon in Acrobat](../../../assets/tag-icon.png)
    If it is not yet listed in the left bar, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation Pane” and the Navigation Pane will be displayed.
 2. Find the decorative content within the tags, see also “[Find tagged text in the tag tree](/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#find-tagged-text-in-the-tag-tree)” within “[General working with PDF tags in Acrobat](/basics/acrobat/general-working-with-pdf-tags-in-acrobat/)”.
-3. Right-click on the content (with the small box icon) and select “Change Tag to Artifact”. ![Context menu with selected option “Change tag to Artifact”. Screenshot from Acrobat.](src/assets/img/acrobat-change-tag-to-artifact.png)
-4. The opening dialog allows you to describe the type of artifact and its page position in more detail. ![In the Artifact options you can choose between the types “Page”, “Pagination” and “Layout”. In addition, there are four option fields for the positions: Left, Top, Right and Bottom. Screenshot from Acrobat.](src/assets/img/acrobat-artifcat-options.png)
+3. Right-click on the content (with the small box icon) and select “Change Tag to Artifact”. ![Context menu with selected option “Change tag to Artifact”. Screenshot from Acrobat.](../../../assets/acrobat-change-tag-to-artifact.png)
+4. The opening dialog allows you to describe the type of artifact and its page position in more detail. ![In the Artifact options you can choose between the types “Page”, “Pagination” and “Layout”. In addition, there are four option fields for the positions: Left, Top, Right and Bottom. Screenshot from Acrobat.](../../../assets/acrobat-artifcat-options.png)
 5. If this artifact was placed alone within a tag, the empty tag should be deleted.
 
 ## Create artifact with “Reading Order” tool
@@ -49,13 +49,13 @@ With the “Reading Order” tool it goes faster. On the other hand, you can wor
 3. Select the area you want to mark as artifact. You can do this by clicking in the upper left corner or by clicking and holding the mouse and dragging a selection square.
 4. Finally click on the button “Background/Artifact” in the window.
 
-![How is an artifact created using the “Reading Order” tool? Gif animation.](src/assets/img/acrobat_artifact2_en.gif)
+![How is an artifact created using the “Reading Order” tool? Gif animation.](../../../assets/acrobat_artifact2_en.gif)
 
 ## Check artifacts in navigation pane “Content”
 
 If already tagged items are marked as artifacts, they disappear in the tag tree. However, artifacts are still present in the “Content” navigation pane. They can be recognized by the marking: “Container `<Artifact>` …”.
 
-![The navigation pane “Content” with a highlighted artifact container. Screenshot in Acrobat.](src/assets/img/acrobat-artifact.png)
+![The navigation pane “Content” with a highlighted artifact container. Screenshot in Acrobat.](../../../assets/acrobat-artifact.png)
 
 <p class="note">
   In the “Contents” navigation pane, the element that is at the top is at the lowest position. The

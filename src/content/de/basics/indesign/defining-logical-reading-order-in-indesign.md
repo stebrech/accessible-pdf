@@ -27,7 +27,7 @@ Um die logische Lesereihenfolge bereits in InDesign zu bestimmen, wird das Bedie
   mit Tags verwenden“ in den Bedienfeldoptionen aktiviert werden.
 </p>
 
-![Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge](src/assets/img/indesign-artikel-reihenfolge.png)
+![Screenshot von Bedienfeldoptionen mit aktivierter Option für Lesereihenfolge](../../../assets/indesign-artikel-reihenfolge.png)
 
 ### Nachträgliche Anpassungen
 
@@ -74,7 +74,7 @@ Um ein Objekt zu verankern wird im Rahmen an der oberen Kante auf das gefüllte,
 
 Auch Formularfelder sind Objekte, die ebenfalls am besten innerhalb eines Textrahmens verankert werden. Beim PDF-Export als „Adobe PDF (Interaktiv)“ kann die Option „Struktur für Aktivierreihenfolge verwenden“ aktiviert werden und die Tab-Reihenfolge wird korrekt, gemäss der logischen Lesereihenfolge, übernommen.
 
-![Screenshot der Exportoptionen im interaktiven PDF-Format.](src/assets/img/indesign_pdf_export_interaktiv.png)
+![Screenshot der Exportoptionen im interaktiven PDF-Format.](../../../assets/indesign_pdf_export_interaktiv.png)
 
 ## Zusätzliche Features mit MadeToTag
 
@@ -82,6 +82,6 @@ Das kostenpflichtige InDesign Plugin [MadeToTag](https://www.axaio.com/doku.php/
 
 Im zweiten Aufgabenschritt des Plugins lassen sich sämtliche Inhalte eines Artikels oder aller Artikel ein- und ausblenden. Dies hilft um noch fehlende Inhalte zu finden, welche noch in einen Artikel aufgenommen werden müssen. Umgekehrt können auch Objekte, die nicht _getaggt_ werden sollen, besser identifiziert werden.
 
-![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](src/assets/img/mtt_artikel.png)
+![Screenshot des Plugins MadeToTag im 2. Aufgabenschritt](../../../assets/mtt_artikel.png)
 
 Ähnlich wie in [„Semantik und logische Lesereihenfolge prüfen“](/de/basics/general/check-semantics-and-logical-reading-order/) gezeigt, kann mithilfe des Plugins eine Vorschau der Tags und deren Reihenfolge innerhalb von InDesign angezeigt werden.

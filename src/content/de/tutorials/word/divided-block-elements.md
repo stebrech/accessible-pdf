@@ -36,7 +36,7 @@ Mithilfe der Absatzformateinstellungen kann verhindert werden, dass ein Block ge
 
 bleibt ein Block zusammen und beginnt erst auf der nächsten Seite oder in der nächsten Spalte.
 
-![Bildschirmfoto aus Word mit geöffneten Absatzformateinstellungen und aktivem Register „Zeilen- und Seitenumbruch“. Markiert sind die beiden Optionen „Zeilen nicht trennen“ und „Seitenumbruch oberhalb“.](src/assets/img/word-absatzformat-seitenumbruch.png)
+![Bildschirmfoto aus Word mit geöffneten Absatzformateinstellungen und aktivem Register „Zeilen- und Seitenumbruch“. Markiert sind die beiden Optionen „Zeilen nicht trennen“ und „Seitenumbruch oberhalb“.](../../../assets/word-absatzformat-seitenumbruch.png)
 
 <p class="warning">
   Dieser manuelle Lösungsweg kann nur situativ angewendet werden. Je nach Layout oder bei grossen,
@@ -55,7 +55,7 @@ Mögliche Umbrüche, die eine Trennung eines Blocks verhindern können:
 - Gerade Seite
 - Ungerade Seite
 
-![Bildschirmfoto von Word mit aktivem „Layout“ Register und aufgeklappten „Umbrüche“ Befehl. Die möglichen Umbrucharten sind markiert.](src/assets/img/word-umbrueche.png)
+![Bildschirmfoto von Word mit aktivem „Layout“ Register und aufgeklappten „Umbrüche“ Befehl. Die möglichen Umbrucharten sind markiert.](../../../assets/word-umbrueche.png)
 
 <p class="warning">
   Dieser manuelle Lösungsweg kann nur situativ angewendet werden. Je nach Layout oder bei grossen,
@@ -72,9 +72,9 @@ Mögliche Umbrüche, die eine Trennung eines Blocks verhindern können:
 
 Werden Block-Elemente geteilt, wiederholt sich nach dem Umbruch der _Tag_ auf oberster Ebene. Am Beispiel einer Liste existieren mehrere `<L>`-_Tags_. Folgende Bildschirmfotos aus Acrobat zeigen wie auch noch ein Listenpunkt selbst durch einen Umbruch getrennt wird.
 
-![Bildschirmfoto in Acrobat: Erste Seite mit drei sichtbaren Listenpunkten. Geöffnet ist ebenfalls das Navigationsfenster „Tags“. Markierungen zeigen welche Tags welchem Listenpunkt zugeordnet sind.](src/assets/img/acrobat-liste-geteilt-1.png)
+![Bildschirmfoto in Acrobat: Erste Seite mit drei sichtbaren Listenpunkten. Geöffnet ist ebenfalls das Navigationsfenster „Tags“. Markierungen zeigen welche Tags welchem Listenpunkt zugeordnet sind.](../../../assets/acrobat-liste-geteilt-1.png)
 
-![Bildschirmfoto in Acrobat: Zweite Seite mit drei sichtbaren Listenpunkten, wobei der erste die Fortsetzung des letzten der ersten Seite ist. Geöffnet ist ebenfalls das Navigationsfenster „Tags“. Markierungen zeigen welche Tags welchem Listenpunkt zugeordnet sind.](src/assets/img/acrobat-liste-geteilt-2.png)
+![Bildschirmfoto in Acrobat: Zweite Seite mit drei sichtbaren Listenpunkten, wobei der erste die Fortsetzung des letzten der ersten Seite ist. Geöffnet ist ebenfalls das Navigationsfenster „Tags“. Markierungen zeigen welche Tags welchem Listenpunkt zugeordnet sind.](../../../assets/acrobat-liste-geteilt-2.png)
 
 1. Zuerst müssen die Inhalte von `<LBody>` des ersten `<LI>` auf der zweiten Seite (3-2) in das `<LBody>` des letzten `<LI>` der ersten Seite (3-1) verschoben werden. Die korrekte Reihenfolge muss bewahrt werden.
 2. Danach werden die beiden übrigen Listenelemente `<LI>` (4 und 5) innerhalb des `<L>`-_Tag_ der ersten Seite verschoben.
@@ -86,10 +86,10 @@ Analog diesem Beispiel können auch andere Block-Elemente manuell wieder zusamme
 
 In einer Word-Tabelle kann definiert werden, dass sich die erste Zeile einer Tabelle auf jeder Seite wiederholt. Dabei muss sich der _Cursor_ in der ersten Zeile befinden und die Tabellenoption „Gleiche Kopfzeile auf jeder Seite wiederholen“ ausgewählt werden.
 
-![Markierte Tabellenoption „Gleiche Kopfzeile auf jeder Seite wiederholen“. Bildschirmfoto aus Word.](src/assets/img/word-tabelle-kopfzeile-wiederholen.png)
+![Markierte Tabellenoption „Gleiche Kopfzeile auf jeder Seite wiederholen“. Bildschirmfoto aus Word.](../../../assets/word-tabelle-kopfzeile-wiederholen.png)
 
 Dabei werden diese Wiederholungen auch als Überschriftenzellen _getaggt_. Der Aufwand, der beim Vereinen von solchen einzelnen Tabellen entsteht, ist fragwürdig. Sofern die Tabellen einzeln verstanden werden, können diese auch so belassen werden.
 
 Lieber sollte dafür gesorgt werden, dass nicht innerhalb einer Zelle getrennt wird. Mit **Deaktivierung** der Tabellenoption „Seitenumbruch in der Zeile zulassen“ kann dies erreicht werden.
 
-![Markierte Tabellenoption „Seitenumbruch in der Zeile zulassen“. Bildschirmfoto aus Word.](src/assets/img/word-tabelle-zeile-nicht-trennen.png)
+![Markierte Tabellenoption „Seitenumbruch in der Zeile zulassen“. Bildschirmfoto aus Word.](../../../assets/word-tabelle-zeile-nicht-trennen.png)

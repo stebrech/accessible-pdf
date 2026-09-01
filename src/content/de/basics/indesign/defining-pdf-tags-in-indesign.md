@@ -17,7 +17,7 @@ Eines der wichtigsten Strukturelemente sind verschachtelte mehrstufige Überschr
 2. öffnest den letzten Abschnitt „Tagsexport“;
 3. und wählst das passende _Tag_ im letzten _Dropdown_-Feld mit der Bezeichnung „PDF“ → „Tag“.
 
-![Screenshot der Absatzformat-Optionen mit geöffnetem Reiter Tagsexport.](src/assets/img/indesign_tagsexport.png)
+![Screenshot der Absatzformat-Optionen mit geöffnetem Reiter Tagsexport.](../../../assets/indesign_tagsexport.png)
 
 Du kannst dem Absatzformat jeden beliebigen Überschriften-_Tag_ zuweisen. Es besteht auch die Möglichkeit „Artifact“ auszuwählen, wenn der Text keine relevanten Informationen enthält. Mehr dazu findest du unter [„Artefakte in InDesign festlegen“](/de/basics/indesign/defining-artifacts-in-indesign/).
 
@@ -37,11 +37,11 @@ Im Menüpunkt „Schrift“ können korrekte Fuss- oder Endnoten hinzugefügt we
 
 Sobald dein Dokument fertig ist, gibt es eine wichtige Exporteinstellung, die du prüfen musst. Die Option „PDF mit Tags erstellen“ muss aktiviert sein. Du wirst sie finden ob du das Format „Adobe PDF (Druck)“.
 
-![Screenshot der Exportoptionen im PDF-Druckformat.](src/assets/img/indesign_pdf_export_druck.png)
+![Screenshot der Exportoptionen im PDF-Druckformat.](../../../assets/indesign_pdf_export_druck.png)
 
 oder „Adobe PDF (Interaktiv)“ auswählst.
 
-![Screenshot der Exportoptionen im interaktiven PDF-Format.](src/assets/img/indesign_pdf_export_interaktiv.png)
+![Screenshot der Exportoptionen im interaktiven PDF-Format.](../../../assets/indesign_pdf_export_interaktiv.png)
 
 Wenn dein Dokument interaktiv ist und Links oder Formularfelder enthält, musst du „Adobe PDF (Interaktiv)“ wählen und auch die Option „Struktur für Aktivierreihenfolge verwenden“ aktivieren.
 

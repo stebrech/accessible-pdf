@@ -17,7 +17,7 @@ After installing the plugin, InDesign receives an additional panel that can be s
 2. the middle area is dynamic. The actual task step is completed here.
 3. the lower part of the panel contains scripts that support accessible output.
 
-![The three areas of the MadeToTag tab are color-coded. Screenshot](src/assets/img/mtt_overview_en.png)
+![The three areas of the MadeToTag tab are color-coded. Screenshot](../../../assets/mtt_overview_en.png)
 
 The seven steps are explained below:
 
@@ -41,7 +41,7 @@ In InDesign, only the heading tags (`H` and `H1-H6`) and the paragraph tag (`P`)
 
 The `Highlight export tags by color` checkbox is a valuable control tool. This highlights all content containing an export tag by color. Missing and incorrectly assigned tags can now be easily identified.
 
-![A section of a sample document with the “Highlight export tags by color” option activated. Screenshot](src/assets/img/mtt_export-tags-preview_en.png)
+![A section of a sample document with the “Highlight export tags by color” option activated. Screenshot](../../../assets/mtt_export-tags-preview_en.png)
 
 ## Step 2: Structure content into articles
 
@@ -51,11 +51,11 @@ Whether all content has been correctly and completely packed into articles canno
 
 Content that is in the currently selected article can be shown and hidden. The `not in any article` button hides everything that has been assigned to any article. This allows you to check that nothing has been forgotten.
 
-![The available buttons in step 2. Screenshot.](src/assets/img/mtt_article.png)
+![The available buttons in step 2. Screenshot.](../../../assets/mtt_article.png)
 
 MadeToTag also contains an alternative to the article tab for checking the correct order. The plugin can generate a preview to check the applied export tags and their order.
 
-![A color-coded preview of the document structure. Screenshot.](src/assets/img/mtt_preview.png)
+![A color-coded preview of the document structure. Screenshot.](../../../assets/mtt_preview.png)
 
 ## Step 3: Alternate Text
 
@@ -77,7 +77,7 @@ MadeToTag shows you the primary language. This is the language that was used the
 
 An efficient, visual check can be carried out using the `Highlight languages by color` checkbox.
 
-![A section of a sample document with the color coding of the different languages. Screenshot](src/assets/img/mtt_sprachen.png)
+![A section of a sample document with the color coding of the different languages. Screenshot](../../../assets/mtt_sprachen.png)
 
 ## Step 6: Table structure
 
@@ -89,7 +89,7 @@ In addition to PDF/UA-compliant table output, the plugin offers three other stru
 - **Smart Headers:** This additional tool can be used to implement particularly complex table structures correctly;
 - **Table is a 'layout table':** If tables are misused for layout purposes, this option can be used to prevent output as a table.
 
-![Table structured using smart headers, screenshot](src/assets/img/mtt_tabellen.png)
+![Table structured using smart headers, screenshot](../../../assets/mtt_tabellen.png)
 
 ## Step 7 (Completion): Create tagged PDF file
 

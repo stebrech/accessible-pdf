@@ -34,11 +34,11 @@ Bei dieser Anleitung ist die Ausgangslage ein vollständig _getaggtes_ Dokument.
 
 1. Öffne das Navigationsfenster „Tags“.
    Es lässt sich öffnen indem auf das Symbol mit dem Namensschild klickst.
-   ![Tag Icon in Acrobat](src/assets/img/tag-icon.png)
+   ![Tag Icon in Acrobat](../../../assets/tag-icon.png)
    Falls dieses in der linken Leiste noch nicht aufgeführt ist, kann es mit einem Rechtsklick oder unter „Anzeige“ → „Ein-/Ausblenden“ → „Navigationsfenster“ hinzugefügt und das Navigationsfenster angezeigt werden.
 2. Suche dir den dekorativen Inhalt innerhalb der Tags, siehe dazu auch „[Getaggter Text im Tagbaum finden](/de/basics/acrobat/general-working-with-pdf-tags-in-acrobat/#getaggter-text-im-tagbaum-finden)“ innerhalb von „[Generelles Arbeiten mit PDF-Tags in Acrobat](/de/basics/acrobat/general-working-with-pdf-tags-in-acrobat/)“
-3. Mache einen Rechtsklick auf den Inhalt (mit dem kleinen Kistensymbol) und wähle „_Tag_ in aussertextliches Element ändern“. ![Kontextmenü mit ausgewählter Option „Tag in aussertextliches Element ändern“. Bildschirmfoto aus Acrobat.](src/assets/img/acrobat-tag-in-aussertextliches-element-aendern.png)
-4. Der öffnende Dialog erlaubt dir noch die Art des Artefakt und dessen Seitenposition näher zu beschreiben. ![In den Artifact Optionen kann zwischen den Typen „Seite“, „Paginierung“ und „Layout“ unterschieden werden. Zusätzlich stehen vier Optionsfelder der Positionen zur Verfügung: Links, Oben, Rechts und Unten. Bildschirmfoto aus Acrobat.](src/assets/img/acrobat-artefakt-optionen.png)
+3. Mache einen Rechtsklick auf den Inhalt (mit dem kleinen Kistensymbol) und wähle „_Tag_ in aussertextliches Element ändern“. ![Kontextmenü mit ausgewählter Option „Tag in aussertextliches Element ändern“. Bildschirmfoto aus Acrobat.](../../../assets/acrobat-tag-in-aussertextliches-element-aendern.png)
+4. Der öffnende Dialog erlaubt dir noch die Art des Artefakt und dessen Seitenposition näher zu beschreiben. ![In den Artifact Optionen kann zwischen den Typen „Seite“, „Paginierung“ und „Layout“ unterschieden werden. Zusätzlich stehen vier Optionsfelder der Positionen zur Verfügung: Links, Oben, Rechts und Unten. Bildschirmfoto aus Acrobat.](../../../assets/acrobat-artefakt-optionen.png)
 5. Falls dieses Artefakt alleine innerhalb eines _Tags_ platziert war, sollte das leere Tag noch gelöscht werden.
 
 ## Artefakt mit Leserichtung-Werkzeug erstellen
@@ -50,13 +50,13 @@ Mit dem Leserichtung-Werkzeug geht es schneller. Im Gegenzug kann man weniger pr
 3. Wähle den Bereich aus, den du als Artefakt kennzeichnen möchtest. Dazu kannst in die linke obere Ecke klicken oder die Maus geklickt halten und ein Auswahlfeld aufziehen.
 4. Klicke nun im Fenster auf den Knopf „Hintergrund/Artefakt“.
 
-![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.](src/assets/img/acrobat_artifact2.gif)
+![Wie wird ein Artefakt mithilfe des „Leserichtung-Werkzeugs“ angelegt? Gif-Animation.](../../../assets/acrobat_artifact2.gif)
 
 ## Artefakte in Navigationsfenster „Inhalt“ prüfen
 
 Falls bereits _getaggte_ Inhalte als Artefakte gekennzeichnet werden, verschwinden sie im „Tagbaum“. Artefakte sind jedoch im Navigationsfenster „Inhalt“ weiterhin vorhanden. Erkennbar sind sie durch die Kennzeichnung: „Container `<Artifact>` …“.
 
-![Das Navigationsfenster „Inhalt“ mit einem gekennzeichneten Artifact Container. Bildschirmfoto in Acrobat.](src/assets/img/acrobat-artifact.png)
+![Das Navigationsfenster „Inhalt“ mit einem gekennzeichneten Artifact Container. Bildschirmfoto in Acrobat.](../../../assets/acrobat-artifact.png)
 
 <p class="note">
   Im Navigationsfenster „Inhalt“ liegt das Element, das sich an oberster Stelle befindet, auf der

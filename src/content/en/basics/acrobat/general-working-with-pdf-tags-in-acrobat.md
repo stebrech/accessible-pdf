@@ -21,7 +21,7 @@ Working with the so-called tag tree, which is shown in the navigation pane “Ta
 
 <p class="note">
 The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
-{% image "src/assets/img/tag-icon.png", "Tag Icon in Acrobat" %}
+<img src="../../../assets/tag-icon.png" alt="Tag Icon in Acrobat">
 If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.
 </p>
 
@@ -35,7 +35,7 @@ To quickly reach a desired position in the tag tree, use the following steps:
 
 <p class="note">
 The options of the navigation pane “Tags” can be opened at the top left on the small icon with the two list items.
-{% image "src/assets/img/tags-options-icon.png", "Menu icon of the tags options in Acrobat" %}
+<img src="../../../assets/tags-options-icon.png" alt="Menu icon of the tags options in Acrobat">
 </p>
 
 ## Navigate to the contents of the selected tag and highlight it

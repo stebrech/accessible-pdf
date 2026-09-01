@@ -24,7 +24,7 @@ Dies bedeutet also auch, dass inhaltlich relevante Inhalte nicht in der Kopf- od
 
 In neueren 365-Versionen von Microsoft Word können Bilder als dekorativ markiert werden. Dies bewirkt, dass beim PDF-Export das markierte Bild als Artefakt gekennzeichnet wird.
 
-![Markiertes Optionsfeld „Als dekorativ markieren“. Bildschirmfoto aus Word.](src/assets/img/word-als-dekorativ-markieren.png)
+![Markiertes Optionsfeld „Als dekorativ markieren“. Bildschirmfoto aus Word.](../../../assets/word-als-dekorativ-markieren.png)
 
 In älteren Versionen besteht diese Möglichkeit leider nicht. Wie dies in Acrobat nachgearbeitet wird, kannst du in „[Artefakte in Acrobat erstellen und prüfen](/de/basics/acrobat/create-and-check-artifacts-in-acrobat/)“ nachlesen.
 
@@ -32,4 +32,4 @@ In älteren Versionen besteht diese Möglichkeit leider nicht. Wie dies in Acrob
 
 Abhilfe kann hier aber das Plugin [axesPDF for Word](https://www.axes4.com/axespdf-for-word-ueberblick.html) schaffen. Damit lassen sich, wie dies in neueren Word-Version nativ möglich ist, auch in älteren Versionen Objekte als Artefakte festlegen.
 
-![axesPDF Rollenzuordnung mit ausgewählter Option „Artefakt“, welches auf ein Bild angewendet wurde. Bildschirmfoto des Plugins.](src/assets/img/axespdf-artefakt.png)
+![axesPDF Rollenzuordnung mit ausgewählter Option „Artefakt“, welches auf ein Bild angewendet wurde. Bildschirmfoto des Plugins.](../../../assets/axespdf-artefakt.png)

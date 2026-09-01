@@ -27,7 +27,7 @@ There is no warning or error for this issue.
 
 The concerning text can be reformatted with the available list function.
 
-![List buttons in Microsoft Word](src/assets/img/word_list_icons.png)
+![List buttons in Microsoft Word](../../../assets/word_list_icons.png)
 
 For consistent formatting it's recommended to create or use an existing list style.
 
@@ -35,7 +35,7 @@ For consistent formatting it's recommended to create or use an existing list sty
 
 The concerning text can be reformatted with the available list function.
 
-![List buttons in Adobe InDesign](src/assets/img/indesign_list_icons.png)
+![List buttons in Adobe InDesign](../../../assets/indesign_list_icons.png)
 
 For consistent formatting it's recommended to create or use an existing list style.
 

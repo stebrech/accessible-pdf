@@ -30,7 +30,7 @@ PDF tags are not only needed to give content a semantic meaning, but also to det
 
 <p class="note">
 The navigation pane “Tags” can be opened by clicking on the icon with the name tag.
-{% image "src/assets/img/tag-icon.png", "Tag Icon in Acrobat" %}
+<img src="../../../assets/tag-icon.png" alt="Tag Icon in Acrobat">
 If this is not yet displayed in the left pane, it can be added with a right click or under “Display” → “Show/Hide” → “Navigation pane” and the navigation pane is displayed.
 
 </p>

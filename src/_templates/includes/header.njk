@@ -3,14 +3,10 @@
 		<nav class="mainnav" aria-label="main">
 			<div class="home">
 				<a href="/{{[page.lang]}}">
-					<img
-						src="/assets/img/logo_accessiblePDF.svg"
-						width="40"
-						height="100"
-						alt="{{ i18n.site.title[page.lang] }}"
-						class="site_logo"
-					/>
-					<div class="site_title">{{ i18n.site.title[page.lang] }}</div>
+					<div class="site_logo">
+						{% include "./svg/logo_accessiblePDF.svg" %}
+					</div>
+					<div id="site_title">{{ i18n.site.title[page.lang] }}</div>
 					<div class="site_description">{{ i18n.site.description[page.lang] }}</div>
 				</a>
 			</div>
@@ -40,7 +36,7 @@
 					{% endfor %}
 				</ul>
 				<button id="search-icon" aria-label="{{i18n.site.search[page.lang]}}">
-					{% image "src/assets/img/svg/search.svg", "" %}
+					{% include "./svg/search.svg" %}
 				</button>
 			</div>
 		</nav>

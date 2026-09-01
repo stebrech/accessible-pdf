@@ -7,12 +7,7 @@ import pluginMarkdown from "./eleventy.config.markdown.js";
 export default async function (eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
 	eleventyConfig.addPassthroughCopy({
-		"./src/assets/img/svg": "/assets/img",
-		"./src/assets/styles": "/assets/styles",
-		"./src/assets/js": "/assets/js",
-		"./src/assets/favicons": "/",
-		"./src/assets/manifest": "/",
-		"./src/assets/robots.txt": "/robots.txt",
+		"./src/public/": "/",
 	});
 
 	// Run Eleventy when these files change:

@@ -52,7 +52,7 @@ Wenn du möchtest, kannst du auch deine eigenen Absatzformate verwenden und ihne
    - Ebene 3 = `<H3>`
    - usw.
 
-![Absatzformateinstellungen mit markierter Option Gliederungsebene. Bildschirmfoto von Word.](src/assets/img/word_gliederungsebene.png)
+![Absatzformateinstellungen mit markierter Option Gliederungsebene. Bildschirmfoto von Word.](../../../assets/word_gliederungsebene.png)
 
 ## Listen
 
@@ -60,7 +60,7 @@ Listen sind ein weiteres wichtiges Strukturierungsmittel. Damit werden mehrere D
 
 Mit folgenden Schaltflächen kannst du das tun:
 
-![Listen Werkzeuge in Word.](src/assets/img/word-list.png)
+![Listen Werkzeuge in Word.](../../../assets/word-list.png)
 
 1. Die erste Schaltfläche erstellt eine ungeordnete Liste mit Aufzählungszeichen,
 2. die zweite eine nummerierte Liste und
@@ -88,7 +88,7 @@ Wenn Daten sowie horizontal wie auch vertikal angeordnet sind, gehören sie in e
 
 Um eine Tabelle hinzuzufügen, kann im Menüpunkt „Einfügen“ auf „Tabelle“ geklickt werden. Das erscheinende Raster kann verwendet werden, um auszuwählen wie viele Spalten und Zeilen die Tabelle haben soll.
 
-![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.](src/assets/img/word_tabelle.png)
+![Wo in Word eine Tabelle hinzugefügt werden kann. Screenshot.](../../../assets/word_tabelle.png)
 
 Wenn sich der Cursor irgendwo in der Tabelle befindet, werden zwei zusätzliche Registerkarten in der Menüleiste angezeigt. In diesen kann eine Tabelle näher konfiguriert werden.
 
@@ -99,7 +99,7 @@ Eine Tabelle enthält immer Zellen die als Überschriften gelten und anderen Zel
 - Ergebniszeile
 - Letzte Spalte
 
-![Tabellenformatoptionen in Word. Markiert sind die Optionen Überschrift, Erste Spalte, Ergebnisspalte und letzte Spalte.](src/assets/img/word_tabellenformatoptionen.png)
+![Tabellenformatoptionen in Word. Markiert sind die Optionen Überschrift, Erste Spalte, Ergebnisspalte und letzte Spalte.](../../../assets/word_tabellenformatoptionen.png)
 
 Leider haben diese Optionen bis und mit der Version 2016 nur Einfluss auf die visuelle Formatierungen, jedoch nicht auf die PDF-Ausgabe. In der 365-Version werden die Überschriftenzellen dann automatisch korrekt _getaggt_. Diesen `<TH>` _Tags_ fehlt jedoch das _Scope_ Attribut, welches angibt ob es eine Überschriftszelle für die Spalte oder Zeile ist.
 
@@ -124,7 +124,7 @@ Eine Tabelle sollte nicht als Layout-Raster missbraucht werden. Falls mehrere Sp
 
 Im Menüregister „Verweise“, respektive „Referenzen“, befinden sich die Befehle für das Hinzufügen von Fuss- und Endnoten. Der Befehl für das Hinzufügen einer Fussnote sorgt dafür, dass Fussnote und die Fussnotenziffer immer dynamisch auf der gleichen Seiten sind.
 
-![Wie in Word eine Fussnote oder Endnote hinzufügen. Screenshot.](src/assets/img/word-fuss-endnoten.png)
+![Wie in Word eine Fussnote oder Endnote hinzufügen. Screenshot.](../../../assets/word-fuss-endnoten.png)
 
 Die Verwendung der korrekten Befehle sorgen jedoch auch da
 für, dass die Fuss-/Endnoten innerhalb eines `Note` _getaggt_ werden. Leider lässt die Ausgabe aus Word aber noch sehr zu Wünschen übrig. Bisher werden alle Fuss-/Endnoten einer Seite innerhalb von einem `Note` _getaggt_ anstatt jede für sich. Zudem wird der `Note` _Tag_ nach dem Absatz, indem das erste Fussnotenzeichen erscheint, aufgeführt. Dies kann dazu führen, dass eine Fussnote vor der dazugehörigen Fussnotenziffer platziert wird. Obwohl PDF 1.7 nicht genau vorgibt wo eine Fussnote platziert werden soll, entspricht dies nicht einer verständlichen und logischen Reihenfolge.

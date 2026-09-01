@@ -36,7 +36,7 @@ Paragraph style settings can be used to prevent a block from being separated. Th
 
 hold a block together and start only on the next page or in the next column.
 
-![Screenshot from Word with paragraph settings open and the “Line and Page Breaks” tab active. The two options “Keep lines together” and “Page break before” are marked.](src/assets/img/word-paragraph-page-break.png)
+![Screenshot from Word with paragraph settings open and the “Line and Page Breaks” tab active. The two options “Keep lines together” and “Page break before” are marked.](../../../assets/word-paragraph-page-break.png)
 
 <p class="warning">
   This manual approach can only be used situationally. Depending on the layout or large, cross-page
@@ -55,7 +55,7 @@ Possible breaks that can prevent a block from being separated:
 - Even Page
 - Odd Page
 
-![Screenshot of Word with active “Layout” register and expanded “Breaks” command. The possible wrapping types are marked.](src/assets/img/word-breaks.png)
+![Screenshot of Word with active “Layout” register and expanded “Breaks” command. The possible wrapping types are marked.](../../../assets/word-breaks.png)
 
 <p class="warning">
   This manual approach can only be used situationally. Depending on the layout or large, cross-page
@@ -72,9 +72,9 @@ Possible breaks that can prevent a block from being separated:
 
 If block elements are divided, the tag is repeated at the top level after the break. As an example of a list, several `<L>` tags exist. The following screenshots from Acrobat show how a list item itself is separated by a break.
 
-![Screenshot in Acrobat: First page with three visible list items. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](src/assets/img/acrobat-liste-geteilt-1.png)
+![Screenshot in Acrobat: First page with three visible list items. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](../../../assets/acrobat-liste-geteilt-1.png)
 
-![Screenshot in Acrobat: Second page with three visible list items, the first of which is the continuation of the last of the first page. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](src/assets/img/acrobat-liste-geteilt-2.png)
+![Screenshot in Acrobat: Second page with three visible list items, the first of which is the continuation of the last of the first page. The navigation pane “Tags” is open as well. Markings show which tags are assigned to which list items.](../../../assets/acrobat-liste-geteilt-2.png)
 
 1. First, the contents of `<LBody>` of the first `<LI>` on the second page (3-2) must be moved to `<LBody>` of the last `<LI>` of the first page (3-1). The correct order must be maintained.
 2. Then the two remaining list elements `<LI>` (4 and 5) must be moved within the `<L>` tag of the first page.
@@ -86,10 +86,10 @@ Analogously to this example, other block elements can also be manually reassembl
 
 In a Word table, you may define that the first line repeats on each page. The cursor must be in the first line and the table option “Repeat as header row at the top of each page” must be selected.
 
-![Table option “Repeat as header row at the top of each page”. Screenshot from Word.](src/assets/img/word-table-repeat-header.png)
+![Table option “Repeat as header row at the top of each page”. Screenshot from Word.](../../../assets/word-table-repeat-header.png)
 
 These repetitions are also tagged as header cells. The effort, which results from combining such single tables, is questionable. If the tables are understood individually, they can be left as such.
 
 It’s rather better to ensure that the tables are not separated within one cell. This can be achieved by **deactivating** the table option “Allow row to be broken across pages”.
 
-![Marked table option “Allow row to be broken across pages”. Screenshot from Word.](src/assets/img/word-table-allow-broken-row.png)
+![Marked table option “Allow row to be broken across pages”. Screenshot from Word.](../../../assets/word-table-allow-broken-row.png)

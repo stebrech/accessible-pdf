@@ -56,24 +56,25 @@
 	.mainnav .home a {
 		display: grid;
 		grid-template-columns: 3rem auto;
-		gap: 0 0.5rem;
+		gap: 0 1rem;
 		align-items: center;
 	}
 }
 
 .site_logo {
 	margin: 1rem auto;
-	max-width: 6rem;
+	max-width: 3rem;
 }
 
 @media screen and (min-width: 60rem) {
 	.site_logo {
+		display: flex;
 		grid-row: span 2;
-		margin: inherit;
+		margin: 0;
 	}
 }
 
-.site_title {
+#site_title {
 	font-size: 1.25rem;
 }
 
@@ -253,7 +254,7 @@ body {
 
 #search .pagefind-ui__form::before {
 	background-color: transparent;
-	content: url(/assets/img/search-gray.svg);
+	content: url(/img/search-gray.svg);
 	height: 3rem;
 	mask: none;
 	position: absolute;
@@ -451,6 +452,7 @@ article.tutorials a {
 .logoBmc {
 	grid-row: span 2;
 	max-width: 2rem;
+	height: auto;
 }
 
 /* Sidebar */

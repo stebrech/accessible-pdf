@@ -17,7 +17,7 @@ Im Glossar kannst du mehr darüber erfahren was ein [Alt-Text](/de/glossary/#alt
 2. Wähle „Alternativtext bearbeiten“
 3. Im Bereich „Alternativtext“ kann das Bild nun in ein bis zwei Sätzen beschrieben werden.
 
-![Screenshot des Rechtsklick-Menüs und dem Bereich „Alternativtext“.](src/assets/img/alttext_word365_de.png)
+![Screenshot des Rechtsklick-Menüs und dem Bereich „Alternativtext“.](../../../assets/alttext_word365_de.png)
 
 ## Alt-Text in Microsoft Word 2016 oder 2013 hinzufügen
 

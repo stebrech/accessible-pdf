@@ -27,7 +27,7 @@ Keine Warnung oder Fehlermeldung zu diesem Problem!
 
 Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
-![Listen-Schaltflächen in Microsoft Word](src/assets/img/word_list_icons.png)
+![Listen-Schaltflächen in Microsoft Word](../../../assets/word_list_icons.png)
 
 Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer Listenformatvorlage empfohlen.
 
@@ -35,7 +35,7 @@ Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, w
 
 Die betroffenen Stellen können mit der Listenfunktion umformatiert werden.
 
-![Listen-Schaltflächen in Adobe InDesign](src/assets/img/indesign_list_icons.png)
+![Listen-Schaltflächen in Adobe InDesign](../../../assets/indesign_list_icons.png)
 
 Damit die Formatierungen der Listen über das ganze Dokument einheitlich sind, wird das Erstellen einer separaten Absatzformatvorlage empfohlen.
 
